@@ -121,6 +121,4 @@ A noter que des *conférences complémentaires* vous seront conseillées durant 
 - Datajournalisme
 - Ergonomie des interfaces
 - Droit de l'information
-
-
-Analyse SI
+- Analyse SI
