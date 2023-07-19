@@ -1,8 +1,5 @@
 ---
-articleslies:
-- auteur: ''
-  titre: ''
-  url: ''
+
 authors:
 - affiliations: "Universit\xE9 Bordeaux Montaigne. Laboratoire MICA"
   email: oledeuff@gmail.com
@@ -40,11 +37,6 @@ translator:
   surname: ''
 year: '2023'
 --- 
-
-
-
-
-
 
 ## Responsabilité sociale des organisations
 
