@@ -7,19 +7,6 @@ authors:
   surname: Le Deuff
 bibliography: syllabus-rso-but-infonum-3.bib
 date: 2023/09/12
-day: '12'
-director:
-- foaf: ''
-  forname: ''
-  gender: ''
-  isni: ''
-  orcid: ''
-  surname: ''
-  viaf: ''
-dossier:
-- id: ''
-  title: ''
-  title_f: ''
 id: R5.03 Infonum
 lang: fr
 link-citations: true
@@ -27,15 +14,7 @@ month: 09
 nocite: '@*'
 rights: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 title: "Responsabilit\xE9 sociale des Organisations"
-title_f: "Responsabilit\xE9 sociale des Organisations"
-translations:
-- lang: ''
-  titre: ''
-  url: ''
-translator:
-- forname: ''
-  surname: ''
-year: '2023'
+
 --- 
 
 ## Responsabilité sociale des organisations
