@@ -1,4 +1,5 @@
-#Entrez dans le cosmos de l'Open Data
+# Entrez dans le **cosmos de l'Open Data**
+## Utilisation du logiciel **Cosma** dans un projet de structuration et de visualisation de données.
 
 Projet sous la direction d'*Olivier Le Deuff*
 
@@ -11,7 +12,7 @@ Il s'agit :
 - [ ] Comprendre ce qu'est l'open data, le vocabulaire qu'il recouvre et les acteurs impliqués.
 - [ ] Mieux saisir le rôle des acteurs publics, des institutions et notamment des collectivités locales.
 
-Les connaissances acquises durant le projet seront réinvesties dans les projets suivants notamment le projet d'exposition mais aussi le challenge de la data. D'une manière plus large, toutes ces compétences seront réutilisées dans des cours du semestre 6 notamment le cours, projet en Architecture de l'information.
+Les connaissances acquises durant le projet seront réinvesties dans les projets suivants notamment le *projet d'exposition* mais aussi le *challenge de la data*. D'une manière plus large, toutes ces compétences seront réutilisées dans des cours du semestre 6 notamment le cours, *projet en Architecture de l'information*.
 
 Le projet est également l'occasion de monter en puissance au *niveau technique* et d'apprendre quelques techniques et logiciels qui permettront d'organiser et structurer l'information et de pouvoir la visualiser. Il s'agira donc d'apprendre :
 - [ ] Le format d'écriture simplifié Markdown
