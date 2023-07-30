@@ -13,17 +13,17 @@ record_types:
     fill: "#a7a0a0"
     stroke: "#a7a0a0"
   ressource:
-    fill: "#6a4c93"
-    stroke: "#6a4c93"
+    fill: "#ff5733"
+    stroke: "#ff5733"
   enseignant:
-    fill: "#1982c4"
-    stroke: "#1982c4"
-  Projet:
-    fill: "#ff8e38"
-    stroke: "#ff8e38"
+    fill: "#33c4ff"
+    stroke: "#33c4ff"
+  projet:
+    fill: "#ff33cc"
+    stroke: "#ff33cc"
   SAé:
-    fill: "#32a852"
-    stroke: "#32a852"
+    fill: "#33ff57"
+    stroke: "#33ff57"
 
 link_types:
   undefined:
@@ -63,3 +63,25 @@ csl_locale: ""
 css_custom: ""
 devtools: false
 lang: fr
+stroke: null
+ressource:
+  fill: "#ff5733"
+  stroke: "#ff5733"
+enseignant:
+  fill: "#33c4ff"
+  stroke: "#33c4ff"
+Projet:
+  fill: "#ff33cc"
+  stroke: "#ff33cc"
+SAé:
+  fill: "#33ff57"
+  stroke: "#33ff57"
+links:
+  fill: "#000000"
+  stroke: "#000000"
+  o:
+    stroke: simple
+    color: "#e01f1f"
+  g:
+    stroke: simple
+    color: "#000000"
