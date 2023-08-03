@@ -1,4 +1,4 @@
-# tableau des outils de prise de note en markdown
+# Tableau des outils de prise de note en markdown
 
 
 Vous allez devoir utiliser plusieurs outils de prise de note qui gère le markdown durant l'année.
@@ -20,8 +20,8 @@ C'est un point clef de l'année et votre réussite car les écritures sous trait
 Cette année, nos objectifs sont de penser et de commencer à maîtriser toutes les formes du numériques dans un monde du "post-imprimé"
 
 Pour la philosophie de l'ensemble, il faut lire les conseils d'Arthur Perret
->n préparant ces lignes, je cherchais quelques arguments bien tournés pour appuyer ma recommandation. J’avais le souvenir d’un billet intitulé En finir avec Word ! et en le relisant voilà que je tombe sur cette phrase : « les traitements de texte sont une mise au service de l’ordinateur d’une technologie pourtant ancienne, qui est l’imprimerie ».Dehut, « En finir avec Word ! », 2018.
+>En préparant ces lignes, je cherchais quelques arguments bien tournés pour appuyer ma recommandation. J’avais le souvenir d’un billet intitulé En finir avec Word ! et en le relisant voilà que je tombe sur cette phrase : « les traitements de texte sont une mise au service de l’ordinateur d’une technologie pourtant ancienne, qui est l’imprimerie ».Dehut, « En finir avec Word ! », 2018.
  Les personnes qui consultent ce blog savent que j’aime beaucoup l’expression « imprimé post-numérique », traduction libre de l’ouvrage éponyme d’Alessandro LudovicoLudovico, Post-digital print, 2013.
 . Par association d’idées, cette phrase m’a fait songer à l’expression « numérique post-imprimé » : une façon pour moi 1/ de faire un jeu de mots à peu de frais et 2/ de désigner ce moment dans lequel nous sommes et qui voit se consolider une pratique d’écriture scientifique dédiée aux écrans tout en étant capable de cohabiter productivement avec l’édition papier.
 
-Arthur Perret. [Recommandation zettlr.](https://www.arthurperret.fr/blog/2019-09-06-recommandation-zettlr.html) Billet du 6 septembre 2019. 
+Arthur Perret. [Recommandation zettlr.](https://www.arthurperret.fr/blog/2019-09-06-recommandation-zettlr.html) Billet du 6 septembre 2019.
