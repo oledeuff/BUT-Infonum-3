@@ -118,6 +118,7 @@ Monsieur Borel prévoit une grosse soirée pour ses collègues et les étudiants
 Il a aussi prévu toutes sortes de bières mais vous allez devoir apporter le dessert.
 monsieur borel doit faire une quiche mais il ne sait pas combien d'oeufs il doit mettre dans son appareil sachant qu'il en met 3 d'habitudes pour 4 personnes et qu'il y en aura 30. Il met d'habitude 30 grammes de fromage rapé pour 4 personne et 40 cl de crème liquide. Il est perdu.
 Voici le script python qui lui permet de calculer le tout :
+
 ```python
 # Define the quantities for 4 people
 eggs_for_4 = 3
