@@ -19,6 +19,16 @@
 
   </head>
   <body>
+    <div class="navbar">
+<a href="/">Accueil</a>
+<a href="/pages/enseignement.md">Enseignements</a>
+<a href="/pages/Projets.md">Projets</a>
+<a href="/pages/stage.md">Le Stage</a>
+<a href="/pages/logiciels.md">Logiciels et outils</a>
+<a href="/pages/Réglement.md">Règlement</a>
+<a href="/graphe.html">Graphe</a>
+<!-- Ajoutez d'autres liens selon vos pages -->
+</div>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
@@ -26,16 +36,7 @@
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-        <div class="navbar">
-    <a href="/">Accueil</a>
-    <a href="/pages/enseignement.md">Enseignements</a>
-    <a href="/pages/Projets.md">Projets</a>
-    <a href="/pages/stage.md">Le Stage</a>
-    <a href="/pages/logiciels.md">Logiciels et outils</a>
-    <a href="/pages/Réglement.md">Règlement</a>
-    <a href="/graphe.html">Graphe</a>
-    <!-- Ajoutez d'autres liens selon vos pages -->
-</div>
+
 
 <div id="content">
     {{ content }}
