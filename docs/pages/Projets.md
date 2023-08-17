@@ -1,3 +1,8 @@
+
+---
+layout: page
+title: Les Saé et les projets
+---
 # Les Saé et les projets
 
 Pour les alternants, l'année sera celle d'une immersion dans la réalité professionnelle au sein d'une même organisation. Pour les autres, ce sera l'occasion de rentrer dans une diversité de situations professionnelles avec au menu toutes les étapes du processus informationnel et communicationnel.

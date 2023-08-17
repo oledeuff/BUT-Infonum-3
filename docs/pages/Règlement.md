@@ -1,3 +1,8 @@
+---
+layout: page
+title: Réglement
+---
+
 # Mise au point réglementaire
 
 Le fonctionnement demeure celui que vous avez connu précédemment.

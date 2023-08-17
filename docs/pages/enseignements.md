@@ -1,3 +1,7 @@
+---
+layout: default
+title: Les enseignements
+---
 
 # Les enseignements
 

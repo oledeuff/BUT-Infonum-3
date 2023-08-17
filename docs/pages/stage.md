@@ -1,3 +1,7 @@
+---
+layout: page
+title: Le Stage
+---
 # Le stage
 
 **Description**
