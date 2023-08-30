@@ -361,7 +361,7 @@ Ce sera le temps de la préparation de l'exposition et la communication autour d
 
   
 
-### Huitième temps. Portfolio. [Saé Portfolio]
+###  Portfolio. [Saé Portfolio]
 
   
 
@@ -377,7 +377,8 @@ Cette SAE repose sur votre capacité à construire un projet professionnel cohé
 
   
 
-Le stage de troisième année, qui dure de 12 à 16 semaines, est une occasion pour vous d'appliquer les compétences que vous avez acquises pendant votre formation. Vous aurez l'opportunité de travailler sur des projets réels, nécessitant à la fois de l'indépendance et de la collaboration avec d'autres personnes. Voici ce que vous pouvez attendre de ce stage :
+Le stage de troisième année, qui dure de 12 à 16 semaines, est une occasion pour vous d'appliquer les compétences que vous avez acquises pendant votre formation. Vous aurez l'opportunité de travailler sur des projets réels, nécessitant à la fois de l'indépendance et de la collaboration avec d'autres personnes. Les stages débuteront à partir du *8 avril*
+Voici ce que vous pouvez attendre de ce stage :
 
   
 
