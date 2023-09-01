@@ -92,7 +92,7 @@ La ressource "communication interculturelle" vise à aborder la communication en
 
   
 
-### R5. 03 Responsabilité sociale des organisations. *O. Le Deuff* ![](./old.jpg)
+### R5. 03 Responsabilité sociale des organisations. *O. Le Deuff* ![image OLD](./old.jpg)
 
   
 
@@ -100,7 +100,7 @@ Ce cours offre une introduction approfondie à l'éthique et à la responsabilit
 
   
 
-### R5. 04 PPP. *O. Le Deuff*
+### R5. 04 PPP. *O. Le Deuff* ![image OLD](./old.jpg)
 
   
 
@@ -124,7 +124,7 @@ Le cours vise à développer des compétences en matière de collaboration et de
 
   
 
-### R5.07 Architecture de l'information. *O. Le Deuff*
+### R5.07 Architecture de l'information. *O. Le Deuff* ![image OLD](./old.jpg)
 
   
 
@@ -185,7 +185,7 @@ Ce cours offre une introduction à l'expérience utilisateur (UX) et au design d
 
   
 
-### R6.03 PPP et préparation au mémoire d'activités. *O. Le Deuff*
+### R6.03 PPP et préparation au mémoire d'activités. *O. Le Deuff* ![image OLD](./old.jpg)
 
   
 
