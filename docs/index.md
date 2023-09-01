@@ -1,4 +1,4 @@
----
+*---
 layout: default
 title: Guide de Rentrée
 ---
@@ -26,15 +26,15 @@ L'année est exigeante tant en termes de compétences à acquérir, de logiciels
 
 Si certains et notamment certaines vont pouvoir vivre une première année en alternance, les autres ne vont pas s'ennuyer également.
 
-L'année comporte une forte dimension évènementielle avec trois temps forts dédiés (un hackathon, un nouveau challenge et une exposition), ce qui implique d'évidents enjeux de visibilité.
+L'année comporte une forte dimension évènementielle avec trois temps forts dédiés (un *hackathon*, un nouveau *challenge* et une *exposition*), ce qui implique d'évidents enjeux de visibilité.
 
-  Cette troisième année sera exigeante, stimulante et passionnante. Elle vous demandera de l'engagement, de la curiosité, de l'ouverture d'esprit. Elle sera également source de satisfaction, de découvertes, de rencontres. Elle vous permettra de vous affirmer en tant que professionnels, de vous épanouir en tant qu'individus et en tant que collectif.
+Cette troisième année sera *exigeante, stimulante et passionnante*. Elle vous demandera de l'*engagement*, de la *curiosité*, de l'*ouverture d'esprit*. Elle sera également source de satisfaction, de découvertes, de rencontres. Elle vous permettra de vous affirmer en tant que professionnels, de vous épanouir en tant qu'individus et en tant que collectif.
   
 Si je parle de preuve, c'est aussi parce qu'il s'agit bien de documenter vos compétences et d'en faire la démonstration voire la monstration. En effet, l'année finale repose aussi sur votre capacité à construire un portfolio de tout ce que vous avez appris et de tout ce que vous savez faire. Ce sera l'occasion de vous mettre en valeur ainsi que de valoriser votre formation.Preuve aussi, car souvent il vous faudra trouver, retrouver, recouper, investiguer pour réussir vos projets et construire des démonstrations convaincantes.
 
-  Je suis persuadé que vous allez faire de cette troisième année une réussite, une étape marquante de votre parcours universitaire et professionnel.
+Je suis persuadé que vous allez faire de cette troisième année une réussite, une étape marquante de votre parcours universitaire et professionnel.
 
-  Alors, bienvenue dans cette troisième année du BUT Information Numérique dans les Organisations. Bienvenue dans cette aventure. Ensemble, faisons la preuve par trois.
+Alors, bienvenue dans cette troisième année du BUT Information Numérique dans les Organisations. Bienvenue dans cette aventure. Ensemble, faisons la preuve par trois!
 
   
 *Olivier Le Deuff, responsable de la troisième année*
@@ -134,8 +134,8 @@ Ce cours se divise en trois parties principales. La première partie, "L'archiva
  
 Les processus numériques et infocommunicationnels reposent sur plusieurs textes législatifs au niveau national et international notamment européen. Du RGPD aux projets de législation sur les plateformes et les processus algorithmiques au travers du Digital Service Act, les défis juridiques qui s'annoncent sont riches et doivent retenir toute votre attention pour vous assurer d'être un professionnel de l'information et de la communication qui connaisse et maîtrise ces aspects.
 
- ### R5.12 Expérience utilisateurs et ergonomie des interfaces. *S. Caro* 
- ![image caro](./caro.png)
+### R5.12 Expérience utilisateurs et ergonomie des interfaces. *S. Caro* 
+![image caro](./caro.png)
 
 
 Ce cours offre une introduction à l'expérience utilisateur (UX) et au design d'interface (UI), essentiels pour la création de plateformes de partage d'information. Il explore les méthodes clés de l'UX, comme les entretiens, les tests utilisateurs, la définition de personas, les tests AB, l'idéation, l'itération et le prototypage. Les étudiants apprendront également le processus UX et découvriront différents rôles et exemples d'UI.
@@ -190,11 +190,11 @@ Pour les alternants, l'année sera celle d'une immersion dans la réalité profe
 Plusieurs temps forts sont prévus cette année qui se coupleront avec des Saé :
  
 
-* Un premier évènement avec un hackathon sur les algorithmes.
+* Un premier évènement avec un *hackathon sur les algorithmes*.
 
-* Un second grand évènement avec le premier challenge de la data des BUT Infonum.
+* Un second grand évènement avec *le premier challenge de la data des BUT Infonum*.
 
-* Une exposition de datavisualisation
+* Une *exposition de datavisualisation*.
 
   
 
@@ -216,29 +216,19 @@ Les Saé sont les suivantes et seront donc validés durant vos travaux au sein d
 
 **SAÉ 5.INFONUM.01. Mettre en place une stratégie de communication numérique**
 
-  
-
 **SAÉ 5.INFONUM.02. Accompagner les utilisateurs**
-
-  
 
 **SAÉ 5.INFONUM.03. Portfolio**
 
-  
-
 **SAÉ 6.INFONUM.01.Gérer les données**
-
-  
 
 **SAÉ 6.INFONUM.02 Réaliser un projet de communication numérique**
 
   
-
 ### Premier temps : Open data and co. 25-6 octobre. [Saé 5.01 et 5.02]
+ 
 
-  
-
-La première période de projets va vous permettre de vous familiariser avec les questions des données ouvertes. L'occasion de découvrir les enjeux de l'open data. Un cahier des charges précis vous sera délivré à l'occasion. Ce premier temps vous permettra d'acquérir des compétences et savoirs à mobiliser pour la suite.
+La première période de projets va vous permettre de vous familiariser avec les questions des données ouvertes. L'occasion de découvrir les enjeux de *l'open data.* Un cahier des charges précis vous sera délivré à l'occasion. Ce premier temps vous permettra d'acquérir des compétences et savoirs à mobiliser pour la suite notamment le projet suivant autour de l'exposition, mais aussi plus tard le challenge de la data.
 
   
 
@@ -305,11 +295,9 @@ C'est le nouvel évènement phare en infonum qui s'annonce à la suite d'une id�
   
 
 Durant cette semaine, vous serez accompagnés par vos professeurs habituels notamment Nathalie Pinède ainsi que par un spécialiste des données : Cédric Lombion.
+![lombion](./lombion.pngpng)
 
   
-  
-  
-
 ### Septième temps : semaine du 18 mars [Saé 6 02]
 
 Ce sera le temps de la préparation de l'exposition et la communication autour de l'évènement. Vous retrouverez Sylvain Lapoix qui suit le projet de bout en bout et Allan Deneuville.
@@ -384,11 +372,12 @@ Pour réussir votre année, il est conseillé de disposer de votre propre équip
 
   
 
-#### Crédits.
-
- # Table des matières
+# Table des matières
 * TOC
 {:toc}
 
+#### Crédits
 Image de couverture: Dall-E avec un prompt modifié par ChatGpt 4
+Site généré par Github Jekyll
+
 
