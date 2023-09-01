@@ -128,6 +128,7 @@ Le cours vise à développer des compétences en matière de collaboration et de
   
 
 Ce cours en architecture de l'information offre une introduction aux aspects professionnels et scientifiques du domaine, avec un accent sur la conceptualisation du projet, l'étude des usagers, le maquettage des dispositifs et la réalisation de la solution technique. Il couvre divers sujets, y compris l'organologie d'un site web, l'expérience utilisateur (UX), la gestion d'un projet en architecture de l'information, la relation au design d'information, l'organisation et la classification de l'information, ainsi que les aspects trans et transmédia.
+Un temps spécifique sera consacré à l'organisation des données et à la production de *data papers* afin de pouvoir répondre à certaines exigences des projets et notamment le *challenge de la data*
 
   
 
@@ -319,7 +320,7 @@ Aucun temps mort n'est prévu !
 
   
 
-### Quatrième temps : du 18 au 24 décembre. Médiation des données et intelligibilité. [Saé 5.02]
+### Quatrième temps : du 18 au 24 décembre. Médiation des données et intelligibilité. [Saé 5.02 et 5.01]
 
   
 

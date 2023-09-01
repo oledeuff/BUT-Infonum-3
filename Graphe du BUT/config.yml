@@ -38,14 +38,14 @@ record_filters: []
 graph_background_color: "#ffffff"
 graph_highlight_color: "#ff6a6a"
 graph_highlight_on_hover: true
-graph_text_size: 6
+graph_text_size: 11
 graph_arrows: true
 node_size_method: degree
 node_size: 10
 node_size_max: 10
 node_size_min: 2
-attraction_force: 75
-attraction_distance_max: 250
+attraction_force: 201
+attraction_distance_max: 350
 attraction_vertical: 0.1
 attraction_horizontal: 0.1
 views: {}
