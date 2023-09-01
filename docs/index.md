@@ -109,7 +109,7 @@ Sylvain Lapoix consacrera deux jours à vous former à R et Rstudio tandis que v
 Le cours vise à développer des compétences en matière de collaboration et de partage de connaissances. Le programme comprend l'apprentissage du décloisonnement de l'information via des méthodes de "corporate hacking", l'utilisation d'Obsidian et Notion pour créer des notes programmables et reproductibles, et l'application d'Airtable pour structurer les données. Les sessions couvrent également des exemples pratiques et des retours d'expérience sur des outils spécifiques.
   
 ### R5.07 Architecture de l'information. *O. Le Deuff* 
-![image OLD](./old.jpg){ width=50 height=50 }
+![image OLD](./old.jpg)
  
 Ce cours en architecture de l'information offre une introduction aux aspects professionnels et scientifiques du domaine, avec un accent sur la conceptualisation du projet, l'étude des usagers, le maquettage des dispositifs et la réalisation de la solution technique. Il couvre divers sujets, y compris l'organologie d'un site web, l'expérience utilisateur (UX), la gestion d'un projet en architecture de l'information, la relation au design d'information, l'organisation et la classification de l'information, ainsi que les aspects trans et transmédia.
 Un temps spécifique sera consacré à l'organisation des données et à la production de *data papers* afin de pouvoir répondre à certaines exigences des projets et notamment le *challenge de la data*
@@ -165,7 +165,7 @@ Le cours poursuit l'orientation du premier semestre avec la prise en compte de l
 
   
 ### R6. 05 Pratiques collaboratives et partage des connaissances. Perfectionnement en datajournalisme. *R. Roumanos. O. Le Deuff* 
-![image roumanos](./roumanos.png)
+![image roumanos](./roumanos.png) ![image OLD](./old.jpg)
  
 
 Le but ici est de poursuivre le travail d'initiation au data journalisme en produisant une petite investigation qui repose sur des données construites et analysées. Le sujet traité devra être anglé et un soin sera apporté à la rédaction et construction du récit.
