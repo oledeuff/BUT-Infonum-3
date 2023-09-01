@@ -76,7 +76,7 @@ Votre semestre 5 est riche en contenus d'enseignement et temps d'apprentissage. 
 
   
 
-### R5. 01 Sciences de l'information et de la communication. *N. Pinède*
+### R5. 01 Sciences de l'information et de la communication. *N. Pinède* ![image pinède](./pinede.png)
 
   
 
@@ -84,7 +84,7 @@ Vous aviez précédemment étudié des courants qui étudient les processus info
 
   
 
-### R5. 02 Initiation aux relations et à la communication interculturelles. *C. Dubois*
+### R5. 02 Initiation aux relations et à la communication interculturelles. *C. Dubois* ![image dubois](./dubois.png)
 
   
 
@@ -92,7 +92,7 @@ La ressource "communication interculturelle" vise à aborder la communication en
 
   
 
-### R5. 03 Responsabilité sociale des organisations. *O. Le Deuff* ![image OLD](./old.jpg){ width=50 height=50 }
+### R5. 03 Responsabilité sociale des organisations. *O. Le Deuff* ![image OLD](./old.jpg)
 
   
 
@@ -108,7 +108,7 @@ Comme les années précédentes, le cours est dédié à votre projet personnel 
 
   
 
-### R5. 05 Data et documents. *C. Borel et S. Lapoix*
+### R5. 05 Data et documents. *C. Borel et S. Lapoix* ![image OLDborel](./borel.png) ![image lapoix](./lapoix.png)
 
   
 
@@ -116,7 +116,7 @@ Sylvain Lapoix consacrera deux jours à vous former à R et Rstudio tandis que v
 
   
 
-### R5. 06 Pratiques collaboratives et partage des connaissances. *A. Blanchard*
+### R5. 06 Pratiques collaboratives et partage des connaissances. *A. Blanchard* ![image blanchard](./blanchard.png)
 
   
 
@@ -133,7 +133,7 @@ Un temps spécifique sera consacré à l'organisation des données et à la prod
 
   
 
-### R5.08 Stratégies de veille collaborative. *C. Deschamps*
+### R5.08 Stratégies de veille collaborative. *C. Deschamps* ![image deschamps](./deschamps.png)
 
   
 
@@ -141,7 +141,7 @@ Ce cours vise à vous perfectionner dans vos méthodologies en matière de veill
 
   
 
-### R5.09 Stratégies de communication numérique. *A. Deneuville*
+### R5.09 Stratégies de communication numérique. *A. Deneuville* ![image deneuville](./deneuville.png)
 
   
 
@@ -157,7 +157,7 @@ Ce cours se divise en trois parties principales. La première partie, "L'archiva
 
   
 
-### R5.11 Droit de l'information. *S. Nérisson*
+### R5.11 Droit de l'information. *S. Nérisson* ![image nerisson](./nerisson.png)
 
   
 
@@ -165,7 +165,7 @@ Les processus numériques et infocommunicationnels reposent sur plusieurs textes
 
   
 
-### R5.12 Expérience utilisateurs et ergonomie des interfaces. *S. Caro*
+### R5.12 Expérience utilisateurs et ergonomie des interfaces. *S. Caro* ![image caro](./caro.png)
 
   
 
@@ -177,15 +177,15 @@ Ce cours offre une introduction à l'expérience utilisateur (UX) et au design d
 
   
 
-### R6.01 Sciences humaines et sociales Initiation à la recherche. *N. Pinède*
+### R6.01 Sciences humaines et sociales Initiation à la recherche. *N. Pinède* ![image pinède](./pinede.png)
 
   
 
-### R6.02 Relations et communication interculturelles. Anglais et culture anglo-saxonne. *A. Blot*
+### R6.02 Relations et communication interculturelles. Anglais et culture anglo-saxonne. *A. Blot* ![image blot](./blot.png)
 
   
 
-### R6.03 PPP et préparation au mémoire d'activités. *O. Le Deuff* ![image OLD](./old.jpg){ width=50 height=50 }
+### R6.03 PPP et préparation au mémoire d'activités. *O. Le Deuff* ![image OLD](./old.jpg)
 
   
 
@@ -193,11 +193,11 @@ Le cours poursuit l'orientation du premier semestre avec la prise en compte de l
 
   
 
-### R6. 04 Data et documents.  Visualisation de données. *C.Borel*
+### R6. 04 Data et documents.  Visualisation de données. *C.Borel* ![image borel](./borel.png)
 
   
 
-### R6. 05 Pratiques collaboratives et partage des connaissances. Perfectionnement en datajournalisme. *R. Roumanos. O. Le Deuff*
+### R6. 05 Pratiques collaboratives et partage des connaissances. Perfectionnement en datajournalisme. *R. Roumanos. O. Le Deuff* ![image roumanos](./roumanos.png)
 
   
 
@@ -205,7 +205,7 @@ Le but ici est de poursuivre le travail d'initiation au data journalisme en prod
 
   
 
-### R6.06 Gestion d'un projet en architecture de l'information. *D. Pucheu*
+### R6.06 Gestion d'un projet en architecture de l'information. *D. Pucheu* ![image pucheu](./pucheu.png)
 
   
 
@@ -213,7 +213,7 @@ Ce cours se concentre sur la structuration de données autour d'un thème spéci
 
   
 
-### R6.07 Stratégies de communication multicanal.*A. Albaut*
+### R6.07 Stratégies de communication multicanal.*A. Albaut* ![image albaut](./albaut.png)
 
   
 
