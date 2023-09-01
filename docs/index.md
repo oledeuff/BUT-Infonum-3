@@ -63,8 +63,9 @@ Comme les années précédentes, vous allez retrouver des contenus d'enseignemen
  
 
 Votre semestre 5 est riche en contenus d'enseignement et temps d'apprentissage. Le semestre 6 diminue légèrement en ressources pour faire la part belle aux projets individuels et collectifs.
- Vous pouvez également naviguer dans votre année avec [le graphe de la formation](https://oledeuff.github.io/BUT-Infonum-3/graphe.html)
- Vous apprendrez durant l'année à faire des réalisations du même type. 
+Vous pouvez également naviguer dans votre année avec [le graphe de la formation](https://oledeuff.github.io/BUT-Infonum-3/graphe.html)
+![image du graphe](graphe.JPG)
+Vous apprendrez durant l'année à faire des réalisations du même type. 
 
   
 
@@ -75,16 +76,11 @@ Votre semestre 5 est riche en contenus d'enseignement et temps d'apprentissage. 
 ## **Premier Semestre**
 
   
-
 ### R5. 01 Sciences de l'information et de la communication. *N. Pinède* 
 ![image pinède](./pinede.png)
 
-  
-
 Vous aviez précédemment étudié des courants qui étudient les processus informationnels et communicationnels en voyant les courants fondateurs en première année et étudié quelques textes en seconde année avec une poursuite du cours sur l'histoire récente des médias. La troisième année se poursuit sur des études de textes et de travaux ancrés sur les questions numériques.
-
   
-
 ### R5. 02 Initiation aux relations et à la communication interculturelles. *C. Dubois* 
 ![image dubois](./dubois.png)
 
@@ -136,7 +132,6 @@ Ce cours se divise en trois parties principales. La première partie, "L'archiva
 ### R5.11 Droit de l'information. *S. Nérisson* 
 ![image nerisson](./nerisson.png)
  
-
 Les processus numériques et infocommunicationnels reposent sur plusieurs textes législatifs au niveau national et international notamment européen. Du RGPD aux projets de législation sur les plateformes et les processus algorithmiques au travers du Digital Service Act, les défis juridiques qui s'annoncent sont riches et doivent retenir toute votre attention pour vous assurer d'être un professionnel de l'information et de la communication qui connaisse et maîtrise ces aspects.
 
  ### R5.12 Expérience utilisateurs et ergonomie des interfaces. *S. Caro* 
@@ -144,8 +139,7 @@ Les processus numériques et infocommunicationnels reposent sur plusieurs textes
 
 
 Ce cours offre une introduction à l'expérience utilisateur (UX) et au design d'interface (UI), essentiels pour la création de plateformes de partage d'information. Il explore les méthodes clés de l'UX, comme les entretiens, les tests utilisateurs, la définition de personas, les tests AB, l'idéation, l'itération et le prototypage. Les étudiants apprendront également le processus UX et découvriront différents rôles et exemples d'UI.
-
-  
+ 
 
 ## **Second semestre**
   
@@ -186,8 +180,6 @@ Ce cours se concentre sur la structuration de données autour d'un thème spéci
   
 
 Ce cours va reposer sur plusieurs interventions de professionnels.
-
-
 Antoine Albaut, ancien étudiant d'infonum, et social manager chez Atoo va intervenir sur les aspects social media et marketing.
 
 ## Les Saé et les projets
@@ -363,7 +355,7 @@ N'oubliez pas que, compte tenu de la durée du stage, vous devriez recevoir une 
 
   
 
-Les stages pourront débuter à partir du 8 avril.
+Les stages pourront débuter à partir du *8 avril*.
 
   
 
