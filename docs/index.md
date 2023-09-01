@@ -92,7 +92,7 @@ La ressource "communication interculturelle" vise à aborder la communication en
 
   
 
-### R5. 03 Responsabilité sociale des organisations. *O. Le Deuff* ![image OLD](./old.jpg)
+### R5. 03 Responsabilité sociale des organisations. *O. Le Deuff* ![image OLD](./old.jpg){ width=50 height=50 }
 
   
 
@@ -124,7 +124,7 @@ Le cours vise à développer des compétences en matière de collaboration et de
 
   
 
-### R5.07 Architecture de l'information. *O. Le Deuff* ![image OLD](./old.jpg)
+### R5.07 Architecture de l'information. *O. Le Deuff* ![image OLD](./old.jpg){ width=50 height=50 }
 
   
 
@@ -185,7 +185,7 @@ Ce cours offre une introduction à l'expérience utilisateur (UX) et au design d
 
   
 
-### R6.03 PPP et préparation au mémoire d'activités. *O. Le Deuff* ![image OLD](./old.jpg)
+### R6.03 PPP et préparation au mémoire d'activités. *O. Le Deuff* ![image OLD](./old.jpg){ width=50 height=50 }
 
   
 
@@ -253,7 +253,7 @@ Comme vous pourrez le constater dans l'emploi du temps, ces périodes occupent u
 
   
 
-Attention : chaque projet repose sur des réalisations collectives, mais aussi sur des réalisations individuelles qui seront évaluées. Pensez aussi que vos travaux individuels peuvent constituer des éléments à intégrer à votre portfolio. À noter que le portfolio tout comme le stage constituent également une Saé.
+Attention : chaque projet repose sur des réalisations collectives, mais aussi sur des *réalisations individuelles* qui seront évaluées. Pensez aussi que vos travaux individuels peuvent constituer des éléments à intégrer à votre *portfolio*. À noter que le portfolio tout comme le stage constituent également une Saé.
 
   
 
