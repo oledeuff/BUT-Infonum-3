@@ -350,28 +350,18 @@ Les stages pourront débuter à partir du *8 avril*.
 ### L'alternance
 
   
-  
-
 Cette année présente une nouveauté si vous avez signé un contrat d'alternance. Félicitations pour cette nouvelle étape passionnante de votre parcours académique et professionnel !
-
-  
-
 N'oubliez pas que vous êtes désormais considérés comme des salariés à part entière, avec toutes les responsabilités que cela implique. C'est une opportunité à saisir pour faire preuve de professionnalisme et de vous investir durablement au sein du monde professionnel.
-
   
 
 Vous ne pourrez pas participer aux projets, car vous allez être bien occupés dans vos fonctions respectives et qu'ils se déroulent pendant que vous êtes justement sur vos lieux de travail.
-
-  
-
+ 
 ### Logiciels et outils
 
-  
-
 Pour réussir votre année, il est conseillé de disposer de votre propre équipement informatique. Bien que l'IUT mette à disposition des ordinateurs, il peut vous être suggéré d'installer certains logiciels sur vos appareils personnels. La majorité de ces logiciels sont gratuits et open source, et il est important de commencer à les utiliser de manière professionnelle et régulière.
+![Alt text](colab-1.png) ![Alt text](github-1.png) ![Alt text](hackmd-1.png) ![Alt text](jupyter-1.png) ![Alt text](markdown-1.png) ![Alt text](noteable-1.png) ![Alt text](tools.png) ![Alt text](Zettlr-1.png) ![Alt text](python-1.jpg) ![Alt text](visualstudio-1.jpg) ![Alt text](zenodo-1.jpg) ![Alt text](zotero-1.jpg)
 
   
-
 # Table des matières
 * TOC
 {:toc}
