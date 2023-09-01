@@ -76,7 +76,8 @@ Votre semestre 5 est riche en contenus d'enseignement et temps d'apprentissage. 
 
   
 
-### R5. 01 Sciences de l'information et de la communication. *N. Pinède* ![image pinède](./pinede.png)
+### R5. 01 Sciences de l'information et de la communication. *N. Pinède* 
+![image pinède](./pinede.png)
 
   
 
@@ -84,158 +85,118 @@ Vous aviez précédemment étudié des courants qui étudient les processus info
 
   
 
-### R5. 02 Initiation aux relations et à la communication interculturelles. *C. Dubois* ![image dubois](./dubois.png)
-
-  
+### R5. 02 Initiation aux relations et à la communication interculturelles. *C. Dubois* 
+![image dubois](./dubois.png)
 
 La ressource "communication interculturelle" vise à aborder la communication entre des cultures et des groupes sociaux différents. Les normes de communication sont des expressions des valeurs de chaque culture et la notion de culture s'applique à tout groupe social, organisation, entreprise, communauté, école, université, équipe. L'objectif de la ressource est ainsi d'apprendre à décrypter différents modes de communication et améliorer ainsi les interactions.
 
-  
 
-### R5. 03 Responsabilité sociale des organisations. *O. Le Deuff* ![image OLD](./old.jpg)
-
-  
+### R5. 03 Responsabilité sociale des organisations. *O. Le Deuff* 
+![image OLD](./old.jpg)
 
 Ce cours offre une introduction approfondie à l'éthique et à la responsabilité sociale dans les organisations, mettant l'accent sur le contexte numérique. Il explore d'abord la place et l'importance de l'éthique dans les organisations et examine les questions de greenwashing. Il se penche ensuite sur la responsabilité algorithmique, abordant les biais algorithmiques et les principes éthiques de l'IA. Le concept de souveraineté numérique est ensuite étudié, suivi de l'examen de la frugalité numérique. Le cours se termine par une exploration des manipulations attentionnelles et des interfaces contraignantes. Des études de cas sont analysées pour intégrer ces concepts théoriques dans des situations réelles.
 
   
-
-### R5. 04 PPP. *O. Le Deuff* ![image OLD](./old.jpg)
-
-  
+### R5. 04 PPP. *O. Le Deuff* 
+![image OLD](./old.jpg)
 
 Comme les années précédentes, le cours est dédié à votre projet personnel et professionnel. Des temps spécifiques seront dédiés notamment afin d'envisager la construction d'un portfolio de type numérique qui puisse être une vitrine de vos compétences.
 
-  
-
-### R5. 05 Data et documents. *C. Borel et S. Lapoix* ![image OLDborel](./borel.png) ![image lapoix](./lapoix.png)
-
-  
+### R5. 05 Data et documents. *C. Borel et S. Lapoix* 
+![image borel](./borel.png) ![image lapoix](./lapoix.png)
 
 Sylvain Lapoix consacrera deux jours à vous former à R et Rstudio tandis que vous apprendrez à développer votre culture graphique et votre capacité à produire des visualisations de données avec Clément Borel.
 
-  
-
-### R5. 06 Pratiques collaboratives et partage des connaissances. *A. Blanchard* ![image blanchard](./blanchard.png)
-
-  
-
+### R5. 06 Pratiques collaboratives et partage des connaissances. *A. Blanchard* 
+![image blanchard](./blanchard.png)
+ 
 Le cours vise à développer des compétences en matière de collaboration et de partage de connaissances. Le programme comprend l'apprentissage du décloisonnement de l'information via des méthodes de "corporate hacking", l'utilisation d'Obsidian et Notion pour créer des notes programmables et reproductibles, et l'application d'Airtable pour structurer les données. Les sessions couvrent également des exemples pratiques et des retours d'expérience sur des outils spécifiques.
-
   
-
-### R5.07 Architecture de l'information. *O. Le Deuff* ![image OLD](./old.jpg){ width=50 height=50 }
-
-  
-
+### R5.07 Architecture de l'information. *O. Le Deuff* 
+![image OLD](./old.jpg){ width=50 height=50 }
+ 
 Ce cours en architecture de l'information offre une introduction aux aspects professionnels et scientifiques du domaine, avec un accent sur la conceptualisation du projet, l'étude des usagers, le maquettage des dispositifs et la réalisation de la solution technique. Il couvre divers sujets, y compris l'organologie d'un site web, l'expérience utilisateur (UX), la gestion d'un projet en architecture de l'information, la relation au design d'information, l'organisation et la classification de l'information, ainsi que les aspects trans et transmédia.
 Un temps spécifique sera consacré à l'organisation des données et à la production de *data papers* afin de pouvoir répondre à certaines exigences des projets et notamment le *challenge de la data*
 
-  
-
-### R5.08 Stratégies de veille collaborative. *C. Deschamps* ![image deschamps](./deschamps.png)
-
-  
+### R5.08 Stratégies de veille collaborative. *C. Deschamps* 
+![image deschamps](./deschamps.png)
 
 Ce cours vise à vous perfectionner dans vos méthodologies en matière de veille avec l'utilisation d'outils dédiés et l'intégration des processus récents y compris ceux qui reposent sur l'IA comme ChatGpt.
 
-  
-
-### R5.09 Stratégies de communication numérique. *A. Deneuville* ![image deneuville](./deneuville.png)
-
-  
+### R5.09 Stratégies de communication numérique. *A. Deneuville* 
+![image deneuville](./deneuville.png)
 
 Dans ce cours, il sera question de _storytelling_ numérique et de culture Internet. Comment imaginer une stratégie de communication qui mobilise une narration transmédiale et s'adapte aux différentes plateformes de réseaux socionumériques ? Le cours sera structuré autour de la réalisation d'un projet collectif, mais on confectionnera aussi des mèmes.
 
-  
-
-### R5.10 Politique d'archivage et de conservation. *T. Hamonic*
-
-  
+ ### R5.10 Politique d'archivage et de conservation. *T. Hamonic*
 
 Ce cours se divise en trois parties principales. La première partie, "L'archivage électronique, enjeux et contexte normatif", aborde les fondamentaux de la chaîne archivistique, les enjeux de l'archivage électronique et le contexte normatif, notamment le modèle OAIS. La deuxième partie, "La pérennisation de l'information numérique", traite de la représentation numérique de l'information, des métadonnées pour la pérennisation et donne des exemples concrets de stratégies de pérennisation. Enfin, la troisième partie, "Mettre en œuvre des actions d'archivage électronique", se concentre sur le traitement des données non structurées et structurées, l'analyse des processus métiers, la définition de spécifications fonctionnelles et le rôle des différents acteurs dans l'archivage électronique.
 
   
-
-### R5.11 Droit de l'information. *S. Nérisson* ![image nerisson](./nerisson.png)
-
-  
+### R5.11 Droit de l'information. *S. Nérisson* 
+![image nerisson](./nerisson.png)
+ 
 
 Les processus numériques et infocommunicationnels reposent sur plusieurs textes législatifs au niveau national et international notamment européen. Du RGPD aux projets de législation sur les plateformes et les processus algorithmiques au travers du Digital Service Act, les défis juridiques qui s'annoncent sont riches et doivent retenir toute votre attention pour vous assurer d'être un professionnel de l'information et de la communication qui connaisse et maîtrise ces aspects.
 
-  
+ ### R5.12 Expérience utilisateurs et ergonomie des interfaces. *S. Caro* 
+ ![image caro](./caro.png)
 
-### R5.12 Expérience utilisateurs et ergonomie des interfaces. *S. Caro* ![image caro](./caro.png)
-
-  
 
 Ce cours offre une introduction à l'expérience utilisateur (UX) et au design d'interface (UI), essentiels pour la création de plateformes de partage d'information. Il explore les méthodes clés de l'UX, comme les entretiens, les tests utilisateurs, la définition de personas, les tests AB, l'idéation, l'itération et le prototypage. Les étudiants apprendront également le processus UX et découvriront différents rôles et exemples d'UI.
 
   
 
 ## **Second semestre**
+  
+
+### R6.01 Sciences humaines et sociales Initiation à la recherche. *N. Pinède* 
+![image pinède](./pinede.png)
 
   
 
-### R6.01 Sciences humaines et sociales Initiation à la recherche. *N. Pinède* ![image pinède](./pinede.png)
+### R6.02 Relations et communication interculturelles. Anglais et culture anglo-saxonne. *A. Blot* 
+![image blot](./blot.png)
 
   
 
-### R6.02 Relations et communication interculturelles. Anglais et culture anglo-saxonne. *A. Blot* ![image blot](./blot.png)
-
-  
-
-### R6.03 PPP et préparation au mémoire d'activités. *O. Le Deuff* ![image OLD](./old.jpg)
-
-  
+### R6.03 PPP et préparation au mémoire d'activités. *O. Le Deuff* 
+![image OLD](./old.jpg)
 
 Le cours poursuit l'orientation du premier semestre avec la prise en compte de la rédaction de votre mémoire de fin d'études qui est lié à votre travail de stage ou d'alternance. Il s'agira notamment de comprendre comment dégager une problématique pour construire un travail sourcé et analytique sur votre activité professionnelle.
+ 
+
+### R6. 04 Data et documents.  Visualisation de données. *C.Borel* 
+![image borel](./borel.png)
 
   
-
-### R6. 04 Data et documents.  Visualisation de données. *C.Borel* ![image borel](./borel.png)
-
-  
-
-### R6. 05 Pratiques collaboratives et partage des connaissances. Perfectionnement en datajournalisme. *R. Roumanos. O. Le Deuff* ![image roumanos](./roumanos.png)
-
-  
+### R6. 05 Pratiques collaboratives et partage des connaissances. Perfectionnement en datajournalisme. *R. Roumanos. O. Le Deuff* 
+![image roumanos](./roumanos.png)
+ 
 
 Le but ici est de poursuivre le travail d'initiation au data journalisme en produisant une petite investigation qui repose sur des données construites et analysées. Le sujet traité devra être anglé et un soin sera apporté à la rédaction et construction du récit.
 
-  
-
-### R6.06 Gestion d'un projet en architecture de l'information. *D. Pucheu* ![image pucheu](./pucheu.png)
-
-  
+### R6.06 Gestion d'un projet en architecture de l'information. *D. Pucheu* 
+![image pucheu](./pucheu.png)
 
 Ce cours se concentre sur la structuration de données autour d'un thème spécifique et la création de sites web qui vont intègrer un graphe documentaire numérique, réalisé avec le logiciel Cosma. Certaines des réalisations des étudiants pourraient être présentées lors de l'exposition.
 
-  
-
-### R6.07 Stratégies de communication multicanal.*A. Albaut* ![image albaut](./albaut.png)
-
+### R6.07 Stratégies de communication multicanal.*A. Albaut* 
+![image albaut](./albaut.png)
   
 
 Ce cours va reposer sur plusieurs interventions de professionnels.
 
-  
 
 Antoine Albaut, ancien étudiant d'infonum, et social manager chez Atoo va intervenir sur les aspects social media et marketing.
 
-  
-
 ## Les Saé et les projets
-
-  
 
 Pour les alternants, l'année sera celle d'une immersion dans la réalité professionnelle au sein d'une même organisation. Pour les autres, ce sera l'occasion de rentrer dans une diversité de situations professionnelles avec au menu toutes les étapes du processus informationnel et communicationnel.
 
-  
 
 Plusieurs temps forts sont prévus cette année qui se coupleront avec des Saé :
-
-  
+ 
 
 * Un premier évènement avec un hackathon sur les algorithmes.
 
