@@ -1,4 +1,4 @@
-*---
+---
 layout: default
 title: Guide de Rentrée
 ---
@@ -359,7 +359,7 @@ Vous ne pourrez pas participer aux projets, car vous allez être bien occupés d
 ### Logiciels et outils
 
 Pour réussir votre année, il est conseillé de disposer de votre propre équipement informatique. Bien que l'IUT mette à disposition des ordinateurs, il peut vous être suggéré d'installer certains logiciels sur vos appareils personnels. La majorité de ces logiciels sont gratuits et open source, et il est important de commencer à les utiliser de manière professionnelle et régulière.
-![Alt text](colab-1.png) ![Alt text](github-1.png) ![Alt text](hackmd-1.png) ![Alt text](jupyter-1.png) ![Alt text](markdown-1.png) ![Alt text](noteable-1.png) ![Alt text](tools.png) ![Alt text](Zettlr-1.png) ![Alt text](python-1.jpg) ![Alt text](visualstudio-1.jpg) ![Alt text](zenodo-1.jpg) ![Alt text](zotero-1.jpg)
+![colab](colab-1.png) ![github](github-1.png) ![hackmd](hackmd-1.png) ![jupyter](jupyter-1.png) ![markdown](markdown-1.png) ![noteable](noteable-1.png)  ![zettlr](Zettlr-1.png) ![python](python-1.jpg) ![vs](visualstudio-1.jpg) ![zenodo](zenodo-1.jpg) ![zotero](zotero-1.jpg)
 
   
 # Table des matières
