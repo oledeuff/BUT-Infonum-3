@@ -64,6 +64,7 @@ Comme les années précédentes, vous allez retrouver des contenus d'enseignemen
 
 Votre semestre 5 est riche en contenus d'enseignement et temps d'apprentissage. Le semestre 6 diminue légèrement en ressources pour faire la part belle aux projets individuels et collectifs.
  Vous pouvez également naviguer dans votre année avec [le graphe de la formation](https://oledeuff.github.io/BUT-Infonum-3/graphe.html)
+ Vous apprendrez durant l'année à faire des réalisations du même type. 
 
   
 
@@ -91,7 +92,7 @@ La ressource "communication interculturelle" vise à aborder la communication en
 
   
 
-### R5. 03 Responsabilité sociale des organisations. *O. Le Deuff*
+### R5. 03 Responsabilité sociale des organisations. *O. Le Deuff* ![](./old.jpg)
 
   
 
