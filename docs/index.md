@@ -155,7 +155,7 @@ Ce cours offre une introduction à l'expérience utilisateur (UX) et au design d
   
 
 ### R6.03 PPP et préparation au mémoire d'activités. *O. Le Deuff* 
-![image OLD](./old.jpg)
+![image OLD](./old.png)
 
 Le cours poursuit l'orientation du premier semestre avec la prise en compte de la rédaction de votre mémoire de fin d'études qui est lié à votre travail de stage ou d'alternance. Il s'agira notamment de comprendre comment dégager une problématique pour construire un travail sourcé et analytique sur votre activité professionnelle.
  
@@ -359,6 +359,7 @@ Vous ne pourrez pas participer aux projets, car vous allez être bien occupés d
 ### Logiciels et outils
 
 Pour réussir votre année, il est conseillé de disposer de votre propre équipement informatique. Bien que l'IUT mette à disposition des ordinateurs, il peut vous être suggéré d'installer certains logiciels sur vos appareils personnels. La majorité de ces logiciels sont gratuits et open source, et il est important de commencer à les utiliser de manière professionnelle et régulière.
+
 ![colab](colab.png) ![github](github.png) ![hackmd](hackmd.png) ![jupyter](jupyter.png) ![markdown](markdown.png) ![noteable](noteable.png)  ![zettlr](Zettlr.png) ![python](python.jpg) ![vs](visualstudio.jpg) ![zenodo](zenodo.jpg) ![zotero](zotero.jpg)
 
   
