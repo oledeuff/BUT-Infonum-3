@@ -88,13 +88,13 @@ La ressource "communication interculturelle" vise à aborder la communication en
 
 
 ### R5. 03 Responsabilité sociale des organisations. *O. Le Deuff* 
-![image OLD](./old.jpg)
+![image OLD](./old.png)
 
 Ce cours offre une introduction approfondie à l'éthique et à la responsabilité sociale dans les organisations, mettant l'accent sur le contexte numérique. Il explore d'abord la place et l'importance de l'éthique dans les organisations et examine les questions de greenwashing. Il se penche ensuite sur la responsabilité algorithmique, abordant les biais algorithmiques et les principes éthiques de l'IA. Le concept de souveraineté numérique est ensuite étudié, suivi de l'examen de la frugalité numérique. Le cours se termine par une exploration des manipulations attentionnelles et des interfaces contraignantes. Des études de cas sont analysées pour intégrer ces concepts théoriques dans des situations réelles.
 
   
 ### R5. 04 PPP. *O. Le Deuff* 
-![image OLD](./old.jpg)
+![image OLD](./old.png)
 
 Comme les années précédentes, le cours est dédié à votre projet personnel et professionnel. Des temps spécifiques seront dédiés notamment afin d'envisager la construction d'un portfolio de type numérique qui puisse être une vitrine de vos compétences.
 
@@ -109,7 +109,7 @@ Sylvain Lapoix consacrera deux jours à vous former à R et Rstudio tandis que v
 Le cours vise à développer des compétences en matière de collaboration et de partage de connaissances. Le programme comprend l'apprentissage du décloisonnement de l'information via des méthodes de "corporate hacking", l'utilisation d'Obsidian et Notion pour créer des notes programmables et reproductibles, et l'application d'Airtable pour structurer les données. Les sessions couvrent également des exemples pratiques et des retours d'expérience sur des outils spécifiques.
   
 ### R5.07 Architecture de l'information. *O. Le Deuff* 
-![image OLD](./old.jpg)
+![image OLD](./old.png)
  
 Ce cours en architecture de l'information offre une introduction aux aspects professionnels et scientifiques du domaine, avec un accent sur la conceptualisation du projet, l'étude des usagers, le maquettage des dispositifs et la réalisation de la solution technique. Il couvre divers sujets, y compris l'organologie d'un site web, l'expérience utilisateur (UX), la gestion d'un projet en architecture de l'information, la relation au design d'information, l'organisation et la classification de l'information, ainsi que les aspects trans et transmédia.
 Un temps spécifique sera consacré à l'organisation des données et à la production de *data papers* afin de pouvoir répondre à certaines exigences des projets et notamment le *challenge de la data*
@@ -165,7 +165,7 @@ Le cours poursuit l'orientation du premier semestre avec la prise en compte de l
 
   
 ### R6. 05 Pratiques collaboratives et partage des connaissances. Perfectionnement en datajournalisme. *R. Roumanos. O. Le Deuff* 
-![image roumanos](./roumanos.png) ![image OLD](./old.jpg)
+![image roumanos](./roumanos.png) ![image OLD](./old.png)
  
 
 Le but ici est de poursuivre le travail d'initiation au data journalisme en produisant une petite investigation qui repose sur des données construites et analysées. Le sujet traité devra être anglé et un soin sera apporté à la rédaction et construction du récit.
