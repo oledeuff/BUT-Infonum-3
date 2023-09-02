@@ -50,7 +50,9 @@ attraction_vertical: 0.1
 attraction_horizontal: 0.1
 views: {}
 chronological_record_meta: created
-record_metas: []
+record_metas: 
+- prénom
+- nom
 title: BUT Infonum 3
 author: Olivier Le Deuff
 description: Contenus de formation du BUT infonum 3.

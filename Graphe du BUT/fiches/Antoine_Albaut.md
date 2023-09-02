@@ -1,11 +1,11 @@
 ---
 
 title: Antoine Albaut
-
+prénom: Antoine
+nom: Albaut
 id: 20230730134333
-
 type: enseignant
-
+thumbnail: ./img/albaut.png
 tags:
 
   - marketing digital

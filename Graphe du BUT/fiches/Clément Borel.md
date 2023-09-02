@@ -1,11 +1,11 @@
 ---
 
 title: Clément Borel
-
+prénom: Clément
+nom: Borel
 id: 20230730200845
-
 type: enseignant
-
+thumbnail: ./img/borel.png
 tags:
 
   - PAO

@@ -1,8 +1,9 @@
 ---
-title: SAé INFONUM. 02 Réaliser un projet de communication numérique
+title: SAé INFONUM.6. 02 Réaliser un projet de communication numérique
 id: "20230730185444"
 types:
   - SAé
+thumbnail: ./img/sae.png
 tags:
   - communication
   - communication numérique

@@ -1,5 +1,7 @@
 ---
 title: Tifenn Hamonic
+prénom: Tifenn
+nom: Hamonic
 id: "20230730202001"
 types:
   - enseignant

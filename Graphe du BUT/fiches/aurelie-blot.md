@@ -1,8 +1,11 @@
 ---
 title: Aurélie Blot
+prénom: Aurélie
+nom: Blot
 id: "20230730200631"
 types:
   - enseignant
+thumbnail: ./img/blot.png
 tags:
   - langue anglaise
 ---

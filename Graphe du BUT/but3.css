@@ -64,3 +64,56 @@ aside.menu header:before {
         background-size: 100px 70px;
     background-repeat: no-repeat;
 }
+article.record header {
+    display: grid;
+    gap: 0 1em;
+    grid-template:
+    "thumbnail title" auto
+    "thumbnail nom" auto
+    "thumbnail prénom" auto
+    "thumbnail type" auto
+    "tags tags" auto;
+}
+
+h1.record-title {
+    grid-area: title;
+}
+
+.record-thumbnail span:nth-child(2) {
+    grid-area: thumbnail;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(attr(content));
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+}
+
+div.record-id {
+    display: none;
+}
+div.record-nom {
+    grid-area: nom;
+}
+
+div.record-prenom {
+    grid-area: prénom;
+}
+
+div.record-type {
+    grid-area: type;
+}
+div.record-nom,
+div.record-prenom {
+    width: 50%; /* Ajustez cette valeur si nécessaire */
+}
+
+
+div.record-tags {
+    grid-area: tags;
+    grid-column: 1 / 3; /* Cela permet aux tags de s'étendre sur les deux colonnes de la grille */
+}
+
+
+

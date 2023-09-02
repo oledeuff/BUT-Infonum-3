@@ -3,6 +3,7 @@ title: Exposition de datavisualisation
 id: "20230730205954"
 types:
   - projet
+thumbnail: ./img/projet.jpg
 tags:
   - data
   - visualisation de données
@@ -12,4 +13,5 @@ tags:
   - projet
 ---
 
-Un gros projet. Vous serez accompagnés par [[20230730225749]] Olivier Le Deuff, [[Sylvain Lapoix]] Sylvain Lapoix, [[20230730200845]] Clément Borel et [[20230730200554]] Allan Deneuville
+Un gros projet. Vous serez accompagnés par [[20230730225749]] Olivier Le Deuff,  [[20230901134841]] Sylvain Lapoix,  [[20230730200845]] Clément Borel et [[20230730200554]] Allan Deneuville.
+Cette année, le commanditaire est le *Conseil départemental de Gironde*.

@@ -1,11 +1,11 @@
 ---
 
 title: David Pucheu
-
+prénom : David
+nom: Pucheu
 id: 20230730200939
-
 type: enseignant
-
+thumbnail: ./img/pucheu.png
 tags:
 
   - UX

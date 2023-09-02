@@ -3,6 +3,7 @@ title: Hackathon
 id: "20230730234840"
 types:
   - projet
+thumbnail: ./img/projet.jpg
 tags:
   - algorithme
   - journalisme

@@ -3,6 +3,7 @@ title: Pratiques collaboratives et partage de connaissances. S.6
 id: "20230730231522"
 types:
   - ressource
+thumbnail: ./img/ressource.png
 tags:
   - pratiques collaboratives
   - datajournalisme

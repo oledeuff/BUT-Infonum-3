@@ -1,8 +1,9 @@
 ---
-title: SAé INFONUM 02. Accompagner les utilisateurs
+title: SAé INFONUM 5. 02. Accompagner les utilisateurs
 id: "20230730185233"
 types:
-  - Saé
+  - SAé
+thumbnail: ./img/sae.png
 tags:
   - utilisateurs
   - usages

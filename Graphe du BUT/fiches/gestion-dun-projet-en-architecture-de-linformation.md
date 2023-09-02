@@ -3,6 +3,7 @@ title: Gestion d'un projet en architecture de l'information
 id: "20230730230724"
 types:
   - ressource
+thumbnail: ./img/ressource.png
 tags:
   - architecture de l'information
   - UX design

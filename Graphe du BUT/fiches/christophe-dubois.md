@@ -1,8 +1,11 @@
 ---
 title: Christophe Dubois
+prénom: Christophe
+nom: Dubois
 id: "20230730192600"
 types:
   - enseignant
+thumbnail: ./img/dubois.png
 tags:
   - documentation
   - communication interculturelle

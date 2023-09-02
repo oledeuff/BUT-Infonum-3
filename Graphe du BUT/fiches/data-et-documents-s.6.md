@@ -2,7 +2,7 @@
 title: data et documents S.6
 id: "20230730210559"
 types: ressource
-  
+thumbnail: ./img/ressource.png 
 tags:
   - data
   - documents

@@ -1,8 +1,11 @@
 ---
 title: Sylvie Nérisson
 id: "20230730201129"
+prénom: Sylvie
+nom: Nérisson
 types:
   - enseignant
+thumbnail: ./img/nerisson.png
 tags:
   - droit
   - droit de l'information
