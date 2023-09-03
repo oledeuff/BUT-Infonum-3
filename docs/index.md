@@ -12,9 +12,9 @@ title: Guide de Rentrée
 
 # Exergue
 
-> "L’Humanité est à un tournant de son histoire. La masse des données acquises est formidable. Il faut de nouveaux instruments pour les simplifier, les condenser ou jamais l’intelligence ne saura ni surmonter les difficultés qui l’accablent, ni réaliser les progrès qu’elle entrevoit et auxquels elle aspire." - Paul Otlet, *Traité de Documentation*, 1934
+> L’Humanité est à un tournant de son histoire. La masse des données acquises est formidable. Il faut de nouveaux instruments pour les simplifier, les condenser ou jamais l’intelligence ne saura ni surmonter les difficultés qui l’accablent, ni réaliser les progrès qu’elle entrevoit et auxquels elle aspire." - Paul Otlet, *Traité de Documentation*, 1934
 
-  
+> Le but 3 infonum, ça va *données* !
 
 # Édito : la preuve par trois
 
@@ -65,13 +65,14 @@ Comme les années précédentes, vous allez retrouver des contenus d'enseignemen
 Votre semestre 5 est riche en contenus d'enseignement et temps d'apprentissage. Le semestre 6 diminue légèrement en ressources pour faire la part belle aux projets individuels et collectifs.
 Vous pouvez également naviguer dans votre année avec [le graphe de la formation](https://oledeuff.github.io/BUT-Infonum-3/graphe.html)
 ![image du graphe](graphe.JPG)
-Vous apprendrez durant l'année à faire des réalisations du même type. 
+
+Vous apprendrez durant l'année à faire des réalisations du même type notamment en utilisant le logiciel *Cosma*.
 
   
 
 ## Les contenus des ressources
 
-  
+Les ressources désignent en fait ce qu'on nomme plus communément des *cours*. Comme montré sur le graphe, tous les cours, les projets et les Saé sont liés. Il faut donc bien penser à réinvestir les connaissances et les compétences d'un cours à l'autre.
 
 ## **Premier Semestre**
 
