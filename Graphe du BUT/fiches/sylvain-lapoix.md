@@ -13,5 +13,5 @@ tags:
   - R
   - traitement de données
 ---
-Journaliste, datajournaliste indépendant, vous retrouverez Sylvain pour le  projet [[20230730205954]] Exposition de datavisualisation mais aussi pour le cours [[20230730210531]] Data et documents
+Journaliste, datajournaliste indépendant, vous retrouverez Sylvain pour le  projet [[20230730205954]] Exposition de datavisualisation mais aussi pour le cours [[20230730210531]] Data et documents avec une formation de 2 jours intensives sur *R*.
 

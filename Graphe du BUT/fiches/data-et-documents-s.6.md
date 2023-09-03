@@ -10,4 +10,4 @@ tags:
   - visualisation de données
 ---
 
-[[20230730200845]] Clément Borel reste à la manoeuvre.
+[[e:20230730200845]] Clément Borel reste à la manoeuvre au semestre suivant pour cette ressource qui fait suite à [[g:20230730210531]] Data et documents

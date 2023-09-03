@@ -12,5 +12,4 @@ tags:
   - open data
   - traitement de données
 ---
-
-Cédric interviendra durant le [[20230730223811]] Challenge de la data. Il sera votre coach de luxe.
+Spécialiste en médiation des données et au niveau des enjeux de l'open data, Cédric interviendra durant le [[20230730223811]] Challenge de la data. Il sera votre coach de luxe.

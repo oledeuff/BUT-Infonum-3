@@ -8,5 +8,5 @@ tags:
   - pratiques collaboratives
   - datajournalisme
 ---
-
-De belles surprises avec un projet orienté *data journalisme* avec [[20230730201059]] Rayya Roumanos et [[20230730225749]] Olivier Le Deuff
+La ressource fait suite à la ressource [[g:20230730203416]] Pratiques collaboratives et gestion des connaissances
+De belles surprises avec un projet orienté *data journalisme* avec [[e:20230730201059]] Rayya Roumanos et [[e:20230730225749]] Olivier Le Deuff

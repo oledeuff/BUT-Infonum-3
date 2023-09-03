@@ -11,5 +11,4 @@ tags:
   - communication interculturelle
   - russe
 ---
-
-un peu de culture avec une [[20230730204243]] Initiation aux relations et aux communications interculturelles
+Vous le connaissez bien depuis la première année, votre responsable de formation va vous insuffler un peu de culture avec une [[20230730204243]] Initiation aux relations et aux communications interculturelles

@@ -14,4 +14,4 @@ tags:
   - Cosma
 
 ---
-David Pucheu prendre en charge le cours [[20230730230724]] Gestion d'un projet en architecture de l'information.
+Maître de conférences en sciences de l'information et de la communication, David Pucheu prendre en charge le cours [[20230730230724]] Gestion d'un projet en architecture de l'information.

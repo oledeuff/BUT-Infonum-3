@@ -10,3 +10,4 @@ tags:
 ---
 
 Vous aviez précédemment étudié des courants qui étudient les processus informationnels et communicationnels en voyant les courants fondateurs en première année et étudié quelques textes en seconde année avec une poursuite du cours sur l’histoire récente des médias. La troisième année se poursuit sur des études de textes et de travaux ancrés sur les questions numériques.
+La ressource est assurée par [[e:20230730201359]] Nathalie Pinède.

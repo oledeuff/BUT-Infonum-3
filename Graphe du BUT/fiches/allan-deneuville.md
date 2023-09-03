@@ -11,5 +11,5 @@ tags:
   - littérature
   - osint
 ---
-
-Allan assure notamment le cours de [[20230730214252]] stratégies de communication numérique. 
+Maître de conférences en sciences de l'information et de la communication et nouvellement arrivé dans notre équipe.
+Allan assurera notamment le cours de [[20230730214252]] stratégies de communication numérique. 

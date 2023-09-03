@@ -12,4 +12,4 @@ tags:
 
 ---
 
-Antoine interviendra sur des questions de marketing digital et publicitaire dans le cours de [[20230730214510]] Stratégies de communication multicanal
+Ancien étudiant du DUT, Antoine interviendra sur des questions de marketing digital et publicitaire dans le cours de [[20230730214510]] Stratégies de communication multicanal

@@ -11,4 +11,5 @@ tags:
 
 
 La ressource "communication interculturelle" vise à aborder la communication entre des cultures et des groupes sociaux différents. Les normes de communication sont des expressions des valeurs de chaque culture et la notion de culture s’applique à tout groupe social, organisation, entreprise, communauté, école, université, équipe. L’objectif de la ressource est ainsi d’apprendre à décrypter différents modes de communication et améliorer ainsi les interactions.
+Le cours est assuré par [[e:20230730192600]] Christophe Dubois.
 

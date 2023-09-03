@@ -13,3 +13,4 @@ tags:
   - SHS
 ---
 
+Professeure en sciences de l'information et de la communication, Nathalie Pinède abordera de nouvelles questions en [[20230730202256]] Sciences de l'information et de la communication et vous la retrouverez pour une introduction à la recherche dans le cours de [[20230730202157]] Sciences Humaines et Sociales
