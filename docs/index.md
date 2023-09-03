@@ -7,8 +7,7 @@ title: Guide de Rentrée
 
 ![Un But 3 résolument en réseau !](https://i.ibb.co/5FHn4c1/r-seauimagerentr-e.jpg)
 
-  
-  
+   
 
 # Exergue
 
@@ -59,7 +58,7 @@ La délivrance du diplôme en fin de parcours atteste de ce type de compétences
 # Les enseignements
  
 
-Comme les années précédentes, vous allez retrouver des contenus d'enseignement répartis entre Ressources et Saé.
+Comme les années précédentes, vous allez retrouver des contenus d'enseignement répartis entre *Ressources* et *Saé*.
  
 
 Votre semestre 5 est riche en contenus d'enseignement et temps d'apprentissage. Le semestre 6 diminue légèrement en ressources pour faire la part belle aux projets individuels et collectifs.
