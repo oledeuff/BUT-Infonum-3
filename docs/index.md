@@ -295,7 +295,7 @@ C'est le nouvel évènement phare en infonum qui s'annonce à la suite d'une id�
   
 
 Durant cette semaine, vous serez accompagnés par vos professeurs habituels notamment Nathalie Pinède ainsi que par un spécialiste des données : Cédric Lombion.
-![lombion](./lombion.pngpng)
+![lombion](./lombion.png)
 
   
 ### Septième temps : semaine du 18 mars [Saé 6 02]
