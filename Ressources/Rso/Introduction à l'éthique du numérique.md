@@ -52,7 +52,7 @@ BUT *infonum 3*
 - **Nom complet** : Baruch Spinoza
 - **Naissance** : 24 novembre 1632, Amsterdam, Pays-Bas
 - **Décès** : 21 février 1677, La Haye, Pays-Bas
-- **Profession** : Philosophe
+- **Profession** : Philosophe, opticien
 - **Contribution majeure** : Spinoza est surtout connu pour son œuvre "Éthique", dans laquelle il présente une vision *moniste* de la réalité.
 
 ---
@@ -136,19 +136,19 @@ Agir par vertu absolument n’est rien d’autre en nous qu’agir, vivre et con
 
 - Les entreprises ont une responsabilité éthique envers la société.
 - Ingénierie et éthique : Comment concevoir des technologies éthiques ?
-- Comment veiller à l'application des règles de base
-- Comment mettre en place des régles éthiques
-- Comment prouver qu'elles sont bien réellement appliquées.
+- Comment veiller à l'application des règles de base ?
+- Comment mettre en place des régles éthiques ?
+- Comment prouver qu'elles sont bien réellement appliquées ?
 
 ---
 ## Une responsabilité
 - pour les GAFAM et les leaders
 -   mais aussi toutes les organisations
 - un travail de médiation à produire
-- des opportunités professionnelles à saisir
-    -  des compétences en médiations des données et en    documentation des processus
-    - prouver et démontrer la réalité de l'éthique appliquée
-     - pouvoir répondre à de futurs *audits*
+- des opportunités professionnelles à saisir :
+    - des compétences en médiations des données et en documentation des processus
+    - une capacité à prouver et démontrer la réalité de l'éthique appliquée
+    - une cacpacité à pouvoir répondre à de futurs *audits*
 
 --- 
 ## Faire face à l'éthic washing
@@ -169,13 +169,14 @@ Agir par vertu absolument n’est rien d’autre en nous qu’agir, vivre et con
 - Débats sur la surveillance numérique
 - Régulations gouvernementales et normes internationales
 - Les débats actuels sur l'IA
-- lLes débats sur la génétique
-- lLes influences transhumanistes
+- Les débats sur la génétique
+- LesLes influences transhumanistes
 - Les rapports de force
+- etc.
 
 ---
 ## le besoin de spécialistes
-- formés à la complexité
+- formés à la complexité (Edmar Moring) dans des dispositifs hybrides.
 - des spécialistes extérieurs aux organisations
 - des spécialistes à l'intérieur des organisations
 - tension classique entre deux approches :
@@ -187,7 +188,6 @@ Agir par vertu absolument n’est rien d’autre en nous qu’agir, vivre et con
     - au sein de sa propre organisation.
     - de la part de collègues et de supérieurs
 
-    
 ---
 
 ## 6. Acteurs en Matière d'Éthique

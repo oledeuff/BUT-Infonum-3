@@ -23,7 +23,7 @@ style: |
 
 # Rentrée BUT INFONUM 3.
 11 septembre 2023
-Une nouvelle *donne* pour une année qui va *données
+Une nouvelle *donne* pour une année qui va *données*
 ![Visualisation](./img/viz2.png)
 
 ---
