@@ -16,13 +16,14 @@ style: |
    img {
     float: right; /* aligne l'image à droite */
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
     }
 ---
 
 
 # Rentrée BUT INFONUM 3.
 11 septembre 2023
+Une nouvelle *donne* pour une année qui va *données
 ![Visualisation](./img/viz2.png)
 
 ---
@@ -32,6 +33,7 @@ style: |
 - Un ancrage plus professionnel
     - de nouveaux intervenants professionnels dans la formation
     - des projets ambitieux
+    ![capy](./img/capy1.png)
 
 ---
 ## Une ambition orientée "données"
@@ -66,8 +68,16 @@ style: |
 ## Des changements méthodologiques et organisationnels
 - Intégration progressive de Github dans votre pratique.
 - Il va falloir penser "données" et réutilisation.
+![capybara](./img/capy2.png)
 ---
 
 ## Présentation des nouveaux outils et du guide
 [Visitez le site GitHub](https://github.com/oledeuff/BUT-Infonum-3)
 ![site](./img/gitinfonum.JPG)
+l'agenda Google : le lien https://urlz.fr/nxD6
+Progressivement, passage sur ADE.
+
+--- 
+## Crédits
+Illustrations : Dall-e notamment les deux sympathiques *capybara* 
+Quid du *capybara* comme animal Totem des *infonum* ?
