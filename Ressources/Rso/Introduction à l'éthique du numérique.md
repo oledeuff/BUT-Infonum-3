@@ -33,7 +33,7 @@ BUT *infonum 3*
 ## Etymologie
 
 - Le mot "éthique" vient du grec "ethos" qui signifie "caractère" ou "manière d'être".
->L’éthos (ou ethos1, du grec ancien ἦθος ễthos, « coutume ») désigne d'abord le lieu familier, la demeure d'un individu2, mais aussi le caractère habituel, la manière d'être, l’ensemble des habitudes d'une personne. Il se rapproche du comportement. (Wikipédia)
+>L’éthos (ou ethos1, du grec ancien ἦθος ễthos, « coutume ») désigne d'abord le lieu familier, la demeure d'un individu, mais aussi le caractère habituel, la manière d'être, l’ensemble des habitudes d'une personne. Il se rapproche du comportement. (Wikipédia)
 - L'éthique est une réflexion sur ce qui est bien ou mal, juste ou injuste.
 
 ---
