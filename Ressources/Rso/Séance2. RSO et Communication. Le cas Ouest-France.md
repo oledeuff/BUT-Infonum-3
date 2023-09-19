@@ -1,15 +1,44 @@
 ---
 marp: true
-theme: default
+theme: gaia
+paginate: true
+---
+# Séance 2. RSO. 
+Le **Rapport Responsabilité Sociétale d’Entreprise** de Ouest-France.
+Un exemple de *communication responsable.*
+
 ---
 
-# Présentation de Ouest France
+## Ouest-France : Présentation
 
-> (Description générale de Ouest France comme l'un des principaux journaux régionaux de France.)
+- **Fondateur** : Paul Hutin-Desgrées
+- **Année de création** : 1944
+- **Premier quotidien en France**
+  > "Ouest-France s’est développé pour devenir rapidement le premier quotidien en France, diffusé dans douze départements du Grand Ouest." (Page 19)
+- **Adresse** : 
+  > "Société Ouest-France - 10 rue du Breil - Rennes - 02 99 32 60 00" 
 
 ---
 
-# Introduction
+## Mission et Éthique d'Ouest-France
+
+- **Devise** : 
+  > "Justice et Liberté." (Page 92)
+
+- **Mission** : 
+  > "Éclairer, informer, relier les citoyens pour faire progresser le bien commun, dans le respect de la dignité de chacun." (Page 92)
+
+---
+  ## Charte
+
+  > "Dire sans nuire, Montrer sans choquer, Témoigner sans agresser, Dénoncer sans condamner." (Page 92)
+  >Le socle de cette éthique repose sur le respect absolu de la personne humaine.
+
+---
+## Un positionnement éthique humaniste
+
+
+# Un positionnement informationnel
 
 - **L'importance de l'information dans le contexte actuel.**
 > "Le devoir d'information, l'exigence éditoriale et la qualité de l'information." (Page 5)
