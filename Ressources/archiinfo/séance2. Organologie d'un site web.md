@@ -50,7 +50,7 @@ paginate: true
 ## Les différents types de structuration
 
 1. **La hiérarchie** : Logique arborescente, Du général au particulier
-2. **La matrice** : Organisation de type graphe
+2. **La matrice** : Organisation de type *tableau*
 3. **La séquence** : Ordre logique ou chronologique
 
 ---
@@ -77,7 +77,7 @@ La hiérarchie est l'une des méthodes les plus courantes pour structurer l'info
 
 ## La matrice
 
-La matrice est une organisation de type graphe où l'information est structurée en colonnes et en lignes.
+La matrice est une organisation de type *tableau* où l'information est structurée en colonnes et en lignes.
 
 - **Principe** : Organiser l'information selon deux dimensions ou plus.
 - **Exemple** : Un tableau de tarifs où les colonnes représentent les types de chambres et les lignes représentent les saisons.
