@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: default
-paginate:true
+paginate: true
 ---
 
 # Architecture de l’information
