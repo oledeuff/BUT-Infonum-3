@@ -76,5 +76,5 @@ Un exemple de *communication responsable.*
 # Conclusion
 
 - **L'avenir de l'information à l'ère numérique et l'importance de maintenir une éthique solide.**
-> (Une conclusion générale basée sur l'ensemble du rapport.)
+- Besoin d'un audit des pratiques. (extérieur)
 
