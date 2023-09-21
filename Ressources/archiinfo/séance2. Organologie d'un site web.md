@@ -194,7 +194,10 @@ Le graphe est une structure de données composée de nœuds (ou sommets) et d'ar
 ### Wireframes
 
 - Outils pour visualiser la structure d'un site
-- Quelques sites dédiés: [Mockingbird](https://gomockingbird.com/home)
+- Quelques sites dédiés: 
+-[Figma](https://www.figma.com/figjam/)
+-[MockFlow](https://www.mockflow.com/design/wireframepro/)
+-[Moqups](https://moqups.com/)
 - Ne pas hésiter à utiliser papier, crayon et grand format
 
 ---
@@ -202,7 +205,7 @@ Le graphe est une structure de données composée de nœuds (ou sommets) et d'ar
 ## A lire
 * Drucker, J. (2008). Graphic Devices: Narration and Navigation. Narrative, 16(2), 121–139. http://www.jstor.org/stable/30219279
 * Bien relever les différences conceptuelles.
-* Pour en savoir plus sur J. Drucker :
+* Pour en savoir plus sur [J. Drucker](https://www.reseau-canope.fr/savoirscdi/societe-de-linformation/le-monde-du-livre-et-des-medias/les-penseurs-de-linformation-de-la-documentation-et-de-la-pedagogie/johanna-drucker-une-chercheuse-a-linterface-des-humanites-digitales.html)
     
 
 ---
