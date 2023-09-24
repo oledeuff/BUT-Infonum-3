@@ -3,7 +3,9 @@
 
 Projet sous la direction d'*Olivier Le Deuff*
 
-![graphe](./graphe.jpg)
+<img src="./graphe.jpg" alt="graphe" width="300px" height="200px" />
+
+
 ## Objectifs
 Vous avez entendu parler de l'**open data** mais tout cela vous paraît encore un peu obscur ?
 Ce projet va être l'occasion d'y voir un peu plus clair sur les enjeux et acteurs qui composent ce monde de l'open data.
@@ -38,25 +40,28 @@ Ce travail avait été effectué dans le cadre de l'ancienne LP MIND sous la dir
 Le projet avait été documenté et explicité ici : [https://hackmd.io/cCOG5AK5Qw-bTfXSIsa30Q?view](https://hackmd.io/cCOG5AK5Qw-bTfXSIsa30Q?view).
 Il faudra en faire de même dans le cadre de ce projet.
 
-## Mise à jour des données et développement d'une nouvelle ambition.
+## 1. Mise à jour des données et développement d'une nouvelle ambition.
 
 Il s'agit de produire une mise à jour des données, de les transférer en format *markdown*, de les compléter en augmentant la taille des fiches, en revoyant si besoin la typologie des données.
+Chaque fiche devra comprendre un entête Yaml qui respecte la nomenclature de Cosma et qui comporte des métadonnées qui respectent la typologie construite.
 
 Le projet de base recensait essentiellement les acteurs. L'objectif est ici d'élargir la perspective en intégrant également les concepts essentiels de l'open data et les aspects législatifs réglementaires.
 
 Toute fiche réalisée doit mentionner le nom de son ou ses auteurs et éventuellement s'il y a eu l'aide de chatgpt ou de toute autre intelligence artificielle.
 L'ensemble des données du projet sera placé sous une *licence CC*. A vous de la choisir et d'en justifier le choix.
 Il faut créer une bibliographie du projet sous Zotero... Cette bibliographie sera à utiliser dans Cosma. Par exemple, si une fiche fait appel à une référence bibliographique, il faudra qu'elle soit gérée parfaitement par Cosma. 
-Idéalement, il faut utiliser Zettlr avec Zotero pour que cela fonctionne de manière efficace avec le plugin betterbibtex.
+Idéalement, il faut utiliser Zettlr avec Zotero pour que cela fonctionne de manière efficace avec le plugin *betterbibtex*.
 
-## Visualisez et customisez avec le logiciel Cosma
+Sur tous ces points, il faut *bien lire la documentation* du logiciel Zettlr et celle du logiciel Cosma.
 
-Le but est d'avoir une production optimisée et fonctionnelle qui permette d'avoir toutes les possibilités de circulation et de lecture du logiciel Cosma.
+## 2. Visualisez et customisez avec le logiciel Cosma
+
+Le but est d'avoir une production optimisée et fonctionnelle qui permette d'avoir toutes les possibilités de circulation et de lecture du logiciel [Cosma](https://cosma.arthurperret.fr).
 Cela signifie qu'il vous faudra veiller à ce que toutes les fonctionnalités soient opérationnelles.
 Cosma possède deux versions. L'une avec interface. L'autre en ligne de commande. La version la plus à jour repose sur la ligne de commande. C'est cette version qu'il vous faudra utiliser pour obtenir la version la plus aboutie du *cosmoscope* notamment la fonctionnalité du *chronoscope*, ce qui implique de bien veiller à la structure des données.
 Il faudra clairement penser à l'esthétique et au design de la réalisation finale. Cela suppose donc une charte graphique et donc des modifications du *CSS*.
 
-## Expliquez la démarche
+## 3. Expliquez la démarche
 
 
 Ce point est également important. Il participe de la documentation du projet. Une habitude qu'il vous faudra prendre à l'avenir pour toutes les réalisations.
@@ -66,7 +71,7 @@ Il faudra donc préciser les sources de base utilisées, les choix effectués et
 Proposer un *guide d'utilisation de la visualisation* finale avec Cosma. Comme l'avez fait vos camarades précédemment, il faudra rédiger un guide de ce type : [https://hyperotlet.github.io/otletosphere/fr.html](https://hyperotlet.github.io/otletosphere/fr.html)
 
 
-## Pensez la communication du projet
+## 4. Pensez la communication du projet
 
 Le projet n'est pas un simple exercice. Il s'agit de penser l'intégralité du projet de façon à ce qu'il soit présentable et communicable.
 Les communautés visées ici sont :

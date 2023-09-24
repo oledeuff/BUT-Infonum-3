@@ -1,7 +1,7 @@
 ---
 title: Architecture de l’information
 author: Olivier Le Deuff
-marp: true
+marp: false
 paginate: true 
 style: |
   /* Style global */
