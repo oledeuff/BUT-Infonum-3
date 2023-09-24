@@ -1,6 +1,6 @@
 ---
 title: Comité pour la science ouverte
-id: "2023092324606042"
+id: "20230924193427"
 types:
   - undefined
 thumbnail: organisme_public.png

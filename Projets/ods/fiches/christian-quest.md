@@ -1,10 +1,10 @@
 ---
 title: Christian Quest
-id: "2023092324606030"
+id: "20230924193403"
 types:
   - personne
 thumbnail: personne.png
 short: "Porte-Parole d'OSM "
 ---
 
-En plus de son rôle de porte-parole pour [[2023092324606023]]  OpenStreetMap , il est aussi conseiller numérique à l'Assemblée Nationale.
+En plus de son rôle de porte-parole pour [[20230924194718]] Open Street Map, il est aussi conseiller numérique à l'Assemblée Nationale.

@@ -1,6 +1,6 @@
 ---
 title: Logica
-id: "2023092324606052"
+id: "20230924194000"
 types:
   - undefined
 thumbnail: organisme_prive.png

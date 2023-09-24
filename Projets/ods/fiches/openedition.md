@@ -1,6 +1,6 @@
 ---
 title: OpenEdition
-id: "2023092324606046"
+id: "20230924194053"
 types:
   - undefined
 thumbnail: outil.png

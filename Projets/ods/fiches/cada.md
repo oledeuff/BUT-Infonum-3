@@ -1,8 +1,8 @@
 ---
 title: CADA
-id: "202309232460605"
+id: "20230924193341"
 types:
-  - undefined
+  - organisme public
 thumbnail: organisme_public.png
 short: Commission d'Accès aux Documents Administratifs
 ---
