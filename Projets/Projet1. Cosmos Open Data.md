@@ -39,17 +39,20 @@ Ce travail avait été effectué dans le cadre de l'ancienne LP MIND sous la dir
 
 Le projet avait été documenté et explicité ici : [https://hackmd.io/cCOG5AK5Qw-bTfXSIsa30Q?view](https://hackmd.io/cCOG5AK5Qw-bTfXSIsa30Q?view).
 Il faudra en faire de même dans le cadre de ce projet.
+Les données de base sont situées dans un [google sheet](https://docs.google.com/spreadsheets/d/1AA8hrY5QqimlNR32KYQz2DqTlilNwRIc7Pv9fQQjMeo/edit#gid=1867473824)
 
 ## 1. Mise à jour des données et développement d'une nouvelle ambition.
 
 Il s'agit de produire une mise à jour des données, de les transférer en format *markdown*, de les compléter en augmentant la taille des fiches, en revoyant si besoin la typologie des données.
-Chaque fiche devra comprendre un entête Yaml qui respecte la nomenclature de Cosma et qui comporte des métadonnées qui respectent la typologie construite.
+Chaque fiche devra comprendre un *entête Yaml* qui respecte la nomenclature de Cosma et qui comporte des métadonnées qui respectent la typologie construite.
+Un début de transfert a déjà été effectué avec des fiches issues de Google Sheet désormais disponibles en markdown dans le dossier *ods*. Il faut les compléter et créer les liens qui existaient dans le tableur. Elles ont toutes un entête yaml qu'il faudra compléter.
 
-Le projet de base recensait essentiellement les acteurs. L'objectif est ici d'élargir la perspective en intégrant également les concepts essentiels de l'open data et les aspects législatifs réglementaires.
+
+Le projet de base recensait essentiellement les acteurs. L'objectif est ici d'élargir la perspective en intégrant également les *concepts essentiels* de l'open data et les aspects *législatifs* et *réglementaires*.
 
 Toute fiche réalisée doit mentionner le nom de son ou ses auteurs et éventuellement s'il y a eu l'aide de chatgpt ou de toute autre intelligence artificielle.
 L'ensemble des données du projet sera placé sous une *licence CC*. A vous de la choisir et d'en justifier le choix.
-Il faut créer une bibliographie du projet sous Zotero... Cette bibliographie sera à utiliser dans Cosma. Par exemple, si une fiche fait appel à une référence bibliographique, il faudra qu'elle soit gérée parfaitement par Cosma. 
+Il faut créer une bibliographie du projet sous Zotero qui soit collective. Cette bibliographie sera à utiliser dans Cosma. Par exemple, si une fiche fait appel à une référence bibliographique, il faudra qu'elle soit gérée parfaitement par Cosma. 
 Idéalement, il faut utiliser Zettlr avec Zotero pour que cela fonctionne de manière efficace avec le plugin *betterbibtex*.
 
 Sur tous ces points, il faut *bien lire la documentation* du logiciel Zettlr et celle du logiciel Cosma.
@@ -61,14 +64,19 @@ Cela signifie qu'il vous faudra veiller à ce que toutes les fonctionnalités so
 Cosma possède deux versions. L'une avec interface. L'autre en ligne de commande. La version la plus à jour repose sur la ligne de commande. C'est cette version qu'il vous faudra utiliser pour obtenir la version la plus aboutie du *cosmoscope* notamment la fonctionnalité du *chronoscope*, ce qui implique de bien veiller à la structure des données.
 Il faudra clairement penser à l'esthétique et au design de la réalisation finale. Cela suppose donc une charte graphique et donc des modifications du *CSS*.
 
+Le fichier *ods* comprend déjà de quoi faire fonctionner un cosmoscope. Une version est déjà disponible. Il faudra veiller à compléter le fichier de configuration *config.yml*
+Pour obtenir toute la puissance de Cosma, il faudra également créer un fichier *css* et ajouter les fichiers bibliographiques.
+
 ## 3. Expliquez la démarche
 
 
 Ce point est également important. Il participe de la documentation du projet. Une habitude qu'il vous faudra prendre à l'avenir pour toutes les réalisations.
 Il faudra donc préciser les sources de base utilisées, les choix effectués et leur explication.
-
+Cosma permet de construire également une nomenclature des liens. A vous de décider si c'est opportun et d'en expliquer la démarche.
 
 Proposer un *guide d'utilisation de la visualisation* finale avec Cosma. Comme l'avez fait vos camarades précédemment, il faudra rédiger un guide de ce type : [https://hyperotlet.github.io/otletosphere/fr.html](https://hyperotlet.github.io/otletosphere/fr.html)
+
+Il est donc conseillé de consigner dès le début les choix effectués dans un document afin de pouvoir motiver vos décisions.s
 
 
 ## 4. Pensez la communication du projet
@@ -88,7 +96,7 @@ Il reste des éléments stratégiques en matière de communication à intégrer 
 
 ## Evaluation du projet
 
-Le projet est évalué individuellement et collectivement.
+Le projet est évalué *individuellement* et *collectivement*. Il sert notamment à valider des éléments des Saé du semestre 5.
 Son succès repose à la fois sur un accroissement de vos compétences personnelles et celle du collectif.
 Le but est que chacun d'entre vous puisse progresser dans tous les domaines de compétences décrits au début du document. Il ne s'agit donc pas de se répartir le travail en tâches éclatées type fordisme.
 Des choix stratégiques pourront être faits dans la seconde semaine du projet, mais il vous faudra veiller à travailler toutes vos compétences.
