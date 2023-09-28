@@ -19,8 +19,7 @@ général, utilisent de l’open data public, ou prennent part à des expérimen
 
 CIVITEO propose ses services aux entreprises qui souhaitent explorer les nouvelles possibilités offertes par les données, parfois même en contribuant à leur création.
 
-Les notions de "Stratégie publique de la donnée" et "Stratégie de la donnée publique" sont fortement liées et englobent un large éventail d'acteurs, qu'ils soient du secteur public ou privé. Ils sont souvent amenés à développer de nouvelles approches de gouvernance pour mieux exploiter les données.
-
 CIVITEO offre une gamme complète de services, notamment des conférences, des séminaires pour promouvoir la culture des données, des sessions de formation pour les dirigeants, des expérimentations algorithmiques, des ateliers pédagogiques, des conseils sur la collecte, le stockage et la diffusion des données, ainsi que l'organisation et la gestion de projets liés aux villes intelligentes.
 
 CIVITEO intervient à toutes les étapes du processus de développement d'une véritable stratégie de gestion des données.
+Les notions de "Stratégie publique de la donnée" et "Stratégie de la donnée publique" sont fortement liées et englobent un large éventail d'acteurs, qu'ils soient du secteur public ou privé. Ils sont souvent amenés à développer de nouvelles approches de gouvernance pour mieux exploiter les données.
