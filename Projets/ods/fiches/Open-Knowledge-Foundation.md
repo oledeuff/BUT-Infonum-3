@@ -6,7 +6,7 @@ types:
 thumbnail: outil.png
 short: Organisation prônant l'Open Data et l'Open Knowledge
 tags:
--organisation internationale
+- organisation internationale
 link: https://okfn.org/en/
 ---
 L'Open Knowledge Foundation est une organisation internationale à but non lucratif qui se consacre à la **promotion de l'ouverture des données, de la transparence et de l'accès à l'information**. Fondée en 2004, elle joue un rôle essentiel dans le mouvement de l'open data et de l'open knowledge.

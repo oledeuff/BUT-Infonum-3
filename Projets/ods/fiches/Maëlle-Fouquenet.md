@@ -2,10 +2,12 @@
 title: Maëlle Fouquenet
 id: "20230927104018"
 types:
-  - undefined
+  - personne
 thumbnail: outil.png
 short: Journaliste et spécialiste des données
 tags: 
+- journalisme
+- consultante
 link: https://fr.linkedin.com/in/maellefouquenet/fr 
 ---
 

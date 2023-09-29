@@ -3,7 +3,9 @@ title: Open Data Marseille
 id: "20230928110541"
 types: organisme non gouvernemental 
 thumbnail: objet.png
-short: Open data Marseille, accès aux données pour une ville transparente
+short: Le portail open data de la ville de Marseille.
+tags:
+- marseille
 ---
 **Open Data Marseille : L'Accès aux Données pour une Ville Plus Transparente et Innovante**
 
@@ -32,3 +34,6 @@ Open Data Marseille a eu un impact significatif sur la ville et ses habitants :
 3.  **Participation Citoyenne :** Open Data Marseille permet aux citoyens de mieux comprendre leur ville et de participer activement à la vie publique. Les données sur les budgets, les projets urbains et les services publics favorisent la participation citoyenne.
 4.  **Amélioration de la Qualité de Vie :** Les informations sur les transports, l'environnement et les loisirs contribuent à améliorer la qualité de vie des habitants en leur fournissant des informations utiles pour leurs déplacements, leur bien-être et leurs loisirs.
 5.  **Développement Économique :** Les données économiques soutiennent le développement des entreprises locales en fournissant des informations sur les marchés, la concurrence et les opportunités commerciales.
+
+fiche à revoir : 
+trop de chatgpt

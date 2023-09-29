@@ -6,7 +6,7 @@ types:
 thumbnail: outil.png
 short: Moteur de recherche de données ouvertes proposé par Google
 tags:
--moteur de recherche
+- moteur de recherche
 link: https://datasetsearch.research.google.com/
 ---
 

@@ -17,4 +17,4 @@ L'Open Data Institute (ODI) est une organisation à but non lucratif basée à L
  L’impact de l’ODI s’étend bien au-delà des frontières du Royaume-Uni. L'organisation construit un réseau mondial de partenaires et de collaborateurs dans plus de 30 pays qui travaillent ensemble pour faire progresser les données ouvertes à l'échelle internationale. Ces partenaires contribuent à la diffusion des connaissances et à la mise en œuvre des données ouvertes dans leurs régions respectives.
 
 
-<!--EndFragment-->
+

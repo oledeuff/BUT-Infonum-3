@@ -4,7 +4,8 @@ id: "20230924193640"
 types:
   - undefined
 thumbnail: personne.png
-short: Professeur en SIC
+short: Professeure en SIC
+tags:
 - open science
 ---
 

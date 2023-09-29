@@ -2,13 +2,13 @@
 title: DataLab
 id: "20230927112815"
 types:
-  - undefined
+  - organisation
 thumbnail: outil.png
 short: Laboratoire traitant des données démographiques 
 tags:
--traitement des données
--analyse des données
--démographie
+- traitement des données
+- analyse des données
+- démographie
 link: https://datalab.site.ined.fr/
 ---
 

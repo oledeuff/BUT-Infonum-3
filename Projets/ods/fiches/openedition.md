@@ -2,7 +2,7 @@
 title: OpenEdition
 id: "20230924194053"
 types:
-  - undefined
+  - organisation
 thumbnail: outil.png
 short: Portail de publication en Sciences Humaines et Sociales
 tags : 

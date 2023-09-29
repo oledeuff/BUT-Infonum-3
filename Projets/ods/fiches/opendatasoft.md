@@ -2,11 +2,11 @@
 title: OpenDataSoft
 id: "20230924194046"
 types:
-  - undefined
+  - organisme
 thumbnail: organisme_prive.png
 short: Plate-forme de partage et de gestion des données
 tags:
--plateforme
+- plateforme
 link: https://www.opendatasoft.com/fr/
 ---
 OpenDataSoft est une plateforme de **gestion et de publication de données**. Cette entreprise propose des solutions logicielles pour aider les organisations, notamment les gouvernements, les entreprises, les institutions publiques et les organisations à but non lucratif, à gérer leurs données de manière efficace et à les rendre accessibles au public sous forme de données ouvertes.

@@ -6,8 +6,8 @@ types:
 thumbnail: outil.png
 short: Transport data Gouv, au service des voyageurs
 tags:
--outil
--portail
+- outil
+- portail
 link: https://transport.data.gouv.fr/
 ---
 

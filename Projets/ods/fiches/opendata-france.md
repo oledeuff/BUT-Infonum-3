@@ -1,10 +1,12 @@
 ---
-title: Opendata France
+title: Open Data France
 id: "20230924194037"
 types:
-  - undefined
+  - organisation
 thumbnail: organisme_public.png
 short: Association de promotion pour l'ouverture des données
+tags:
+- association
 ---
 
 OpenDataFrance collecte et produit des ressources méthodologiques utiles aux collectivités qui veulent s'engager et progresser dans une démarche d'ouverture des données.

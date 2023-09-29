@@ -1,9 +1,9 @@
 ---
 title: Open Data Paris
 id: "20230928110906"
-types: organisme non gouvernemental 
+types: portail
 thumbnail: objet.png
-short: La ville de Paris lance son portail d'open dat
+short: Le portail open data de la ville de Paris
 ---
 **Open Data Paris : L'Accès aux Données pour une Ville Plus Transparente et Innovante**
 
@@ -33,3 +33,5 @@ Open Data Paris a eu un impact significatif sur la ville et ses habitants :
 3.  **Participation Citoyenne :** Open Data Paris permet aux citoyens de mieux comprendre leur ville et de participer activement à la vie publique. Les données sur les budgets, les projets urbains et les indicateurs de performance sont particulièrement utiles à cet égard.
 4.  **Amélioration de la Qualité de Vie :** Les informations sur les transports publics, l'environnement et les loisirs contribuent à améliorer la qualité de vie des habitants en leur fournissant des informations utiles au quotidien.
 5.  **Développement Économique :** Les données sur l'économie locale favorisent le développement des entreprises et encouragent l'investissement dans la région parisienne.
+
+fiche à revoir, un peu trop axé sur les données chatgpt

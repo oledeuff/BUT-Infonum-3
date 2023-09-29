@@ -2,12 +2,12 @@
 title: DataKind
 id: "20230926153147"
 types:
-  - undefined
+  - organisation
 thumbnail: outil.png
 short: Organisation prônant l'Open Data et l'Open Knowledge
 tags:
--organisation internationale
--science des données
+- organisation internationale
+- science des données
 link: https://www.datakind.org/
 ---
 

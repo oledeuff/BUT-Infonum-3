@@ -2,11 +2,11 @@
 title: Loi « pour une république numérique »
 id: "20230924194009"
 types:
-  - undefined
+  - législation
 thumbnail: outil.png
-short: "Loi du 7 octobre 2016 "
+short: Loi du 7 octobre 2016
 tags:
--partage de connaissances
+- partage de connaissances
 link: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000033202746
 ---
 La loi n° 2016-1321 du 7 octobre 2016, connue sous le nom de "Pour une République numérique", a pour objectif de **promouvoir l'Open Data, de renforcer la protection des citoyens dans l'ère numérique, et de garantir l'accès au numérique pour tous**.
