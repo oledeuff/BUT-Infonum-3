@@ -8,7 +8,7 @@ short: Outil d'Opendata France
 tags:
 - tableurs
 - données
-links : https://geodatamine.fr
+link : https://geodatamine.fr
 ---
 
 
