@@ -2,7 +2,7 @@
 title: DINUM
 id: "20230924193556"
 types:
-  - undefined
+  - organisation
 thumbnail: organisme_public.png
 short: Direction interministérielle du numérique
 ---

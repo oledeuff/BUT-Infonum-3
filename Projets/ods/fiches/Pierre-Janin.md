@@ -7,9 +7,9 @@ types:
 thumbnail: personne.png
 short: 
 tag:
-- Science données
--Open science
--Spécialiste
+- data science
+- Open science
+
 ---
 
 Pierre Janin est une figure importante dans le domaine des données, apportant des contributions significatives par son expertise et son engagement dans ce domaine en pleine croissance. Pierre Janin est l'un des leaders reconnus en science des données.
@@ -27,3 +27,5 @@ En tant que mentor et éducateur, Pierre Janin contribue également à former la
 Ses cours et ateliers ont aidé de nombreux étudiants et professionnels à acquérir les compétences dont ils ont besoin pour exceller dans ce domaine en constante évolution. Son approche pédagogique allie théorie et application pratique et est saluée pour sa pertinence et son efficacité.
 
 La vision de Pierre Janin pour l’avenir de la science des données se concentre sur l’intégration des technologies émergentes, la collaboration interdisciplinaire et l’éthique des données. Il est un ardent défenseur d’une utilisation responsable des données, mettant l’accent sur la transparence, la confidentialité et l’équité.
+
+/// style à revoir. Inspiration trop forte issue de chatgpt

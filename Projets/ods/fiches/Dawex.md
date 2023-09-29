@@ -5,8 +5,9 @@ types:
   - Portail 
 thumbnail: organisme_public.png
 short: platerforme
-tags: -Recherche -open science
--Echange de données
+tags: 
+- open science
+- échange de données
 ---
 
 Dawex est une plateforme française spécialisée dans l'échange de données. Fondée en 2015 par Fabrice Tocco et Laurent Lafaye, Dawex joue un rôle essentiel dans l'économie des données en facilitant le lien entre les fournisseurs de données et les utilisateurs tout en garantissant la sécurité et la conformité réglementaire.

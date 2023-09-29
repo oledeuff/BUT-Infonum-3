@@ -2,9 +2,12 @@
 title: Rufus Pollock
 id: "20230929102456"
 types:
-  - undefined
+  - personne
 thumbnail: outil.png
-short: acteur du numérique 
+short: acteur du numérique
+tags:
+- entrepreneur
+- licence ouverte 
 ---
 
 

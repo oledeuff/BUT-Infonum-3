@@ -2,10 +2,11 @@
 title: Décret relatif aux données ouvertes
 id: "20230924193549"
 types:
-  - undefined
+  - législation
 thumbnail: outil.png
 short: "Décret du 29 juin 2020 sur les données ouvertes"
 tags:
+- décrêt
 
 link: https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042055251
 ---

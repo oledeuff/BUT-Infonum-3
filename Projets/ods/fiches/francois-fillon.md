@@ -2,7 +2,7 @@
 title: François Fillon
 id: "20230924193624"
 types:
-  - undefined
+  - personne
 thumbnail: personne.png
 short: Ancien premier ministre
 ---

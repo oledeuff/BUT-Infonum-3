@@ -2,7 +2,7 @@
 title: DataNOVA
 id: "20230924193540"
 types:
-  - undefined
+  - portail
 thumbnail: organisme_prive.png
 short: Portail de données ouvertes du groupe La Poste
 ---
