@@ -5,7 +5,8 @@ types:
   - Etat 
 thumbnail: organisme_public.png
 short: S'inscrit dans le plan national pour la science ouverte
-tags: https://scienceouverte.couperin.org/plan-national-pour-la-science-ouverte-pnso/
+tags:
+link: https://scienceouverte.couperin.org/plan-national-pour-la-science-ouverte-pnso/
 ---
 
 **Le Comité pour la Science Ouverte** est une structure institutionnelle française qui vise à *promouvoir la science ouverte* auprès de l'intégralité de l'enseignement supérieur et de la recherche, un mouvement mondial visant à rendre la recherche scientifique et ses résultats plus *accessibles, transparents et partageables*. Le comité a été créé par Frédérique Vidal ministre de l’enseignement supérieur, de la recherche et de l’innovation, dans le contexte d'une évolution majeure du paysage de la recherche, mettant en avant la nécessité de revoir la manière dont la recherche est produite, diffusée et utilisée.

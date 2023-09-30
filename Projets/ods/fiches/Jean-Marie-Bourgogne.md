@@ -3,12 +3,11 @@ title: Jean-Marie Bourgogne
 id: "20230929102622"
 types:
   - personne
-
 thumbnail: personne.png
 short: 
 tag:
 - data science
-- Open science
+- open science
 
 ---
 

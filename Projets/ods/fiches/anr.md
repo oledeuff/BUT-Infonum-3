@@ -2,10 +2,10 @@
 title: "ANR "
 id: "20230924193313"
 types:
-  - organisme public
-  - Etat 
+  - organisation
 thumbnail: organisme_public.png
-short: Agence Nationale de la Recherche https://anr.fr/fr/#
+short: Agence Nationale de la Recherche
+link: https://anr.fr/
 ---
 
 **L'Agence Nationale de la Recherche (ANR)** est une *agence publique française* créée en 2005 dans le but de soutenir et de promouvoir la recherche scientifique et technologique en France. C'est un acteur majeur du financement de la recherche, exerçant son rôle à travers des appels à projets, des évaluations par des pairs, et l'allocation de financements pour des projets de recherche novateurs et prometteurs.

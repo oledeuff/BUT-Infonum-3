@@ -4,7 +4,7 @@ id: "20230927151049"
 types:
 - concept
 thumbnail: organisme_public.png
-short: Le gouvernement ouvert est un concept qui vise à rendre transparent toutes leurs actions et ainsi être plus proche des citoyens.
+short: Principe de transparence gouvernementale
 tags:
 - gouvernement
 - citoyens

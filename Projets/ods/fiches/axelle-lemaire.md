@@ -2,10 +2,12 @@
 title: Axelle Lemaire
 id: "20230924193332"
 types:
-  - undefined
+  - personne
 thumbnail: personne.png
 short: Actrice politique du projet de loi pour une République numérique
-tags: https://www.assemblee-nationale.fr/dyn/deputes/PA610873
+tags:
+- politique
+link: https://www.assemblee-nationale.fr/dyn/deputes/PA610873
 ---
 
 Axelle Lemaire est une personnalité politique franco-canadienne qui a joué un rôle de premier plan dans la promotion de l'Open Data en France. Née le 18 décembre 1974 à Ottawa, au Canada, elle a acquis une réputation d'expertise et d'engagement en matière de numérique, d'innovation et de transparence gouvernementale.
@@ -25,3 +27,5 @@ Axelle Lemaire a également favorisé la collaboration entre le secteur public, 
 En 2017, Axelle Lemaire a quitté ses fonctions gouvernementales pour poursuivre d'autres opportunités professionnelles, mais son héritage dans le domaine de l'Open Data en France continue d'influencer les politiques et les pratiques dans ce domaine. Elle a contribué de manière significative à la sensibilisation à l'importance de l'Open Data en tant qu'outil pour promouvoir la transparence gouvernementale, stimuler l'innovation et renforcer la participation citoyenne.
 
 En résumé, Axelle Lemaire est une personnalité politique franco-canadienne qui a joué un rôle crucial dans la promotion de l'Open Data en France. Ses efforts en tant que secrétaire d'État chargée du Numérique ont contribué à faire de la France l'un des acteurs clés de la scène Open Data à l'échelle internationale, tout en encourageant l'innovation et la transparence dans le secteur public.
+
+/// trop de chatgpt… bien faire les liens avec les fiches

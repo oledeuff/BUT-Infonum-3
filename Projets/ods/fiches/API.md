@@ -4,7 +4,7 @@ id: 20230927103023
 types:
   - undefined
 thumbnail: outil.png
-short: Outil d'Opendata France
+short: 
 tags:
 - programmation
 - reglementation
@@ -19,3 +19,4 @@ Les API sont omniprésentes dans le monde numérique, soutenant des domaines var
 En résumé, les API jouent un rôle essentiel dans la création d'applications interconnectées et dans l'amélioration de l'efficacité et de la flexibilité du développement logiciel. Elles favorisent l'interopérabilité et la réutilisation des fonctionnalités, contribuant ainsi à l'innovation continue dans le monde numérique.
 
 Aider par ChatGpt
+// mieux montré le lien avec l'open data

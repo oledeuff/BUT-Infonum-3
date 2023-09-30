@@ -2,10 +2,14 @@
 title: ANSSI
 id: "20230924193322"
 types:
-  - organisme public
+  - organisation
 thumbnail: organisme_public.png
-short: ANSSI est l'autorité nationale en matère de sécurité et de défense des
+short: autorité nationale en matère de sécurité et de défense des
   systèmes d'information
+tags:
+- sécurité
+- cybersécurité
+- agence
 ---
 
 L'Agence nationale de la sécurité des systèmes d'information apporte son expertise et son assistance technique aux administrations et aux entreprises avec une mission renforcée au profit des opérateurs d'importance vitale (OIV). Elle assure un service de veille, de détection, d'alerte et de réaction aux attaques informatiques.
@@ -37,3 +41,5 @@ L'ANSSI a eu un impact significatif sur la cybersécurité en France de plusieur
 **Défis et Perspectives**
 
 L'ANSSI fait face à des défis croissants en raison de l'évolution rapide du paysage de la cybersécurité, notamment l'augmentation des cyberattaques sophistiquées et ciblées. Pour relever ces défis, l'agence doit continuer à développer ses capacités techniques, à renforcer la coopération internationale et à promouvoir la sensibilisation à la cybersécurité à tous les niveaux de la société.
+
+/// trop de chatgpt. mieux montrer les liens avec l'open data. 

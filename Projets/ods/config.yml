@@ -15,7 +15,7 @@ record_types:
   personne:
       fill: "#FF0000"
       stroke: "#FF0000"
-  organisme public:
+  organisation:
       fill: "#00FF00"
       stroke: "#00FF00"
   organisme privé:
@@ -48,9 +48,9 @@ attraction_horizontal: 0
 views: {}
 chronological_record_meta: created
 record_metas:
-  - links
+  - link
   - short
-title: ""
+title: "Open Data Sphère"
 author: ""
 description: ""
 keywords: []

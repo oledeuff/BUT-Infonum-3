@@ -2,7 +2,7 @@
 title: Transport Data Gouv
 id: "20230926154650"
 types:
-  - undefined
+  - portail
 thumbnail: outil.png
 short: Transport data Gouv, au service des voyageurs
 tags:

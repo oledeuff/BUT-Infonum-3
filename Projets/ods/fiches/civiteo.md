@@ -2,15 +2,15 @@
 title: Civiteo
 id: "20230924193410"
 types:
-  - undefined
+  - organisation
 thumbnail: organisme_prive.png
 short: Cabinet de conseil, Cabinet de stratégie, Opendata, Bigdata
 tags:
- -civiteo
- -conseil
- -opendata
- -bigdata
- -datapublica
+ - civiteo
+ - conseil
+ - opendata
+ - big data
+ 
 link: https://civiteo.fr/
 ---
 
@@ -23,3 +23,5 @@ CIVITEO offre une gamme complète de services, notamment des conférences, des s
 
 CIVITEO intervient à toutes les étapes du processus de développement d'une véritable stratégie de gestion des données.
 Les notions de "Stratégie publique de la donnée" et "Stratégie de la donnée publique" sont fortement liées et englobent un large éventail d'acteurs, qu'ils soient du secteur public ou privé. Ils sont souvent amenés à développer de nouvelles approches de gouvernance pour mieux exploiter les données.
+
+/// revoir la syntaxe. La fiche n'est pas claire au début et contient trop de chatgpt ou de copier-coller. Il faut créer les liens.
