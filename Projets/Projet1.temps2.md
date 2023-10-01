@@ -109,7 +109,7 @@ paginate: true
 - il faut commencer à anticiper la *documentation* du projet
 - il faut commencer à penser la *communication* du projet également
 - De nouvelles responsabilités seront confiées ce soir ou demain matin.
-
+![bg right 170%](./fonds.jpg)
 ---
 
 ## En Conclusion
@@ -123,3 +123,11 @@ paginate: true
     - on ne peut pas communiquer dessus.
 ![bg left](cloud2.jpg)
 
+----
+## Crédits
+
+- *do more* Photo de <a href="https://unsplash.com/fr/@carlheyerdahl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carl Heyerdahl</a> sur <a href="https://unsplash.com/fr/photos/KE0nC8-58MQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+- *Fonds multicolor* Photo de <a href="https://unsplash.com/fr/@hameddaram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hamed Daram</a> sur <a href="https://unsplash.com/fr/photos/-5fbmfaInwg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+- Dall-e pour les images sur l'open data.
+- Licence cc by Le Deuff. 2023
