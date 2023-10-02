@@ -2,10 +2,13 @@
 title: La Poste
 id: "20230924193933"
 types:
-  - undefined
+  - organisation
 thumbnail: organisme_public.png
-short: Opérateur de services postaux
+kesako: Opérateur de services postaux
+link:
 ---
+
+//// trop long et pas utile. On veut juste les liens avec l'open data
 
 La Poste est l'une des institutions les plus emblématiques de la France, jouant un rôle essentiel dans la vie quotidienne des citoyens et des entreprises du pays. Fondée en 1576 sous le règne de Charles IX, La Poste a évolué au fil des siècles pour devenir un acteur majeur dans le domaine des services postaux, de la logistique, et des services financiers. Dans ce texte de 500 mots, nous allons explorer en détail l'histoire, les missions, les services et l'impact de La Poste sur la société française.
 

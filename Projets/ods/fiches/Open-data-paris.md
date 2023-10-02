@@ -1,10 +1,14 @@
 ---
 title: Open Data Paris
 id: "20230928110906"
-types: portail
-thumbnail: objet.png
-short: Le portail open data de la ville de Paris
+types:
+  - portail
+tags:
+  - données ouvertes
+thumbnail:
+kesako: Le portail open data de la ville de Paris
 ---
+
 **Open Data Paris : L'Accès aux Données pour une Ville Plus Transparente et Innovante**
 
 Open Data Paris est l'initiative de la Ville de Paris visant à mettre à disposition du public une grande variété de données et d'informations liées à la capitale française. Cette initiative est un exemple puissant de la manière dont l'open data peut contribuer à une gouvernance plus transparente, à l'innovation urbaine et à la participation citoyenne. 

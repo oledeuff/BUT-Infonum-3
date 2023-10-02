@@ -4,7 +4,7 @@ id: "20230924193313"
 types:
   - organisation
 thumbnail: organisme_public.png
-short: Agence Nationale de la Recherche
+kesako: Agence Nationale de la Recherche
 link: https://anr.fr/
 ---
 

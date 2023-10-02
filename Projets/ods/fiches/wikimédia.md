@@ -2,13 +2,14 @@
 title: wikimedia
 id: 20230927103051
 types:
-  - undefined
+  - organisation
 thumbnail: outil.png
-short: projet collaboratif
+kesako: projet collaboratif
 tags:
 - connaissances
 - projet collaborartifs
-- dons 
+- dons
+link:
 ---
 
 Wikimédia est une organisation à but non lucratif fondée en 2003, qui joue un rôle essentiel dans le soutien et la coordination de projets collaboratifs en ligne visant à partager des connaissances dans le monde entier. L'organisation est principalement connue pour son engagement envers Wikipédia, l'encyclopédie en ligne collaborative, mais elle supervise également de nombreux autres projets frères qui contribuent à la diffusion du savoir.

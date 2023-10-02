@@ -4,10 +4,11 @@ id: "20230927112119"
 types:
 - organisation
 thumbnail: organisme_public.png
-short: Organisation qui oeuvre dans la promotion des données ouvertes et la transformation numérique.
+kesako: Organisation qui oeuvre dans la promotion des données ouvertes et la transformation numérique.
 tags:
 - données ouvertes
-- Tim Berners-Lee
+
+link:
 ---
 
 L'Open Data Institute (ODI) est une organisation à but non lucratif basée à Londres, au Royaume-Uni, qui joue un rôle de premier plan dans la promotion des données ouvertes, de la transparence et de l'innovation numérique. Fondée en 2012 par l'inventeur du World Wide Web Sir Tim Berners-Lee et l'expert en intelligence artificielle et données ouvertes Sir Nigel Shadbolt, ODI est rapidement devenue un acteur majeur de l'open data à l'échelle internationale.

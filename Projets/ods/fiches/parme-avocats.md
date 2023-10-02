@@ -2,9 +2,11 @@
 title: Parme Avocats
 id: "20230924194120"
 types:
-- undefined
+- organisation
 thumbnail: organisme_prive.png
-short: Cabinet d'avocats
+kesako: Cabinet d'avocats
+tags:
+link:
 ---
 
 Membre fondateur de Data Publica, intervient sur l’ensemble du Droit Public et Privé des affaires, expertise spécifique dans le domaine de la ville intelligente et plus précisément de créer une spécialisation en droit des données publiques. Fondé sur des valeurs d'excellence, de créativité et d'intégrité, Parme Avocats offre une vaste gamme de services juridiques dans divers domaines du droit des affaires et de la fiscalité. 

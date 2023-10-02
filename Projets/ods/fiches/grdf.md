@@ -4,7 +4,7 @@ id: "20230924193848"
 types:
   - organisation
 thumbnail: organisme_prive.png
-short: Gaz réseau Distribution France
+kesako: Plateforme open data de GRDF
+link:
 ---
 
-Plateforme open data de GRDF.

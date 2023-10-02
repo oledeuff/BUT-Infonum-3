@@ -2,9 +2,9 @@
 title: Team open data
 id: "20230929104546"
 types:
-  - undefined
+  - organisation
 thumbnail: outil.png
-short: Forum sur l'open data
+kesako: Forum sur l'open data
 link: https://teamopendata.org/t/bienvenue-sur-teamopendata/8
 ---
 

@@ -4,7 +4,7 @@ id: "20230929102456"
 types:
   - personne
 thumbnail: outil.png
-short: acteur du numérique
+kesako: acteur du numérique
 tags:
 - entrepreneur
 - licence ouverte 

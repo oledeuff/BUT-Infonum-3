@@ -1,10 +1,10 @@
 ---
 title: API
-id: 20230927103023
+id: "20230927103023"
 types:
-  - undefined
+  - outil
 thumbnail: outil.png
-short: 
+kesako: Interface de programmation
 tags:
 - programmation
 - reglementation

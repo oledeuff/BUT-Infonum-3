@@ -2,10 +2,12 @@
 title: Data.Culture.Gouv
 id: "20230924193452"
 types:
-  - undefined
+  - portail
 thumbnail: outil.png
-short: Plate-forme de données ouvertes du Minitère de la Culture
-tags: Culture ; Plateforme ; 
+kesako: Plate-forme de données ouvertes du Minitère de la Culture
+tags:
+- culture
+- Plateforme 
 ---
 *Portail de données ouvertes du Ministère de la Culture regroupant différents jeux de données portant sur des sujets gérés par ce Ministère.*
 _

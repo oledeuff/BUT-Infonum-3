@@ -2,9 +2,9 @@
 title: Ghislaine Chartron
 id: "20230924193640"
 types:
-  - undefined
+  - personne
 thumbnail: personne.png
-short: Professeure en SIC
+kesako: Professeure en SIC
 tags:
 - open science
 ---

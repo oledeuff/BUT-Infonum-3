@@ -2,9 +2,9 @@
 title: Sir Nigel Shadbolt
 id: "20230927103831"
 types:
-- undefind
+- personne
 thumbnail: personage.png
-short: Sir Nigel Shadbolt, Pionnier de l'Open Data et Défenseur de la Transparence
+kesako: Sir Nigel Shadbolt, Pionnier de l'Open Data et Défenseur de la Transparence
 tags:
 - pionnier
 - open data institute

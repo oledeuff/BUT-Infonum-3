@@ -10,23 +10,26 @@ history: true
 focus_max: 2
 record_types:
   undefined:
-      fill: "#858585"
-      stroke: "#858585"
+    fill: "#D3D3D3"
+    stroke: "#D3D3D3"
   personne:
-      fill: "#FF0000"
-      stroke: "#FF0000"
+    fill: "#FFA07A"
+    stroke: "#FFA07A"
   organisation:
-      fill: "#00FF00"
-      stroke: "#00FF00"
-  organisme privé:
-      fill: "#0000FF"
-      stroke: "#0000FF"
-  scientifique:
-      fill: "#FFFF00"
-      stroke: "#FFFF00"
-  géographique:
-      fill: "#00FFFF"
-      stroke: "#00FFFF"  
+    fill: "#8FBC8F"
+    stroke: "#8FBC8F"
+  portail:
+    fill: "#87CEFA"
+    stroke: "#87CEFA"
+  droit:
+    fill: "#FFD700"
+    stroke: "#FFD700"
+  outil:
+    fill: "#DDA0DD"
+    stroke: "#DDA0DD"
+  notion:
+    fill: "#FFC0CB"  
+    stroke: "#FFC0CB"
 link_types:
   undefined:
     stroke: simple
@@ -49,9 +52,9 @@ views: {}
 chronological_record_meta: created
 record_metas:
   - link
-  - short
+  - kesako
 title: "Open Data Sphère"
-author: ""
+author: "BUT 3 Infonum"
 description: ""
 keywords: []
 link_symbol: ""

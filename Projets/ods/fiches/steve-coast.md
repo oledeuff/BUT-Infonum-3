@@ -2,9 +2,9 @@
 title: Steve Coast
 id: "20230924194158"
 types:
-  - undefined
+  - personne
 thumbnail: personne.png
-short: Fondateur d'OpenStreetMap
+kesako: Fondateur d'OpenStreetMap
 tags : 
 ---
 

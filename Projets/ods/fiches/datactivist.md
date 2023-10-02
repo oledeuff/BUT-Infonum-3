@@ -2,9 +2,9 @@
 title: Datactivist
 id: "20230924193529"
 types:
-  - undefined
+  - organisation
 thumbnail: organisme_prive.png
-short: Coopérative, Données
+kesako: Coopérative, Données
 tags:
   -datactivist
   -coopérative

@@ -4,10 +4,11 @@ id: "20230924194718"
 types:
   - undefined
 thumbnail: organisme_prive.png
-short: OpenStreetMap
+kesako: OpenStreetMap
 tags:
 - Carte
 - Cartographie
+link:
 ---
 OpenStreetMap (OSM) est un projet collaboratif mondial qui vise à créer une carte du monde complète et accessible librement. Lancé en 2004 par Steve Coast, il s'agit d'une initiative à code source ouvert qui permet à des milliers de contributeurs du monde entier de cartographier des données géographiques, de les mettre à jour et de les partager avec le public. Ce projet se distingue des cartes traditionnelles propriétaires en étant basé sur des données ouvertes et accessibles à tous, ce qui en fait un outil puissant pour la cartographie communautaire, la planification urbaine, la navigation, la recherche et bien d'autres domaines.
 

@@ -4,12 +4,13 @@ id: "20230927145547"
 types:
 - organisation
 thumbnail: organisme_public.png
-short: Organisation indépendante qui joue un rôle de modération dans les données ouvertes des pays du monde entier.
+kesako: Organisation indépendante qui joue un rôle de modération dans les données ouvertes des pays du monde entier.
 tags :
 - données ouvertes
 - transparence
 - collecte
 - analyse
+link:
 ---
 
 Open Data Watch est une organisation internationale indépendante dédiée à la collecte, à l'analyse et à la promotion de données de haute qualité dans le domaine des données ouvertes. Fondée en 2014, l'organisation joue un rôle essentiel dans la promotion de la transparence, de la responsabilité et d'une prise de décision dans le monde entier grâce à l'utilisation de données ouvertes. 

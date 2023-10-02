@@ -2,10 +2,11 @@
 title: PNSO
 id: "20230924194139"
 types:
-  - organisme public
-  - Etat 
-thumbnail: outil.png
-short: Plan National pour la Science Ouverte, lancé en 2018
+  - organisation
+kesako: Plan National pour la Science Ouverte
+tags:
+  - plan
+link:
 ---
 
 **Le Plan National pour la Science Ouverte (PNSO)** est une initiative majeure en France visant à révolutionner la manière dont la recherche scientifique est produite, diffusée, et utilisée. Il a été lancé en *2018* par le *gouvernement français* et résulte du *comité pour la science ouverte* [20230924193427] avec l'objectif ambitieux de faire de la science ouverte une norme dans le pays d'ici 2022.
@@ -21,4 +22,3 @@ Le PNSO met également l'accent sur la transparence méthodologique, incitant le
 En outre, le plan encourage la collaboration entre les chercheurs, les établissements de recherche, les universités, les entreprises, les éditeurs scientifiques et d'autres parties prenantes. Il vise à créer un écosystème où la collaboration est valorisée, facilitant ainsi le partage des expertises et la résolution de problèmes complexes.
 
 Le PNSO n'est pas seulement une déclaration d'intention, mais une feuille de route concrète. Il établit des actions à mettre en place pour atteindre ces objectifs ambitieux. Cela inclut le développement d'infrastructures dédiées, la création de formations spécifiques, la mise en place de politiques incitatives, et la coordination avec les acteurs internationaux pour assurer une harmonisation globale.
-

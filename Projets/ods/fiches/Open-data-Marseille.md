@@ -1,11 +1,12 @@
 ---
 title: Open Data Marseille
 id: "20230928110541"
-types: organisme non gouvernemental 
+types: organisation
 thumbnail: objet.png
-short: Le portail open data de la ville de Marseille.
+kesako: Le portail open data de la ville de Marseille.
 tags:
 - marseille
+link:
 ---
 **Open Data Marseille : L'Accès aux Données pour une Ville Plus Transparente et Innovante**
 

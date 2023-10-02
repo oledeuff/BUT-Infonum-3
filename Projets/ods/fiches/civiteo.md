@@ -4,13 +4,12 @@ id: "20230924193410"
 types:
   - organisation
 thumbnail: organisme_prive.png
-short: Cabinet de conseil, Cabinet de stratégie, Opendata, Bigdata
+kesako: Cabinet de conseil
 tags:
  - civiteo
  - conseil
  - opendata
  - big data
- 
 link: https://civiteo.fr/
 ---
 

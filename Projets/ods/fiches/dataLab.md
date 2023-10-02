@@ -4,7 +4,7 @@ id: "20230927112815"
 types:
   - organisation
 thumbnail: outil.png
-short: Laboratoire traitant des données démographiques 
+kesako: Laboratoire traitant des données démographiques 
 tags:
 - traitement des données
 - analyse des données

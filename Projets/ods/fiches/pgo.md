@@ -2,9 +2,9 @@
 title: PGO
 id: "20230924194130"
 types:
-  - undefined
+  - organisation
 thumbnail: organisme_public.png
-short: " Partenariat pour un Gouvernement Ouvert"
+kesako: " Partenariat pour un Gouvernement Ouvert"
 tags: https://www.modernisation.gouv.fr/transformer-laction-publique/partenariat-pour-un-gouvernement-ouvert
 ---
 

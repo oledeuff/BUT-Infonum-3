@@ -2,11 +2,12 @@
 title: Marin Dacos
 id: "20230924194015"
 types:
-  - undefined
+  - personne
 thumbnail: personne.png
-short: Ingénieur et conseiller scientifique
+kesako: Ingénieur et conseiller scientifique
 tags:
 - open science
+
 ---
 
 **Marin Dacos** est un chercheur français renommé dans le domaine de l'édition électronique et de la communication scientifique. Il est notamment connu pour son travail dans le développement de plateformes et d'outils permettant la diffusion et l'accès à la recherche scientifique. Il a été le **fondateur** et le directeur du Centre pour l'édition électronique ouverte (Cléo), une organisation qui promet *l'accès ouvert aux publications scientifiques*.

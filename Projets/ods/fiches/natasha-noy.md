@@ -4,7 +4,7 @@ id: "20230924194024"
 types:
   - undefined
 thumbnail: personne.png
-short: Chercheuse sur l'Intelligence Artificielle et l'Open Data
+kesako: Chercheuse sur l'Intelligence Artificielle et l'Open Data
 tags:
 - libre accès 
 link: https://research.google/people/NatalyaNoy/

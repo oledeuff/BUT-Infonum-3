@@ -1,11 +1,14 @@
 ---
-title: Les hackatons
+title: Hackathon
 id: "20230927113247"
 types:
-  - undefined
+  - notion
 thumbnail: 
-short: Les hackatons
-tags: évènement ; hacks ; 
+kesako: Evènement
+tags:
+- évènement
+- hack
+ 
 ---
 
 *Évènement organisé en France pour encourager les développeurs à créer des applications et des solutions innovantes en utilisant des données ouvertes.*

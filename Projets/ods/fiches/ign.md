@@ -2,11 +2,11 @@
 title: IGN
 id: "20230924193915"
 types:
-  - undefined
+  - organisation
 thumbnail: organisme_public.png
-short: Plateforme de partage des données publiques du gouvernement Français.
-  Elle est éditée et développée par la mission ETALAB.
-tags : 
+kesako: Institut national de l'information géographique et forestière
+tags :
+link:
 ---
 
 L'Institut national de l'information géographique et forestière (IGN) est une institution majeure en France qui joue un rôle crucial dans la production, la gestion et la diffusion de données géographiques, cartographiques et géodésiques. Fondé en 1940, l'IGN est devenu une référence nationale et internationale dans le domaine de l'information géographique. Cette présentation en 450 mots explore en détail l'histoire, les missions, l'importance et l'impact de l'IGN.

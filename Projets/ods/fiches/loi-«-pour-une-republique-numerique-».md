@@ -2,9 +2,9 @@
 title: Loi « pour une république numérique »
 id: "20230924194009"
 types:
-  - législation
+  - droit
 thumbnail: outil.png
-short: Loi du 7 octobre 2016
+kesako: Loi du 7 octobre 2016
 tags:
 - partage de connaissances
 link: https://www.legifrance.gouv.fr/loda/id/JORFTEXT000033202746

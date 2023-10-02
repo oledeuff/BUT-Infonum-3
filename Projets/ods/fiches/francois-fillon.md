@@ -4,7 +4,7 @@ id: "20230924193624"
 types:
   - personne
 thumbnail: personne.png
-short: Ancien premier ministre
+kesako: Ancien premier ministre
 tags:
 - politique
 ---

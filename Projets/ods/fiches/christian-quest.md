@@ -3,10 +3,9 @@ title: Christian Quest
 id: "20230924193403"
 types:
   - personne
-  - informaticien
 thumbnail: personne.png
-short: "Porte-Parole d'OSM "
-tag:
+kesako: "Porte-Parole d'OSM "
+tags:
 - cartographie participative
 - Cartographie numérique
 - OpenStreetMap

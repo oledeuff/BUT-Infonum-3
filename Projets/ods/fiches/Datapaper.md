@@ -2,9 +2,10 @@
 title: Datapaper
 id: "20230926144332"
 types:
-  - undefined
+  - notion
 thumbnail: organisme_public.png
-short: Type de publication scientifique
+kesako: Type de publication scientifique
+link:
 ---
 
 Les data papers, ou articles de données, sont un type de publication scientifique de plus en plus important dans le domaine de la recherche, en particulier dans les sciences de la donnée et les domaines connexes. Ces articles ont gagné en importance à mesure que la quantité de données générées par la recherche scientifique a explosé, nécessitant une meilleure gestion, une transparence accrue et une reconnaissance appropriée du travail de collecte, de traitement et de partage des données. Dans les 500 mots suivants, nous allons explorer ce qu'est un data paper, son importance, sa structure typique et son rôle dans la recherche scientifique moderne. (//// si ce n'est pas du chatGpt... je ne sais pas ce que c'est !)

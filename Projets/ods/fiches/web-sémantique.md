@@ -2,13 +2,14 @@
 title: web sémantique
 id: 20230927103045
 types:
-  - undefined
+  - notion
 thumbnail: outil.png
-short: aide à la compréhension
+kesako: aide à la compréhension
 tags:
 - aide
 - technologie de l'information
-- 
+link:
+
 ---
 
 Le Web sémantique est une extension évolutive du World Wide Web qui vise à rendre les informations sur Internet plus compréhensibles et exploitables par les machines. Il a été conceptualisé par Tim Berners-Lee, le créateur du Web, dans les années 2000 et continue de susciter un intérêt croissant dans le domaine de la technologie de l'information.

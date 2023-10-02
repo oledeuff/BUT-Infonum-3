@@ -2,9 +2,9 @@
 title: "FLOU "
 id: "20230928110636"
 types:
-  - undefined
+  - organisation
 thumbnail:
-short: Fondation pour le Libre Accès aux Données Publiques (FLOU)
+kesako: Fondation pour le Libre Accès aux Données Publiques (FLOU)
 ---
 
 La Fondation pour le Libre Accès aux Données Publiques (FLOU) est une organisation non gouvernementale française qui joue un rôle essentiel dans la promotion de la transparence, de l'ouverture des données et de l'accès aux informations publiques en France. Fondée en 2006, FLOU s'est engagée à sensibiliser le public, à plaider pour des politiques d'open data plus robustes et à travailler en collaboration avec divers acteurs pour renforcer la démocratie et l'innovation grâce à la libre circulation des données publiques. 

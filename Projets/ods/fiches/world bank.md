@@ -2,9 +2,10 @@
 title: World Bank data bank
 id: "20230929102443"
 types:
-  - undefined
+  - organisation
 thumbnail: outil.png
-short: banque
+kesako: Portail de données économiques
+link:
 ---
 
 

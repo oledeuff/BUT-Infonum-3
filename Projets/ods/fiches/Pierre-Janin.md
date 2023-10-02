@@ -3,9 +3,8 @@ title: Pierre Janin
 id: "20230929102312"
 types:
   - personne
-
 thumbnail: personne.png
-short: 
+kesako: 
 tag:
 - data science
 - Open science

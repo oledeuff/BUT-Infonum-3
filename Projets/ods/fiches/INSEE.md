@@ -2,11 +2,11 @@
 title: INSEE
 id: "20230927140247"
 types:
-  - organisme public
-  - Etat 
+  - organisation
 thumbnail: 
-short:
+kesako:
 tags: https://www.insee.fr/fr/information/2410988
+link:
 ---
 
 **L'Institut national de la statistique et des études économiques (INSEE)** est une institution publique française chargée de la collecte, du traitement, de l'analyse et de la diffusion des statistiques relatives à l'économie, à la société et à l'environnement. Fondé en **1946**, l'INSEE a pour mission de produire des données fiables et objectives qui servent de base à la prise de décisions politiques, économiques et sociales.

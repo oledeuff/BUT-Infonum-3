@@ -1,9 +1,9 @@
 ---
 title: Samuel Goëta
 id: "20230924194145"
-types: undefined
+types: personne
 thumbnail: personne.png
-short: Co-fondateur de Datactivist
+kesako: Co-fondateur de Datactivist
 tags :
 - Datactivist
 - OpenData

@@ -4,7 +4,7 @@ id: "20230924193924"
 types:
   - undefined
 thumbnail: organisme_prive.png
-short: Cabinet de conseil
+kesako: Cabinet de conseil
 tags:
  -innopublica
  -cabinet de conseil

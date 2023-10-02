@@ -2,9 +2,14 @@
 title: CADA
 id: "20230924193341"
 types:
-  - organisme public
+  - organisation
+  - droit
+kesako: Commission d'accès aux documents administratifs
 thumbnail: organisme_public.png
-short: Commission d'Accès aux Documents Administratifs
+tags:
+- droit d'accès
+link:
+
 ---
 
 *La Commission d'accès aux documents administratifs* (CADA) est une institution française indépendante qui veille au respect du droit d'accès aux documents administratifs. Créée en 1978, elle conseille et oriente les citoyens dans leurs demandes de documents publics. Elle examine également les cas de refus de communication de ces documents par les autorités publiques et émet des avis, bien que ceux-ci ne soient pas contraignants. La CADA intervient dans divers domaines tels que l'urbanisme, l'environnement, la santé publique, etc. 

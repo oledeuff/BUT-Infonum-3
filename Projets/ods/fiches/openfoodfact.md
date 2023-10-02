@@ -4,7 +4,7 @@ id: "20230927115442"
 types:
   - organisation
 thumbnail: 
-short: base de données nutritionnelle
+kesako: base de données nutritionnelle
 tags:
 - nourriture
 link: https://fr.openfoodfacts.org

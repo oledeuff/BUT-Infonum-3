@@ -2,9 +2,11 @@
 title: "Gouvernement français "
 id: "20230924193839"
 types:
-  - undefined
+  - organisation
 thumbnail: organisme_public.png
-short: Gouvernement français
+kesako: Gouvernement français
+tags:
+link:
 ---
 
 *Site officiel du Gouvernement français.*

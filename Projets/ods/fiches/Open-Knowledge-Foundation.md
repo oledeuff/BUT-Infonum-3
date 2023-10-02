@@ -2,9 +2,9 @@
 title: Open Knowledge Foundation
 id: "20230926143215"
 types:
-  - undefined
+  - organisation
 thumbnail: outil.png
-short: Organisation prônant l'Open Data et l'Open Knowledge
+kesako: Organisation prônant l'Open Data et l'Open Knowledge
 tags:
 - organisation internationale
 link: https://okfn.org/en/

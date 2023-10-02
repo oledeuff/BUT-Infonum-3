@@ -3,6 +3,7 @@ title: Adrien Pavie
 id: "20230929151438"
 types:
   - personne
+kesako: Entrepreneur en géomatique
 link: https://pavie.info/
 tags:
 - Géomaticien

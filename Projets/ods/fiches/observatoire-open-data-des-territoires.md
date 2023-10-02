@@ -2,9 +2,9 @@
 title: Observatoire open data des territoires
 id: "20230924194031"
 types:
-  - undefined
+  - organisation
 thumbnail: outil.png
-short: Observatoire open data des territoires
+kesako: Observatoire open data des territoires
 tags:
 - open data
 - données

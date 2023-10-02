@@ -2,9 +2,10 @@
 title: LIP
 id: "20230928113943"
 types:
-  - undefined
+  - organisation
 thumbnail: 
-short: Laboratoire d'Innovation Publique (LIP)
+kesako: Laboratoire d'Innovation Publique (LIP)
+link:
 ---
 Le Laboratoire d'Innovation Publique est une initiative gouvernementale française, avec pour mission principale de promouvoir l'innovation au sein de l'administration publique et de repenser la manière dont les services publics sont conçus et fournis. Il s'inscrit dans le cadre de la transformation numérique de l'État et vise à favoriser la modernisation de l'administration, tout en répondant aux besoins changeants des citoyens et en encourageant la participation citoyenne. 
 

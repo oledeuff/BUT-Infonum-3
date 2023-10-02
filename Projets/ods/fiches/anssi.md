@@ -4,7 +4,7 @@ id: "20230924193322"
 types:
   - organisation
 thumbnail: organisme_public.png
-short: autorité nationale en matère de sécurité et de défense des
+kesako: autorité nationale en matère de sécurité et de défense des
   systèmes d'information
 tags:
 - sécurité

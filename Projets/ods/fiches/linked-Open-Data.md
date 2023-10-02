@@ -2,9 +2,9 @@
 title: Linked Open Data
 id: "20230927104018"
 types:
-  - undefined
+  - notion
 thumbnail: outil.png
-short: Données ouvertes et liées
+kesako: Données ouvertes et liées
 tags:
 - web ouvert
 link: https://fr.wikipedia.org/wiki/Linked_open_data

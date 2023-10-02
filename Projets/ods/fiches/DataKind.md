@@ -3,8 +3,8 @@ title: DataKind
 id: "20230926153147"
 types:
   - organisation
-thumbnail: outil.png
-short: Organisation prônant l'Open Data et l'Open Knowledge
+thumbnail: 
+kesako: Organisation prônant l'Open Data et l'Open Knowledge
 tags:
 - organisation internationale
 - science des données

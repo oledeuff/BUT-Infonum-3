@@ -2,9 +2,10 @@
 title: Légifrance
 id: "20230924193946"
 types:
-- undefined
+- droit
 thumbnail: outil.png 
-short: Site gouvernemental
+kesako: Plateforme de textes législatifs
+link:
 ---
 Légifrance est le site internet officiel du gouvernement français pour la diffusion des textes législatifs et réglementaires et des décisions de justice des cours suprêmes et d'appel de droit français. Elle joue un rôle central dans la diffusion des lois, des règlements, des décisions de justice et d'autres textes juridiques en France. Cette ressource essentielle offre un accès transparent, efficace et gratuit à l'ensemble du corpus législatif et réglementaire français. 
 

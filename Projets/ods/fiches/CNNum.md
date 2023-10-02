@@ -2,9 +2,12 @@
 title: "Guide Etalab    "
 id: "20230924193857"
 types:
-  - undefined
+  - droit
 thumbnail: outil.png
-short: Guide de données ouvertes
+kesako: Guide de données ouvertes
+tags:
+- guide
+link:
 ---
 
 *Cet organe consultatif conseille le gouvernement sur les questions liées au numérique, y compris l'open data.*

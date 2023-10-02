@@ -2,9 +2,9 @@
 title: Comité pour la science ouverte
 id: "20230924193427"
 types:
-  - Etat 
+  - organisation 
 thumbnail: organisme_public.png
-short: S'inscrit dans le plan national pour la science ouverte
+kesako: acteur du plan national pour la science ouverte
 tags:
 link: https://scienceouverte.couperin.org/plan-national-pour-la-science-ouverte-pnso/
 ---

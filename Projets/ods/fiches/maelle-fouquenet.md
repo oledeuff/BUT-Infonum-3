@@ -3,8 +3,8 @@ title: Maëlle Fouquenet
 id: "20230930173859"
 types:
   - personne
-thumbnail: outil.png
-short: Journaliste et spécialiste des données
+thumbnail: 
+kesako: Journaliste et spécialiste des données
 tags:
   - journalisme
   - consulting

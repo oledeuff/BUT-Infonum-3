@@ -2,9 +2,9 @@
 title: Data Publica
 id: "20230924193444"
 types:
-  - undefined
+  - portail
 thumbnail: organisme_prive.png
-short: Alliance de cabinets de conseils et d'avocats
+kesako: Alliance de cabinets de conseils et d'avocats
 ---
 
 Data Publica est le regroupement des cabinets de conseil CIVITEO, DATACTIVIST, INNOPUBLICA et du cabinet d’avocats PARME Avocats qui a pour but d’offrir ses services aux acteurs de la sphère publique confrontés la gestion des données.

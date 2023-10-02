@@ -2,9 +2,9 @@
 title: Smart City
 id: "20230929145303"
 types:
-- concept
+- notion
 thumbnail:
-short:  Ville du futur qui tentent d améliorer la qualité de vie de ses habitants via la technologie et les données
+kesako:  Ville du futur qui tentent d améliorer la qualité de vie de ses habitants via la technologie et les données
 tags :
 - données
 - gestion urbaine

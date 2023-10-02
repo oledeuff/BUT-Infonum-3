@@ -2,9 +2,9 @@
 title: Google Dataset Search
 id: "20230924193648"
 types:
-  - undefined
+  - outil
 thumbnail: outil.png
-short: Moteur de recherche de données ouvertes proposé par Google
+kesako: Moteur de recherche de données ouvertes proposé par Google
 tags:
 - moteur de recherche
 link: https://datasetsearch.research.google.com/
