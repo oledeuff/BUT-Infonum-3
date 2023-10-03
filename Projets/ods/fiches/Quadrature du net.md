@@ -3,9 +3,10 @@ title: Quadrature du net
 id: "20230927101408"
 types: organisation
 thumbnail: outil.png
-kesako: ONG en faveur de la protection des libertés numériques
+kezako: protection des libertés numériques
 tags:
-link:
+- neutralité du net
+- vie privée
 ---
 
 **Qu'est-ce que La Quadrature du Net ?**
@@ -14,21 +15,15 @@ La Quadrature du Net est une organisation non gouvernementale fondée en France 
 
 **Les Objectifs de La Quadrature du Net**
 
-1.  **Protection de la Vie Privée**: La Quadrature du Net milite activement pour la protection de la vie privée en ligne. Elle s'oppose aux mesures de surveillance de masse et aux pratiques intrusives de collecte de données.
-2.  **Défense de la Liberté d'Expression**: L'organisation se bat pour garantir la liberté d'expression en ligne, en s'opposant à la censure et en promouvant un Internet ouvert et accessible à tous.
-3.  **Lutte contre la Censure**: La Quadrature du Net s'oppose fermement à la censure sur Internet, que ce soit par les gouvernements, les entreprises privées ou d'autres acteurs.
-4.  **Protection du Net Neutre**: Elle défend le principe de la neutralité du net, qui garantit un accès égal à tous les contenus et services en ligne, sans discrimination.
-5.  **Influence sur les Politiques Numériques**: L'organisation tente d'influencer les politiques numériques à travers des campagnes de sensibilisation, des actions légales et des mobilisations publiques.
+Tout d'abord, elle s'engage à produire et à susciter des débats autour des analyses concernant les enjeux politiques et juridiques de notre société informatisée, ainsi que les possibles évolutions de celle-ci. Son objectif est de prendre des initiatives anticipatives plutôt que de simplement réagir, afin de tracer une trajectoire positive face à l'influence grandissante des acteurs technocratiques résultant de l'alliance tacite entre les États et les géants du numérique.
 
-### Actions et Initiatives
+Ensuite, elle met l'accent sur le plaidoyer politique et juridique en vue de porter ces analyses auprès des individus détenant des pouvoirs décisionnels, qu'il s'agisse de parlementaires, de juridictions, du gouvernement, de la Commission européenne ou d'organismes administratifs indépendants. Elle cherche également à rendre ces arguments accessibles à un public plus large, de manière à ce qu'ils soient compris et qu'ils inspirent d'autres à adopter des positions similaires.
 
-La Quadrature du Net mène de nombreuses actions pour atteindre ses objectifs. Parmi ses initiatives notables :
+Enfin, elle s'engage dans la sensibilisation et la formation afin de permettre la mise en discussion de sa vision du numérique et des pratiques qui en découlent. Cette démarche vise à enrichir ces perspectives en s'appuyant sur l'expertise de chacun, et à les diffuser au sein de la société, dans une optique d'éducation populaire. Cela comprend, par exemple, le renforcement des compétences des militants en matière d'outils et de méthodes permettant de se protéger contre la surveillance et la censure, ainsi que la promotion d'une utilisation consciente et réfléchie de la technologie informatique pour tous.
 
-1.  **Campagnes de Sensibilisation**: Elle sensibilise le public aux enjeux numériques en organisant des campagnes d'information et en fournissant des ressources éducatives sur la protection de la vie privée, la surveillance et d'autres problématiques.
-2.  **Actions Légales**: L'organisation engage des actions légales pour contester les lois et les réglementations qu'elle estime contraires aux libertés numériques. Elle a par exemple contesté la loi française sur la surveillance des communications électroniques.
-3.  **Participation aux Débats Législatifs**: La Quadrature du Net participe activement aux débats législatifs en France et au niveau européen pour influencer la création de lois et de réglementations qui respectent les droits fondamentaux en ligne.
-4.  **Développement d'Outils de Protection de la Vie Privée**: L'organisation travaille sur le développement d'outils et de technologies visant à renforcer la protection de la vie privée des individus sur Internet.
+La Quadrature du Net peut partager des objectifs similaires en termes de transparence, d'accès aux informations et de gouvernance démocratique avec 
+l'Open Knowledge Foundation [[20230926143215]] et Etalab [[20230924193610]].
 
 **L'Impact de La Quadrature du Net**
 
-Au fil des années, La Quadrature du Net a acquis une influence significative dans le domaine de la protection des libertés numériques. Elle a contribué à sensibiliser le public et les décideurs politiques aux enjeux critiques liés à la vie privée, à la liberté d'expression et à la neutralité du net. Son engagement a également conduit à des victoires juridiques importantes, remettant en question certaines lois et pratiques controversées.x
+Au fil des années, La Quadrature du Net a acquis une influence significative dans le domaine de la protection des libertés numériques. Elle a contribué à sensibiliser le public et les décideurs politiques aux enjeux critiques liés à la vie privée, à la liberté d'expression et à la neutralité du net. Son engagement a également conduit à des victoires juridiques importantes, remettant en question certaines lois et pratiques controversées.

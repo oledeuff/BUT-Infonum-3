@@ -2,9 +2,9 @@
 title: Hacktivist Groups
 id: "20231003111131"
 types:
-  - organisation
+  - undefined
 thumbnail: organisme_prive.png
-kesako: Hacktivist Groups
+short: Hacktivist Groups
 tags:
 - transparence
 - données gouvernementales

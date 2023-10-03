@@ -2,9 +2,9 @@
 title: FDN
 id: "20230926151728"
 types:
-  - organisation
+  - undefined
 thumbnail: organisme_prive.png
-kesako: French Data Network
+short: French Data Network
 tags: neutralité du net ; fournisseur internet ; libre d'accès
 link: https://www.fdn.fr/
 ---

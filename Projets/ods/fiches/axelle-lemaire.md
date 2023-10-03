@@ -4,7 +4,7 @@ id: "20230924193332"
 types:
   - personne
 thumbnail: personne.png
-kesako: Actrice politique du projet de loi pour une République numérique
+short: Actrice politique du projet de loi pour une République numérique
 tags:
 - politique
 link: https://www.assemblee-nationale.fr/dyn/deputes/PA610873
