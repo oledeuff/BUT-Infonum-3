@@ -2,9 +2,9 @@
 title: Innopublica
 id: "20230924193924"
 types:
-  - undefined
+  - organisation
 thumbnail: organisme_prive.png
-kesako: Cabinet de conseil
+short: Cabinet de conseil
 tags:
  -innopublica
  -cabinet de conseil
