@@ -7,7 +7,7 @@ types:
 thumbnail: 
 kezako: La carte coopérative libre 
 tags:
- - base de données
+  - base de données
   - libre d'accès
   - open data
 link: https://www.openstreetmap.fr
