@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,500;1,700&family=Space+Mono:wght@400;700&display=swap');
+
+
+.record-title {
+    font-family: 'Space Mono', monospace;
+    font-size: 36px;
+    color: #086a85;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif; /* Police classique souvent utilisée dans les documents universitaires */
+    font-size: 16px; /* Taille de police standard pour les documents imprimés */
+    line-height: 1.6; /* Espacement des lignes pour une lecture confortable */
+    color: #333; /* Couleur de texte foncée pour une meilleure lisibilité */
+    background-color: #f8f8f8; /* Fond légèrement gris pour imiter le papier */
+    padding: 15px; /* Espacement autour du texte pour le démarquer */
+    border: 1px solid #ddd; /* Bordure discrète pour délimiter le contenu */
+    margin: 20px 0; /* Marges pour séparer les paragraphes et imiter le style d'un document imprimé */
+    text-align: justify; /* Justification du texte pour un aspect plus formel */
+    hyphens: auto; /* Césure automatique des mots pour une meilleure mise en page */
+}
+
+
+button {
+    background-color: #086a85;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 5px 10px;
+    transition: all 0.1s ease;
+}
+
+button:hover {
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+
+.btn {
+    background-color: #086a85;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+}
+h1.title {
+        font-family: 'Space Mono', monospace;
+      text-transform: uppercase;
+      font-size: 27px;
+      color:#086a85;
+      text-align: center;
+}
+
+aside.menu header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside.menu header:before {
+   display: inline-block;
+    height: 70px;
+    width: 100px;
+        background-size: 100px 70px;
+    background-repeat: no-repeat;
+}
+article.record header {
+    display: grid;
+    gap: 0 1em;
+    grid-template:
+    "thumbnail title" auto
+    "thumbnail nom" auto
+    "thumbnail prénom" auto
+    "thumbnail type" auto
+    "tags tags" auto;
+}
+
+h1.record-title {
+    grid-area: title;
+}
+
+.record-thumbnail span:nth-child(2) {
+    grid-area: thumbnail;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(attr(content));
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+}
+
+div.record-id {
+    display: none;
+}
+div.record-nom {
+    grid-area: nom;
+}
+
+div.record-prenom {
+    grid-area: prénom;
+}
+
+div.record-type {
+    grid-area: type;
+}
+div.record-nom,
+div.record-prenom {
+    width: 50%; /* Ajustez cette valeur si nécessaire */
+}
+
+
+div.record-tags {
+    grid-area: tags;
+    grid-column: 1 / 3; /* Cela permet aux tags de s'étendre sur les deux colonnes de la grille */
+}
+
+
+

@@ -61,7 +61,7 @@ link_symbol: ""
 csl: ""
 bibliography: ""
 csl_locale: ""
-css_custom: ""
+css_custom: "./ods.css"
 devtools: false
 lang: fr
 name: ""
