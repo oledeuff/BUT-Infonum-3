@@ -2,9 +2,9 @@
 title: Addulact
 id: "20230926150554"
 types:
-  - undefined
+  - organisation
 thumbnail: organisme_prive.png
-short: Association des développeurs et utilisateurs de logiciels libres pour les administrations et les collectivités territoriales
+kesako: Association des développeurs et utilisateurs de logiciels libres pour les administrations et les collectivités territoriales
 tags: échange de données ; collecte ; données
 link: https://adullact.org/
 ---

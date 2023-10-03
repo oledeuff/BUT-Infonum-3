@@ -2,16 +2,16 @@
 title: Laure Lucchesi
 id: "20230924193940"
 types:
-  - undefined
+  - personne
 thumbnail: personne.png
-short: Ancienne Directrice d'Etalab
+kesako: Ancienne Directrice d'Etalab
 tag:
 - innovation numérique
 - Etalab
 - Opendata
 - Open Government Partnership
 ---
-# Laure Lucchesi et son Engagement pour l'Open Data
+Laure Lucchesi est engagé en faveur de l'Open Data
 
 Depuis 20 ans, en France comme à l'international, Laure Lucchesi oeuvre pour mettre l'innovation et le numérique au service de l'intérêt général et de la transformation des organisations publiques comme privées.
 
