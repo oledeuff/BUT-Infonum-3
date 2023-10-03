@@ -2,8 +2,8 @@
 title: Open Transport
 id: "20231003155352"
 types:
-  - undefined
-thumbnail: organisme_prive.png
+  - notion
+thumbnail: notion.png
 short: Open Transport
 tags:
 - données gouvernementales

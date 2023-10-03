@@ -3,7 +3,7 @@ title: PAAS
 id: "20230928102820"
 types:
 - outil
-kesako: Platfrom as a Service
+kesako: Platform as a Service
 tags:
 - plateforme
 - cloud

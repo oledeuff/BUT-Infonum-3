@@ -1,9 +1,9 @@
 ---
 title: Fondation Internet Nouvelle-Génération
 id: "20230926160029"
-types: undefined
-thumbnail: association.png
-Késako: association loi de 1901
+types: organisation
+thumbnail: organisation.png
+kesako: association loi de 1901
 tags :
 - data
 - technologie de l'information

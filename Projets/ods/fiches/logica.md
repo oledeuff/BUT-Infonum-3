@@ -3,7 +3,7 @@ title: Logica
 id: "20230924194000"
 types:
   - organisation
-thumbnail: organisme_prive.png
+thumbnail: organisation.png
 kesako: Entreprise de services informatiques
 tags :
 - entreprise

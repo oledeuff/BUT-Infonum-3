@@ -2,9 +2,9 @@
 title: GéoDataMine
 id: "20230924193632"
 types:
-  - undefined
+  - outil
 thumbnail: outil.png
-short: Outil d'Opendata France
+kesako: Outil d'Opendata France
 tags:
 - tableurs
 - données

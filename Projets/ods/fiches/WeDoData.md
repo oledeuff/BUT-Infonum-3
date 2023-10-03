@@ -1,9 +1,9 @@
 ---
 title: WeDoData
 id: "20230929112736"
-types: undefined
-thumbnail: entreprise.png
-Késako : entreprise de data science
+types: organisation
+thumbnail: organisation.png
+kesako : entreprise de data science
 tags :
 - données gouvernementale
 - Analyse de données
@@ -12,7 +12,7 @@ tags :
 - open data
 link : wedodata.fr/
 ---
-**WeDoData** est une agence de data science en France qui se distingue par son expertise, son approche personnalisée, sa diversité de clients, son engagement envers l'innovation et ses efforts de formation. Elle a été créée par Karen Bastien et François Prosper, respectivement data journaliste et directeur designer.Les membres de l’équipe de WeDoData maîtrisent une gamme variée de compétences en data science, en analyse de données et en modélisation de celles-ci. Cette solide expertise permet à WeDoData de s'attaquer à des problèmes complexes liés aux données et de proposer des solutions personnalisées :
+**WeDoData** est une agence de data science en France qui se distingue par son expertise, son approche personnalisée, sa diversité de clients, son engagement envers l'innovation et ses efforts de formation. Elle a été créée par Karen Bastien et François Prosper, respectivement data journaliste et directeur designer. Les membres de l’équipe de WeDoData maîtrisent une gamme variée de compétences en data science, en analyse de données et en modélisation de celles-ci. Cette solide expertise permet à WeDoData de s'attaquer à des problèmes complexes liés aux données et de proposer des solutions personnalisées :
 - Dashboard-Infographie
 - Vidéo et animation 
 - Solutions

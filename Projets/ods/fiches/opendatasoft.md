@@ -3,7 +3,7 @@ title: OpenDataSoft
 id: "20230924194046"
 types:
   - organisation
-thumbnail: organisme_prive.png
+thumbnail: organisation.png
 kesako: Plate-forme de partage et de gestion des données
 tags:
 - plateforme

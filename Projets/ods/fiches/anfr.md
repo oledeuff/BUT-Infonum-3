@@ -3,6 +3,7 @@ title: ANFR
 id: "20230924193236"
 types:
   - organisation
+thumbnail: organisation.png
 kesako: Agence Nationale des Fréquences
 tags:
 - fréquence

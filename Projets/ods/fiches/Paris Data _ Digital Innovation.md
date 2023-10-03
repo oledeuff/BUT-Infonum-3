@@ -2,9 +2,9 @@
 title: Paris Data & Ditgital Innovation
 id: "20231003160641"
 types:
-  - undefined
-thumbnail: organisme_public.png
-short: Paris Data & Ditgital Innovation
+  - organisation
+thumbnail: organisation.png
+kesako: Paris Data & Ditgital Innovation
 tags:
 - Initiative
 - base de données

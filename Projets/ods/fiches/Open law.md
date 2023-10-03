@@ -2,9 +2,9 @@
 title: Open Law
 id: "20231003114537"
 types:
-  - undefined
-thumbnail: organisme_prive.png
-short: Open Law
+  - notion
+thumbnail: notion.png
+kesako: Open Law
 tags: neutralité du net ; fournisseur internet ; libre d'accès
 link: https://openlaw.fr/
 ---

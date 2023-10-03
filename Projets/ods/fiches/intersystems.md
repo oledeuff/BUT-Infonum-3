@@ -3,6 +3,7 @@ title: InterSystems
 id: 
 types:
   - organisation
+thumbnail: organisation.png
 kesako: InterSystems
 link: https://www.intersystems.com/fr/
 tags:

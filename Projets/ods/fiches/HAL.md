@@ -3,7 +3,7 @@ title: HAL
 id: "20230929101822"
 types:
   - portail 
-thumbnail: organisme_public.png
+thumbnail: portail.png
 kesako: Archive ouverte en SHS
 tags:
 - recherche

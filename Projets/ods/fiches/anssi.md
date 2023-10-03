@@ -4,7 +4,7 @@ id: "20230924193322"
 types:
   - organisation
 thumbnail: organisation.png
-Kézako: autorité nationale en matère de sécurité et de défense des
+kezako: autorité nationale en matère de sécurité et de défense des
   systèmes d'information
 tags:
 - sécurité

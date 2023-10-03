@@ -1,7 +1,7 @@
 ---
 title: Opquast
 id: "20231003100332"
-types: undefined
+types: organisation
 thumbnail: organisation.png
 Kézako : Entreprise et projet collectif d’amélioration du web
 tags :

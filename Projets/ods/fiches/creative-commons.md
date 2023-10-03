@@ -3,8 +3,8 @@ title: Creative Commons
 id: "20230924193436"
 types:
   - droit
-thumbnail: outil.png
-kesako: Licence libre de droits
+thumbnail: droit.png
+kesako: Licences libre de droits
 tags:
 link:
 ---

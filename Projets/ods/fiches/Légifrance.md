@@ -2,10 +2,10 @@
 title: Légifrance
 id: "20230924193946"
 types:
-- organisation
-thumbnail: outil.png 
+- droit
+thumbnail: droit.png 
 kesako: Plateforme de textes législatifs
-Tags:
+tags:
 - Site internet
 - gouvernement
 - justice

@@ -1,9 +1,9 @@
 ---
 title: OpenMairie
 id: "20230927101154"
-types: undefined
+types: outil
 thumbnail: outil.png
-Késako : projet logiciel libre des collectivités locales
+kesako : Logiciel libre des collectivités locales
 tags :
 - transparence
 - analyse de données

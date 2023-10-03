@@ -3,7 +3,7 @@ title: Culture libre
 id: "20230926111255"
 types:
   - droit
-thumbnail: personne.png
+thumbnail: notion.png
 kesako: 
 link: 
 tags:

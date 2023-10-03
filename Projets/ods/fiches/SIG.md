@@ -3,7 +3,7 @@ title: Systèmes d information Géographique
 id: "20230926154550"
 types:
   - outil 
-thumbnail: personne.png
+thumbnail: outil.png
 kesako: Les SIG sont des outils informatiques qui utilisent des données géographiques. 
 link: 
 tag:

@@ -3,7 +3,7 @@ title: Maëlle Fouquenet
 id: "20230930173859"
 types:
   - personne
-thumbnail: 
+thumbnail: personne.jpg
 kesako: Journaliste et spécialiste des données
 tags:
 - journalisme

@@ -2,8 +2,8 @@
 title: Open Government Partnership 
 id: "20230929090132"
 types:
-  - Portails
-thumbnail: personne.png
+  - organisation
+thumbnail: organisation.png
 kesako: Le PGO est un organisme international qui prone la transparence des gouvernements sur l information et la data
 link: https://fr.wikipedia.org/wiki/Partenariat_pour_un_gouvernement_ouvert
 tag:

@@ -2,9 +2,8 @@
 title: PNSO
 id: "20230924194139"
 types:
-  - organisme public
-  - Etat 
-thumbnail: outil.png
+  - organisation
+thumbnail: organisation.png
 short: Plan National pour la Science Ouverte, lancé en 2018
 ---
 

@@ -3,7 +3,7 @@ title: Open Knowledge Foundation
 id: "20230926143215"
 types:
   - organisation
-thumbnail:
+thumbnail: organisation.png
 kesako: Organisation prônant l'Open Data et l'Open Knowledge
 tags:
 - open data

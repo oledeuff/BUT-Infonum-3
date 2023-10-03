@@ -1,9 +1,9 @@
 ---
 title: Jean-Marc Lazard
 id: "20230926150849"
-types: undefined
+types: personne
 thumbnail: personne.png
-Késako: Co-fondateur et président d'OpenDataSoft
+kesako: Co-fondateur et président d'OpenDataSoft
 tags :
 - données gouvernementale
 - analyse de données

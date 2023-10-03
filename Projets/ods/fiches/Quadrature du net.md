@@ -2,7 +2,7 @@
 title: Quadrature du net
 id: "20230927101408"
 types: organisation
-thumbnail: outil.png
+thumbnail: organisation.png
 kezako: protection des libertés numériques
 tags:
 - neutralité du net

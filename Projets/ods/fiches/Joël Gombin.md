@@ -3,6 +3,7 @@ title: Joël Gombin
 id: "20230928110009"
 types:
 - personne
+thumbnail: personne.jpg
 kesako: Joël Gombin, expert en Data et analyse politique
 tags:
 - Expert

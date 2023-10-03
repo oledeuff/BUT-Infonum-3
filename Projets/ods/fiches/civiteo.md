@@ -3,7 +3,7 @@ title: Civiteo
 id: "20230924193410"
 types:
   - organisation
-thumbnail: organisme_prive.png
+thumbnail: organisation.png
 short: Cabinet de conseil, Cabinet de stratégie, Opendata, Bigdata
 tags:
  - data

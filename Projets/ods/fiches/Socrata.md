@@ -3,7 +3,7 @@ title: Socrata
 id: "20230927100755"
 types:
   - portail
-thumbnail: organisme_prive.png
+thumbnail: portail.png
 short: Interface de Programmation
 tags:
  - data

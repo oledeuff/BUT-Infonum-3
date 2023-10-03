@@ -2,8 +2,8 @@
 title: LiberTIC
 id: "20230924193954"
 types:
-  - undefined
-thumbnail: organisme_prive.png
+  - organisation
+thumbnail: organisation.png
 short: Association oeuvrant pour l'ouverture des données en France
 tags: https://www.association-libertic.org/
 ---

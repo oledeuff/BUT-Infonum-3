@@ -3,7 +3,7 @@ title: Enedis
 id: "20230924193604"
 types:
   - organisation
-thumbnail: organisme_prive.png
+thumbnail: organisation.png
 kesako: Enedis gère le réseau d'électricité en France
 tags:
 link:

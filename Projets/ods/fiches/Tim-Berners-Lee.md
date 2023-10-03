@@ -3,9 +3,10 @@ title: Tim Berners-Lee
 id: "20230929102429"
 types:
   - personne
-thumbnail: outil.png
+thumbnail: personne.jpg
 kesako: Inspirateur du linked open data
 tags:
+- linked open data
 ---
 /// revoir la fiche. Quel rapport avec l'open data?
 

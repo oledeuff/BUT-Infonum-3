@@ -3,7 +3,7 @@ title: Parme Avocats
 id: "20230924194120"
 types:
 - organisation
-thumbnail: organisme_prive.png
+thumbnail: organisation.png
 kesako: Cabinet d'avocats
 tags:
 - droit

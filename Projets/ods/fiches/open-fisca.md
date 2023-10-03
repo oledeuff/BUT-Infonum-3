@@ -3,7 +3,7 @@ title: Open Fisca
 id: "20230930193632"
 types:
   - outils 
-Kézako:
+kezako:
 tags:
   - base de données
   - données gouvernementales

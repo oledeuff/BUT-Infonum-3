@@ -4,8 +4,8 @@ id: "20230929092828"
 types:
   - Outils
   - portail 
-thumbnail:
-Kézako: 
+thumbnail: outil.png
+kezako: 
 tags:
   -  base de données
   - échange de données

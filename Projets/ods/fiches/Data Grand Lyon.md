@@ -2,7 +2,7 @@
 title: Data Grand Lyon
 id: "20230927113002"
 types: organisation 
-thumbnail: objet.png
+thumbnail: portail.png
 short: Data Grand Lyon au Service de la Métropole
 tags:
 - Lyon

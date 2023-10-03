@@ -3,7 +3,7 @@ title: Innopublica
 id: "20230924193924"
 types:
   - organisation
-thumbnail: organisme_prive.png
+thumbnail: organisation.png
 short: Cabinet de conseil
 tags:
  - data

@@ -3,7 +3,7 @@ title: Reddit-r/opendata
 id: "20230929103541"
 types:
   - outil
-thumbnail: organisme_public.png
+thumbnail: outil.png
 kesako: Forum dédié à l'open data
 tags:
 - forum

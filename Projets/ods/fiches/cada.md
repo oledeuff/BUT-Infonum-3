@@ -5,7 +5,7 @@ types:
   - organisation
   - droit
 kesako: Commission d'accès aux documents administratifs
-thumbnail: organisme_public.png
+thumbnail: organisation.png
 tags:
 - droit d'accès
 link:

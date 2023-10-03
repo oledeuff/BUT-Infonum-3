@@ -3,7 +3,7 @@ title: Open Data Watch
 id: "20230927145547"
 types:
 - organisation
-thumbnail: organisme_public.png
+thumbnail: organisation.png
 kesako: Organisation indépendante qui joue un rôle de modération dans les données ouvertes des pays du monde entier.
 tags :
 - données ouvertes

@@ -3,7 +3,7 @@ title: Datactivist
 id: "20230924193529"
 types:
   - organisation
-thumbnail: organisme_prive.png
+thumbnail: organisation.png
 short: Coopérative, Données
 tags:
   -data

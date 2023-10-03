@@ -4,7 +4,7 @@ id: "20230929102312"
 types:
   - personne
 thumbnail: personne.png
-short: 
+kesako: Chercheur en data science
 tag:
 - data science
 

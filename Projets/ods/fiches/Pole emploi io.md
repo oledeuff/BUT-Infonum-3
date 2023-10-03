@@ -3,7 +3,7 @@ title: Pôle emploi
 id: "20230927115841"
 types:
   - organisation 
-thumbnail:
+thumbnail: organisation.png
 Kézako:
 tags:
  - base de données

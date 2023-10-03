@@ -2,8 +2,8 @@
 title: IGN
 id: "20230924193915"
 types:
-  - plateforme
-thumbnail: organisme_public.png
+  - portail
+thumbnail: portail.png
 kesako: Plateforme de partage des données publiques du gouvernement Français.
 tags :
 - géographie

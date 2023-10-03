@@ -3,8 +3,8 @@ title: Crowdsourcing
 id: "20230927103951"
 types:
   - notion
-thumbnail: outil.png
-kesako: Outil d'Opendata France
+thumbnail: notion.png
+kesako: Production des contenus par les usagers
 tags:
   - usager
   - données

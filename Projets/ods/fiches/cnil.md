@@ -3,7 +3,8 @@ title: CNIL
 id: "20230924193417"
 types:
   - organisation
-thumbnail: organisme_public.png
+  - droit
+thumbnail: organisation.png
 kesako: Commission nationale de l'informatique et des libertés
 ---
 

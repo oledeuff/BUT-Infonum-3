@@ -3,7 +3,7 @@ title: La Poste
 id: "20230924193933"
 types:
   - organisation
-thumbnail: organisme_public.png
+thumbnail: organisation.png
 kesako: Opérateur de services postaux
 link:
 ---

@@ -3,8 +3,8 @@ title: CKAN
 id: "20230927101532"
 types:
   - outil
-thumbnail: organisme_prive.png
-short: Plateforme Open Source
+thumbnail: outil.png
+kesako: Plateforme Open Source
 tags:
  - data
  - open data

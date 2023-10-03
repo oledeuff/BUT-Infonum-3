@@ -3,6 +3,7 @@ title: Couperin
 id: "20230929095523"
 types:
 - organisation
+thumbnail: organisation.png
 kesako: Couperin
 tags:
 - open access

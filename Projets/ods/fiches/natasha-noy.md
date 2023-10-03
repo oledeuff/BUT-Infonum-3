@@ -3,7 +3,7 @@ title: Natasha Noy
 id: "20230924194024"
 types:
 - personne
-thumbnail:
+thumbnail: personne.jpg
 kesako: Chercheuse sur l'Intelligence Artificielle et l'Open Data
 tags:
 - libre accès 

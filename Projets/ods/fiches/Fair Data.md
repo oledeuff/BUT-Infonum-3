@@ -3,6 +3,7 @@ title: Fair Data
 id: "20230929095202"
 types: 
 - notion
+thumbnail: notion.png
 kesako: Fair Data est un concept ancré dans les principes de transparence, de confiance et de traitement éthique des données
 tags:
 - open access

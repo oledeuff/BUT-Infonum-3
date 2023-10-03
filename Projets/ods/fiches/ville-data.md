@@ -3,7 +3,7 @@ title: Ville-Data
 id: "20230924194214"
 types:
   - portail
-thumbnail: outil.png
+thumbnail: portail.png
 kesako: Portail de données ouvertes par ville
 tags :
 link : https://www.data.gouv.fr/fr/reuses/ville-data-com/

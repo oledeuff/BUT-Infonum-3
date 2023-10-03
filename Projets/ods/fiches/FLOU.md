@@ -3,7 +3,7 @@ title: "FLOU "
 id: "20230928110636"
 types:
   - organisation
-thumbnail:
+thumbnail: organisation.png
 kesako: Fondation pour le Libre Accès aux Données Publiques (FLOU)
 ---
 

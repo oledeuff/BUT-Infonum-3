@@ -3,6 +3,7 @@ title: Marin Dacos
 id: "20230924194015"
 types:
   - personne
+thumbnail: personne.jpg
 kesako: Ingénieur et conseiller scientifique
 tags:
 - open science

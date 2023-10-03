@@ -3,7 +3,7 @@ title: Rufus Pollock
 id: "20230929102456"
 types:
   - personne
-thumbnail: outil.png
+thumbnail: personne.jpg
 kesako: acteur du numérique
 tags:
 - entrepreneur

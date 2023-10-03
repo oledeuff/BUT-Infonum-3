@@ -3,7 +3,7 @@ title: Oracle France
 id: "20230929104256"
 types:
   - organisation
-thumbnail: personne.png
+thumbnail: organisation.png
 kesako: 
 link: https://www.oracle.com/fr/
 tag:

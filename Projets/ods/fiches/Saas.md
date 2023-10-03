@@ -3,6 +3,7 @@ title: SAAS
 id: "20230928103333"
 types:
 - outil
+thumbnail: outil.png
 kesako: Modèle de distribution de logiciels
 tags:
 - logiciel

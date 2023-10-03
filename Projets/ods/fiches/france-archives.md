@@ -3,7 +3,7 @@ title: France Archives
 id: "20230924193617"
 types:
   - portail
-thumbnail: outil.png
+thumbnail: portail.png
 kesako: "Portail national français des archives"
 tags:
 - archives

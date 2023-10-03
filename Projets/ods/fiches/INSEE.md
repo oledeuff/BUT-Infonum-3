@@ -4,7 +4,7 @@ id: "20230927140247"
 types:
   - Organisation
   - Outils 
-thumbnail: 
+thumbnail: organisation.png
 Kézako:
 tags:
  - analyse des données

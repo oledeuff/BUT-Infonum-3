@@ -1,9 +1,9 @@
 ---
 title: Cap Collectif
 id: "20230929110926"
-types: undefined
-thumbnail: entreprise.png
-Késako : entreprise de développement numérique pour l'engagement citoyen et la démocratie participative
+types: organisation
+thumbnail: organisation.png
+kesako : entreprise de développement numérique pour l'engagement citoyen et la démocratie participative
 tags :
 - données gouvernementales
 - transparence

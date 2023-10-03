@@ -2,7 +2,8 @@
 title: Zenodo
 id: "20230924194226"
 types:
-  - outil
+  - portail
+thumbnail: portail.jpg
 kesako: Répertoire de travaux de recherches, de logiciels et de données
 tags:
 - base de données

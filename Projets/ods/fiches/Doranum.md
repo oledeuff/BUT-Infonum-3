@@ -3,6 +3,7 @@ title: Doranum
 Id: "20230928105814"
 type:
 - portail
+thumbnail: portail.png
 kesako: Plateforme de formation en ligne
 tags:
 - Platefrome

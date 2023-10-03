@@ -2,9 +2,8 @@
 title: Etalab
 id: "20230924193610"
 types:
-  - data
-  - information 
-thumbnail: organisme_public.png
+  - organisation
+thumbnail: organisation.png
 short: Agence gouvernementale
 Link: https://www.etalab.gouv.fr/
 tag:

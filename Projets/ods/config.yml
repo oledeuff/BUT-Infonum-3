@@ -4,7 +4,7 @@ nodes_origin: ""
 links_origin: ""
 nodes_online: ""
 links_online: ""
-images_origin: ""
+images_origin: "./img"
 export_target: ""
 history: true
 focus_max: 2
@@ -28,12 +28,12 @@ record_types:
     fill: "#DDA0DD"
     stroke: "#DDA0DD"
   notion:
-    fill: "#FFC0CB"  
+    fill: "#FFC0CB"
     stroke: "#FFC0CB"
 link_types:
   undefined:
     stroke: simple
-    color: "#e1e1e1"
+    color: "#A65F37"
 record_filters: []
 graph_background_color: "#ffffff"
 graph_highlight_color: "#ff6a6a"
@@ -53,15 +53,15 @@ chronological_record_meta: created
 record_metas:
   - link
   - kesako
-title: "Open Data Sphère"
-author: "BUT 3 Infonum"
+title: Open Data Sphère
+author: BUT 3 Infonum
 description: ""
 keywords: []
 link_symbol: ""
 csl: ""
 bibliography: ""
 csl_locale: ""
-css_custom: "./ods.css"
+css_custom: ./ods.css
 devtools: false
 lang: fr
 name: ""

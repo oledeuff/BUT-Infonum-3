@@ -2,9 +2,9 @@
 
 
 .record-title {
-    font-family: 'Space Mono', monospace;
+    font-family: 'young serif', monospace;
     font-size: 36px;
-    color: #086a85;
+    color: #CE6C6C;
 }
 
 p {
@@ -14,7 +14,7 @@ p {
     color: #333; /* Couleur de texte foncée pour une meilleure lisibilité */
     background-color: #f8f8f8; /* Fond légèrement gris pour imiter le papier */
     padding: 15px; /* Espacement autour du texte pour le démarquer */
-    border: 1px solid #ddd; /* Bordure discrète pour délimiter le contenu */
+   
     margin: 20px 0; /* Marges pour séparer les paragraphes et imiter le style d'un document imprimé */
     text-align: justify; /* Justification du texte pour un aspect plus formel */
     hyphens: auto; /* Césure automatique des mots pour une meilleure mise en page */
@@ -22,7 +22,7 @@ p {
 
 
 button {
-    background-color: #086a85;
+    background-color: #CE6C6C;
     color: white;
     border-radius: 6px;
     border: none;
@@ -38,7 +38,7 @@ button:hover {
 }
 
 .btn {
-    background-color: #086a85;
+    background-color: #CE6C6C;
     border: 1px solid var(--border-color);
     border-radius: 2px;
 }
@@ -46,7 +46,7 @@ h1.title {
         font-family: 'Space Mono', monospace;
       text-transform: uppercase;
       font-size: 27px;
-      color:#086a85;
+      color:#CE6C6C;
       text-align: center;
 }
 
@@ -64,7 +64,7 @@ aside.menu header:before {
     background-repeat: no-repeat;
 }
 article.record header {
-    display: grid;
+    display: block;
     gap: 0 1em;
     grid-template:
     "thumbnail title" auto
@@ -112,6 +112,13 @@ div.record-prenom {
 div.record-tags {
     grid-area: tags;
     grid-column: 1 / 3; /* Cela permet aux tags de s'étendre sur les deux colonnes de la grille */
+}
+
+div.record-tags button.btn{
+    border-radius: 40px;
+    background-color: transparent;
+    border-color: #CE6C6C;
+    color :#CE6C6C;
 }
 
 

@@ -1,9 +1,9 @@
 ---
 title: CitizenLab
 id: "20230929111554"
-types: undefined
+types: organisation
 thumbnail: organisation.png
-Késako : organisation de participation citoyenne
+kesako : organisation de participation citoyenne
 tags :
 - analyse de données
 - collecte

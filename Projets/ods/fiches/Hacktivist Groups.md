@@ -2,8 +2,8 @@
 title: Hacktivist Groups
 id: "20231003111131"
 types:
-  - undefined
-thumbnail: organisme_prive.png
+  - organisation
+thumbnail: organisation.png
 short: Hacktivist Groups
 tags:
 - transparence

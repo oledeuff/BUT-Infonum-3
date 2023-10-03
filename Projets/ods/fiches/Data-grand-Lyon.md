@@ -1,7 +1,7 @@
 ---
 title: Data Grand Lyon
 id: "20230927113002"
-types: undefind
+types: portail
 thumbnail:
 short: 
 tags:

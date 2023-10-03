@@ -3,7 +3,7 @@ title: Sir Nigel Shadbolt
 id: "20230927103831"
 types:
 - personne
-thumbnail: personage.png
+thumbnail: personne.png
 kesako: Sir Nigel Shadbolt, Pionnier de l'Open Data et Défenseur de la Transparence
 tags:
 - pionnier

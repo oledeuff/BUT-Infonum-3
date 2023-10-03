@@ -2,8 +2,8 @@
 title: LFDLL
 id: "20231003111809"
 types:
-  - undefined
-thumbnail: organisme_prive.png
+  - droit
+thumbnail: droit.png
 short: La Fabrique de La Loi
 tags:
 - neutralité du net

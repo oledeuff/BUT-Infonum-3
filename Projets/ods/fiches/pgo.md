@@ -2,8 +2,8 @@
 title: PGO
 id: "20230924194130"
 types:
-  - undefined
-thumbnail: organisme_public.png
+  - organisation
+thumbnail: organisation.png
 short: " Partenariat pour un Gouvernement Ouvert"
 tags:
 - Transparence

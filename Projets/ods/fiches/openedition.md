@@ -1,9 +1,9 @@
 ---
 title: OpenEdition
 id: "20230924194053"
-types: undefined
+types: organisation
 thumbnail: outil.png
-Késako: Portail de publication en Sciences Humaines et Sociales
+kesako: Portail de publication en Sciences Humaines et Sociales
 tags : 
 - base de données
 - libre d'accés 

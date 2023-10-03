@@ -3,8 +3,8 @@ title: Smart City
 id: "20230929145303"
 types:
   - notion
-thumbnail: organisme_public.png
-kesako: Ville du futur qui tentent d améliorer la qualité de vie de ses habitants via la technologie et les données.
+thumbnail: notion.png
+kesako: Ville basée sur la gouvernance par les données.
 tags :
 - données
 - gestion urbaine

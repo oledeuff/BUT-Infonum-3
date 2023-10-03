@@ -3,7 +3,7 @@ title: Open food facts
 id: "20230927115442"
 types:
   - organisation
-thumbnail: 
+thumbnail: organisation.jpg
 kesako: base de données nutritionnelle
 tags:
 - nourriture
