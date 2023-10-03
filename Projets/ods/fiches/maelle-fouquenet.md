@@ -6,8 +6,9 @@ types:
 thumbnail: 
 kesako: Journaliste et spécialiste des données
 tags:
-  - journalisme
-  - consulting
+- journalisme
+- analyse
+- collecte
 link: https://fr.linkedin.com/in/maellefouquenet/fr
 ---
 

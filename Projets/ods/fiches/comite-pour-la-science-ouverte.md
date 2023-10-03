@@ -2,10 +2,11 @@
 title: Comité pour la science ouverte
 id: "20230924193427"
 types:
-  - organisation 
+  - organisation
 thumbnail: organisme_public.png
-kesako: acteur du plan national pour la science ouverte
+kesako: S'inscrit dans le plan national pour la science ouverte
 tags:
+- science ouverte
 link: https://scienceouverte.couperin.org/plan-national-pour-la-science-ouverte-pnso/
 ---
 
@@ -15,11 +16,10 @@ L'un des principaux objectifs du Comité pour la Science Ouverte est de *sensibi
 
 Ce comité a également pour mission de *fédérer les différents acteurs du domaine*, *d'encourager les bonnes pratiques et de soutenir les initiatives en faveur de la science ouverte*. Il élabore des recommandations et des actions concrètes visant à accélérer la transition vers un modèle de recherche plus ouvert et transparent, aligné avec les attentes de la société en matière d'accès à la connaissance scientifique.
 
-La science ouverte, telle que prônée par le Comité pour la Science Ouverte, cherche à *maximiser l'impact et l'utilité de la recherche* en favorisant l'accès universel, la réutilisation des travaux scientifiques, et en contribuant ainsi à l'avancement des connaissances et à l'innovation. Elle aspire également à renforcer la confiance dans la recherche en garantissant la rigueur et l'intégrité des données, et en impliquant la société dans le processus scientifique.
+La science ouverte, cherche à *maximiser l'impact et l'utilité de la recherche* en favorisant l'accès universel, la réutilisation des travaux scientifiques, et en contribuant ainsi à l'avancement des connaissances et à l'innovation. Elle aspire également à renforcer la confiance dans la recherche en garantissant la rigueur et l'intégrité des données, et en impliquant la société dans le processus scientifique.
 
-Le comité lance en 2018 le Plan national pour la science ouverte (PNSO) [20230924194139] afin d'aider le milieu de l'enseignement supérieur et de la recherche.
+Le comité lance en 2018 le Plan national pour la science ouverte (PNSO) [[20230924194139]] afin d'aider le milieu de l'enseignement supérieur et de la recherche.
 A côté il lance le Le Fonds national pour la science ouverte, l'instrument financier du PNSO. Il fonctionne avec des dotations ministérielles et des contributions diverses, généralement des établissements supérieur et de recherche. 
-
 
 Le comité pour la science ouverte se structure en **4 grands pôles** : 
 * Le comité de pilotage (directeurs, présidents)

@@ -4,7 +4,7 @@ id: "20230924193313"
 types:
   - organisation
 thumbnail: organisme_public.png
-kesako: Agence Nationale de la Recherche
+short: Agence Nationale de la Recherche
 link: https://anr.fr/
 ---
 
@@ -12,7 +12,7 @@ link: https://anr.fr/
 
 Le principal objectif de l'ANR est de *stimuler l'excellence scientifique* en finançant des projets de recherche ambitieux, innovants et multidisciplinaires. Elle couvre un large éventail de domaines de recherche, allant des sciences fondamentales aux sciences sociales en passant par les technologies et les sciences de l'ingénieur. L'agence joue un rôle crucial dans la promotion de la coopération entre *les chercheurs, les universités, les organismes de recherche, les entreprises et les acteurs socio-économiques*, favorisant ainsi la collaboration et la complémentarité des expertises.
 
-**L'ANR** L'agence essaye de développer les collaborations scientifiques à l'international et s'efforce d'être un levier pour la compétitivité de la recherche française au niveau national et international. La participation de l'ANR à des projets internationaux contribue à renforcer la visibilité de la recherche française à l'échelle mondiale. Elle encourage également la diversité des perspectives et des approches, ce qui enrichit les projets de recherche en favorisant des solutions novatrices et plus complètes. Elle encourage *la création* de réseaux scientifiques et de partenariats ou collaboration entre le secteur public et privé, *favorise la mobilité* des chercheurs et contribue à la *diffusion* des résultats de la recherche, notamment en promouvant l'open access et la libre diffusion des connaissances scientifiques.
+**L'ANR** L'agence essaye de développer les collaborations scientifiques à l'international et s'efforce d'être un levier pour la compétitivité de la recherche française au niveau national et international. La participation de l'ANR à des projets internationaux contribue à renforcer la visibilité de la recherche française à l'échelle mondiale. Elle encourage également la diversité des perspectives et des approches. Une partie du site est en Open Data notamment les projets financés depuis 2005 ainsi que sur les partenaires financés où des jeux de données sont disponibles. Les données sont directement disponible sur le site de Data Gouv [[20230924193522]] avec des fiches explicatives. 
 
 Elle est également un acteur clé dans le financement de la recherche collaborative entre les acteurs académiques et industriels. Elle encourage *les partenariats* entre les universités, les organismes de recherche, les entreprises et les collectivités territoriales, créant ainsi des synergies bénéfiques pour l'ensemble de la société.
 
