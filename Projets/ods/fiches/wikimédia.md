@@ -11,6 +11,7 @@ tags:
 - dons
 link:
 ---
+Wikimédia est à la base de la création de [[20230924194220]] Wikidata.
 
 Wikimédia est une organisation à but non lucratif fondée en 2003, qui joue un rôle essentiel dans le soutien et la coordination de projets collaboratifs en ligne visant à partager des connaissances dans le monde entier. L'organisation est principalement connue pour son engagement envers Wikipédia, l'encyclopédie en ligne collaborative, mais elle supervise également de nombreux autres projets frères qui contribuent à la diffusion du savoir.
 
