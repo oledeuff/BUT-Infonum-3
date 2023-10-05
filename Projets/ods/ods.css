@@ -78,6 +78,15 @@ h1.record-title {
     grid-area: title;
 }
 
+.record header img {
+    height: auto;
+    max-width: 50%;
+    margin: 1rem 0;
+}
+.record img {
+    height: auto;
+    max-width: 50%;
+}
 .record-thumbnail span:nth-child(2) {
     grid-area: thumbnail;
     display: inline-block;
