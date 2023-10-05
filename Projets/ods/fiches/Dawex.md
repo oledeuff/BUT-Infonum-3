@@ -2,10 +2,15 @@
 title: Dawex
 id: "20230929103005"
 types:
-  - Portail 
-thumbnail: organisme_public.png
+- portail 
+thumbnail: portail.png
 short: platerforme
-tags: 
+tags:
+- data
+- collecte
+- open acces
+- base de données
+- libre d'accès 
 link : https://www.dawex.com/fr/
 ---
 

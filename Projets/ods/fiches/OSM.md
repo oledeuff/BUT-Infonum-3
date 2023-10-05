@@ -9,6 +9,7 @@ tags:
 - Carte
 - Cartographie
 - Steve Coast
+links : https://www.openstreetmap.fr
 ---
 OpenStreetMap (OSM) est un projet collaboratif mondial visant à créer une carte du monde complète et librement accessible. Lancée en 2004 par Steve Coast, elle permet à des milliers de contributeurs du monde entier de créer, mettre à jour et rendre publiques des données géographiques. Ce projet est basé sur des données ouvertes accessibles à tous, ce qui en fait un outil puissant pour la cartographie communautaire, l'urbanisme, la navigation, la recherche et bien d'autres domaines.
 

@@ -5,8 +5,9 @@ types: organisation
 thumbnail: organisation.png
 kezako: protection des libertés numériques
 tags:
-- neutralité du net
-- vie privée
+- analyse
+- transparence
+- libre d'accés
 ---
 
 **Qu'est-ce que La Quadrature du Net ?**

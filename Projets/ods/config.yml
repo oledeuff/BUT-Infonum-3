@@ -4,7 +4,7 @@ nodes_origin: ""
 links_origin: ""
 nodes_online: ""
 links_online: ""
-images_origin: "./img"
+images_origin: ""
 export_target: ""
 history: true
 focus_max: 2
@@ -13,27 +13,27 @@ record_types:
     fill: "#D3D3D3"
     stroke: "#D3D3D3"
   personne:
-    fill: "#FFA07A"
-    stroke: "#FFA07A"
+    fill: "#FFC0CB"
+    stroke: "#FFC0CB"
   organisation:
-    fill: "#8FBC8F"
-    stroke: "#8FBC8F"
-  portail:
     fill: "#87CEFA"
     stroke: "#87CEFA"
+  portail:
+    fill: "#8FBC8F"
+    stroke: "#8FBC8F"
   droit:
-    fill: "#FFD700"
-    stroke: "#FFD700"
+    fill: "#FFA07A"
+    stroke: "#FFA07A"
   outil:
     fill: "#DDA0DD"
     stroke: "#DDA0DD"
   notion:
-    fill: "#FFC0CB"
-    stroke: "#FFC0CB"
+    fill: "#FFD700"
+    stroke: "#FFD700"
 link_types:
   undefined:
     stroke: simple
-    color: "#A65F37"
+    color: "#D9C19D"
 record_filters: []
 graph_background_color: "#ffffff"
 graph_highlight_color: "#ff6a6a"

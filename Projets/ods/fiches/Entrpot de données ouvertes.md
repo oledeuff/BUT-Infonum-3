@@ -3,10 +3,11 @@ title: Entrepôt de données ouvertes
 id: "20230928110256"
 types: outil
 thumbnail: outil.png
-kézako: L'entrepôt de données ouvertes vise à libérer le potentiel de l'information
+kezako: L'entrepôt de données ouvertes vise à libérer le potentiel de l'information
 tags:
-- données ouvertes
-- système de stockage 
+- transparence
+- données publiques
+- collecte
 ---
 
 **Qu'est-ce qu'un Entrepôt de Données Ouvertes ?**

@@ -2,12 +2,14 @@
 title: Open Data Paris
 id: "20230928110906"
 types: organisation
-thumbnail: objet.png
-Kézako: Le portail open data de la ville de Paris
+thumbnail: organisation.png
+kezako: Le portail open data de la ville de Paris
 tags:
-- ville
-- données
-- paris
+- open data
+- transparence
+- échange de données
+- information
+- libre d'accés
 link: https://opendata.paris.fr/pages/home/
 ---
 Open Data Paris partage un objectif commun avec Open Data Marseille [[20230928110541]] et Open Data France [[20230924194037]], celui de rendre les données gouvernementales accessibles au public.

@@ -2,12 +2,14 @@
 title: Data Grand Lyon
 id: "20230927113002"
 types: organisation 
-thumbnail: portail.png
-short: Data Grand Lyon au Service de la Métropole
+thumbnail: objet.png
+kezako: Data Grand Lyon au Service de la Métropole
 tags:
-- Lyon
-- ville
-- portail
+- open data
+- transparence
+- échange de données
+- information
+- libre d'accés
 link: https://data.grandlyon.com/portail/fr/accueil
 ---
 **Data Grand Lyon : L'Initiative d'Open Data au Service de la Métropole**

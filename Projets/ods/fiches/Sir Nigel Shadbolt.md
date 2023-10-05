@@ -2,11 +2,12 @@
 title: Sir Nigel Shadbolt
 id: "20230927103831"
 types: personne
-thumbnail: personage.png
-short: Sir Nigel Shadbolt, Pionnier de l'Open Data et Défenseur de la Transparence
+thumbnail: personne.png
+kezako: Sir Nigel Shadbolt, Pionnier de l'Open Data et Défenseur de la Transparence
 tags:
-- pionnier
-- open data institute
+- open data
+- numérique
+- transparence
 ---
 
 **Sir Nigel Shadbolt : Pionnier de l'Open Data et Défenseur de la Transparence**
@@ -23,7 +24,7 @@ Nigel Shadbolt a exercé des fonctions académiques de haut niveau dans plusieur
 
 **Cofondateur de l'Open Data Institute (ODI)**
 
-L'une des réalisations les plus marquantes de Sir Nigel Shadbolt a été la création de l'Open Data Institute en 2012, en partenariat avec Sir Tim Berners-Lee, l'inventeur du World Wide Web. L'ODI est une organisation à but non lucratif basée à Londres, dont la mission est de promouvoir l'open data et d'aider les gouvernements, les entreprises et les individus à utiliser les données ouvertes de manière efficace.
+L'une des réalisations les plus marquantes de Sir Nigel Shadbolt a été la création de l'Open Data Institute en 2012, en partenariat avec Sir Tim Berners-Lee [[20230929102429]], l'inventeur du World Wide Web. L'ODI est une organisation à but non lucratif basée à Londres, dont la mission est de promouvoir l'open data et d'aider les gouvernements, les entreprises et les individus à utiliser les données ouvertes de manière efficace.
 
 L'ODI a joué un rôle clé dans la sensibilisation à l'importance de l'open data en tant que moteur de l'innovation, de la transparence gouvernementale et de la création de valeur économique. Sous la direction de Sir Nigel Shadbolt, l'ODI a élaboré des normes et des bonnes pratiques en matière de données ouvertes, organisé des événements et des formations, et travaillé avec des gouvernements du monde entier pour favoriser l'ouverture des données.
 
@@ -34,7 +35,3 @@ L'un des principaux arguments en faveur de l'open data est la promotion de la tr
 **Impact Économique de l'Open Data**
 
 Outre ses avantages pour la transparence gouvernementale, Sir Nigel Shadbolt a également souligné l'importance économique de l'open data. Il a fait valoir que les données ouvertes peuvent stimuler l'innovation, créer de nouveaux emplois et générer des opportunités économiques. En encourageant les entreprises à utiliser les données ouvertes pour développer de nouveaux produits et services, il a contribué à faire de l'open data un moteur de croissance économique.
-
-**Reconnaissance et Héritage**
-
-En reconnaissance de ses contributions à l'open data et à la technologie, Sir Nigel Shadbolt a été fait chevalier en 2013. Son héritage dans le domaine de l'open data se poursuit grâce à l'impact durable de l'Open Data Institute et à sa défense continue de l'ouverture des données.
