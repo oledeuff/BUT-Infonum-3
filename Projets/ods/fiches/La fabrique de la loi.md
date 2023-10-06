@@ -2,9 +2,9 @@
 title: LFDLL
 id: "20231003111809"
 types:
-  - droit
-thumbnail: droit.png
-short: La Fabrique de La Loi
+  - undefined
+thumbnail: organisme_prive.png
+kezako: La Fabrique de La Loi
 tags:
 - neutralité du net
 - open data
@@ -19,7 +19,7 @@ L'open data, en tant que pratique, implique la mise à disposition publique de d
 
 Dans le contexte de la fabrique de la loi, l'open data peut influencer le processus législatif de plusieurs manières. Tout d'abord, en rendant les données législatives ouvertes et accessibles, les citoyens peuvent suivre de près les propositions de lois, les débats parlementaires et les votes. Cela renforce la transparence du processus, permettant aux citoyens de comprendre comment les lois sont élaborées et de participer plus activement à la démocratie.
 
-De nombreux gouvernements ont adopté des portails d'open data où sont disponibles des ensembles de données liés à la législation. Ces portails peuvent inclure des informations sur les projets de loi en cours, les amendements proposés, les votes parlementaires, et d'autres données pertinentes. La mise à disposition de ces données en open data facilite la création d'outils et de plateformes qui permettent aux citoyens de suivre l'évolution des lois de manière accessible et compréhensible.
+De nombreux gouvernements comme le [[20230924193839]] gouvernement français ont adopté des portails d'open data où sont disponibles des ensembles de données liés à la législation. Ces portails peuvent inclure des informations sur les projets de loi en cours, les amendements proposés, les votes parlementaires, et d'autres données pertinentes. La mise à disposition de ces données en open data facilite la création d'outils et de plateformes qui permettent aux citoyens de suivre l'évolution des lois de manière accessible et compréhensible.
 
 De plus, l'open data peut également favoriser la collaboration et la participation citoyenne dans le processus législatif. Les développeurs, les chercheurs et les organisations de la société civile peuvent utiliser ces données ouvertes pour créer des applications, des visualisations et des analyses qui rendent l'information législative plus accessible et compréhensible pour un public plus large. Ces initiatives peuvent encourager un dialogue informé entre les citoyens et les législateurs, créant ainsi une démocratie plus dynamique et participative.
 

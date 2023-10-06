@@ -4,9 +4,13 @@ id: "20230924193427"
 types:
   - organisation
 thumbnail: organisation.png
-kesako: Structure pour promouvoir pour la science ouverte
+kezako: Structure pour promouvoir pour la science ouverte
 tags:
-- science ouverte
+ - innovation
+ - scientifique
+ - science des données
+ - recherche
+ - réutilisation des données
 link: https://scienceouverte.couperin.org/plan-national-pour-la-science-ouverte-pnso/
 ---
 

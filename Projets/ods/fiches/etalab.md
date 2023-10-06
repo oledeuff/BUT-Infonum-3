@@ -2,9 +2,9 @@
 title: Etalab
 id: "20230924193610"
 types:
-  - data
-  - information 
+  - organisation 
 thumbnail: organisme_public.png
+kesako: Etalab est une agence gouvernementale française qui dirige les données du pays. 
 short: Agence gouvernementale
 Link: https://www.etalab.gouv.fr/
 tag:

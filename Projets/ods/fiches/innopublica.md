@@ -3,8 +3,8 @@ title: Innopublica
 id: "20230924193924"
 types:
   - organisation
-thumbnail: organisation.png
-short: Cabinet de conseil
+thumbnail: organisme_prive.png
+kesako: Cabinet de conseil
 tags:
  - data
  - opendata
@@ -13,7 +13,7 @@ tags:
 link: https://www.innopublica.fr/
 ---
 
-**Innopublica** est co-fondateur de Data Publica [20230924193444](Data Publica), cabinet de conseil indépendant proposant aux organisations un accompagnement sur-mesure afin d’exploiter tout le potentiel des données au service de l’innovation d’intérêt général.
+**Innopublica** est co-fondateur de Data Publica [[20230924193444]](Data Publica), cabinet de conseil indépendant proposant aux organisations un accompagnement sur-mesure afin d’exploiter tout le potentiel des données au service de l’innovation d’intérêt général.
 
 **Innopublica** est une organisation dynamique et avant-gardiste qui se distingue par son engagement en faveur de l'innovation et de la transformation dans le secteur public. Fondée sur les principes de l'efficacité, de la créativité et de la collaboration, Innopublica s'efforce de réinventer la manière dont les gouvernements et les institutions publiques fonctionnent, en les adaptant aux défis et aux opportunités de l'ère moderne.
 

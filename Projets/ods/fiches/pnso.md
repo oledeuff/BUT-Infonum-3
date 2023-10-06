@@ -4,7 +4,13 @@ id: "20230924194139"
 types:
   - organisation
 thumbnail: organisation.png
-short: Plan National pour la Science Ouverte, lancé en 2018
+kezako: Plan National pour la Science Ouverte
+tags:
+ - scientifique
+ - réutilisation des données
+  - open access
+ - open data 
+link: https://www.ouvrirlascience.fr/plan-national-pour-la-science-ouverte/
 ---
 
 **Le Plan National pour la Science Ouverte (PNSO)** est une initiative majeure en France visant à révolutionner la manière dont la recherche scientifique est produite, diffusée, et utilisée. Il a été lancé en *2018* par le *gouvernement français* et résulte du *comité pour la science ouverte* [[20230924193427]] avec l'objectif ambitieux de faire de la science ouverte une norme dans le pays d'ici 2022.

@@ -1,9 +1,9 @@
 ---
 title: Data.EnseignementSup-Recherche.gouv
 id: "220230924193513"
-types: undefined
+types: portail
 thumbnail: organisme_public.png
-Késako: Plate-forme de données ouvertes du MESRI
+kesako: Plate-forme de données ouvertes du MESRI
 tags:
 - Open data
 - Open access

@@ -4,7 +4,7 @@ id: "20230929103703"
 types:
   - organisation
 thumbnail: Regards Citoyens.png
-short: Association promotion open data
+kezako: Association promotion open data
 link: https://fr.wikipedia.org/wiki/Regards_Citoyens
 tag:
 - politique numérique

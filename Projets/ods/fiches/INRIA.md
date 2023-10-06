@@ -1,9 +1,9 @@
 ---
 title: INRIA
 id: "20230927135923"
-types: undefined
+types: organisation
 thumbnail: organisme_public.png
-Késako: Institut national de recherche en informatique et en automatique
+kesako: Institut national de recherche en informatique et en automatique
 tags :
 - transparence
 - open data

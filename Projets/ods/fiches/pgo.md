@@ -2,16 +2,16 @@
 title: PGO
 id: "20230924194130"
 types:
-  - organisation
-thumbnail: organisation.png
-short: " Partenariat pour un Gouvernement Ouvert"
+  - undefined
+thumbnail: organisme_public.png
+kezako: " Partenariat pour un Gouvernement Ouvert"
 tags:
 - Transparence
 - droit des données
 link: https://www.modernisation.gouv.fr/transformer-laction-publique/partenariat-pour-un-gouvernement-ouvert
 ---
 
-Le Partenariat pour un Gouvernement Ouvert (PGO), en anglais "Open Government Partnership" (OGP), est une initiative internationale lancée en 2011 qui vise à promouvoir la transparence, la responsabilité gouvernementale, la participation citoyenne et l'utilisation de la technologie pour renforcer la gouvernance démocratique dans les pays du monde entier. Voici un résumé des principaux objectifs et caractéristiques du Partenariat pour un Gouvernement Ouvert :
+Le Partenariat pour un Gouvernement Ouvert (PGO), en anglais "Open Government Partnership" (OGP), est une initiative internationale lancée en 2011 qui vise à promouvoir la transparence, la responsabilité gouvernementale [[20230927151049]], la participation citoyenne et l'utilisation de la technologie pour renforcer la gouvernance démocratique dans les pays du monde entier. Voici un résumé des principaux objectifs et caractéristiques du Partenariat pour un Gouvernement Ouvert :
 
 L'OGP encourage les gouvernements à être plus transparents en ce qui concerne leurs activités, leurs dépenses, leurs politiques et leurs prises de décision. Cela signifie rendre plus facilement accessibles les informations sur les opérations gouvernementales pour les citoyens.
 L'initiative promeut la participation citoyenne dans le processus décisionnel gouvernemental. Les gouvernements sont encouragés à consulter activement leurs citoyens, à solliciter leurs avis et à les impliquer dans l'élaboration des politiques publiques.

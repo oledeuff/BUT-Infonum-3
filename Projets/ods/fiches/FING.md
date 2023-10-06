@@ -1,9 +1,9 @@
 ---
 title: Fondation Internet Nouvelle-Génération
 id: "20230926160029"
-types: undefined
+types: droit
 thumbnail: association.png
-Késako: association loi de 1901
+kesako: association loi de 1901
 tags :
 - data
 - technologie de l'information
@@ -11,7 +11,7 @@ tags :
 - open data
 - numérique
 - droit des données
-link : fing.org
+link : https://fing.org/
 ---
 
 La Fondation internet nouvelle génération est une association loi de 1901 créée en 2000 par Daniel Kaplan, Jacques-François Marchandise et Jean-Michel Cornu.

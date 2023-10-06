@@ -2,7 +2,7 @@
 title: Henri Verdier
 id: "20230927115428"
 types:
-  - Personne
+  - personne
 thumbnail: personne.png
 kesako: Ancien directeur d'Etalab
 link: https://fr.wikipedia.org/wiki/Henri_Verdier

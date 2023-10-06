@@ -3,10 +3,10 @@ title: Logica
 id: "20230924194000"
 types:
   - organisation
-thumbnail: organisation.png
+thumbnail: organisme_prive.png
 kesako: Entreprise de services informatiques
 tags :
-- entreprise
+- Datadonnées
 link : https://www.cgi.com/fr/CGI-conclut-acquisition-Logica-nouvelle-equipe-direction
 ---
 

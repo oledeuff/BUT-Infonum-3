@@ -4,8 +4,7 @@ id: "20230926144448"
 types:
   - notion  
 thumbnail: personne.png
-kesako: Professionnel des données géographiques
-link: 
+kesako: Le géomaticien est un professionnel des données géographiques 
 tag:
 - Cartographie
 - Géographie

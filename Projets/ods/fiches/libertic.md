@@ -2,10 +2,14 @@
 title: LiberTIC
 id: "20230924193954"
 types:
-  - organisation
-thumbnail: organisation.png
-short: Association oeuvrant pour l'ouverture des données en France
-tags: https://www.association-libertic.org/
+  - undefined
+thumbnail: organisme_prive.png
+kezako: Association oeuvrant pour l'ouverture des données en France
+tags:
+- transparence
+- communication
+- accès aux données
+link: https://www.association-libertic.org/
 ---
 **Libertic** est *une association nantaise de promotion de la culture libre dans l'espace francophone.*
 

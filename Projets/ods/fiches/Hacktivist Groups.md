@@ -3,8 +3,8 @@ title: Hacktivist Groups
 id: "20231003111131"
 types:
   - organisation
-thumbnail: organisation.png
-short: Hacktivist Groups
+thumbnail: organisme_prive.png
+kezako: Hacktivist Groups
 tags:
 - transparence
 - données gouvernementales
@@ -16,7 +16,7 @@ Les groupes hacktivistes, fusion des termes "hackers" et "activistes", représen
 
 Tout d'abord, les hacktivistes considèrent souvent l'accès libre aux données comme un moyen de lutter contre l'opacité institutionnelle. En exposant des informations qui pourraient autrement rester cachées ou réservées à certaines élites, ces groupes cherchent à éclairer le public sur des enjeux cruciaux. Les données ouvertes sont ainsi utilisées comme une arme pacifique pour révéler des vérités potentiellement dérangeantes.
 
-Dans certains cas, les hacktivistes opèrent en tant que "chevaliers numériques" qui mettent au jour des pratiques douteuses ou des cas de corruption en divulguant des données confidentielles. WikiLeaks, par exemple, a gagné une notoriété mondiale en publiant des documents confidentiels sur des questions politiques, militaires et économiques. Bien que les méthodes de divulgation soient controversées, ces actions ont suscité des débats importants sur la transparence et la responsabilité des institutions gouvernementales.
+Dans certains cas, les hacktivistes opèrent en tant que "chevaliers numériques" qui mettent au jour des pratiques douteuses ou des cas de corruption en divulguant des données confidentielles. WikiLeaks, par exemple, a gagné une notoriété mondiale en publiant des documents confidentiels sur des questions politiques, militaires et économiques. Bien que les méthodes de divulgation soient controversées, ces actions ont suscité des débats importants sur la transparence et la responsabilité des institutions gouvernementales [[20230924193522]].
 
 D'autre part, les hacktivistes peuvent également contribuer à l'open data en facilitant la collecte et la diffusion d'informations cruciales. Ils développent parfois des outils ou des techniques pour extraire des données pertinentes à partir de sources variées. Ces données peuvent ensuite être rendues publiques pour permettre une analyse plus large et une meilleure compréhension des enjeux.
 

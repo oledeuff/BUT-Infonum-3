@@ -2,10 +2,14 @@
 title: Météo France
 id: "20230929101431"
 types:
-  - Etat 
-thumbnail:
-kezako: 
-tags: Geographie Cartographie
+  - organisation 
+thumbnail: organisation.png
+kezako: données publiques météorologique
+tags:
+ - opendata
+ - data 
+ - accès aux données 
+ - réutilisation des données 
 link: https://donneespubliques.meteofrance.fr
 ---
 

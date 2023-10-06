@@ -2,10 +2,9 @@
 title: Geoportail
 id: "20230929092828"
 types:
-  - Outils
   - portail 
-thumbnail: outil.png
-kezako: 
+thumbnail: portail.png
+kezako: portail national de la connaissance du territoire 
 tags:
   -  base de données
   - échange de données

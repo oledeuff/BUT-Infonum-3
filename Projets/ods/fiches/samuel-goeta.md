@@ -12,8 +12,6 @@ tags :
 ---
 Sociologue et co-fondateur de la coopérative Datactivist qui se donne pour mission de rendre l’Open Data utile et utilisé
 
-<!--StartFragment-->
-
 Samuel Goëta est sociologue, maître de conférences à Sciences Po Aix, consultant chez Datactivist. Il en est également le co-fondateur, comme pour l'association Open Knowledge France. Il est spécialiste des données publiques ouvertes et de la médiation des données. Ses recherches en sociologie des sciences et des techniques étudient les conditions de mise en œuvre des projets d’open data dans les administrations et s’intéressent aux publics qui réutilisent les données ouvertes. En 2016, il cofonde la coopérative Datactivist, dont la mission est de rendre les données ouvertes utiles et utilisées. Samuel Goëta a également cofondé l’association Open Knowledge France, où il milite pour que la connaissance ouverte profite à tous.Il est aussi l'auteur d'une thèse sur l'Open Data. Il a aussi à son actif plusieurs communications dans des congrès spécialisés : 
 
 - Samuel Goeta, David Prothais.* Comment ouvrir la boîte noire de l'expertise ? Le recours aux données brutes et à la cartographie pour débattre de la troisième ligne de métro de Toulouse. Colloque du GIS « Participation, décision, démocratie participative » , Jan 2017, Paris, France. [⟨hal-01829319⟩](https://hal.archives-ouvertes.fr/hal-01829319 "Voir la page de la publication")
@@ -41,4 +39,4 @@ Il est l'auteur de nombreux articles publiés dans diverses revues d'Open Scienc
 - Samuel Goeta.* Instaurer des données, instaurer des publics : une enquête sociologique dans les coulisses de l'open data. Sociologie. Télécom ParisTech, 2016. Français. ⟨NNT : 2016ENST0045⟩. [⟨tel-01458098⟩](https://pastel.archives-ouvertes.fr/tel-01458098 "Voir la page de la publication")
 
 Son parcours commence en tant que doctorant à Télécom ParisTech pendant 4 ans puis en 2012, il co-fonde l'organisation Open Knowledge France. Il deviendra professeur à Science PO Paris en 2013 ou il fondera Datactivist 3 ans plus tard et deviendra maître de conférence associé en 2020 jusqu'à aujourd'hui.
-<!--EndFragment-->
+

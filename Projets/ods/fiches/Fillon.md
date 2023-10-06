@@ -4,7 +4,7 @@ id: "20230924193624"
 types:
   - personne
 thumbnail: personne.png
-kesako: Ancien premier ministre
+kezako: Ancien premier ministre
 link: https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Fillon
 tag:
 - politique numérique
@@ -15,7 +15,7 @@ tag:
 ---
 # La vision numérique de François Fillon
 
-Principal initiateur du projet Data.Gouv [[20230924193522]] site web lancé en 2011, volonté d’une « politique d’ouverture des données publiques » à l’occasion des 4èmes Assises du Numérique. 
+Principal initiateur du projet Data.Gouv[[20230924193522]] site web lancé en 2011, volonté d’une « politique d’ouverture des données publiques » à l’occasion des 4èmes Assises du Numérique. 
 
 Sous sa direction, le gouvernement français a pris des mesures importantes pour moderniser l'infrastructure numérique du pays. L'une de ses réalisations majeures a été le déploiement généralisé de la technologie haut débit, visant à améliorer la connectivité Internet en France. Cette initiative a contribué à réduire la fracture numérique en fournissant un meilleur accès à Internet dans les zones rurales et urbaines, ce qui a favorisé le développement de l'économie numérique.
 

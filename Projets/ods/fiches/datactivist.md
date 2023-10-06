@@ -3,16 +3,16 @@ title: Datactivist
 id: "20230924193529"
 types:
   - organisation
-thumbnail: organisation.png
-short: Coopérative, Données
+thumbnail: organisme_prive.png
+kesako: Coopérative, Données
 tags:
-  -data
-  -open data
-  -datadonnées
+  - data
+  - open data
+  - datadonnées
 link: https://datactivist.coop/fr/
 ---
 
-Co-fondateur de Data Publica [20230924193444](Data Publica), société coopérative et participative qui a pour mission d'ouvrir les données et de les rendre utiles et utilisées, la coopérative **Datactivist** représente une organisation innovante qui incarne la philosophie du datactivisme. Fondée par un groupe de passionnés alliant technologie et engagement social, cette coopérative s'engage à utiliser les données de manière responsable et éthique pour favoriser le changement dans le domaine social et environnemental.
+Co-fondateur de Data Publica [[20230924193444]](Data Publica), société coopérative et participative qui a pour mission d'ouvrir les données et de les rendre utiles et utilisées, la coopérative **Datactivist** représente une organisation innovante qui incarne la philosophie du datactivisme. Fondée par un groupe de passionnés alliant technologie et engagement social, cette coopérative s'engage à utiliser les données de manière responsable et éthique pour favoriser le changement dans le domaine social et environnemental.
 
 **Datactivist** se distingue par son engagement à offrir des solutions de données complètes et personnalisées aux organisations à but non lucratif, aux gouvernements et aux entreprises socialement responsables. Elle joue un rôle central en aidant ces entités à exploiter la puissance des données pour comprendre et résoudre des problèmes complexes.
 

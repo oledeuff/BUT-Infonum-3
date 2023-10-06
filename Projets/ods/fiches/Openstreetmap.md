@@ -3,8 +3,7 @@ title: Openstreetmap
 id: "20230926150544"
 types:
   - organisation
-  - outil
-thumbnail: 
+thumbnail: organisation.png
 kezako: La carte coopérative libre 
 tags:
  - base de données

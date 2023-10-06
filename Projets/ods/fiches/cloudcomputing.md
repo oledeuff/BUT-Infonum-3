@@ -19,3 +19,4 @@ Ce modèle offre plusieurs avantages. Tout d'abord, il permet une élasticité e
 
 La sécurité et la confidentialité des données sont des préoccupations majeures dans le cloud computing, et les fournisseurs de services cloud investissent massivement dans des mesures de protection avancées.
 Le cloud computing permet au niveau de l'open data d'héberger des portails et des entrepôts de données [[20230928110256]]
+On distingue plusieurs niveaux de service en cloud computing comme les paas, naas et saas.

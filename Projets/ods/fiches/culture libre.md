@@ -2,9 +2,9 @@
 title: Culture libre 
 id: "20230926111255"
 types:
-  - droit
+  - notion
 thumbnail: notion.png
-kesako: 
+kesako: La culture libre est un mouvement social et culturel qui défend la liberté des droits des auteurs. 
 link: 
 tags:
 - Mouvement social

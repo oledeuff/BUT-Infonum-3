@@ -3,7 +3,7 @@ title: OpenMairie
 id: "20230927101154"
 types: undefined
 thumbnail: outil.png
-Késako : projet logiciel libre des collectivités locales
+kesako : projet logiciel libre des collectivités locales
 tags :
 - transparence
 - analyse de données
@@ -17,7 +17,7 @@ Link : openmairie.org
 
 L'une des principales missions d'OpenMairie est de fournir aux collectivités locales les outils et les ressources nécessaires pour publier leurs données de manière transparente. Cette initiative encourage les municipalités à adopter des normes et des standards ouverts. Cela signifie que les données provenant de différentes municipalités peuvent être facilement comparées et utilisées ensemble, ce qui favorise la création de services transversaux. Le site d'OpenMairie renseigne sur les différentes applications opendata et les classent dans un catalogue : 
 - les applications industrialisés
-- les applications géolocalisées (SIG) [[SIG]]
+- les applications géolocalisées (SIG) [[20230926154550]]
 - et les applications simples
 
 C'est aussi une communauté propose des logiciels aux collectivités locales principalement et à d'autres organismes qui sont articulés autour du framework openMairie.

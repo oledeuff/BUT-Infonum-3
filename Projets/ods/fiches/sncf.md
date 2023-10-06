@@ -4,7 +4,7 @@ id: "20230924194151"
 types:
   - organisation
 thumbnail: organisation.png
-kesako: Portail des données ouvertes de la SNCF
+kesako: Société nationale des chemins de fer français
 link:
 ---
 

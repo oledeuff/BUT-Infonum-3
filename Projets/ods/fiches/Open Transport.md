@@ -2,9 +2,9 @@
 title: Open Transport
 id: "20231003155352"
 types:
-  - notion
-thumbnail: notion.png
-short: Open Transport
+  - undefined
+thumbnail: organisme_prive.png
+kezako: Open Transport
 tags:
 - données gouvernementales
 - initiative
@@ -24,4 +24,4 @@ Ces données sont souvent mises à disposition pour les développeurs d'applicat
 L'ouverture des données dans le domaine des transports peut contribuer à encourager l'utilisation des transports en commun, du covoiturage, de la marche à pied et du vélo, ce qui peut avoir un impact positif sur l'environnement et la réduction de la congestion routière.
 Les initiatives "Open Transport" qui impliquent souvent des partenariats entre les autorités de transport publiques, les gouvernements locaux, les entreprises privées et la société civile pour promouvoir l'ouverture des données.
 
-Il existe de nombreuses initiatives "Open Transport" à travers le monde, chacune ayant ses propres objectifs et domaines de concentration spécifiques. Si vous avez une initiative "Open Transport" particulière en tête ou si vous souhaitez des informations spécifiques sur une région ou un pays, n'hésitez pas à préciser votre demande, et je ferai de mon mieux pour fournir des informations plus ciblées.
+Il existe de nombreuses initiatives "Open Transport" à travers le monde dont [[20230926154650]] Transport Data Gouv, chacune ayant ses propres objectifs et domaines de concentration spécifiques. Si vous avez une initiative "Open Transport" particulière en tête ou si vous souhaitez des informations spécifiques sur une région ou un pays, n'hésitez pas à préciser votre demande, et je ferai de mon mieux pour fournir des informations plus ciblées.

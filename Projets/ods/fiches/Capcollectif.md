@@ -2,7 +2,7 @@
 title: Cap Collectif
 id: "20230929110926"
 types: organisation
-thumbnail: organisation.png
+thumbnail: entreprise.png
 kesako : entreprise de développement numérique pour l'engagement citoyen et la démocratie participative
 tags :
 - données gouvernementales
@@ -16,7 +16,7 @@ link : https://www.cap-collectif.com/
 Cap Collectif est une entreprise française créée par Maxime Arrouard et Cyril Lage qui se spécialise dans le développement de solutions numériques pour l'engagement citoyen et la démocratie participative. Cap collectif à plusieurs objectifs : 
 - Faire plus participer le citoyen au niveau de la conception des lois
 - Restaurer la confiance entre le citoyen et son gouvernement [[20230924193839]]
-L'entreprise est donc liée à l'Open Data, car elle joue un rôle essentiel dans la promotion de la transparence gouvernementale et de l'accès aux données publiques en France. 
+L'entreprise est donc liée à l'Open Data, car elle joue un rôle dans la promotion de la transparence gouvernementale et de l'accès aux données publiques en France. 
 
 Cap collectif crée des espaces de dialogue et de consultation en ligne et met en place des plateformes numériques personnalisées, cela permet aux citoyens de participer activement aux décisions qui les concernent. Ça aide aussi les collectivités locales, les gouvernements et les organisations qui peuvent observer cette collecte de données citoyennes pour se faire des idées des avis de chacun sur divers sujets. Les données en question peuvent être des résultats des consultations, des réponses aux sondages et des contributions. Une fois collectées et agrégées de manière anonyme, les données sont rendues accessibles au public. Les plateformes numériques créées par l'entreprise permettent aux autorités de publier des informations sur leurs projets, leurs budgets, leurs plans d'action et leurs décisions.  Ce même public peut donc avoir un accès direct aux données concernant les actions de leurs gouvernements, ce qui contribue à accroître la compréhension des politiques publiques.
 

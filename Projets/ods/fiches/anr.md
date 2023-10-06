@@ -1,10 +1,15 @@
 ---
-title: "ANR "
+title: ANR 
 id: "20230924193313"
 types:
   - organisation
 thumbnail: organisation.png
-short: Agence Nationale de la Recherche
+kezako: Agence Nationale de la Recherche
+tags:
+ - agence
+ - data
+ - recherche
+ - open data
 link: https://anr.fr/
 ---
 

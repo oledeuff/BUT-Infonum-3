@@ -2,7 +2,7 @@
 title: Transparency International France
 id: "20231004145601"
 types:
-  - Organisation
+  - organisation
 thumbnail: Transparency International France.png
 short: Organisation de lutte contre la corruption 
 link: https://fr.wikipedia.org/wiki/Transparency_International

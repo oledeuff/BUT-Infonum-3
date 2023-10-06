@@ -4,7 +4,7 @@ id: "20230927115841"
 types:
   - organisation 
 thumbnail: organisation.png
-Kézako:
+kezako: plateforme d’innovation ouverte
 tags:
  - base de données
   - libre d'accès

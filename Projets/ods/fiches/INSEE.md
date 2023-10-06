@@ -2,17 +2,15 @@
 title: INSEE
 id: "20230927140247"
 types:
-  - Organisation
-  - Outils 
+  - organisation
 thumbnail: organisation.png
-Kézako:
+kezako: L’Institut national de la statistique et des études économiques
 tags:
  - analyse des données
  - base de données
  - analyse
  - collecte
  - échange de données 
-
 link: https://www.insee.fr/fr/information/2410988
 ---
 

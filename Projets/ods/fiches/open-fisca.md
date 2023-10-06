@@ -2,8 +2,9 @@
 title: Open Fisca
 id: "20230930193632"
 types:
-  - outils 
-kezako:
+  - outil
+thumbnail: outil.png 
+kezako: moteur de calcul socio-fiscal
 tags:
   - base de données
   - données gouvernementales
@@ -11,7 +12,6 @@ tags:
   - analyse de données
   - information 
 link: https://api.gouv.fr/les-api/openfisca
-
 ---
 
 **OpenFisca** est un outil  d'analyse économique et fiscale basé sur le modèle de microsimulation. C'est une plateforme open source qui vise à promouvoir la transparence et l'accès aux données publiques liées aux politiques sociales et fiscales. 
@@ -28,4 +28,3 @@ OpenFisca a été conçu pour être flexible et personnalisable, ce qui permet a
 
 
 *aide à la rédaction : Chatgpt*
-/// faire des liens avec d'autres fiches et diminuer la taille de la fiche de façon plus objective.
