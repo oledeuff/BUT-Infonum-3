@@ -109,10 +109,10 @@ Olivier Le Deuff
 
 - La tâche a un début et une fin (faire un achat par 
 exemple)
-Possibilités de les découper en microtâches
-L’expérience ne se découpe pas aisément.
-On peut multiplier les tâches… 
-Il est déconseillé de multiplier les expériences différentes.
+  -   Possibilités de les découper en microtâches
+  - L’expérience ne se découpe pas aisément.
+  - On peut multiplier les tâches… 
+-   Il est déconseillé de multiplier les expériences différentes.
 
 ---
 
@@ -168,10 +168,10 @@ Il est déconseillé de multiplier les expériences différentes.
 # Le but est ensuite
 
 - De définir une typologie d’usagers
-De créer des personas
-De produire des storyboards
-Voir le chapitre  13, de Rosenfeld, Morville
-Voir le passage sur les Wireframes, blueprints
+- De créer des personas
+- De produire des storyboards
+     - Voir le chapitre  13, de Rosenfeld, Morville
+     - Voir le passage sur les Wireframes, blueprints
 
 
 ---
