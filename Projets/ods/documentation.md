@@ -153,3 +153,6 @@ Alicia Sargueux, Amandine Ducros Cervos, Bastien Touzé, Clément Gratia, Evan F
 Sous la direction d’_Olivier Le Deuff_, responsable de la troisième année du BUT Infonum.
 
 <img src="./odsprojet2.png" width=50%>
+
+Le projet repose sur le *logiciel Cosma*:
+Arthur Perret, Guillaume Brioudes, Clément Borel, & Olivier Le Deuff. (2021). Cosma. Zenodo. [https://doi.org/10.5281/zenodo.5920615](https://doi.org/10.5281/zenodo.5920615)
