@@ -136,7 +136,7 @@ Si vous utilisez Cosma dans un projet, pensez-à le citer surtout si vous docume
 - Cosma peut être utilisé par des enseignants, étudiants, chercheurs, bibliothécaires, designers, journalistes, enquêteurs... 
 - Tout travail de connaissance impliquant la description des choses et des relations entre elles peut utiliser Cosma.
 
-
+---
 
 # Des cosmoscopes
 
