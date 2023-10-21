@@ -53,7 +53,7 @@ Olivier Le Deuff.
 
 ---
 
-# À propos de Cosma
+# 1. À propos de Cosma
 
 ---
 
@@ -75,6 +75,7 @@ Une première version a été développé par Jean David étudiant en master 2 D
 
 En 2020, Arthur a défié Guillaume de construire un prototype basé sur le code source d'Otletosphere pour visualiser sa documentation de recherche sous forme de réseau interactif. C'est le point de départ de ce qui est devenu Cosma.
 Il s'agit donc d'une *innovation ascendante* non prévue initialement dans le programme de recherche.
+![bg right 150%](./discussion.png)
 
 ---
 
@@ -93,7 +94,9 @@ Il existe de nombreux outils de rédaction non linéaires, y compris une récent
 
 ## Qu'est-ce que Cosma?
 
-La plupart de Cosma est constituée d'idées et de techniques préexistantes (hypertexte, visualisation graphique, backlinks...), avec deux choix peu communs qui définissent l'identité du programme.
+Cosma est constitué d'idées et de techniques préexistantes (hypertexte, visualisation graphique, backlinks...), avec deux choix peu communs qui définissent l'identité du programme:
+  - ce n'est pas un éditeur de texte
+  - c'est une application dans une application.
 
 ---
 
@@ -130,16 +133,17 @@ Si vous utilisez Cosma dans un projet, pensez-à le citer surtout si vous docume
 ---
 # Utilisations courantes
 
-Cosma peut être utilisé par des enseignants, étudiants, chercheurs, bibliothécaires, designers, journalistes... Tout travail de connaissance impliquant la description des choses et des relations entre elles peut utiliser Cosma.
+- Cosma peut être utilisé par des enseignants, étudiants, chercheurs, bibliothécaires, designers, journalistes, enquêteurs... 
+- Tout travail de connaissance impliquant la description des choses et des relations entre elles peut utiliser Cosma.
 
----
 
 
-# À propos des exemples
+# Des cosmoscopes
 
 
 Les exemples interactifs sont appelés "cosmoscopes". Ce sont des fichiers HTML autonomes, donc ils peuvent être partagés et utilisés tels quels : vous avez seulement besoin d'un navigateur web pour les ouvrir.
 Ils sont donc faciles également à héberger.
+![bg right 100%](./hyperdocumentation2.jpg)
 
 ---
 ## Création d'un glossaire hypertextuel
@@ -180,6 +184,16 @@ La recherche implique généralement de rassembler des matériaux, de prendre de
 
 
 Cosma encourage le *travail de connaissance*. Classifiez les choses en utilisant des types et des mots-clés : Cosma vous donnera des moyens de navigation (couleurs, filtres). Engagez-vous avec des concepts et de la littérature : Cosma vous donne des rétroliens contextualisés pour vous rappeler des idées passées, vous aidant à créer de nouvelles idées.
+
+
+---
+
+# 2. Exemples
+Des utilisations très différentes sont possibles.
+Soit à partir de tableurs, soit idéalement à partir de fiches markdown.
+
+![bg right](./prezcosmo.png)
+
 
 ---
 # Le Projet AlgoJ
@@ -227,6 +241,13 @@ Cosma encourage le *travail de connaissance*. Classifiez les choses en utilisant
 Issue des données du Monde Diplomatique.
 *Work in progress*
 ![bg right 100%](./mediasphere.JPG)
+
+---
+# Cosma évolue
+
+Des fonctionnalités sont ajoutées régulièrement.
+De futures versions sont donc à imaginer.
+![bg right 150%](./cosmafutur.png)
 
 ---
 
