@@ -225,7 +225,7 @@ Cosma encourage le *travail de connaissance*. Classifiez les choses en utilisant
 ---
 # La médiasphère
 Issue des données du Monde Diplomatique.
-Work in progress
+*Work in progress*
 ![bg right 100%](./mediasphere.JPG)
 
 ---
