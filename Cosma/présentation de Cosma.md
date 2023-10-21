@@ -65,8 +65,10 @@ Cosma a été créé pendant le programme de recherche [HyperOtlet](https://hype
 
 ## Otletosphere
 
-En 2018 et 2019, Olivier Le Deuff a dirigé un projet de cartographie nommé [Otletosphere](https://hyperotlet.huma-num.fr/otletosphere/), avec la version 2 développée par Guillaume  Brioudes alors étudiant en *LP MIND* qui est un peu l'ancêtre du *BUT 3 Infonum*.
-![bg right](otletosphere.JPG)
+En 2018 et 2019, Olivier Le Deuff a dirigé un projet de cartographie nommé [Otletosphere](https://hyperotlet.huma-num.fr/otletosphere/),
+Une première version a été développé par Jean David étudiant en master 2 DNHD, puis une versin 2 développée par Guillaume  Brioudes alors étudiant en *LP MIND* qui est un peu l'ancêtre du *BUT 3 Infonum*.
+![bg right 120%](otletosphere.JPG)
+
 ---
 
 ## Point de départ
@@ -76,7 +78,7 @@ Il s'agit donc d'une *innovation ascendante* non prévue initialement dans le pr
 
 ---
 
-## Nom "Cosma"
+## Le Nom de "Cosma"
 
 Nous avons emprunté le nom "Cosma" à **Cosma Rosselli**, l'auteur d'un *Thesaurus artificiosæ memoriæ* (1579), que nous pouvons traduire approximativement par "trésor de mémoire artificielle" - une manière poétique de décrire une aide à la mémoire.
 La référence à ce travail est décrite notamment par *Umberto Eco* dans son ouvrage *De l'arbre au labyrinthe.*
@@ -95,7 +97,7 @@ La plupart de Cosma est constituée d'idées et de techniques préexistantes (hy
 
 ---
 
-## Pas un éditeur de texte
+## Ce n'est pas un éditeur de texte
 
 Premièrement, Cosma n'est pas une application de prise de notes. Il n'y a pas d'éditeur de texte. Cosma ne lit que les fichiers et génère une visualisation de ces fichiers et de leurs connexions.
 - Mais il est compatible avec des éditeurs de notes de type *markdown* comme *Zettlr* qui a été le modèle de base et qui est le logiciel conseillé pour travailler avec Cosma.
@@ -111,51 +113,40 @@ Le choix peu commun que nous avons fait concerne l'architecture de Cosma. En tan
 ## Pour qui est-ce?
 
 Cosma est une interface pour des données de type *wiki*, la présentant d'une manière qui aide à analyser, synthétiser et partager l'information. Tout travail de connaissance qui implique de décrire des choses et les relations entre elles peut utiliser Cosma.
+La philosophie reste la même depuis le début de l'otletosphère : relier la *fiche* au *graphe*.
 
 ---
 
 ## Licence
 
-Cosma est disponible gratuitement, et son code est librement réutilisable sous les conditions autorisées par la licence GNU GPL 3.0.
+Cosma est disponible gratuitement, et son code est librement réutilisable sous les conditions autorisées par la [*licence GNU GPL 3.0*](https://www.gnu.org/licenses/quick-guide-gplv3.fr.html)
 
 ---
 
 ## Pour citer Cosma
+Si vous utilisez Cosma dans un projet, pensez-à le citer surtout si vous documentez votre travail :
+- Arthur Perret, Guillaume Brioudes, Clément Borel, & Olivier Le Deuff. (2021). Cosma. Zenodo. [https://doi.org/10.5281/zenodo.5920615](https://doi.org/10.5281/zenodo.5920615)
 
-Arthur Perret, Guillaume Brioudes, Clément Borel, & Olivier Le Deuff. (2021). Cosma. Zenodo. [https://doi.org/10.5281/zenodo.5920615](https://doi.org/10.5281/zenodo.5920615)
-
-
+---
 # Utilisations courantes
 
-Cosma peut être utilisé pour :
-- Analyse de données
-- Exploration de données
-- Présentation de données
-- Enseignement et formation
-
----
-Cosma est utilisé par les enseignants, étudiants, chercheurs, bibliothécaires, designers, journalistes... Tout travail de connaissance impliquant la description des choses et des relations entre elles peut utiliser Cosma.
-
+Cosma peut être utilisé par des enseignants, étudiants, chercheurs, bibliothécaires, designers, journalistes... Tout travail de connaissance impliquant la description des choses et des relations entre elles peut utiliser Cosma.
 
 ---
 
 
-## À propos des exemples
+# À propos des exemples
 
 
-Les exemples interactifs liés sur cette page sont appelés "cosmoscopes". Ce sont des fichiers HTML autonomes, donc ils peuvent être partagés et utilisés tels quels : vous avez seulement besoin d'un navigateur web pour les ouvrir.
-
+Les exemples interactifs sont appelés "cosmoscopes". Ce sont des fichiers HTML autonomes, donc ils peuvent être partagés et utilisés tels quels : vous avez seulement besoin d'un navigateur web pour les ouvrir.
+Ils sont donc faciles également à héberger.
 
 ---
-
-
 ## Création d'un glossaire hypertextuel
-
 
 Un glossaire peut être une ressource inestimable pour les nouveaux venus et les professionnels établis dans n'importe quel domaine, fournissant un vocabulaire partagé avec des définitions.
 
-
-![Image](https://cosma.arthurperret.fr/img/glossary-backlink.png)
+![bg right 100%](https://cosma.arthurperret.fr/img/glossary-backlink.png)
 
 
 ---
@@ -167,7 +158,7 @@ Un glossaire peut être une ressource inestimable pour les nouveaux venus et les
 Lorsque vous travaillez sur un sujet, vous commencez souvent par une liste, puis passez soit à des tableaux (dans un tableur, une base de données) soit à des diagrammes (comme des cartes mentales).
 
 
-![Image](https://cosma.arthurperret.fr/img/otletosphere-spreadsheet.png)
+![bg right 100%](https://cosma.arthurperret.fr/img/otletosphere-spreadsheet.png)
 
 
 ---
@@ -179,7 +170,7 @@ Lorsque vous travaillez sur un sujet, vous commencez souvent par une liste, puis
 La recherche implique généralement de rassembler des matériaux, de prendre des notes à leur sujet et de forger de nouvelles idées.
 
 
-![Image](https://cosma.arthurperret.fr/img/algoj-concept.png)
+![bg right 100%](https://cosma.arthurperret.fr/img/algoj-concept.png)
 
 
 ---
@@ -188,10 +179,57 @@ La recherche implique généralement de rassembler des matériaux, de prendre de
 ## Un outil pour la connaissance
 
 
-Cosma encourage le travail de connaissance. Classifiez les choses en utilisant des types et des mots-clés : Cosma vous donnera des moyens de navigation (couleurs, filtres). Engagez-vous avec des concepts et de la littérature : Cosma vous donne des rétroliens contextualisés pour vous rappeler des idées passées, vous aidant à créer de nouvelles idées.
-
+Cosma encourage le *travail de connaissance*. Classifiez les choses en utilisant des types et des mots-clés : Cosma vous donnera des moyens de navigation (couleurs, filtres). Engagez-vous avec des concepts et de la littérature : Cosma vous donne des rétroliens contextualisés pour vous rappeler des idées passées, vous aidant à créer de nouvelles idées.
 
 ---
+# Le Projet AlgoJ
+[Visitez le graphe AlgoJ](http://www.culturedel.info/cosmoscope.html)
+![bg right 100%](./algoJ.JPG)
+
+---
+
+# La Pagèsphère
+[Visitez le graphe de Robert Pagès](https://oledeuff.github.io/Pagesphere/pagesphere.html)
+![bg right 100%](./pagès.JPG)
+
+---
+
+# L'osintosphère
+[Visitez le graphe des acteurs de l'OSINT](https://oledeuff.github.io/Osintosphere/osintosphere.html)
+![bg right 100%](./bellingcat.JPG)
+
+---
+
+# Le penduloscope
+[Visitez le graphe du Pendule de Foucault d'Umberto Eco](https://oledeuff.github.io/Penduloscope/pendule.html)
+![bg right 100%](./pendule.JPG)
+
+---
+
+# Le But infonum
+[Visitez le graphe du But infonum](https://oledeuff.github.io/BUT-Infonum-3/graphe.html)
+![bg right 100%](./but3.jpg)
+
+---
+
+# Le graphe E3D
+[Visitez le graphe de l'axe E3D du MICA](https://graphlab-fr.github.io/e3d/E3D.html)
+![bg right 100%](./e3d.JPG)
+
+---
+
+# Projet Open Data Sphère
+[Visitez le projet Open Data Sphère avec les étudiants d'infonum](https://oledeuff.github.io/BUT-Infonum-3/opendata.html)
+![bg right 100%](./opendata.JPG)
+
+---
+# La médiasphère
+Issue des données du Monde Diplomatique.
+Work in progress
+![bg right 100%](./mediasphere.JPG)
+
+---
+
 # Références et crédits
 
 - Eco, Umberto. *De l’arbre au labyrinthe. Études historiques sur le signe et l’interprétation*. Grasset, 2010. 978-2-246-74851-9.
