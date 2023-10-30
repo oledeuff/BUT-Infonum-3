@@ -37,7 +37,7 @@ L'Open Data Sphère est un graphe qui connecte plusieurs points de manière logi
 Vous pouvez zoomer de différentes manières. Les nœuds sont organisés par un algorithme de simulation de forces. Ajustez l'affichage via les paramètres. L'affichage est compatible avec tous les écrans, mais pas optimisé pour les mobiles.
 
 
-![paramètres](./parametres.JPG)
+![paramètres](./paramètres.JPG)
 
 ## Astuces et conseils
 
