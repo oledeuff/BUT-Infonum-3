@@ -15,7 +15,7 @@ Link : opquast.com
 
 **Opquast** est une organisation française créée en 2004 par Elie Sloïm qui se consacre à la promotion de la qualité et de l'accessibilité des sites web et des applications en ligne.
 L'objectif et les missions d'Opquast sont : 
-- de permettre au plus grand nombre d’accéder aux services web, quel que soit leur profil. Il promouvoit donc activement l’Open Data.
+- de permettre au plus grand nombre d’accéder aux services web, quel que soit leur profil. Il promeut donc activement l’Open Data.
 - d’améliorer les services web en simplifiant et en facilitant leur utilisation dans les sphères privées, publiques et professionnelles
 - d’aider les professionnels et organisations à développer leurs compétences et leur impact sur la qualité, l’accessibilité et la sobriété des sites Web et outils numériques.
 - et de former et développer un écosystème engagé dans l’amélioration du Web.

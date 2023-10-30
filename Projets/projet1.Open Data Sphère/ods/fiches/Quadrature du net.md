@@ -3,7 +3,7 @@ title: Quadrature du net
 id: "20230927101408"
 types: organisation
 thumbnail: organisation.png
-kezako: protection des libertés numériques
+kesako: protection des libertés numériques
 tags:
 - analyse
 - transparence
@@ -22,9 +22,10 @@ Ensuite, elle met l'accent sur le plaidoyer politique et juridique en vue de por
 
 Enfin, elle s'engage dans la sensibilisation et la formation afin de permettre la mise en discussion de sa vision du numérique et des pratiques qui en découlent. Cette démarche vise à enrichir ces perspectives en s'appuyant sur l'expertise de chacun, et à les diffuser au sein de la société, dans une optique d'éducation populaire. Cela comprend, par exemple, le renforcement des compétences des militants en matière d'outils et de méthodes permettant de se protéger contre la surveillance et la censure, ainsi que la promotion d'une utilisation consciente et réfléchie de la technologie informatique pour tous.
 
-La Quadrature du Net peut partager des objectifs similaires en termes de transparence, d'accès aux informations et de gouvernance démocratique avec 
-l'Open Knowledge Foundation [[20230926143215]] et Etalab [[20230924193610]].
+La Quadrature du Net peut partager des objectifs similaires en termes de transparence, d'accès aux informations et de gouvernance démocratique avec  l'Open Knowledge Foundation [[20230926143215]] .
 
 **L'Impact de La Quadrature du Net**
 
 Au fil des années, La Quadrature du Net a acquis une influence significative dans le domaine de la protection des libertés numériques. Elle a contribué à sensibiliser le public et les décideurs politiques aux enjeux critiques liés à la vie privée, à la liberté d'expression et à la neutralité du net. Son engagement a également conduit à des victoires juridiques importantes, remettant en question certaines lois et pratiques controversées.
+
+aide à la rédaction *chatgpt*

@@ -22,7 +22,7 @@ Cette semaine permet de poser les cadres du projet longitudinal du BUT 3 infonum
 - **Objectifs de compréhension** : Quels aspects du département souhaitons-nous mieux comprendre à partir des données disponibles?
 
 ### Après-midi :
-- **Visite du CDDP à 14H** : Exploration du Centre de Documentation et d'Information pour gagner en insights et en compréhension.
+- **Visite du CDP à 14H** : Exploration du Centre de Documentation et d'Information pour gagner en insights et en compréhension.
 
 ---
 
@@ -39,7 +39,9 @@ Cette semaine permet de poser les cadres du projet longitudinal du BUT 3 infonum
 
 ### Matinée 1 : Exploration des Données et Diagnostic
 
-- **Répartition des participants** : Formation de 4 groupes de 4 personnes.
+- **curation de données** : principes, exemples, analyse, méthodes et réflexions.
+
+
 - **Diagnostic des données disponibles** : 
   - Quelles données avons-nous à disposition?
   - Quels sont leurs types et formats?
@@ -58,7 +60,9 @@ Cette semaine permet de poser les cadres du projet longitudinal du BUT 3 infonum
 
 ## **Vendredi : Organisation et Planification du Projet**
 
-### Matinée 2 : Approche Muséographique
+- **Répartition des participants** : Formation de 4 groupes de 4 personnes.
+
+### Matinée  : Approche Muséographique
 
 - **Visite inspirante** : Éventuellement, une visite au Musée d'Aquitaine ou aux Archives départementales pour gagner en inspiration.
 - **Exercice pratique** : 
@@ -66,7 +70,7 @@ Cette semaine permet de poser les cadres du projet longitudinal du BUT 3 infonum
   - Définir la position, l'effet recherché, la tonalité et la posture pour les visiteurs.
   - Définir le récit global de l'exposition.
 
-### Après-midi 2 : Planification et Répartition
+### Après-midi  : Planification et Répartition
 
 - **Révision des outils** : Récapitulatif sur la méthode de diagnostic, dataviz et approche muséographique.
 - **Élaboration du rétroplanning** : 

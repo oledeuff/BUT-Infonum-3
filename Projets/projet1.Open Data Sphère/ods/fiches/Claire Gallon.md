@@ -13,7 +13,7 @@ tags:
 
 *Une Experte en Open Data et Gestion des Données*
 
-Claire Gallon est co-fondatrice et administratrice de l’association LiberTIC [[0230924193954]], qui a pour objet la promotion de l’ouverture des données.  
+Claire Gallon est co-fondatrice et administratrice de l’association LiberTIC [[20230924193954]] LiberTIC, qui a pour objet la promotion de l’ouverture des données.  
 
 Experte dans le domaine de l'Open Data et de la gestion des données en France. Son parcours professionnel et son expertise ont contribué de manière significative à l'évolution de la compréhension et de la mise en œuvre de l'Open Data, ainsi qu'à l'amélioration de la gestion des données dans divers domaines. 
 

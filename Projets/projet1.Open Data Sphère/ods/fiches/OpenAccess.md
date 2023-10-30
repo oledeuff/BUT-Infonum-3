@@ -3,13 +3,13 @@ title: Open Access
 Id: 20231005145709 
 types: notion
 thumbnail: notion.png
-kesako: c'est la mise à disposition en ligne de contenus numériques.
+kesako: Accès ouvert à la connaissance.
 tags:
 - open access
 - partage de connaissance
 ---
 
-Le libre accès (Open Access) est la mise à disposition en ligne de contenus numériques, qui peuvent eux-mêmes être soit libres (Creative Commons, etc.), soit sous un des régimes de propriété intellectuelle.
+Le libre accès (Open Access) est la mise à disposition en ligne de contenus numériques, qui peuvent eux-mêmes être soit libres ( [[20230924193436]] licence Creative CommonsCreative, etc.), soit sous un des régimes de propriété intellectuelle.
 
 L’un des principes fondamentaux du libre accès est la suppression des paywalls et des frais d’abonnement qui restreignaient traditionnellement l’accès aux revues universitaires, aux articles et aux documents de recherche. Au lieu de cela, Open Access favorise un accès en ligne illimité, permettant à toute personne disposant d’une connexion Internet de lire, télécharger et partager du contenu scientifique. Cette inclusivité améliore la diffusion des connaissances et démocratise l’accès à l’information, bénéficiant non seulement aux chercheurs et aux universitaires mais également au grand public.
 

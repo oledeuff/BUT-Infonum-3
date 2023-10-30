@@ -10,7 +10,7 @@ tags:
 link: https://www.assemblee-nationale.fr/dyn/deputes/PA610873
 ---
 
-Axelle Lemaire est une personnalité politique franco-canadienne qui a joué un rôle de premier plan dans la promotion de l'Open Data en France. Née le 18 décembre 1974 à Ottawa, au Canada, elle a acquis une réputation d'expertise et d'engagement en matière de numérique, d'innovation et de transparence gouvernementale.
+Axelle Lemaire est une personnalité politique franco-canadienne qui a joué un rôle de premier plan dans la *promotion de l'Open Data* en France. Née le 18 décembre 1974 à Ottawa, au Canada, elle a acquis une réputation d'expertise et d'engagement en matière de numérique, d'innovation et de transparence gouvernementale.
 
 Axelle Lemaire a grandi au Canada, où elle a obtenu sa première expérience dans le domaine de la politique et de la diplomatie en travaillant pour le ministère des Affaires étrangères canadien. Cependant, sa carrière a pris un tournant significatif lorsqu'elle a déménagé en France en 2004 pour poursuivre ses études à Sciences Po Paris. Elle a ensuite obtenu un diplôme en économie internationale à l'Université Paris-Dauphine.
 

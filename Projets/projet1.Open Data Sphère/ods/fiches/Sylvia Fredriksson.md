@@ -13,4 +13,4 @@ tags:
 Sylvia Fredriksson est enseignante-chercheure; ses travaux portent sur les relations entre design, technique et politique en général mais aussi sur la datavisualisation et les communs..
  
 Elle collabore sur de nombreux projets dans le champs de la culture et de la médiation numérique.
-Elle contribue notamment aux travaux de [[20230926143215]]l'Open Knowledge Foundation sur la question des communs.
+Elle contribue notamment aux travaux de [[20231030102601]] l' Open Knowledge Foundation  sur la question des communs.

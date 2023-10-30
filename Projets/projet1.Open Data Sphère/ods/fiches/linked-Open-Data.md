@@ -3,7 +3,7 @@ title: Linked Open Data
 id: "20230927104018"
 types:
   - notion
-thumbnail:
+thumbnail: notion.png
 kesako: Données ouvertes et liées
 tags:
 - web

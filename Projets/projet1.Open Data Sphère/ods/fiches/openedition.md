@@ -13,10 +13,9 @@ tags :
 Link : openedition.org/
 ---
 
-Lancé en 2011 et créé par le Centre pour l'édition électronique ouverte. 
-Ce portail comprend quatre plateformes : revues.org ; calenda ; Hypothèses.org et OpenEdition Books. Elle travaille en faveur de l'accès ouvert aux résultats de la recherche scientifique.
+Lancé en 2011 et créé par le Centre pour l'édition électronique ouverte, ce portail comprend quatre plateformes : revues.org ; calenda ; Hypothèses.org et OpenEdition Books. Elle travaille en faveur de l'accès ouvert aux résultats de la recherche scientifique [[20231005145709]] Open Access.
 
-OpenEdition est un portail de publication en sciences humaines et sociales créé par le Centre pour l'édition électronique ouverte, centre spécialisé dans le domaine de l'édition électronique associant le CNRS [[CNRS]], l'EHESS, l'Université d'Aix-Marseille [[20230928110541]] et l'Université d'Avignon
+OpenEdition est un portail de publication en sciences humaines et sociales créé par le Centre pour l'édition électronique ouverte, centre spécialisé dans le domaine de l'édition électronique associant le CNRS , l'EHESS, l'Université d'Aix-Marseille  et l'Université d'Avignon
 C'est une innovation dans le monde de la recherche académique, favorisant l'accès ouvert à la connaissance dans le domaine des sciences humaines et sociales. Cette plateforme en ligne offre un ensemble diversifié de publications universitaires, de revues, de livres, de carnets de recherche et d'actes de conférences, tous accessibles gratuitement.
 
 OpenEdition est un espace où les chercheurs peuvent partager leurs découvertes et où les éditeurs académiques peuvent diffuser leurs publications. La plateforme collabore avec un grand nombre d'acteurs du monde universitaire.

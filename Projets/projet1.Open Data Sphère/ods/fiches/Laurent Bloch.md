@@ -11,7 +11,7 @@ tags:
 ---
 *Pionnier de l'Open Data en France*
 
-Laurent Bloch est une personnalité éminente dans le domaine de l'Open Data en France. Il incarne l'engagement et l'expertise d'un professionnel qui a joué un rôle crucial dans la promotion de la transparence gouvernementale [[ 20230924193839]] , de l'innovation et de la collaboration grâce à l'Open Data. 
+Laurent Bloch est une personnalité éminente dans le domaine de l'Open Data en France. Il incarne l'engagement et l'expertise d'un professionnel qui a joué un rôle crucial dans la promotion de la transparence gouvernementale [[20231004145657]] Open Government Initiative , de l'innovation et de la collaboration grâce à l'Open Data. 
 
 Laurent Bloch a suivi une formation en informatique et en sciences de l'information. Il a acquis une solide compréhension des systèmes informatiques, des bases de données et des technologies nécessaires à la gestion des données.
 Après ses études, il a travaillé dans le secteur privé, accumulant une expérience précieuse en tant que développeur de logiciels et consultant en technologies de l'information. Cette expérience lui a permis de développer des compétences techniques approfondies, qui se sont révélées cruciales pour ses futurs projets liés à l'Open Data.

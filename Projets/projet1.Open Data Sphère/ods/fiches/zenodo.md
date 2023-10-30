@@ -14,7 +14,7 @@ Ce dépôt a été créé par le CERN (Conseil Européen pour la recherche nucl�
 
 Il a été lancé en 2013, pour permettre aux chercheurs de déposer les éléments nécessaires aux recommandations de Science ouverte qui n'existaient pas des dépôts institutionnels.
 
- En 2015, il a été renommé Zenodo en permettant à des chercheurs de déposer ou télécharger des fichiers jusqu'à 50 Go2,3.
+ En 2015, il a été renommé Zenodo et permet à des chercheurs de déposer ou télécharger des fichiers jusqu'à 50 Go2,3.
 
 En 2017, il est sélectionné comme l'un des projets Google Summer of Code. En 2019, Zenodo a annoncé un partenariat avec le dépôt de données ouvertes Dryad afin de développer de nouvelles solutions pour faciliter le travail des chercheurs et éditeurs, les bonnes pratiques logicielles, et la structuration des données.
 
