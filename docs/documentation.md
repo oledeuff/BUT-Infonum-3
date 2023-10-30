@@ -9,8 +9,8 @@ title: Présentation de l'Open Data Sphère
 
 Le projet de l’Open Data Sphère s’inscrit dans le cadre des projets et des Saé qui se déroulent durant la troisième année de la formation du _BUT information-communication parcours information numérique dans les organisations (voir le [graphe de l’année](https://oledeuff.github.io/BUT-Infonum-3/graphe.html))_  qui est ouverte en formation initiale et continue ainsi qu'à l’alternance. 
 
-Le projet est consultable en ligne [ici]().
-Un petit [guide de navigation]() a également été produit.
+Le projet est consultable en ligne [ici](./opendata.html).
+Un petit [guide de navigation](./guidedenavigation.html) a également été produit.
 
 Pendant les semaines où les alternants sont en entreprise, les autres étudiants sont intégrés au sein de projets ambitieux dont le but est de parvenir à livrer des réalisations de niveau professionnel à des commanditaires. Ce projet est le premier projet de l’année. Il s’est déroulé du 25 septembre au 6 octobre 2023.
 Le sujet d'études était l'*open data*. L'Open Data, c'est la conviction que les données détenues par les institutions publiques devraient être mises à la disposition de tous, dans un format ouvert et accessible, pour stimuler l'innovation et favoriser la transparence. 
@@ -22,7 +22,7 @@ Le résultat prend la forme d’un graphe interactif généré grace au [logicie
 Sous la direction de [M. Le Deuff](https://oledeuff.github.io/BUT-Infonum-3/graphe.html#20230730225749), le but était de produire une mise à jour des données, de les transférer en format markdown, pour ensuite les mettre sur github et de les rendre disponibles et visibles sur Cosma. Le projet a nécessité l’apprentissage de formats d’écriture et de mise en forme ainsi que plusieurs logiciels. 
 
 
-<img src="./odsprojet.png" width=50%>
+![graphe](./odsprojet.png)
 
 **Objectifs pédagogiques**
 

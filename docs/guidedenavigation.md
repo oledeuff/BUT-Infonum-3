@@ -17,7 +17,7 @@ L'Open Data Sphère est un graphe qui connecte plusieurs points de manière logi
 - **Description** : contient des liens internes et externes
 - **Liens** : internes et rétroliens
 
-<img src="./fiche.JPG" width=50%>
+![fiche](./fiche.JPG)
 
 ## Options du graphe
 
@@ -29,13 +29,15 @@ L'Open Data Sphère est un graphe qui connecte plusieurs points de manière logi
 - **Paramètres du graphe** : ajustements d'affichage
 - **Aide** : liste de raccourcis
 
-<img src="./index.JPG" width=50%>
+
+![index](./index.JPG)
 
 ## Navigation
 
 Vous pouvez zoomer de différentes manières. Les nœuds sont organisés par un algorithme de simulation de forces. Ajustez l'affichage via les paramètres. L'affichage est compatible avec tous les écrans, mais pas optimisé pour les mobiles.
 
-<img src="./paramètres.JPG" widht=50%>
+
+![paramètres](./parametres.JPG)
 
 ## Astuces et conseils
 
