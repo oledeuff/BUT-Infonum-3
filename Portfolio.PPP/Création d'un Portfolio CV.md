@@ -119,3 +119,6 @@ Vous pouvez ajouter des pages, par exemple une page consacrée à des réalisati
 Le but est alors de lier votre *CV* classique à une page de preuves avec des réalisations.
 Le fait de pouvoir également relier votre *cv* à un espace Github permet aussi de donner à voir le travail que vous avez effectué sur les dépôts.
 Pour vraiment utiliser la pleine puissance du système, il faut utiliser le système GIT et notamment *Github Desktop*.
+
+Il est possible de copier intégralement un projet de portfolio existant en le 'forkant'. Il faut ensuite le modifier avec ses propres contenus.
+Pensez également qu'une fois que vous avez créé votre espace githubpages, il est possible de créer un dossier 'docs" dans lequel vous pouvez ajouter des réalisations notamment web. Par exemple, si vous préférez travailler avec du hmtl directement et du onepage, vous pouvez le faire. Il vous suffira d'ajouter vos fichiers dans votre espace.
