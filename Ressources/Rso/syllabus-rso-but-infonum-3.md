@@ -44,7 +44,16 @@ Il est également intéressant de lire les articles de presse spécialisée sur 
   - Freeman, R. E., & Reed, D. L. (1983). Stockholders and stakeholders: A new perspective on corporate governance. *California management review*, 25(3), 88-106.
   - Ouest-France, * Responsabilité Sociétale d'Entreprise de Ouest-France* 2022.
 
-# Responsabilité algorithmique (4 heures)
+
+  # Souverainetés numériques (2 heures)
+
+- Définition et importance de la souveraineté numérique
+- Les enjeux de la souveraineté numérique pour les organisations
+- Références :
+  - Musiani, F. (2013). *Nains sans géants. Architecture décentralisée et services Internet.* Presses des Mines.
+  - Kallinikos, J., Aaltonen, A., & Marton, A. (2013). The ambivalent ontology of digital artifacts. *MIS quarterly*, 357-370.
+
+# Responsabilité algorithmique (6 heures)
 
 - Comprendre les biais algorithmiques et leur impact
 - Les principes de l'éthique de l'IA
@@ -64,14 +73,6 @@ Il est également intéressant de lire les articles de presse spécialisée sur 
   - O'Neil, Cathy. *Weapons of math destruction: How big data increases inequality and threatens democracy.* Crown, 2017.
 
 
-# Souverainetés numériques (2 heures)
-
-- Définition et importance de la souveraineté numérique
-- Les enjeux de la souveraineté numérique pour les organisations
-- Références :
-  - Musiani, F. (2013). *Nains sans géants. Architecture décentralisée et services Internet.* Presses des Mines.
-  - Kallinikos, J., Aaltonen, A., & Marton, A. (2013). The ambivalent ontology of digital artifacts. *MIS quarterly*, 357-370.
-
 # Frugalité numérique (2 heures)
 
 - Comprendre la frugalité numérique et son importance
@@ -80,10 +81,11 @@ Il est également intéressant de lire les articles de presse spécialisée sur 
   - George, G., McGahan, A. M., & Prabhu, J. (2012). Innovation for inclusive growth: Towards a theoretical framework and a research agenda. *Journal of management studies*, 49(4), 661-683.
   - Bhatti, Y. A., & Ventresca, M. (2013). How can 'frugal innovation'be conceptualized?.
 
-# Manipulations attentionnelles et interfaces contraignantes (2 heures)
+# Manipulations attentionnelles et interfaces contraignantes (lectures complémentaires)
 
 - Comprendre les manipulations attentionnelles et les interfaces contraignantes
 - Les implications éthiques de ces pratiques
+- Vidéo de Data Gueule sur les RSN et Dark Patterns.
 - Références :
   - Zuboff, S. (2019). *The age of surveillance capitalism: The fight for a human future at the new frontier of power.* Profile Books.
   - Williams, J. (2017). *Stand out of our light: Freedom and resistance in the attention economy.* Cambridge University Press.

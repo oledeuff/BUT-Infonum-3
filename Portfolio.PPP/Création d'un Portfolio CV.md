@@ -84,7 +84,8 @@ Par exemple, vous pouvez retrouver une [nouvelle version du CV de Bastien Victor
 3. Cliquez sur `Learn how to add a Jekyll theme to your site'.
 
 Vous serez redirigé vers une page avec une sélection de thèmes. Prenez le temps de parcourir les différents thèmes disponibles et choisissez-en un qui vous plaît.
-
+Les thèmes compatibles avec github pages sont disponibles [ici](https://pages.github.com/themes/)
+Le plus simple est d'appliquer ces thèmes qui sont déjà préfigurées. D'autres cas sont possibles mais demandent un peu plus de compétences numériques.
 ## Étape 2: Appliquer le Thème
 
 1. Une fois que vous avez trouvé un thème qui vous plaît, cliquez dessus.

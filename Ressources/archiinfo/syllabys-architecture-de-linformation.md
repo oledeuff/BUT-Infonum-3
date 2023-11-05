@@ -21,22 +21,19 @@ Ce cours offre une introduction approfondie à l'architecture de l'information, 
    - Importance de l'UX dans l'AI
    - *Lecture recommandée* : Norman, D. (2013). *The Design of Everyday Things: Revised and Expanded Edition*. Basic Books.
 
-### 4. Gestion d’un projet en AI
+### 4. La relation au design d’information
+   - Relation entre AI et design d'information
+   - lecture du texte de Johanna Drucker
+   - *Lecture recommandée* : Tufte, E. R. (2001). *The Visual Display of Quantitative Information*. Graphics Press.
+
+### 5.. Gestion d’un projet en AI
    - Planification et gestion de projet en AI
    - Travail collaboratif et coordination d'équipe
    - *Lecture recommandée* : Brown, D. M. (2010). *Communicating Design: Developing Web Site Documentation for Design and Planning*. New Riders.
 
-### 5. La relation au design d’information
-   - Relation entre AI et design d'information
-   - Méthodes de design d'information
-   - *Lecture recommandée* : Tufte, E. R. (2001). *The Visual Display of Quantitative Information*. Graphics Press.
-
-### 6. Classer, organiser
-   - Principes de classification et d'organisation dans l'AI
-   - Atelier pratique : classer et organiser les informations
-   - *Lecture recommandée* : Weinberger, D. (2007). *Everything is Miscellaneous: The Power of the New Digital Disorder*. Times Books.
-
-### 7. Trans et transmédia
+### 6. Trans et transmédia
    - Compréhension des concepts de transmédia
    - Application de l'AI dans les projets transmédia
    - *Lecture recommandée* : Jenkins, H. (2006). *Convergence Culture: Where Old and New Media Collide*. New York University Press.
+
+### séance finale consacrée aux rendus du travail (s'il y a du temps)
