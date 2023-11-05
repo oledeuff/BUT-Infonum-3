@@ -122,3 +122,4 @@ Pour vraiment utiliser la pleine puissance du système, il faut utiliser le syst
 
 Il est possible de copier intégralement un projet de portfolio existant en le 'forkant'. Il faut ensuite le modifier avec ses propres contenus.
 Pensez également qu'une fois que vous avez créé votre espace githubpages, il est possible de créer un dossier 'docs" dans lequel vous pouvez ajouter des réalisations notamment web. Par exemple, si vous préférez travailler avec du hmtl directement et du onepage, vous pouvez le faire. Il vous suffira d'ajouter vos fichiers dans votre espace.
+Par exemple, nous avons pu créer un [site web](https://oledeuff.github.io/bastienvictorien.io/site/) à partir d'un template. 
