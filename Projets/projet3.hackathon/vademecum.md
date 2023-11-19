@@ -91,10 +91,22 @@ A l’heure où les algorithmes envahissent tous les secteurs, il est crucial po
 
 - **Guide de Datapublica**  
   [Guide Datapublica](https://nextcloud.datactivist.coop/s/tqos5ppqGeEArDX)
+- **European Centre for Algorithmic Transparency**
+[Site du projet](https://algorithmic-transparency.ec.europa.eu/index_en)
+[description par Algorithm Watch](https://algorithmwatch.org/en/dsa-explained)
+
+Le Centre européen pour la transparence algorithmique (ECAT) a été officiellement inauguré à Séville, en Espagne, le 18 avril 2023. Ce centre joue un rôle majeur dans l'examen des algorithmes des principaux services numériques tels que Facebook, Instagram et TikTok. L'ECAT est intégré au Centre commun de recherche (CCR) de l'UE, un établissement scientifique de longue date qui mène des recherches pour soutenir une large gamme de politiques de l'UE, allant du changement climatique et de la gestion des crises à la fiscalité et aux sciences de la santé. Bien que l'ECAT soit intégré au *Joint Research Centre* (JRC), il a un focus dédié sur la Digital Services Act (DSA), aidant les législateurs à rassembler des preuves pour agir contre les plateformes qui ne prennent pas leurs obligations au sérieux​​.
+
+Les responsables de la Commission décrivent la fonction de l'ECAT comme étant d'identifier des "preuves accablantes" pour renforcer l'application de la DSA. Par exemple, un système de recommandation basé sur l'IA qui diffuse un contenu discriminatoire malgré les affirmations de la plateforme concernée qu'elle a pris des mesures pour débiaiser ses sorties. Les chercheurs de l'unité sont chargés de trouver des preuves solides pour aider la Commission à établir des cas de violation du nouveau livre de règles numériques​​.
 
 - **le graphe AlgoJ** (lexique consultable sous forme de graphe réalisé avec le logiciel Cosma)
     [Graphe](http://www.culturedel.info/cosmoscope.html)
     ![graphe](./graphealgoj.jpg)
+
+- Théories scientifiques
+
+- **Les imaginaires algorithmiques**
+
 
 ## Pistes et Méthodes pour l'Organisation du Hackathon
 
@@ -108,7 +120,20 @@ A l’heure où les algorithmes envahissent tous les secteurs, il est crucial po
 ### Mise en Pratique
 - **Registre des Algorithmes Publics** : Tenir et publier un registre est essentiel. Construire un registre en 5 étapes est proposé pour une mise en œuvre efficace.
 - **Publication du Code et Évaluation d'Impact Algorithmique** : Ces actions sont importantes pour assurer la transparence.
-- **Charte et Lignes Directrices** : Fournir des garanties humaines, contractuelles et procédurales.
+- **Charte et Lignes Directrices** : Fournir des garanties humaiVoici un aperçu de certaines sources scientifiques qui traitent du concept des imaginaires algorithmiques :
+
+1. **"Bodies not templates": Contesting dominant algorithmic imaginaries** par Becky Kazansky et Stefania Milan. Cet article, publié pour la première fois en ligne le 25 février 2021, aborde la contestation des imaginaires algorithmiques dominants. [Source](https://journals.sagepub.com/doi/10.1177/1461444820929316)
+
+2. **Un nouvel imaginaire algorithmique** par Christian Schulz, 2023. Ce travail met en lumière le concept de "l'imaginaire algorithmique", tel que défini par Bucher en 2018, et souligne son importance dans les discours autour de la recherche sur les médias sociaux. [Source](https://journals.sagepub.com/doi/10.1177/01634437221136014)
+
+3. **Théorisation des "Histoires sur les algorithmes" comme mécanisme dans la formation des imaginaires algorithmiques**. Cet article se penche sur les débats actuels concernant les imaginaires algorithmiques et suggère qu'il existe une lacune dans les recherches en termes de compréhension de l'organisation des imaginaires algorithmiques des utilisateurs ordinaires sur un plan social. [Source](https://journals.sagepub.com/doi/full/10.1177/20563051221077025)
+
+4. **Subjectivité et imaginaires algorithmiques : l'autre algorithmique**. Cette recherche dans les études médiatiques critiques au cours de la dernière décennie a mis en évidence le processus de "plateformisation" de la production et de la consommation culturelle, qui est considéré comme une reconfiguration des acteurs et des structures de pouvoir de l'économie culturelle. [Source](https://link.springer.com/article/10.1057/s41286-023-00171-w)
+
+5. **Expériences des algorithmes : comment les jeunes comprennent, ressentent et interagissent avec la curation d'actualités algorithmique sur les médias sociaux**. Cet article explore les interactions entre les algorithmes et les utilisateurs d'une perspective centrée sur l'utilisateur, examinant comment les jeunes interprètent, ressentent et s'engagent avec la curation d'actualités algorithmique sur les médias sociaux, et comment de telles expériences quotidiennes contribuent à leur littératie algorithmique. [Source](https://journals.sagepub.com/doi/pdf/10.1111/1467-9566.12900)
+
+Ces articles fournissent un éventail de perspectives sur la façon dont les individus et la société dans son ensemble comprennent, interprètent et interagissent avec les algorithmes dans divers contextes.
+nes, contractuelles et procédurales.
 - **Défis et Solutions** : Aborder les obstacles communs tels que la mauvaise compréhension des enjeux ou la difficulté d'appréhender un sujet technique par les élus et agents du secteur public. Le recours aux logiciels propriétaires et aux solutions sur étagère peut également constituer une entrave. [Page 9](https://myaidrive.com/?r=c#/home?folder=&file=Cahier03-Transparence-algorithmique.pdf&pdfPage=9).
 
 
