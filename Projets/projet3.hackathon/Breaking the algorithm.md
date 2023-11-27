@@ -1,6 +1,7 @@
 ## Breaking the algorithm
 
-![imge du jeu](breaking.jpg)
+[![image du jeu](breaking.jpg)](https://algorithmwatch.org/en/break-algorithm-game/)
+
 
 **Breaking the algorithm** est un jeu sérieux réalisé par **algorithm watch**.
 Il vous met en situation d'investigation journalistique sur un algorithme d'une plateforme à succès chez les jeunes publics.
