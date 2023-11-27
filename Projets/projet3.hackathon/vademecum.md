@@ -82,6 +82,9 @@ A l’heure où les algorithmes envahissent tous les secteurs, il est crucial po
 - **Algorithm Watch et le jeu Break the Algorithm**  
   [Algorithm Watch](https://algorithmwatch.org/en/) | [Break the Algorithm Game](https://algorithmwatch.org/en/break-algorithm-game/)
 
+### Dernière minute ! L'enquête de la quadrature du net
+[sur l'algorithme de scoring de la CAF](https://www.laquadrature.net/2023/11/27/notation-des-allocataires-lindecence-des-pratiques-de-la-caf-desormais-indeniable/)
+
 ### Organisations et Guides
 - **Travaux de Datactivist**  
   [Datactivist SPoSGL](https://datactivist.coop/SPoSGL/sections/section10.html#1)
