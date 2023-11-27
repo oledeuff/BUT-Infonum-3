@@ -107,7 +107,7 @@ Les responsables de la Commission décrivent la fonction de l'ECAT comme étant 
 ### Contexte et Enjeux
 - **Loi Pour une République Numérique** : Entrée en vigueur en 2017, mais les dispositions sur la transparence algorithmique sont peu appliquées. Les textes d'application datent de 2020 et sont peu connus. Ils sont simples dans leur intention mais complexes dans leur application. Les administrations ne savent pas toujours comment exiger des prestataires les informations nécessaires pour expliquer le fonctionnement d'un algorithme. Il y a également des enjeux de propriété intellectuelle. [Page 35](https://myaidrive.com/?r=c#/home?folder=&file=Cahier03-Transparence-algorithmique.pdf&pdfPage=35).
 
-- **Transparence Algorithmique** : Nécessite de comprendre le contexte (à quoi sert l'algorithme), le processus administratif, le code (comment il est programmé), et les données utilisées. Sans ces éléments, l'algorithme n'est pas auditable et la redevabilité n'est pas complète. [Page 35](https://myaidrive.com/?r=c#/home?folder=&file=Cahier03-Transparence-algorithmique.pdf&pdfPage=35).
+- **Transparence Algorithmique** : Nécessite de comprendre le contexte (à quoi sert l'algorithme), le processus administratif, le code (comment il est programmé), et les données utilisées. Sans ces éléments, l'algorithme n'est pas auditable et la redevabilité n'est pas complète. 
 
 
 
