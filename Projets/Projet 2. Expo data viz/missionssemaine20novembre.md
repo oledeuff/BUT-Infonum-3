@@ -55,3 +55,4 @@ Chaque groupe présentera en quelques minutes ces avancées.
 - **Visualisation des Comparaisons** : Créer des visualisations qui mettent en lumière les particularités de la Gironde dans un contexte plus large.
 
 
+![expo](./expos1.png)
