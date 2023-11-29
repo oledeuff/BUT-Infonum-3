@@ -56,7 +56,7 @@ La machine de Turing est une machine idéale qui sert d'identité abstraite.
 Le modèle physique cependant ne correspond pas exactement au modèle du début. TOut est potentiellement computable mais on sort de l'idéal. Les limites sont mêmes parfois liées aux modèles abstraits et pas seulement au modèle physique.
 La représentation mathématique du monde a été une question essentielle durant le 20ème siècle et on a abouti que certains problèmes ne sont pas totalement calculables : **théorème de Gödel**.
 
-## Où se situe l'algorithme.
+## Où se situe l'algorithme ?
 
 origine liée à **Al-Kwaritzmi** qui est un des fondateurs de l'algèbre.
 Souvent on évoque la métaphore de la recette. A chaque étape, il est possible de connaître l'instruction suivante. Les instructions doivent être non ambigües.
