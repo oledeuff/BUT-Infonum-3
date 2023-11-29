@@ -23,11 +23,13 @@ Ce qu'une machine fait dépend généralement d'*un modèle*.
 Tout est potentiellement calculable, *computable* à partir d'un modèle fonctionnel qui peut être un modèle réduit ou incomplet.
 Par exemple, une phrase de ce type :
 >Proust est un grand écrivain
+
 est déjà un modèle très réduit. Par contre, si je décris le modèle sur 80 pages, j'ai déjà un modèle plus complet.
 Si on prend *Tinder*, il existe un modèle de l'amour qui est décrit dans un brevet qui parle plutôt de 'match'. Il s'agit d'un modèle parmi d'autres des modèles de représentation de l'*amour*.
 A chaque fois qu'un modèle commence, il commence par une *description*. La description est toujours **située*.
 Par exemple :
 > l'amour est la possibilité pour un homme et une femme de bien vivre ensemble
+
 Qui se rapproche de la description de Tinder contient des formes et des représentations qui sont situées même si elles peuvent s'appuyer sur des statistiques.
 
 La seconde étape est alors la transformation du discours du modèle représentationnel en **modèle fonctionnel**. L'objectif est de le transformer en *unités atomatiques* discrètes et de définir des fonctions pour les traiter. On est au niveau de la **représentation mathématique d'un discours sur le monde**.
@@ -74,7 +76,7 @@ Pour comprendre comment fonctionne une [machine de Turing](https://interstices.i
  - on est dans des logiques de **prophétie autoréalisatrice.**
     exemple du modèle de Netflix : l'algorithme a de plus en plus raison si vous acceptez ses recommandations.
 
-## les machines morales.
+## Les machines morales.
 
 Travail de Dominique Cardon. Article D. Cardon, Dans l'esprit de [Page Rank](https://shs.hal.science/hal-00826208/)
 Cardon dit que le **Page Rank** est une **machine morale**.
