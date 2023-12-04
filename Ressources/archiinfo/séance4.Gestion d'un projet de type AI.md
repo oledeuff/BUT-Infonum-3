@@ -77,15 +77,17 @@ paginate: true
 # Gestion d’un projet en Architecture de l’information
 
 Olivier Le Deuff
-Licence CC by
-But Infonum
+*Licence CC by*
+But Infonum 3
+*Crédit images : Dall-E*
+![bg right](./gestionpro.png)
 
 ---
 
 ## Sources
 
-- Chapitre de JMS dans l’ouvrage francophone
-- Voir aussi les explications dans le polar bear, version consultable en ligne
+- Voir le Chapitre de *JMS* dans l’ouvrage francophone
+- Voir aussi les explications dans le *polar bear*, version consultable en ligne
 
 ---
 
@@ -121,6 +123,7 @@ But Infonum
 - Comprendre les besoins exprimés
 - Les traduire en besoins réalisables techniquement
 - Expliciter, montrer, démontrer, faire évoluer, proposer, influencer, faciliter…
+![bg right](./reformulation.png)
 
 ---
 
@@ -165,6 +168,8 @@ But Infonum
 - L'analyse du contexte doit être ciblée et efficace
 - Ne pas confondre analyse de l'institution et analyse du contexte
 
+![bg right](./analyse.png)
+
 ---
 
 ## Appréciation des ressources
@@ -178,6 +183,7 @@ But Infonum
 
 - Scénarios d'usage pour différents types d'usagers
 - Vérification de la cohérence avec des tests d'usage
+![bg right](./scenario.png)
 
 ---
 
@@ -185,7 +191,7 @@ But Infonum
 
 - Utilisation d'outils de maquettage
 - Idéaliser, formaliser, rationaliser, expérimenter
-
+![bg right](./finalisation.png)
 ---
 
 ## 5. Implémenter et évaluer
@@ -194,4 +200,4 @@ But Infonum
 - Ouverture progressive de la solution
 - Importance de l'évaluation pour les corrections finales
 
----
+![bg right](./evaluation.png)
