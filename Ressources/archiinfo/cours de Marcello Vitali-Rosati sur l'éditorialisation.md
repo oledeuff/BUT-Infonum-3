@@ -1,6 +1,8 @@
 # cours de Marcello sur l'éditorialisation
 
 [Slides](http://vitalirosati.net/slides/2023/conf-2023-12-05edito.html#/title-slide)
+Voir aussi cet [article](http://journals.openedition.org/revuehn/371) (Vitali-Rosati, 2020)
+
 
 
 # L'humanité à l'époque du numérique...
@@ -116,4 +118,5 @@ Se produit une **fusion entre contenus et objets**.
 - Vitali-Rosati, Marcello.2016. “Digital Architectures: The Web, Editorialization and Metaontology.” *Azimuth.* Philosophical Coordinates in Modern and Contemporary Age 4, no. 7, : 95–111
 - Vitali-Rosati, Marcello. 2016. Qu’est-ce que l’éditorialisation?, *Sens public*
 - [Vitali-Rosati, Marcello. 2021. Pour une pensée préhumaine, Humanités numériques, éditorialisation et métaontologie.*Sens public*.](http://sens-public.org/articles/1598/)
+-Marcello Vitali-Rosati, « Pour une théorie de l’éditorialisation », Humanités numériques [En ligne], 1 | 2020, mis en ligne le 01 janvier 2020, consulté le 05 décembre 2023. URL : http://journals.openedition.org/revuehn/371 ; DOI : https://doi.org/10.4000/revuehn.371
 - Wolfe, Cary. 2010. What is posthumanism? *Posthumanities series*, v. 8. Minneapolis: University of Minnesota Press.
