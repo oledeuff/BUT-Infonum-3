@@ -91,7 +91,9 @@ D'autres demandent un peu plus de compétences.
 - **Description**: Jupyter Notebooks est une application web open source qui permet de créer et de partager des documents contenant du code en direct, des équations, des visualisations et du texte narratif.
 - **Idéal pour**: Analyses de données, visualisation, machine learning et bien plus.
 
+# Partie 3. Gephi
 
+[*Turoriel vidéo de Martin Granjean*](https://youtu.be/GXtbL8avpik?si=w0ThDt4j0kiVRg8A)
 
 
 
