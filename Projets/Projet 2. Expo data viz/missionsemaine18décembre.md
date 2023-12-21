@@ -37,3 +37,5 @@ En plus des panneaux thématiques, il faut prévoir :
 - **Format A0**: Adoption du format A0 pour les affiches.
 - **Cadre et Charte Graphique**: Développement d'un cadre réutilisable compatible avec la charte graphique du département.
 - **Déclinaisons Visuelles**: Utilisation de couleurs différentes pour séparer les espaces thématiques.
+
+![expo](expovizu.png)
