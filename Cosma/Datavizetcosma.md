@@ -67,8 +67,9 @@ img {
 </style>
 
 # Un outil et une méthode de visualisation interactive
-## Présentation du Logiciel Cosma
+## Présentation du Logiciel Cosma pour le labcmo
 Olivier Le Deuff.
+Arthur Perret
 *Licence CC By*
 2024
 ![bg right 100%](./cosma-logo.png)
@@ -150,7 +151,7 @@ Cosma est disponible gratuitement, et son code est librement réutilisable sous 
 
 ## Pour citer Cosma
 Si vous utilisez Cosma dans un projet, pensez-à le citer surtout si vous documentez votre travail :
-- Arthur Perret, Guillaume Brioudes, Clément Borel, & Olivier Le Deuff. (2021). Cosma. Zenodo. [https://doi.org/10.5281/zenodo.5920615](https://doi.org/10.5281/zenodo.5920615)
+- Perret, A., Brioudes, G., Borel, C., & Le Deuff, O. (2023). Cosma (2.4.0). Zenodo. [https://doi.org/10.5281/zenodo.10252885](Perret, A., Brioudes, G., Borel, C., & Le Deuff, O. (2023). Cosma (2.4.0). Zenodo. https://doi.org/10.5281/zenodo.10252885)
 
 ---
 # Utilisations courantes
