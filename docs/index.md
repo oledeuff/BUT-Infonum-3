@@ -338,4 +338,4 @@ Pour réussir votre année, il est conseillé de disposer de votre *propre équi
 Image de couverture: Dall-E avec un prompt modifié par ChatGpt 4
 Site généré par Github Jekyll
 
-
+![image réseau !](./guide2.jfif)
