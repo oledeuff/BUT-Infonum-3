@@ -11,4 +11,3 @@ tags:
 ---
 
 Le cours vous permettra de découvrir des méthodologies appliquées au niveau communication numérique avec un focale sur les enjeux marketing et valorisation de contenus au niveau des *stratégies de référencement*.
-La ressource est assurée par [[e:20230730134333]] Antoine Albaut.

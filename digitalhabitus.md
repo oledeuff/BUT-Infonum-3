@@ -74,7 +74,7 @@ button:hover {
 </style>
 
 # Habitus Numérique : Une Critique des Imaginaires de l'Intelligence Artificielle
-## Etude du cours d' Alberto Romele
+## Etude de l'ouvrage d' Alberto Romele
 ![bg right](./digitalhabitus.webp)
 
 ---
@@ -82,7 +82,7 @@ button:hover {
 ## Introduction
 
 - *Habitus Numérique* : Une Critique des Imaginaires de l'Intelligence Artificielle
-    Reprise du concept de Bourdieu et de la pensée de Panofsky adaptée au contexte *digital*
+    - Reprise du concept de Bourdieu et de la pensée de Panofsky adaptée au contexte *digital*
 - Focus sur l'IA, les algorithmes et les transformations digitales
 - Examen critique de l'impact culturel et des implications sociétales
 

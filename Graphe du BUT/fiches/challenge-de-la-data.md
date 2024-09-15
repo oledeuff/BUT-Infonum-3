@@ -13,7 +13,7 @@ tags:
   - évènement
 ---
 
-L'évènement de l'année imaginé par [[e:20230730201359]] Nathalie Pinède et Maryse Rizza de l'IUT de Tours. Vous retrouverez également [[e:20230730225749]] Olivier Le Deuff, [[e:20230730200845]] Clément Borel et [[e:20230730200720]] Cédric Lombion comme *coachs*
+L'évènement de l'année imaginé par [[e:20230730201359]] Nathalie Pinède et Maryse Rizza de l'IUT de Tours. Vous retrouverez également [[e:20230730225749]] Olivier Le Deuff, [[e:20230730200845]] Clément Borel et [[e:20240915095608]] Fred Sallet comme *coachs*
 Il vous faudra répondre à un sujet donné par un commanditaire.
 Vous aurez à réaliser trois livrables :
 1.  	 Un jeu de données : Les équipes devront créer un jeu de données pertinent en lien avec le sujet du challenge. Ce jeu de données devra être structuré, cohérent et de préférence accompagné d'une documentation décrivant les données.
