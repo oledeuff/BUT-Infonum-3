@@ -9,7 +9,7 @@ Le but des projets est de **valider des compétences**, notamment pour valider l
 Au menu : de la **data**, de l'**événementiel**, de la **communication**, de la **visualisation** et bien d'autres choses.
 
 
-## Petits Débrouillards
+
 
 ### Projet *Open Data University* (30 septembre - 4 octobre)
 
@@ -30,6 +30,11 @@ Voici les dates clés pour le déploiement du programme Open Data University ave
 - **Bilan du programme et mesure d’impact**  
   *(Bilan avec l’équipe Open Data University et réponse à la mesure d’impact, pour les étudiant.es et les professeurs - 30 min)*  
   📅 4 octobre à 14h
+
+---
+
+## Petits Débrouillards
+Au menu, un hackathon.
 
 ---
 
