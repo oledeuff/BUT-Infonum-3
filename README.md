@@ -7,12 +7,13 @@ Ce dépôt a été créé pour les étudiants de troisième année du BUT Inform
 
 ## Contenu du dépôt
 
-- **Guide de rentrée** : Toutes les informations nécessaires pour bien commencer l'année.
+- [**Guide de rentrée**](https://oledeuff.github.io/BUT-Infonum-3/) : Toutes les informations nécessaires pour bien commencer l'année.
+- [**Le graphe de la formation**](https://oledeuff.github.io/BUT-Infonum-3/graphe.html) : Pour comprendre comment tout s'articule de manière visuelle avec le logiciel *Cosma*
 - **Syllabus** : Descriptions détaillées des cours, y compris les objectifs d'apprentissage, les plans de cours et les lectures obligatoires.
 - **Cours** : Des éléments de cours seront postés ici. Le reste sera accessible sur le drive.
 - **Tutoriels** : Des guides pratiques pour vous aider à maîtriser les compétences nécessaires.
 - **Exercices** : Des exercices pour vous entraîner et renforcer votre compréhension.
-- **Espaces de rendus** : Ici, vous pouvez soumettre vos travaux.
+
 
 ![matrix dashboard](https://media.giphy.com/media/sk6yL9EGVeAcE/giphy.gif)
 
