@@ -135,7 +135,7 @@ Une projection de commmunication numérique avec des outils et une orientation *
 
 ### R5.10 Politique d'archivage et de conservation. **
 
-Le cours prend une orientation particulière cette année.
+Le cours prend une orientation particulière cette année avec des enjeux et défis posés par *Olivier Le Deuff* et *Ugo Verdi*.
 
   
 ### R5.11 Droit de l'information. *S. Nérisson* 
@@ -238,6 +238,7 @@ Ce premier projet sera piloté par *open data university* qui sera en appui de v
 
 ### Troisième temps . [Saé 5.02]
 L'objectif de ce temps sera de concevoir l'évènement dataviz de l'année.
+Dirigé par *Nathalie Pinède*, il s'agira notamment de réfléchir aux enjeux de la sobriété numérique.
 
 
 
@@ -265,7 +266,7 @@ Après une première édition à Tours avec pour commanditaire data.sncf, la sec
 
   
 
-Durant cette semaine, vous serez accompagnés par vos professeurs habituels notamment Olivier Le Deuff, Clément Borel, Nathalie Pinède ainsi que par un spécialiste des données et du data journalisme: Frédéric Sallet.
+Durant cette semaine, vous serez accompagnés par vos professeurs habituels notamment Olivier Le Deuff, Clément Borel, Nathalie Pinède ainsi que par un spécialiste des données et du data journalisme: *Frédéric Sallet*.
 
 
 
