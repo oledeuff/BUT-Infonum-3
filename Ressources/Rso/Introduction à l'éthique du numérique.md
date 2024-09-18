@@ -1,12 +1,39 @@
 ---
-theme: gaia
-class:
+marp: true
+paginate: true
+_class:
   - lead
   - invert
-marp: true
-paginate : true
-
 ---
+
+<style>
+/* Custom CSS for AlgoJ theme */
+:root {
+  --color-primary: #691F44FF; /* Pink color for primary elements */
+  --color-background: #ffffff; /* White background */
+  --color-text: #333333; /* Dark text for readability */
+}
+
+section {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+h1, h2, h3, strong {
+  color: var(--color-primary);
+}
+
+h1 {
+  border-bottom: 2px solid var(--color-primary);
+  padding-bottom: 0.3em;
+}
+
+/* Custom font settings */
+section {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+</style>
+
 
 # Éthique du Numérique
 Introduction à la *Responsabilité sociale des organisations.*
@@ -170,7 +197,7 @@ Agir par vertu absolument n’est rien d’autre en nous qu’agir, vivre et con
 - Régulations gouvernementales et normes internationales
 - Les débats actuels sur l'IA
 - Les débats sur la génétique
-- LesLes influences transhumanistes
+- Les influences transhumanistes
 - Les rapports de force
 - etc.
 
@@ -230,7 +257,7 @@ Liste non exhaustive à compléter et à surveiller
 - [Site web](https://digitalrightsfoundation.pk/)
 
 ---
-##  6.6 Le Comité national pilote d'éthique du numérique (CNPEN
+##  6.6 Le Comité national pilote d'éthique du numérique (CNPEN)
 Missions :
 > Placé sous l’égide du CCNE, le Comité national pilote d'éthique du numérique (CNPEN) a pour rôle de rendre des avis sur les saisines qui lui sont confiées, d’éclairer le débat public sur les enjeux d’éthique du numérique et de rédiger des propositions relatives à la pérennisation de la réflexion nationale sur l’éthique du numérique.
   - [Site officiel](https://www.ccne-ethique.fr/fr/cnpen)
