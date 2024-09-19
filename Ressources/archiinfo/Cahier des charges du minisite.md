@@ -67,12 +67,12 @@ Il vous faudra justifier et expliquer vos choix. Il s'agit aussi de montrer une 
 - Le minisite requiert des *compétences techniques* et *web avérées*. Par conséquent, l'utilisation de Wix ou de toute autre CMS du même acabit est *interdit* car vous êtes contraint dans vos possibilités d'une part, et de l'autre vous ne pouvez pas pleinement mobiliser vos compétences web et vos compétences numériques.
 - Vous pouvez donc opter pour l'installation de CMS type Wordpress mais à condition de l'avoir installé soi-même sur un serveur. L'utilisation en mode hébergé en ligne est prohibée.
 - Seront valorisées les productions avec du *développement web*. 
-- le site peut-être donc consultable en ligne ou en mode zip. 
+- le site doit donc être consultable en ligne par exemple sur votre espace github. 
 - Le cahier des charges constitue une base de travail qu'il faut respecter. Cela signifie qu'il est possible d'aller plus loin et de songer à des éléments clefs en matière d'organisation des contenus, d'orientation et de navigation. Il faut donc être attentif en cours pour renforcer votre projet.
 
 ## Date de livraison et mise en garde : *15 décembre*
 - 2 points en moins par jour de retard
-- Tout plagiat sera sanctionné.
+- Tout plagiat sera sanctionné
 - L'utilisation des *intelligences artificielles* est possible notamment en matière d'illustrations. Il faudra simplement préciser l'outil utilisé. *ChatGpt* et ses équivalents sont autorisés à condition que ce ne soit pas trop visible et mal maîtrisé notamment dans la création de contenus. Il est également possible de les utiliser dans votre développement web. Précisez dans l'a-propos en quoi cela a pu vous aider ; aucune pénalité ne sera engendrée si tout est clairement justifiée.
 
 ## Crédit image

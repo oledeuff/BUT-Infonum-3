@@ -3,11 +3,79 @@ marp: true
 theme: default
 paginate: true
 ---
+<style>
+/* Définition du style de la diapositive */
+:root {
+  --background-transmedia: #050504FF; /* Fond sombre pour une ambiance numérique */
+  --font-color: #e6e6e6; /* Couleur de police claire pour le contraste */
+  --accent-color: #E68516FF; /* Couleur d'accent pour les liens et les boutons */
+  --font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Police modern[e et épurée */
+}
 
+/* Application du style de fond */
+section {
+  background-color: var(--background-transmedia);
+  color: var(--font-color);
+  font-family: var(--font-family);
+}
+
+/* Styles pour les titres */
+h1, h2, h3 {
+  color: var(--accent-color);
+}
+
+/* Style pour les listes et les puces */
+ul, ol {
+  padding-left: 1.5em;
+}
+
+li::marker {
+  color: var(--accent-color);
+}
+
+/* Style pour les citations et références */
+blockquote {
+  border-left: 3px solid var(--accent-color);
+  margin: 0;
+  padding-left: 1em;
+}
+
+/* Style pour les codes et les éléments techniques */
+code {
+  background-color: #272822;
+  color: #f8f8f2;
+}
+
+/* Style pour les images et les éléments visuels */
+img {
+  border-radius: 4px;
+}
+
+/* Style pour les liens hypertextes */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+/* Boutons et éléments interactifs */
+button {
+  background-color: var(--accent-color);
+  color: var(--background-transmedia);
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+</style>
 # Architecture de l’information
 ## Séance 2: Organologie d’un site web
 *BUT INFONUM 3*
     Olivier Le Deuff
+![bg right](./orangetie.jpg)
 
 ---
 
