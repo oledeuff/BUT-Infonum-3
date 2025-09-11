@@ -98,7 +98,7 @@ section p:first-child strong {
 ## Les évènements
 - L'*Open data university* (semaine du 6 au 10 octobre. non-alternants)
 - L'*exposition dataviz* sur des données musicales sur les deux semestres durant les semaines projets avec #David Pucheu
-- Le projet Saé *surprise*
+- Le projet Saé *surprise* en novembre.
 - le *challenge de la data* avec l'IUT de Tours à Tours en mars 2026.
 
 ---

@@ -5,7 +5,7 @@ title: Guide de Rentrée
 
   
 
-![Un But 3 résolument en réseau !](./reseau2.webp)
+![Un But 3 résolument en réseau !](./guiderentree.png)
 
    
 
@@ -84,10 +84,9 @@ Les ressources désignent en fait ce qu'on nomme plus communément des *cours*. 
 ## **Premier Semestre**
 
   
-### R5. 01 Sciences de l'information et de la communication. *N. Pinède* 
-![image pinède](./pinede.png)
+### R5. 01 Sciences de l'information et de la communication. 
 
-Vous aviez précédemment étudié des courants qui étudient les processus informationnels et communicationnels en voyant les courants fondateurs en première année et étudié quelques textes en seconde année avec une poursuite du cours sur l'histoire récente des médias. La troisième année se poursuit sur des études de textes et de travaux ancrés sur les questions numériques.
+Au menu cette année, un colloque dédié au document sur deux jours le colloque *CIDE* constituera l'essentiel des ressources du cours. Des conférences obligatoires viendront compléter également les ressources avec des intervenants extérieurs. 
   
 ### R5. 02 Initiation aux relations et à la communication interculturelles. *C. Dubois* 
 ![image dubois](./dubois.png)
@@ -123,20 +122,18 @@ Ce cours en architecture de l'information offre une introduction aux aspects pro
 Un temps spécifique sera consacré à l'organisation des données et à la production de *data papers* afin de pouvoir répondre à certaines exigences des projets et notamment le *challenge de la data*.
 Un premier livrable web à héberger sur Github sera à réaliser. Il devra répondre aux exigences de l'architecture de l'information.
 
-### R5.08 Stratégies de veille collaborative. *C. Deschamps* 
+### R5.08 Stratégies de veille collaborative. *C. D'Hennezel* 
 ![image deschamps](./deschamps.png)
 
-Ce cours vise à vous perfectionner dans vos méthodologies en matière de veille avec l'utilisation d'outils dédiés et l'intégration des processus récents y compris ceux qui reposent sur l'IA comme ChatGpt.
+Ce cours vise à vous perfectionner dans vos méthodologies en matière de veille avec l'utilisation d'outils dédiés et l'intégration des processus récents y compris ceux qui reposent sur l'IA .
 
-### R5.09 Stratégies de communication numérique. *Thais Barbosa* 
+### R5.09 Stratégies de communication numérique. *Félix Tréguer* 
 
-
-Une projection de commmunication numérique avec des outils et une orientation *data*.
+Une semaine spéciale qui sera en fait au second semestre avec un des co-fondateurs de la *Quadrature du net*. Des enjeux techniques et politiques autour de la *surveillance* notamment.
 
 ### R5.10 Politique d'archivage et de conservation. **
 
-Le cours prend une orientation particulière cette année avec des enjeux et défis posés par *Olivier Le Deuff* et *Ugo Verdi*.
-
+Pas de cours dédiés mais une intégration dans tous les cours et projets avec la prise en compte de la conservation et de l'interopérabilité des données. Plus aucun projet sans PGD : plan de gestion des données.
   
 ### R5.11 Droit de l'information. *S. Nérisson* 
 ![image nerisson](./nerisson.png)
@@ -153,17 +150,14 @@ Ce cours offre une introduction à l'expérience utilisateur (UX) et au design d
 ## **Second semestre**
   
 
-### R6.01 Sciences humaines et sociales Initiation à la recherche. *N. Pinède* 
-![image pinède](./pinede.png)
-Le cours est construit de façon à vous faire comprendre les méthodes et fonctionnement d'une recherche. Il faudra en profiter pour commencer à construire votre futur projet de recherche qui pourra servir dans vos candidatures pour les masters auxquels vous souhaitez candidater.
-  
+### R6.01 Sciences humaines et sociales Initiation à la recherche. 
 
 ### R6.02 Relations et communication interculturelles. Anglais et culture anglo-saxonne. *A. Blot* 
 ![image blot](./blot.png)
 
-  Au menu de l'anglais avec un cours dans lequel il faudra surtout parler anglais et des réalisations vidéos à produire.
+  Au menu de l'anglais avec un cours dans lequel il faudra surtout parler anglais et des réalisations vidéos à produire. Le cours débute dès la fin du semestre précédent.
 
-### R6.03 PPP et préparation au mémoire d'activités. *O. Le Deuff* 
+### R6.03 PPP et préparation au mémoire d'activités. *A. Deneuville* 
 ![image OLD](./old.png)
 
 Le cours poursuit l'orientation du premier semestre avec la prise en compte de la rédaction de votre mémoire de fin d'études qui est lié à votre travail de stage ou d'alternance. Il s'agira notamment de comprendre comment dégager une problématique pour construire un travail sourcé et analytique sur votre activité professionnelle.
@@ -185,7 +179,7 @@ Le but ici est de poursuivre le travail d'initiation au data journalisme en prod
 
 Ce cours se concentre sur la structuration de données autour d'un thème spécifique et la création de sites web qui vont intègrer un graphe documentaire numérique, réalisé avec le logiciel Cosma. Certaines des réalisations des étudiants pourraient être présentées lors de l'exposition.
 
-### R6.07 Stratégies de communication multicanal. *U.Verdi* 
+### R6.07 Stratégies de communication multicanal. *Thomas Jaffeux* 
 
 Un cours orienté communication multincanal qui prend en compte les enjeux autour des données.
 
