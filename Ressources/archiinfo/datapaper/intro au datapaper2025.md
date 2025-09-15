@@ -103,7 +103,7 @@ style: |
 ---
 
 # Introduction au Data Paper
-BUT INFONUM 2023  
+BUT INFONUM 2025  
 Olivier Le Deuff — CC BY
 
 ![width:22%](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png)
