@@ -121,7 +121,7 @@ Olivier Le Deuff — CC BY
 - Favorise la **transparence** et la **reproductibilité**
 - Encourage le **partage** et la **réutilisation**
 - Augmente la **visibilité** (citations, impact)
-- Donne une **reconnaissance académique** au travail de collecte, curatelle et documentation
+- Donne une **reconnaissance académique** au travail de collecte, curation et documentation
 
 ---
 
@@ -209,13 +209,12 @@ Olivier Le Deuff — CC BY
 ## Le contenu d'un data paper selon DoRANum
 
 - Consulter : https://doranum.fr/data-paper-data-journal/contenu-data-paper_10_13143_8r3d-k505/
-- Si l’affichage embarqué n’est pas possible (PDF), **donner le lien** en ressources.
 
 ---
 
 ## Documenter aussi le code
 
-- Mentionner les **scripts** (langage, version, libs).
+- Mentionner les **scripts** (langage, version, bibliothèques).
 - Fournir un **lien vers le dépôt** et un **README**.
 - Exemple (Python) :
 
