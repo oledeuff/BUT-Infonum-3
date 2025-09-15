@@ -263,7 +263,7 @@ La rubrique **data paper** de la *Revue de la société française des sciences 
 
 ## Outils pour réaliser un Data Paper
 
-![width:60%](tools.png)
+![width:62%](tools.png)
 
 Éditeurs, gestion bibliographique, environnement de code, dépôts…
 
