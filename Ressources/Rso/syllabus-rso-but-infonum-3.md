@@ -5,7 +5,7 @@ authors:
   forname: Olivier
   surname: Le Deuff
 bibliography: syllabus-rso-but-infonum-3.bib
-date: 2023/09/12
+date: 2025/09/12
 id: R5.03 Infonum
 lang: fr
 link-citations: true
@@ -17,7 +17,7 @@ title: "Responsabilité sociale des Organisations"
 # **Responsabilité sociale des organisations**
 
 *Cours dirigé par **Olivier Le Deuff***
-
+Version 2025
 ---
 
 ## **Résumé et visées du cours**
@@ -59,11 +59,11 @@ Des **études de cas** permettront d'intégrer ces concepts théoriques à des s
 ---
 
 ### **2. Souverainetés numériques**  
-**Durée : 2 heures**
+**Durée : à consulter en ligne**
 
 - Définition et enjeux pour les organisations
 - Impacts sur les pratiques organisationnelles
-
+- voir le cours avec Félix Tréguer au second semestre
 **Lectures :**
 - Musiani, F. (2013). *Nains sans géants. Architecture décentralisée et services Internet*. Presses des Mines.
 - Kallinikos, J., Aaltonen, A., & Marton, A. (2013). *The ambivalent ontology of digital artifacts*. MIS Quarterly.
@@ -123,7 +123,7 @@ Des **études de cas** permettront d'intégrer ces concepts théoriques à des s
 
 - Analyse de cas réels sur l’éthique et la responsabilité sociale
 - **Évaluation finale :** Étude de cas réflexive
-
+- voir les sujets des années précédentes.
 ---
 
 ## **Objectifs et compétences**

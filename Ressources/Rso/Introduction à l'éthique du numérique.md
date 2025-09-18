@@ -9,7 +9,7 @@ _class:
 <style>
 /* Custom CSS for AlgoJ theme */
 :root {
-  --color-primary: #691F44FF; /* Pink color for primary elements */
+  --color-primary: #1f2169ff; /* Pink color for primary elements */
   --color-background: #ffffff; /* White background */
   --color-text: #333333; /* Dark text for readability */
 }
@@ -270,7 +270,7 @@ Missions :
 
 ---
 
-## Pour la semaine prochaine
+## Travail sur un exemple
 
 - Etude du document du journal *Ouest-France*
 - Lire le document et relever les bonnes pratiques
