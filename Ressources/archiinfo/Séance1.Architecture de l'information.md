@@ -1,7 +1,7 @@
 ---
 title: Architecture de l’information
 author: Olivier Le Deuff
-marp: false
+marp: true
 paginate: true 
 style: |
   /* Style global */
@@ -55,7 +55,7 @@ style: |
 
 ## Evaluation
 - Réalisation d'un minisite (voir cahier des charges)
-- Réalisation d'un data paper
+
 ---
 
 ## Un contexte multidisciplinaire
@@ -106,7 +106,15 @@ style: |
 ---
 
 ## Vidéo de Richard Saul Wurman
-[![Video](https://img.youtube.com/vi/Fou5J7j5uzk/0.jpg)](https://www.youtube.com/watch?v=Fou5J7j5uzk)
+<!-- _class: lead -->
+
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/GCc1UFR6We4?si=045lZJ4N6mITTKof" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
 
 ---
 
