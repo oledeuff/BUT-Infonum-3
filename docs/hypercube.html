@@ -6,18 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
     :root {
-      --bg: #050509;
-      --fg: #f5f5f7;
-      --accent: #ffb347;
-      --accent-soft: rgba(255, 179, 71, 0.18);
-      --meta: #68e0cf;
-      --meta-soft: rgba(104, 224, 207, 0.22);
-      --border: #262637;
-      --muted: #9b9bb2;
+      --bg: #0b0713;
+      --fg: #fdf7ff;
+      --accent: #ff4bd1; /* rose fluo pour les projets */
+      --accent-soft: rgba(255, 75, 209, 0.3);
+      --meta: #2ee6c5;   /* vert/turquoise pour les méta */
+      --meta-soft: rgba(46, 230, 197, 0.3);
+      --border: #3a3058;
+      --muted: #a9a0c4;
       --radius-lg: 18px;
       --radius-xl: 24px;
-      --shadow-soft: 0 20px 45px rgba(0, 0, 0, 0.6);
-      --duration: 18s;
+      --shadow-soft: 0 26px 60px rgba(15, 5, 40, 0.7);
     }
 
     * { box-sizing: border-box; }
@@ -27,7 +26,10 @@
       min-height: 100vh;
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
         "Segoe UI", sans-serif;
-      background: radial-gradient(circle at top, #1a1a35 0, #050509 55%, #000 100%);
+      background:
+        radial-gradient(circle at top left, #ff9ff3 0, transparent 45%),
+        radial-gradient(circle at bottom right, #74b9ff 0, transparent 50%),
+        linear-gradient(135deg, #050816, #12071d 60%, #060712 100%);
       color: var(--fg);
       display: flex;
       justify-content: center;
@@ -39,9 +41,12 @@
       width: 100%;
       max-width: 1200px;
       border-radius: var(--radius-xl);
-      background: radial-gradient(circle at top left, #19192a 0, #050509 55%);
+      background:
+        radial-gradient(circle at top left, rgba(255, 159, 243, 0.16) 0, transparent 55%),
+        radial-gradient(circle at bottom right, rgba(116, 185, 255, 0.18) 0, transparent 55%),
+        linear-gradient(135deg, rgba(8, 9, 30, 0.96), rgba(10, 6, 35, 0.98));
       box-shadow: var(--shadow-soft);
-      border: 1px solid rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.16);
       padding: 20px 24px 20px;
       display: flex;
       flex-direction: column;
@@ -75,13 +80,14 @@
       gap: 8px;
       padding: 6px 10px;
       border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.25);
       font-size: 0.72rem;
       text-transform: uppercase;
       letter-spacing: 0.12em;
       color: var(--muted);
-      backdrop-filter: blur(10px);
-      background: radial-gradient(circle at top left, #222237 0, transparent 60%);
+      backdrop-filter: blur(14px);
+      background:
+        linear-gradient(90deg, rgba(255, 75, 209, 0.15), rgba(46, 230, 197, 0.12));
       white-space: nowrap;
     }
 
@@ -90,7 +96,7 @@
       height: 8px;
       border-radius: 50%;
       background: var(--accent);
-      box-shadow: 0 0 12px var(--accent-soft);
+      box-shadow: 0 0 14px var(--accent-soft);
     }
 
     .controls {
@@ -104,26 +110,26 @@
     button,
     .btn {
       border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.16);
+      border: 1px solid rgba(255, 255, 255, 0.3);
       padding: 8px 14px;
       font-size: 0.8rem;
       cursor: pointer;
-      background: rgba(8, 8, 18, 0.8);
+      background: rgba(12, 8, 40, 0.9);
       color: var(--fg);
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      backdrop-filter: blur(10px);
-      transition: background 0.2s ease, transform 0.1s ease, border-color 0.2s ease,
-        box-shadow 0.2s ease;
+      backdrop-filter: blur(16px);
+      transition: background 0.15s ease, transform 0.1s ease, border-color 0.15s ease,
+        box-shadow 0.15s ease;
     }
 
     button:hover,
     .btn:hover {
-      background: rgba(20, 20, 40, 0.98);
+      background: rgba(40, 18, 80, 0.96);
       transform: translateY(-1px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
-      border-color: rgba(255, 255, 255, 0.24);
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.6);
+      border-color: rgba(255, 255, 255, 0.5);
     }
 
     button:active,
@@ -144,13 +150,16 @@
       align-items: stretch;
     }
 
-    /* TESSERACT ZONE */
+    /* ZONE TESSERACT */
 
     .tesseract-zone {
       position: relative;
       border-radius: var(--radius-lg);
       border: 1px solid var(--border);
-      background: radial-gradient(circle at center, #151527 0, #070711 55%, #050509 100%);
+      background:
+        radial-gradient(circle at top, rgba(255, 159, 243, 0.18) 0, transparent 55%),
+        radial-gradient(circle at bottom, rgba(116, 185, 255, 0.18) 0, transparent 55%),
+        linear-gradient(145deg, #130826, #090616 60%, #05030e 100%);
       overflow: hidden;
       padding: 16px;
       display: flex;
@@ -180,8 +189,8 @@
       gap: 6px;
       padding: 3px 10px;
       border-radius: 999px;
-      background: rgba(5, 5, 12, 0.9);
-      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(6, 4, 20, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.12);
     }
 
     .legend-dot {
@@ -192,12 +201,12 @@
 
     .legend-dot.projet {
       background: var(--accent);
-      box-shadow: 0 0 10px var(--accent-soft);
+      box-shadow: 0 0 12px var(--accent-soft);
     }
 
     .legend-dot.meta {
       background: var(--meta);
-      box-shadow: 0 0 10px var(--meta-soft);
+      box-shadow: 0 0 12px var(--meta-soft);
     }
 
     .tesseract-wrapper {
@@ -215,45 +224,36 @@
       width: min(80%, 360px);
       aspect-ratio: 1 / 1;
       transform-style: preserve-3d;
-      animation: spin var(--duration) linear infinite;
-    }
-
-    @keyframes spin {
-      from { transform: rotateX(18deg) rotateY(-22deg); }
-      to   { transform: rotateX(18deg) rotateY(338deg); }
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      .tesseract {
-        animation: none;
-        transform: rotateX(18deg) rotateY(-12deg);
-      }
+      transform: rotateX(18deg) rotateY(-22deg);
+      transition: transform 0.18s ease-out;
     }
 
     .cube-outer,
     .cube-inner {
       position: absolute;
       inset: 8%;
-      border-radius: 12px;
-      border: 1px solid rgba(255, 255, 255, 0.16);
-      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.9);
+      border-radius: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      box-shadow:
+        0 0 0 1px rgba(10, 0, 30, 0.8),
+        0 0 30px rgba(255, 75, 209, 0.15);
     }
 
     .cube-inner {
-      inset: 22%;
-      border-color: rgba(255, 255, 255, 0.12);
+      inset: 24%;
+      border-color: rgba(255, 255, 255, 0.18);
+      box-shadow:
+        0 0 0 1px rgba(10, 0, 30, 0.8),
+        0 0 30px rgba(46, 230, 197, 0.1);
     }
-
-    .cube-outer { transform: translateZ(26px); }
-    .cube-inner { transform: translateZ(-26px); }
 
     .edge {
       position: absolute;
       width: 2px;
       background: linear-gradient(
         to bottom,
-        rgba(255, 255, 255, 0.08),
-        rgba(255, 255, 255, 0.35)
+        rgba(255, 255, 255, 0.12),
+        rgba(255, 255, 255, 0.45)
       );
     }
 
@@ -262,43 +262,57 @@
     .edge.e3 { left: 14%; bottom: 14%; height: 22%; }
     .edge.e4 { right: 14%; bottom: 14%; height: 22%; }
 
-    /* NOEUDS */
+    /* NODES */
 
     .node {
       position: absolute;
-      width: 16px;
-      height: 16px;
+      width: 22px;
+      height: 22px;
       border-radius: 50%;
-      border: 2px solid rgba(0, 0, 0, 0.7);
+      border: 2px solid rgba(5, 0, 20, 0.9);
       cursor: pointer;
-      box-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
-      --z: 0px;
-      transform: translate3d(-50%, -50%, var(--z));
+      box-shadow:
+        0 0 0 1px rgba(0, 0, 0, 0.9),
+        0 0 22px rgba(0, 0, 0, 0.9);
+      transform: translate(-50%, -50%);
       display: flex;
       align-items: center;
       justify-content: center;
       transition:
         transform 0.15s ease,
         box-shadow 0.15s ease,
-        filter 0.15s ease;
+        filter 0.15s ease,
+        background 0.15s ease;
+    }
+
+    .node::before {
+      content: "";
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
     }
 
     .node::after {
       content: "";
-      width: 5px;
-      height: 5px;
+      width: 6px;
+      height: 6px;
       border-radius: 50%;
-      background: rgba(0, 0, 0, 0.7);
+      background: rgba(5, 0, 15, 0.8);
     }
 
     .node.projet {
       background: var(--accent);
-      box-shadow: 0 0 20px var(--accent-soft);
+      box-shadow:
+        0 0 0 1px rgba(25, 0, 40, 0.8),
+        0 0 28px var(--accent-soft);
     }
 
     .node.meta {
       background: var(--meta);
-      box-shadow: 0 0 20px var(--meta-soft);
+      box-shadow:
+        0 0 0 1px rgba(0, 20, 20, 0.8),
+        0 0 28px var(--meta-soft);
     }
 
     .node:focus-visible {
@@ -307,18 +321,18 @@
     }
 
     .node:hover {
-      transform: translate3d(-50%, -50%, var(--z)) scale(1.1);
-      filter: brightness(1.15);
+      transform: translate(-50%, -50%) scale(1.15);
+      filter: brightness(1.1);
     }
 
     .node.active {
-      transform: translate3d(-50%, -50%, var(--z)) scale(1.18);
-      box-shadow: 0 0 26px rgba(255, 255, 255, 0.3);
+      transform: translate(-50%, -50%) scale(1.22);
+      box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.6),
+        0 0 35px rgba(255, 255, 255, 0.7);
     }
 
-    .node.depth-front { --z: 40px; }
-    .node.depth-back  { --z: -40px; filter: brightness(0.9); }
-
+    /* positions : 15 projets + 2 méta */
     .node.n1 { top: 10%; left: 10%; }
     .node.n2 { top: 10%; left: 50%; }
     .node.n3 { top: 10%; left: 90%; }
@@ -332,11 +346,13 @@
     .node.n10 { top: 25%; left: 75%; }
     .node.n11 { top: 75%; left: 25%; }
     .node.n12 { top: 75%; left: 75%; }
-
     .node.n13 { top: 25%; left: 50%; }
     .node.n14 { top: 50%; left: 25%; }
     .node.n15 { top: 50%; left: 75%; }
-    .node.n16 { top: 75%; left: 50%; }
+
+    /* 2 méta au centre et bas centre */
+    .node.n16 { top: 50%; left: 50%; }
+    .node.n17 { top: 75%; left: 50%; }
 
     .center-hint {
       position: absolute;
@@ -344,12 +360,12 @@
       top: 50%;
       transform: translate(-50%, -50%);
       font-size: 0.75rem;
-      color: rgba(200, 200, 230, 0.75);
+      color: rgba(245, 233, 255, 0.9);
       padding: 6px 12px;
       border-radius: 999px;
-      background: rgba(7, 7, 20, 0.92);
-      border: 1px solid rgba(255, 255, 255, 0.16);
-      backdrop-filter: blur(8px);
+      background: rgba(14, 8, 45, 0.96);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      backdrop-filter: blur(12px);
       display: inline-flex;
       align-items: center;
       gap: 6px;
@@ -357,27 +373,21 @@
       text-align: center;
     }
 
-    /* PANEL D’INFO */
+    /* PANEL INFO + LISTE */
 
     .info-panel {
       border-radius: var(--radius-lg);
       border: 1px solid var(--border);
-      background: radial-gradient(circle at top left, #1f1f31 0, #0a0a16 55%);
+      background:
+        radial-gradient(circle at top right, rgba(255, 159, 243, 0.2) 0, transparent 55%),
+        radial-gradient(circle at bottom left, rgba(116, 185, 255, 0.18) 0, transparent 55%),
+        linear-gradient(145deg, #190b36, #060412 70%);
       padding: 14px 16px 16px;
       display: flex;
       flex-direction: column;
       gap: 10px;
       position: relative;
       overflow: hidden;
-    }
-
-    .info-panel::before {
-      content: "";
-      position: absolute;
-      inset: -40%;
-      background: radial-gradient(circle at top right, rgba(255, 179, 71, 0.12), transparent 55%);
-      opacity: 0.9;
-      pointer-events: none;
     }
 
     .info-panel-header {
@@ -399,8 +409,8 @@
       color: var(--muted);
       padding: 4px 9px;
       border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      background: rgba(5, 5, 12, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      background: rgba(10, 8, 40, 0.9);
     }
 
     .info-main {
@@ -430,17 +440,33 @@
       font-weight: 500;
     }
 
-    .info-actions {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      margin-top: 4px;
-    }
-
     .info-description {
       font-size: 0.82rem;
       color: var(--muted);
       line-height: 1.5;
+      margin-top: 4px;
+    }
+
+    .info-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .info-tag-pill {
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      font-size: 0.7rem;
+      color: var(--muted);
+      background: rgba(6, 4, 20, 0.9);
+    }
+
+    .info-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
       margin-top: 4px;
     }
 
@@ -463,23 +489,29 @@
 
     .list-card {
       border-radius: 16px;
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      background: rgba(5, 5, 16, 0.95);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(7, 4, 22, 0.96);
       padding: 8px 10px;
       font-size: 0.8rem;
       display: flex;
       flex-direction: column;
-      gap: 2px;
+      gap: 4px;
+      cursor: pointer;
     }
 
     .list-card-title {
       font-weight: 600;
-      margin-bottom: 2px;
     }
 
     .list-card-meta {
       color: var(--muted);
       font-size: 0.75rem;
+    }
+
+    .list-card-summary {
+      margin: 2px 0 0;
+      font-size: 0.75rem;
+      color: var(--muted);
     }
 
     .list-card-tags {
@@ -492,12 +524,12 @@
     .tag {
       padding: 2px 8px;
       border-radius: 999px;
-      border: 1px solid rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.18);
       font-size: 0.7rem;
     }
 
-    .tag.projet { border-color: rgba(255, 179, 71, 0.7); }
-    .tag.meta   { border-color: rgba(104, 224, 207, 0.7); }
+    .tag.projet { border-color: rgba(255, 75, 209, 0.8); }
+    .tag.meta   { border-color: rgba(46, 230, 197, 0.8); }
     .tag.type   { border-style: dashed; }
 
     .app.layout-list .tesseract-zone { display: none; }
@@ -530,18 +562,17 @@
         <p>
           Explorez les sommets de ce faux tesseract pour accéder aux sites réalisés
           par les étudiants : chercheurs, auteurs et designers qui ont façonné les
-          sciences de l’information et de l’architecture de l’information.
+          sciences de l’information et l’architecture de l’information.
         </p>
       </div>
       <div class="controls">
         <button id="btnList" class="secondary" type="button">
-          <span>Mode liste</span>
+          Mode liste
         </button>
       </div>
     </header>
 
     <div class="main-layout">
-      <!-- ZONE TESSERACT -->
       <section class="tesseract-zone" aria-label="Navigation par hypercube">
         <div class="tesseract-label">
           <span>Survolez ou cliquez un sommet pour afficher un projet.</span>
@@ -550,7 +581,7 @@
               <span class="legend-dot projet"></span> <span>Projet étudiant</span>
             </div>
             <div class="legend-item">
-              <span class="legend-dot meta"></span> <span>Méta / ressources</span>
+              <span class="legend-dot meta"></span> <span>Fiche méta</span>
             </div>
           </div>
         </div>
@@ -564,36 +595,34 @@
             <div class="edge e3"></div>
             <div class="edge e4"></div>
 
-            <!-- Extérieur (8 sommets) : devant -->
-            <button class="node projet n1 depth-front"  data-id="p1"  aria-label="Projet 1"></button>
-            <button class="node projet n2 depth-front"  data-id="p2"  aria-label="Projet 2"></button>
-            <button class="node projet n3 depth-front"  data-id="p3"  aria-label="Projet 3"></button>
-            <button class="node projet n4 depth-front"  data-id="p4"  aria-label="Projet 4"></button>
-            <button class="node projet n5 depth-front"  data-id="p5"  aria-label="Projet 5"></button>
-            <button class="node projet n6 depth-front"  data-id="p6"  aria-label="Projet 6"></button>
-            <button class="node projet n7 depth-front"  data-id="p7"  aria-label="Projet 7"></button>
-            <button class="node projet n8 depth-front"  data-id="p8"  aria-label="Projet 8"></button>
+            <!-- 15 projets étudiants -->
+            <button class="node projet n1"  data-id="p1"></button>
+            <button class="node projet n2"  data-id="p2"></button>
+            <button class="node projet n3"  data-id="p3"></button>
+            <button class="node projet n4"  data-id="p4"></button>
+            <button class="node projet n5"  data-id="p5"></button>
+            <button class="node projet n6"  data-id="p6"></button>
+            <button class="node projet n7"  data-id="p7"></button>
+            <button class="node projet n8"  data-id="p8"></button>
+            <button class="node projet n9"  data-id="p9"></button>
+            <button class="node projet n10" data-id="p10"></button>
+            <button class="node projet n11" data-id="p11"></button>
+            <button class="node projet n12" data-id="p12"></button>
+            <button class="node projet n13" data-id="p13"></button>
+            <button class="node projet n14" data-id="p14"></button>
+            <button class="node projet n15" data-id="p15"></button>
 
-            <!-- Intérieur (4 sommets projet) : derrière -->
-            <button class="node projet n9  depth-back" data-id="p9"  aria-label="Projet 9"></button>
-            <button class="node projet n10 depth-back" data-id="p10" aria-label="Projet 10"></button>
-            <button class="node projet n11 depth-back" data-id="p11" aria-label="Projet 11"></button>
-            <button class="node projet n12 depth-back" data-id="p12" aria-label="Projet 12"></button>
-
-            <!-- 4 sommets meta : derrière -->
-            <button class="node meta n13 depth-back" data-id="m1" aria-label="Cours et consignes"></button>
-            <button class="node meta n14 depth-back" data-id="m2" aria-label="À propos du BUT"></button>
-            <button class="node meta n15 depth-back" data-id="m3" aria-label="Ressources et bibliographie"></button>
-            <button class="node meta n16 depth-back" data-id="m4" aria-label="Crédits et mentions"></button>
+            <!-- 2 fiches méta -->
+            <button class="node meta n16" data-id="m1"></button>
+            <button class="node meta n17" data-id="m2"></button>
 
             <div class="center-hint">
-              <span>Hypercube pédagogique</span>
+              Hypercube pédagogique
             </div>
           </div>
         </div>
       </section>
 
-      <!-- PANEL D'INFO + MODE LISTE -->
       <aside class="info-panel" aria-live="polite">
         <div class="info-panel-header">
           <h2 id="info-label">Détail du sommet</h2>
@@ -607,14 +636,16 @@
           <div class="info-meta" id="info-meta">
             <span><strong>Type :</strong> —</span>
             <span><strong>Figure :</strong> —</span>
-            <span><strong>Groupe :</strong> —</span>
+            <span><strong>Étudiant·e :</strong> —</span>
             <span><strong>Année :</strong> BUT info-num 3ᵉ année</span>
           </div>
           <div class="info-description" id="info-description">
-            Ce panneau affichera le nom de la figure (chercheur, auteur, designer),
-            le groupe d’étudiants, ainsi qu’un lien vers le site lorsqu’il sera
-            renseigné.
+            Ce panneau affichera le nom de la figure, le groupe d’étudiants, un résumé,
+            ainsi qu’un lien vers le site. Les fiches méta renvoient au BUT et à la
+            description du cours.
           </div>
+          <div class="info-tags" id="info-tags"></div>
+
           <div class="info-actions">
             <a id="info-link" class="btn" href="#" target="_blank" rel="noopener noreferrer" style="display:none;">
               Visiter le site
@@ -624,8 +655,8 @@
             </button>
           </div>
           <div class="small-caption">
-            Astuce : vous pouvez activer le <strong>mode liste</strong> en haut pour
-            parcourir les projets de façon plus traditionnelle.
+            Astuce : activez le <strong>mode liste</strong> pour parcourir les projets
+            dans une vue plus classique.
           </div>
         </div>
 
@@ -642,145 +673,236 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      // --- Données des projets ---
+      // 1. CSV Google Sheets
+      var CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDqLNh7LX8_aAqQbDy0cfusAT82CQn1Cb50u_iMjy8NWg3SdaiNcMVMI1LMi-rGiz1UipK3F-ES_BJ/pub?gid=0&single=true&output=csv";
+
+      // 2. Données par défaut (écrasées si le CSV est chargé)
       var nodesData = {
-        p1: { type: "Projet étudiant", figure: "Paul Otlet",
-          title: "Mundaneum et préfiguration du web",
-          group: "Groupe A1", year: "2025",
-          category: "Chercheur en sciences de l'information",
-          url: "https://example.com/projet-otlet" },
-        p2: { type: "Projet étudiant", figure: "Vannevar Bush",
-          title: "Du Memex à l’hypertexte",
-          group: "Groupe A2", year: "2025",
-          category: "Précurseur de l’hypertexte",
-          url: "https://example.com/projet-bush" },
-        p3: { type: "Projet étudiant", figure: "Jacques Bertin",
-          title: "Sémiologie graphique et visualisation",
-          group: "Groupe A3", year: "2025",
-          category: "Théoricien de la visualisation",
-          url: "https://example.com/projet-bertin" },
-        p4: { type: "Projet étudiant", figure: "Jacob Nielsen",
-          title: "Heuristiques d’utilisabilité et IA",
-          group: "Groupe B1", year: "2025",
-          category: "Designer UX",
-          url: "https://example.com/projet-nielsen" },
-        p5: { type: "Projet étudiant", figure: "Richard Saul Wurman",
-          title: "L’invention de l’architecture de l’information",
-          group: "Groupe B2", year: "2025",
-          category: "Architecte de l’information",
-          url: "https://example.com/projet-wurman" },
-        p6: { type: "Projet étudiant", figure: "Donna Haraway",
-          title: "Cyborgs, savoirs situés et données",
-          group: "Groupe B3", year: "2025",
-          category: "Approche critique",
-          url: "https://example.com/projet-haraway" },
-        p7: { type: "Projet étudiant", figure: "Brenda Dervin",
-          title: "Sense-making et pratiques informationnelles",
-          group: "Groupe C1", year: "2025",
-          category: "Théoricienne de l’usage",
-          url: "https://example.com/projet-dervin" },
-        p8: { type: "Projet étudiant", figure: "Lou Rosenfeld & Peter Morville",
-          title: "L’ours polaire et l’architecture de l’information",
-          group: "Groupe C2", year: "2025",
-          category: "Architecture de l’information",
-          url: "https://example.com/projet-rosenfeld-morville" },
-        p9: { type: "Projet étudiant", figure: "Peter Pirolli & Stuart Card",
-          title: "Information foraging et navigation",
-          group: "Groupe C3", year: "2025",
-          category: "Modèles de navigation",
-          url: "https://example.com/projet-pirolli-card" },
-        p10: { type: "Projet étudiant", figure: "Edward Tufte",
-          title: "Design de l’information et minimalisme",
-          group: "Groupe D1", year: "2025",
-          category: "Visualisation de données",
-          url: "https://example.com/projet-tufte" },
-        p11: { type: "Projet étudiant", figure: "Susan Leigh Star",
-          title: "Infrastructures, coulisses et standards",
-          group: "Groupe D2", year: "2025",
-          category: "Sociologie de l’information",
-          url: "https://example.com/projet-star" },
-        p12: { type: "Projet étudiant", figure: "Kristina Halvorson",
-          title: "Stratégie de contenu et architecture",
-          group: "Groupe D3", year: "2025",
-          category: "Content strategy / IA",
-          url: "https://example.com/projet-halvorson" },
-        m1: { type: "Méta", figure: "Cours d’architecture de l’information",
-          title: "Objectifs pédagogiques et consignes",
-          group: "Enseignant·e / équipe pédagogique",
-          year: "2025", category: "Ressource de cours", url: "#" },
-        m2: { type: "Méta",
-          figure: "BUT Information numérique dans les organisations",
-          title: "Présentation de la formation et de l’UE",
+        p1:  { type: "Projet étudiant", figure: "Figure 1",
+          title: "Projet 1", summary: "", tags: [], url: "", student: "Étudiant·e 1",
+          group: "Groupe 1", year: "2025", category: "" },
+        p2:  { type: "Projet étudiant", figure: "Figure 2",
+          title: "Projet 2", summary: "", tags: [], url: "", student: "Étudiant·e 2",
+          group: "Groupe 1", year: "2025", category: "" },
+        p3:  { type: "Projet étudiant", figure: "Figure 3",
+          title: "Projet 3", summary: "", tags: [], url: "", student: "Étudiant·e 3",
+          group: "Groupe 1", year: "2025", category: "" },
+        p4:  { type: "Projet étudiant", figure: "Figure 4",
+          title: "Projet 4", summary: "", tags: [], url: "", student: "Étudiant·e 4",
+          group: "Groupe 2", year: "2025", category: "" },
+        p5:  { type: "Projet étudiant", figure: "Figure 5",
+          title: "Projet 5", summary: "", tags: [], url: "", student: "Étudiant·e 5",
+          group: "Groupe 2", year: "2025", category: "" },
+        p6:  { type: "Projet étudiant", figure: "Figure 6",
+          title: "Projet 6", summary: "", tags: [], url: "", student: "Étudiant·e 6",
+          group: "Groupe 2", year: "2025", category: "" },
+        p7:  { type: "Projet étudiant", figure: "Figure 7",
+          title: "Projet 7", summary: "", tags: [], url: "", student: "Étudiant·e 7",
+          group: "Groupe 3", year: "2025", category: "" },
+        p8:  { type: "Projet étudiant", figure: "Figure 8",
+          title: "Projet 8", summary: "", tags: [], url: "", student: "Étudiant·e 8",
+          group: "Groupe 3", year: "2025", category: "" },
+        p9:  { type: "Projet étudiant", figure: "Figure 9",
+          title: "Projet 9", summary: "", tags: [], url: "", student: "Étudiant·e 9",
+          group: "Groupe 3", year: "2025", category: "" },
+        p10: { type: "Projet étudiant", figure: "Figure 10",
+          title: "Projet 10", summary: "", tags: [], url: "", student: "Étudiant·e 10",
+          group: "Groupe 4", year: "2025", category: "" },
+        p11: { type: "Projet étudiant", figure: "Figure 11",
+          title: "Projet 11", summary: "", tags: [], url: "", student: "Étudiant·e 11",
+          group: "Groupe 4", year: "2025", category: "" },
+        p12: { type: "Projet étudiant", figure: "Figure 12",
+          title: "Projet 12", summary: "", tags: [], url: "", student: "Étudiant·e 12",
+          group: "Groupe 4", year: "2025", category: "" },
+        p13: { type: "Projet étudiant", figure: "Figure 13",
+          title: "Projet 13", summary: "", tags: [], url: "", student: "Étudiant·e 13",
+          group: "Groupe 5", year: "2025", category: "" },
+        p14: { type: "Projet étudiant", figure: "Figure 14",
+          title: "Projet 14", summary: "", tags: [], url: "", student: "Étudiant·e 14",
+          group: "Groupe 5", year: "2025", category: "" },
+        p15: { type: "Projet étudiant", figure: "Figure 15",
+          title: "Projet 15", summary: "", tags: [], url: "", student: "Étudiant·e 15",
+          group: "Groupe 5", year: "2025", category: "" },
+
+        m1:  { type: "Méta",
+          figure: "BUT Information numérique",
+          title: "Site du BUT Info-num",
+          summary: "Lien vers la page officielle du BUT.",
+          tags: ["BUT", "formation"],
+          url: "",
+          student: "",
           group: "Département info-num",
-          year: "2025", category: "Présentation", url: "#" },
-        m3: { type: "Méta", figure: "Ressources et bibliographie",
-          title: "Références, articles, livres, vidéos",
-          group: "Sélection pédagogique",
-          year: "2025", category: "Bibliographie", url: "#" },
-        m4: { type: "Méta", figure: "Crédits, mentions légales",
-          title: "Projets étudiants et encadrement",
-          group: "Étudiants & enseignant·e",
-          year: "2025", category: "Crédits", url: "#" }
+          year: "2025",
+          category: "Site institutionnel" },
+        m2:  { type: "Méta",
+          figure: "Cours d’architecture de l’information",
+          title: "Description du cours et consignes",
+          summary: "Objectifs pédagogiques, déroulé de l’UE et consignes pour le projet.",
+          tags: ["cours", "consignes"],
+          url: "",
+          student: "",
+          group: "Équipe pédagogique",
+          year: "2025",
+          category: "Description de cours" }
       };
 
       var appEl = document.getElementById("app");
       var infoTitleEl = document.getElementById("info-title");
       var infoMetaEl = document.getElementById("info-meta");
       var infoDescEl = document.getElementById("info-description");
+      var infoTagsEl = document.getElementById("info-tags");
       var infoLinkEl = document.getElementById("info-link");
       var btnPreviewEl = document.getElementById("btnPreview");
       var listViewEl = document.getElementById("list-view");
       var btnListEl = document.getElementById("btnList");
+      var tesseractZoneEl = document.querySelector(".tesseract-zone");
+      var tesseractEl = document.querySelector(".tesseract");
+
+      /* Parseur CSV simple ("," ou ";") */
+      function parseCSV(text) {
+        var rows = [];
+        var current = "";
+        var row = [];
+        var inQuotes = false;
+
+        for (var i = 0; i < text.length; i++) {
+          var c = text[i];
+
+          if (inQuotes) {
+            if (c === '"') {
+              if (text[i + 1] === '"') {
+                current += '"';
+                i++;
+              } else {
+                inQuotes = false;
+              }
+            } else {
+              current += c;
+            }
+          } else {
+            if (c === '"') {
+              inQuotes = true;
+            } else if (c === "," || c === ";") {
+              row.push(current);
+              current = "";
+            } else if (c === "\r") {
+              // ignore
+            } else if (c === "\n") {
+              row.push(current);
+              if (row.some(function (cell) { return cell.trim() !== ""; })) {
+                rows.push(row);
+              }
+              row = [];
+              current = "";
+            } else {
+              current += c;
+            }
+          }
+        }
+        if (current.length || row.length) {
+          row.push(current);
+          if (row.some(function (cell) { return cell.trim() !== ""; })) {
+            rows.push(row);
+          }
+        }
+
+        if (!rows.length) return [];
+
+        var header = rows[0].map(function (h) { return h.trim(); });
+        var dataRows = rows.slice(1);
+
+        return dataRows.map(function (r) {
+          var obj = {};
+          for (var j = 0; j < header.length; j++) {
+            obj[header[j]] = (r[j] || "").trim();
+          }
+          return obj;
+        });
+      }
+
+      function syncNodesWithData() {
+        var nodeEls = document.querySelectorAll(".node");
+        nodeEls.forEach(function (node) {
+          var id = node.getAttribute("data-id");
+          var data = nodesData[id];
+          if (!data) return;
+
+          node.classList.remove("projet", "meta");
+          var typeLower = (data.type || "").toLowerCase();
+          if (typeLower.indexOf("méta") !== -1 || typeLower.indexOf("meta") !== -1) {
+            node.classList.add("meta");
+          } else {
+            node.classList.add("projet");
+          }
+
+          var labelParts = [];
+          if (data.title) labelParts.push(data.title);
+          if (data.student) labelParts.push("– " + data.student);
+          node.setAttribute("aria-label", labelParts.join(" "));
+        });
+      }
 
       function renderInfo(id) {
         var data = nodesData[id];
         var nodes = document.querySelectorAll(".node");
-        var i;
-
-        for (i = 0; i < nodes.length; i++) {
-          nodes[i].classList.remove("active");
-        }
+        nodes.forEach(function (n) { n.classList.remove("active"); });
 
         var activeNode = document.querySelector('.node[data-id="' + id + '"]');
-        if (activeNode) {
-          activeNode.classList.add("active");
-        }
+        if (activeNode) { activeNode.classList.add("active"); }
 
         if (!data) {
           infoTitleEl.textContent = "Sommet non renseigné";
           infoMetaEl.innerHTML =
             '<span><strong>Type :</strong> —</span>' +
             '<span><strong>Figure :</strong> —</span>' +
-            '<span><strong>Groupe :</strong> —</span>' +
+            '<span><strong>Étudiant·e :</strong> —</span>' +
             '<span><strong>Année :</strong> BUT info-num 3ᵉ année</span>';
           infoDescEl.textContent =
-            "Ce sommet n’est pas encore associé à un projet. Il pourra être relié à un site ou à une ressource ultérieurement.";
+            "Ce sommet n’est pas encore associé à un projet ou une ressource.";
+          infoTagsEl.innerHTML = "";
           infoLinkEl.style.display = "none";
           btnPreviewEl.disabled = true;
           return;
         }
 
-        var isMeta = data.type === "Méta";
+        var isMeta =
+          (data.type || "").toLowerCase().indexOf("méta") !== -1 ||
+          (data.type || "").toLowerCase().indexOf("meta") !== -1;
 
-        infoTitleEl.textContent = data.title;
+        infoTitleEl.textContent = data.title || "(Sans titre)";
 
-        var typeLine = '<span><strong>Type :</strong> ' + data.type;
+        var metaLines = [];
+        var typeLine = "<span><strong>Type :</strong> " +
+          (data.type || (isMeta ? "Méta" : "Projet étudiant"));
         if (data.category) {
           typeLine += " · " + data.category;
         }
         typeLine += "</span>";
+        metaLines.push(typeLine);
+        metaLines.push("<span><strong>Figure :</strong> " + (data.figure || "—") + "</span>");
+        metaLines.push("<span><strong>Étudiant·e :</strong> " + (data.student || "—") + "</span>");
+        metaLines.push("<span><strong>Année :</strong> " + (data.year || "BUT info-num 3ᵉ année") + "</span>");
 
-        infoMetaEl.innerHTML =
-          typeLine +
-          '<span><strong>Figure :</strong> ' + data.figure + "</span>" +
-          '<span><strong>Groupe :</strong> ' + data.group + "</span>" +
-          '<span><strong>Année :</strong> ' + data.year + "</span>";
+        infoMetaEl.innerHTML = metaLines.join("");
+        if (data.summary) {
+          infoDescEl.textContent = data.summary;
+        } else {
+          infoDescEl.textContent = isMeta
+            ? "Fiche méta renvoyant à une ressource (site du BUT, description de cours, etc.)."
+            : "Sommet associé à un site étudiant présentant une figure clé des sciences de l’information.";
+        }
 
-        infoDescEl.textContent = isMeta
-          ? "Sommet méta du dispositif : il renvoie à une page de ressources, de présentation du cours ou de crédits."
-          : "Sommet associé à un site étudiant présentant une figure clé des sciences de l’information ou de l’architecture de l’information.";
+        infoTagsEl.innerHTML = "";
+        if (Array.isArray(data.tags) && data.tags.length) {
+          data.tags.forEach(function (tag) {
+            var span = document.createElement("span");
+            span.className = "info-tag-pill";
+            span.textContent = tag;
+            infoTagsEl.appendChild(span);
+          });
+        }
 
-        if (data.url && data.url !== "#") {
+        if (data.url && data.url !== "#" && data.url.trim() !== "") {
           infoLinkEl.style.display = "inline-flex";
           infoLinkEl.href = data.url;
         } else {
@@ -792,27 +914,36 @@
 
       function buildListView() {
         listViewEl.innerHTML = "";
-        var id;
-        for (id in nodesData) {
+        for (var id in nodesData) {
           if (!nodesData.hasOwnProperty(id)) continue;
           var data = nodesData[id];
 
           var card = document.createElement("article");
           card.className = "list-card";
 
+          var typeLower = (data.type || "").toLowerCase();
+          var isMeta = typeLower.indexOf("méta") !== -1 || typeLower.indexOf("meta") !== -1;
+
           var tagsHtml =
-            '<span class="tag ' + (data.type === "Méta" ? "meta" : "projet") + '">' +
-            data.type +
-            "</span>";
+            '<span class="tag ' + (isMeta ? "meta" : "projet") + '">' +
+            (data.type || "") + "</span>";
           if (data.category) {
             tagsHtml += '<span class="tag type">' + data.category + "</span>";
           }
 
+          var metaTextParts = [];
+          if (data.figure) metaTextParts.push(data.figure);
+          if (data.student) metaTextParts.push(data.student);
+          if (data.group) metaTextParts.push(data.group);
+          if (data.year) metaTextParts.push(data.year);
+          var metaText = metaTextParts.join(" – ");
+
           card.innerHTML =
-            '<div class="list-card-title">' + data.title + "</div>" +
-            '<div class="list-card-meta">' +
-            data.figure + " – " + data.group + " (" + data.year + ")" +
-            "</div>" +
+            '<div class="list-card-title">' + (data.title || "(Sans titre)") + "</div>" +
+            '<div class="list-card-meta">' + metaText + "</div>" +
+            (data.summary
+              ? '<div class="list-card-summary">' + data.summary + "</div>"
+              : "") +
             '<div class="list-card-tags">' + tagsHtml + "</div>";
 
           (function (idCopy) {
@@ -825,30 +956,28 @@
         }
       }
 
-      // Interactions sur les nœuds
+      // interactions sur les nœuds
       var nodeEls = document.querySelectorAll(".node");
-      for (var i = 0; i < nodeEls.length; i++) {
-        (function (node) {
-          var id = node.getAttribute("data-id");
+      nodeEls.forEach(function (node) {
+        var id = node.getAttribute("data-id");
 
-          node.addEventListener("mouseenter", function () {
-            renderInfo(id);
-          });
+        node.addEventListener("mouseenter", function () {
+          renderInfo(id);
+        });
 
-          node.addEventListener("focus", function () {
-            renderInfo(id);
-          });
+        node.addEventListener("focus", function () {
+          renderInfo(id);
+        });
 
-          node.addEventListener("click", function () {
-            var data = nodesData[id];
-            if (data && data.url && data.url !== "#") {
-              window.open(data.url, "_blank");
-            }
-          });
-        })(nodeEls[i]);
-      }
+        node.addEventListener("click", function () {
+          var data = nodesData[id];
+          if (data && data.url && data.url !== "#" && data.url.trim() !== "") {
+            window.open(data.url, "_blank");
+          }
+        });
+      });
 
-      // Mode liste
+      // mode liste / tesseract
       btnListEl.addEventListener("click", function () {
         if (appEl.classList.contains("layout-list")) {
           appEl.classList.remove("layout-list");
@@ -859,32 +988,96 @@
         }
       });
 
-      // Effet tilt / caméra
-      var tesseractZoneEl = document.querySelector(".tesseract-zone");
-      var tesseractEl = document.querySelector(".tesseract");
-
+      // inclinaison légère au survol (mais pas de rotation automatique)
       if (tesseractZoneEl && tesseractEl) {
         tesseractZoneEl.addEventListener("mousemove", function (event) {
           var rect = tesseractZoneEl.getBoundingClientRect();
           var x = (event.clientX - rect.left) / rect.width - 0.5;
           var y = (event.clientY - rect.top) / rect.height - 0.5;
 
-          var rotateX = 18 - y * 30;
-          var rotateY = -22 + x * 40;
+          var rotateX = 18 - y * 18;
+          var rotateY = -22 + x * 26;
 
-          tesseractEl.style.animation = "none";
           tesseractEl.style.transform =
             "rotateX(" + rotateX + "deg) rotateY(" + rotateY + "deg)";
         });
 
         tesseractZoneEl.addEventListener("mouseleave", function () {
-          tesseractEl.style.animation = "";
-          tesseractEl.style.transform = "";
+          tesseractEl.style.transform = "rotateX(18deg) rotateY(-22deg)";
         });
       }
 
-      // Initialisation
+      // chargement depuis le CSV
+      function loadFromCSV() {
+        if (!CSV_URL) {
+          syncNodesWithData();
+          buildListView();
+          return;
+        }
+
+        fetch(CSV_URL)
+          .then(function (res) { return res.text(); })
+          .then(function (text) {
+            var rows = parseCSV(text);
+            if (!rows.length) {
+              syncNodesWithData();
+              buildListView();
+              return;
+            }
+
+            var newData = {};
+
+            rows.forEach(function (row) {
+              var id = (row.id || row.ID || "").trim();
+              if (!id) return;
+
+              var typeRaw = (row.type || row.Type || "").trim();
+              var title = row.titre || row.Titre || row.title || row.Title || "";
+              var summary = row.resume || row.résumé || row["résume"] || row.summary || "";
+              var tagsStr = row.tags || row.Tags || "";
+              var url = row.url || row.URL || "";
+              var student = row.etudiant || row["étudiant"] || row.Etudiant || "";
+              var figure = row.figure || row.Figure || "";
+              var group = row.groupe || row.Groupe || "";
+              var year = row.annee || row.année || row.Annee || row.Année || "";
+              var category = row.categorie || row.Categorie || row["catégorie"] || "";
+
+              var tagsArr = tagsStr
+                .split(/[,|]/)
+                .map(function (t) { return t.trim(); })
+                .filter(function (t) { return t.length > 0; });
+
+              newData[id] = {
+                type: typeRaw || "Projet étudiant",
+                figure: figure,
+                title: title,
+                summary: summary,
+                tags: tagsArr,
+                url: url,
+                student: student,
+                group: group,
+                year: year || "2025",
+                category: category
+              };
+            });
+
+            if (Object.keys(newData).length) {
+              nodesData = newData;
+            }
+
+            syncNodesWithData();
+            buildListView();
+          })
+          .catch(function () {
+            syncNodesWithData();
+            buildListView();
+          });
+      }
+
+      // initialisation
+      syncNodesWithData();
       buildListView();
+      loadFromCSV();
     });
   </script>
 </body>
