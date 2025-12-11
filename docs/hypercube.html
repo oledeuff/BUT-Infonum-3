@@ -282,7 +282,8 @@
         transform 0.15s ease,
         box-shadow 0.15s ease,
         filter 0.15s ease,
-        background 0.15s ease;
+        background 0.15s ease,
+        opacity 0.15s ease;
     }
 
     .node::before {
@@ -313,6 +314,12 @@
       box-shadow:
         0 0 0 1px rgba(0, 20, 20, 0.8),
         0 0 28px var(--meta-soft);
+    }
+
+    .node.inactive {
+      opacity: 0.25;
+      cursor: default;
+      box-shadow: none;
     }
 
     .node:focus-visible {
@@ -479,25 +486,32 @@
     .list-view {
       display: none;
       margin-top: 8px;
-      gap: 10px;
+      gap: 12px;
       position: relative;
       z-index: 1;
-      max-height: 270px;
-      overflow: auto;
-      padding-right: 4px;
+      padding-right: 0;
     }
 
     .list-card {
       border-radius: 16px;
-      border: 1px solid rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.18);
       background: rgba(7, 4, 22, 0.96);
-      padding: 8px 10px;
+      padding: 10px 12px;
       font-size: 0.8rem;
       display: flex;
       flex-direction: column;
       gap: 4px;
       cursor: pointer;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
     }
+
+    /* liserés de couleurs différentes */
+    .list-card:nth-child(6n+1) { border-color: #ff4bd1; }
+    .list-card:nth-child(6n+2) { border-color: #ff9f43; }
+    .list-card:nth-child(6n+3) { border-color: #1dd1a1; }
+    .list-card:nth-child(6n+4) { border-color: #54a0ff; }
+    .list-card:nth-child(6n+5) { border-color: #5f27cd; }
+    .list-card:nth-child(6n+6) { border-color: #e84393; }
 
     .list-card-title {
       font-weight: 600;
@@ -535,7 +549,7 @@
     .app.layout-list .tesseract-zone { display: none; }
     .app.layout-list .list-view {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     }
 
     @media (max-width: 860px) {
@@ -807,12 +821,32 @@
         var projetNodes = document.querySelectorAll(".node.slot-projet");
         var metaNodes = document.querySelectorAll(".node.slot-meta");
 
-        projetIds.slice(0, projetNodes.length).forEach(function (id, index) {
-          projetNodes[index].dataset.id = id;
+        // reset des nœuds
+        projetNodes.forEach(function (node) {
+          node.removeAttribute("data-id");
+          node.classList.remove("projet", "meta", "inactive", "active");
+          node.removeAttribute("aria-label");
+          node.classList.add("inactive");
+        });
+        metaNodes.forEach(function (node) {
+          node.removeAttribute("data-id");
+          node.classList.remove("projet", "meta", "inactive", "active");
+          node.removeAttribute("aria-label");
+          node.classList.add("inactive");
         });
 
+        // attribution projets
+        projetIds.slice(0, projetNodes.length).forEach(function (id, index) {
+          var node = projetNodes[index];
+          node.dataset.id = id;
+          node.classList.remove("inactive");
+        });
+
+        // attribution méta
         metaIds.slice(0, metaNodes.length).forEach(function (id, index) {
-          metaNodes[index].dataset.id = id;
+          var node = metaNodes[index];
+          node.dataset.id = id;
+          node.classList.remove("inactive");
         });
       }
 
@@ -822,10 +856,11 @@
         nodeEls.forEach(function (node) {
           var id = node.getAttribute("data-id");
           var data = nodesData[id];
+
           node.classList.remove("projet", "meta");
 
-          if (!data) {
-            node.removeAttribute("aria-label");
+          if (!id || !data) {
+            // nœud inactif déjà géré dans mapIdsToNodes
             return;
           }
 
@@ -955,11 +990,11 @@
         });
       }
 
-      // Délégation d’événements sur le tesseract (évite de rebinder à chaque fois)
+      // Délégation d’événements sur le tesseract
       if (tesseractEl) {
         tesseractEl.addEventListener("mouseover", function (event) {
           var node = event.target.closest(".node");
-          if (!node) return;
+          if (!node || node.classList.contains("inactive")) return;
           var id = node.dataset.id;
           if (id) {
             renderInfo(id);
@@ -968,7 +1003,7 @@
 
         tesseractEl.addEventListener("click", function (event) {
           var node = event.target.closest(".node");
-          if (!node) return;
+          if (!node || node.classList.contains("inactive")) return;
           var id = node.dataset.id;
           var data = nodesData[id];
           if (data && data.url && data.url !== "#" && data.url.trim() !== "") {
@@ -978,7 +1013,7 @@
 
         tesseractEl.addEventListener("focusin", function (event) {
           var node = event.target.closest(".node");
-          if (!node) return;
+          if (!node || node.classList.contains("inactive")) return;
           var id = node.dataset.id;
           if (id) {
             renderInfo(id);
@@ -1046,8 +1081,7 @@
             var newData = {};
 
             rows.forEach(function (row) {
-              // correspondance exacte avec le tableur :
-              // id,type,titre,resume,tags,url,etudiant,figure
+              // colonnes attendues : id,type,titre,resume,tags,url,etudiant,figure
               var id = (row.id || row.ID || "").trim();
               if (!id) return;
 
