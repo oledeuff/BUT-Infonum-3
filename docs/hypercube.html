@@ -10,7 +10,7 @@
       --fg: #fdf7ff;
       --accent: #ff4bd1; /* rose fluo pour les projets */
       --accent-soft: rgba(255, 75, 209, 0.3);
-      --meta: #2ee6c5;   /* vert/turquoise pour les méta */
+      --meta: #2ee6c5;   /* vert/turquoise pour les meta */
       --meta-soft: rgba(46, 230, 197, 0.3);
       --border: #3a3058;
       --muted: #a9a0c4;
@@ -339,7 +339,7 @@
         0 0 35px rgba(255, 255, 255, 0.7);
     }
 
-    /* positions : 15 projets + 2 méta */
+    /* positions : 15 projets + 2 meta */
     .node.n1 { top: 10%; left: 10%; }
     .node.n2 { top: 10%; left: 50%; }
     .node.n3 { top: 10%; left: 90%; }
@@ -357,7 +357,7 @@
     .node.n14 { top: 50%; left: 25%; }
     .node.n15 { top: 50%; left: 75%; }
 
-    /* 2 méta au centre et bas centre */
+    /* 2 meta au centre et bas centre */
     .node.n16 { top: 50%; left: 50%; }
     .node.n17 { top: 75%; left: 50%; }
 
@@ -602,7 +602,7 @@
               <span class="legend-dot projet"></span> <span>Projet étudiant</span>
             </div>
             <div class="legend-item">
-              <span class="legend-dot meta"></span> <span>Fiche méta</span>
+              <span class="legend-dot meta"></span> <span>Fiche meta</span>
             </div>
           </div>
         </div>
@@ -633,7 +633,7 @@
             <button class="node slot-projet n14"></button>
             <button class="node slot-projet n15"></button>
 
-            <!-- 2 sommets pour méta -->
+            <!-- 2 sommets pour meta -->
             <button class="node slot-meta n16"></button>
             <button class="node slot-meta n17"></button>
 
@@ -661,7 +661,7 @@
           </div>
           <div class="info-description" id="info-description">
             Ce panneau affichera le nom de la figure, le nom de l’étudiant·e, un résumé,
-            ainsi qu’un lien vers le site. Les fiches méta renvoient au BUT et à la
+            ainsi qu’un lien vers le site. Les fiches meta renvoient au BUT et à la
             description du cours.
           </div>
           <div class="info-tags" id="info-tags"></div>
@@ -718,10 +718,10 @@
         p14: { id: "p14", type: "Projet étudiant", titre: "Projet 14", resume: "", tags: [], url: "", etudiant: "Étudiant·e 14", figure: "Figure 14" },
         p15: { id: "p15", type: "Projet étudiant", titre: "Projet 15", resume: "", tags: [], url: "", etudiant: "Étudiant·e 15", figure: "Figure 15" },
 
-        m1:  { id: "m1", type: "Méta", titre: "Site du BUT Info-num",
+        m1:  { id: "m1", type: "meta", titre: "Site du BUT Info-num",
                resume: "Lien vers la page officielle du BUT.", tags: ["BUT", "formation"],
                url: "", etudiant: "", figure: "BUT Information numérique" },
-        m2:  { id: "m2", type: "Méta", titre: "Description du cours et consignes",
+        m2:  { id: "m2", type: "meta", titre: "Description du cours et consignes",
                resume: "Objectifs pédagogiques, déroulé de l’UE et consignes pour le projet.",
                tags: ["cours", "consignes"], url: "",
                etudiant: "", figure: "Cours d’architecture de l’information" }
@@ -811,7 +811,7 @@
         ids.forEach(function (id) {
           var d = nodesData[id];
           var t = (d.type || "").toLowerCase();
-          if (t.indexOf("méta") !== -1 || t.indexOf("meta") !== -1) {
+          if (t.indexOf("meta") !== -1 || t.indexOf("meta") !== -1) {
             metaIds.push(id);
           } else {
             projetIds.push(id);
@@ -842,7 +842,7 @@
           node.classList.remove("inactive");
         });
 
-        // attribution méta
+        // attribution meta
         metaIds.slice(0, metaNodes.length).forEach(function (id, index) {
           var node = metaNodes[index];
           node.dataset.id = id;
@@ -865,7 +865,7 @@
           }
 
           var typeLower = (data.type || "").toLowerCase();
-          if (typeLower.indexOf("méta") !== -1 || typeLower.indexOf("meta") !== -1) {
+          if (typeLower.indexOf("meta") !== -1 || typeLower.indexOf("meta") !== -1) {
             node.classList.add("meta");
           } else {
             node.classList.add("projet");
@@ -902,7 +902,7 @@
         }
 
         var isMeta =
-          (data.type || "").toLowerCase().indexOf("méta") !== -1 ||
+          (data.type || "").toLowerCase().indexOf("meta") !== -1 ||
           (data.type || "").toLowerCase().indexOf("meta") !== -1;
 
         infoTitleEl.textContent = data.titre || "(Sans titre)";
@@ -910,7 +910,7 @@
         var metaLines = [];
         metaLines.push(
           "<span><strong>Type :</strong> " +
-          (data.type || (isMeta ? "Méta" : "Projet étudiant")) +
+          (data.type || (isMeta ? "meta" : "Projet étudiant")) +
           "</span>"
         );
         metaLines.push(
@@ -926,7 +926,7 @@
           infoDescEl.textContent = data.resume;
         } else {
           infoDescEl.textContent = isMeta
-            ? "Fiche méta renvoyant à une ressource (site du BUT, description de cours, etc.)."
+            ? "Fiche meta renvoyant à une ressource (site du BUT, description de cours, etc.)."
             : "Sommet associé à un site étudiant présentant une figure clé des sciences de l’information.";
         }
 
@@ -963,7 +963,7 @@
           card.className = "list-card";
 
           var typeLower = (data.type || "").toLowerCase();
-          var isMeta = typeLower.indexOf("méta") !== -1 || typeLower.indexOf("meta") !== -1;
+          var isMeta = typeLower.indexOf("meta") !== -1 || typeLower.indexOf("meta") !== -1;
 
           var tagsHtml =
             '<span class="tag ' + (isMeta ? "meta" : "projet") + '">' +
