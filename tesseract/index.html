@@ -1,366 +1,1038 @@
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    // 1. CSV Google Sheets
-    var CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDqLNh7LX8_aAqQbDy0cfusAT82CQn1Cb50u_iMjy8NWg3SdaiNcMVMI1LMi-rGiz1UipK3F-ES_BJ/pub?gid=0&single=true&output=csv";
-
-    // 2. Données par défaut (écrasées si le CSV est chargé avec succès).
-    //    On utilise EXACTEMENT les mêmes champs que dans le tableur :
-    //    id, type, titre, resume, tags (tableau), url, etudiant, figure.
-    var nodesData = {
-      p1:  { id: "p1",  type: "Projet étudiant", titre: "Projet 1",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 1",  figure: "Figure 1" },
-      p2:  { id: "p2",  type: "Projet étudiant", titre: "Projet 2",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 2",  figure: "Figure 2" },
-      p3:  { id: "p3",  type: "Projet étudiant", titre: "Projet 3",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 3",  figure: "Figure 3" },
-      p4:  { id: "p4",  type: "Projet étudiant", titre: "Projet 4",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 4",  figure: "Figure 4" },
-      p5:  { id: "p5",  type: "Projet étudiant", titre: "Projet 5",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 5",  figure: "Figure 5" },
-      p6:  { id: "p6",  type: "Projet étudiant", titre: "Projet 6",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 6",  figure: "Figure 6" },
-      p7:  { id: "p7",  type: "Projet étudiant", titre: "Projet 7",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 7",  figure: "Figure 7" },
-      p8:  { id: "p8",  type: "Projet étudiant", titre: "Projet 8",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 8",  figure: "Figure 8" },
-      p9:  { id: "p9",  type: "Projet étudiant", titre: "Projet 9",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 9",  figure: "Figure 9" },
-      p10: { id: "p10", type: "Projet étudiant", titre: "Projet 10", resume: "", tags: [], url: "", etudiant: "Étudiant·e 10", figure: "Figure 10" },
-      p11: { id: "p11", type: "Projet étudiant", titre: "Projet 11", resume: "", tags: [], url: "", etudiant: "Étudiant·e 11", figure: "Figure 11" },
-      p12: { id: "p12", type: "Projet étudiant", titre: "Projet 12", resume: "", tags: [], url: "", etudiant: "Étudiant·e 12", figure: "Figure 12" },
-      p13: { id: "p13", type: "Projet étudiant", titre: "Projet 13", resume: "", tags: [], url: "", etudiant: "Étudiant·e 13", figure: "Figure 13" },
-      p14: { id: "p14", type: "Projet étudiant", titre: "Projet 14", resume: "", tags: [], url: "", etudiant: "Étudiant·e 14", figure: "Figure 14" },
-      p15: { id: "p15", type: "Projet étudiant", titre: "Projet 15", resume: "", tags: [], url: "", etudiant: "Étudiant·e 15", figure: "Figure 15" },
-
-      // m1 = site du BUT ; m2 = description de cours
-      m1:  { id: "m1", type: "Méta", titre: "Site du BUT Info-num",
-             resume: "Lien vers la page officielle du BUT.", tags: ["BUT", "formation"],
-             url: "", etudiant: "", figure: "BUT Information numérique" },
-      m2:  { id: "m2", type: "Méta", titre: "Description du cours et consignes",
-             resume: "Objectifs pédagogiques, déroulé de l’UE et consignes pour le projet.",
-             tags: ["cours", "consignes"], url: "",
-             etudiant: "", figure: "Cours d’architecture de l’information" }
-    };
-
-    var appEl = document.getElementById("app");
-    var infoTitleEl = document.getElementById("info-title");
-    var infoMetaEl = document.getElementById("info-meta");
-    var infoDescEl = document.getElementById("info-description");
-    var infoTagsEl = document.getElementById("info-tags");
-    var infoLinkEl = document.getElementById("info-link");
-    var btnPreviewEl = document.getElementById("btnPreview");
-    var listViewEl = document.getElementById("list-view");
-    var btnListEl = document.getElementById("btnList");
-    var tesseractZoneEl = document.querySelector(".tesseract-zone");
-    var tesseractEl = document.querySelector(".tesseract");
-
-    /* Parseur CSV simple ("," ou ";") */
-    function parseCSV(text) {
-      var rows = [];
-      var current = "";
-      var row = [];
-      var inQuotes = false;
-
-      for (var i = 0; i < text.length; i++) {
-        var c = text[i];
-
-        if (inQuotes) {
-          if (c === '"') {
-            if (text[i + 1] === '"') {
-              current += '"';
-              i++;
-            } else {
-              inQuotes = false;
-            }
-          } else {
-            current += c;
-          }
-        } else {
-          if (c === '"') {
-            inQuotes = true;
-          } else if (c === "," || c === ";") {
-            row.push(current);
-            current = "";
-          } else if (c === "\r") {
-            // ignore
-          } else if (c === "\n") {
-            row.push(current);
-            if (row.some(function (cell) { return cell.trim() !== ""; })) {
-              rows.push(row);
-            }
-            row = [];
-            current = "";
-          } else {
-            current += c;
-          }
-        }
-      }
-      if (current.length || row.length) {
-        row.push(current);
-        if (row.some(function (cell) { return cell.trim() !== ""; })) {
-          rows.push(row);
-        }
-      }
-
-      if (!rows.length) return [];
-
-      var header = rows[0].map(function (h) { return h.trim(); });
-      var dataRows = rows.slice(1);
-
-      return dataRows.map(function (r) {
-        var obj = {};
-        for (var j = 0; j < header.length; j++) {
-          obj[header[j]] = (r[j] || "").trim();
-        }
-        return obj;
-      });
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hypercube des figures de l’information</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    :root {
+      --bg: #0b0713;
+      --fg: #fdf7ff;
+      --accent: #ff4bd1; /* rose fluo pour les projets */
+      --accent-soft: rgba(255, 75, 209, 0.3);
+      --meta: #2ee6c5;   /* vert/turquoise pour les méta */
+      --meta-soft: rgba(46, 230, 197, 0.3);
+      --border: #3a3058;
+      --muted: #a9a0c4;
+      --radius-lg: 18px;
+      --radius-xl: 24px;
+      --shadow-soft: 0 26px 60px rgba(15, 5, 40, 0.7);
     }
 
-    // Harmonisation des nœuds (projet / méta + aria-label)
-    function syncNodesWithData() {
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, #ff9ff3 0, transparent 45%),
+        radial-gradient(circle at bottom right, #74b9ff 0, transparent 50%),
+        linear-gradient(135deg, #050816, #12071d 60%, #060712 100%);
+      color: var(--fg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+
+    .app {
+      width: 100%;
+      max-width: 1200px;
+      border-radius: var(--radius-xl);
+      background:
+        radial-gradient(circle at top left, rgba(255, 159, 243, 0.16) 0, transparent 55%),
+        radial-gradient(circle at bottom right, rgba(116, 185, 255, 0.18) 0, transparent 55%),
+        linear-gradient(135deg, rgba(8, 9, 30, 0.96), rgba(10, 6, 35, 0.98));
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      padding: 20px 24px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      padding-bottom: 4px;
+    }
+
+    header h1 {
+      font-size: clamp(1.5rem, 0.5rem + 2vw, 2.1rem);
+      margin: 0 0 4px;
+      letter-spacing: 0.03em;
+    }
+
+    header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      max-width: 540px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      backdrop-filter: blur(14px);
+      background:
+        linear-gradient(90deg, rgba(255, 75, 209, 0.15), rgba(46, 230, 197, 0.12));
+      white-space: nowrap;
+    }
+
+    .pill-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 14px var(--accent-soft);
+    }
+
+    .controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    button,
+    .btn {
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 8px 14px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      background: rgba(12, 8, 40, 0.9);
+      color: var(--fg);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      backdrop-filter: blur(16px);
+      transition: background 0.15s ease, transform 0.1s ease, border-color 0.15s ease,
+        box-shadow 0.15s ease;
+    }
+
+    button:hover,
+    .btn:hover {
+      background: rgba(40, 18, 80, 0.96);
+      transform: translateY(-1px);
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.6);
+      border-color: rgba(255, 255, 255, 0.5);
+    }
+
+    button:active,
+    .btn:active {
+      transform: translateY(0);
+      box-shadow: none;
+    }
+
+    button.secondary {
+      background: transparent;
+      border-style: dashed;
+    }
+
+    .main-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2.6fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    /* ZONE TESSERACT */
+
+    .tesseract-zone {
+      position: relative;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      background:
+        radial-gradient(circle at top, rgba(255, 159, 243, 0.18) 0, transparent 55%),
+        radial-gradient(circle at bottom, rgba(116, 185, 255, 0.18) 0, transparent 55%),
+        linear-gradient(145deg, #130826, #090616 60%, #05030e 100%);
+      overflow: hidden;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .tesseract-label {
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .legend {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      font-size: 0.75rem;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: rgba(6, 4, 20, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .legend-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    .legend-dot.projet {
+      background: var(--accent);
+      box-shadow: 0 0 12px var(--accent-soft);
+    }
+
+    .legend-dot.meta {
+      background: var(--meta);
+      box-shadow: 0 0 12px var(--meta-soft);
+    }
+
+    .tesseract-wrapper {
+      position: relative;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 0 2px;
+      perspective: 900px;
+    }
+
+    .tesseract {
+      position: relative;
+      width: min(80%, 360px);
+      aspect-ratio: 1 / 1;
+      transform-style: preserve-3d;
+      transform: rotateX(18deg) rotateY(-22deg);
+      transition: transform 0.18s ease-out;
+    }
+
+    .cube-outer,
+    .cube-inner {
+      position: absolute;
+      inset: 8%;
+      border-radius: 18px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      box-shadow:
+        0 0 0 1px rgba(10, 0, 30, 0.8),
+        0 0 30px rgba(255, 75, 209, 0.15);
+    }
+
+    .cube-inner {
+      inset: 24%;
+      border-color: rgba(255, 255, 255, 0.18);
+      box-shadow:
+        0 0 0 1px rgba(10, 0, 30, 0.8),
+        0 0 30px rgba(46, 230, 197, 0.1);
+    }
+
+    .edge {
+      position: absolute;
+      width: 2px;
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.12),
+        rgba(255, 255, 255, 0.45)
+      );
+    }
+
+    .edge.e1 { left: 14%; top: 14%; height: 22%; }
+    .edge.e2 { right: 14%; top: 14%; height: 22%; }
+    .edge.e3 { left: 14%; bottom: 14%; height: 22%; }
+    .edge.e4 { right: 14%; bottom: 14%; height: 22%; }
+
+    /* NODES */
+
+    .node {
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      border: 2px solid rgba(5, 0, 20, 0.9);
+      cursor: pointer;
+      box-shadow:
+        0 0 0 1px rgba(0, 0, 0, 0.9),
+        0 0 22px rgba(0, 0, 0, 0.9);
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease,
+        filter 0.15s ease,
+        background 0.15s ease;
+    }
+
+    .node::before {
+      content: "";
+      position: absolute;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+    }
+
+    .node::after {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(5, 0, 15, 0.8);
+    }
+
+    .node.projet {
+      background: var(--accent);
+      box-shadow:
+        0 0 0 1px rgba(25, 0, 40, 0.8),
+        0 0 28px var(--accent-soft);
+    }
+
+    .node.meta {
+      background: var(--meta);
+      box-shadow:
+        0 0 0 1px rgba(0, 20, 20, 0.8),
+        0 0 28px var(--meta-soft);
+    }
+
+    .node:focus-visible {
+      outline: 2px solid #ffffff;
+      outline-offset: 3px;
+    }
+
+    .node:hover {
+      transform: translate(-50%, -50%) scale(1.15);
+      filter: brightness(1.1);
+    }
+
+    .node.active {
+      transform: translate(-50%, -50%) scale(1.22);
+      box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.6),
+        0 0 35px rgba(255, 255, 255, 0.7);
+    }
+
+    /* positions : 15 projets + 2 méta */
+    .node.n1 { top: 10%; left: 10%; }
+    .node.n2 { top: 10%; left: 50%; }
+    .node.n3 { top: 10%; left: 90%; }
+    .node.n4 { top: 50%; left: 10%; }
+    .node.n5 { top: 50%; left: 90%; }
+    .node.n6 { top: 90%; left: 10%; }
+    .node.n7 { top: 90%; left: 50%; }
+    .node.n8 { top: 90%; left: 90%; }
+
+    .node.n9  { top: 25%; left: 25%; }
+    .node.n10 { top: 25%; left: 75%; }
+    .node.n11 { top: 75%; left: 25%; }
+    .node.n12 { top: 75%; left: 75%; }
+    .node.n13 { top: 25%; left: 50%; }
+    .node.n14 { top: 50%; left: 25%; }
+    .node.n15 { top: 50%; left: 75%; }
+
+    /* 2 méta au centre et bas centre */
+    .node.n16 { top: 50%; left: 50%; }
+    .node.n17 { top: 75%; left: 50%; }
+
+    .center-hint {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 0.75rem;
+      color: rgba(245, 233, 255, 0.9);
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(14, 8, 45, 0.96);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      backdrop-filter: blur(12px);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      pointer-events: none;
+      text-align: center;
+    }
+
+    /* PANEL INFO + LISTE */
+
+    .info-panel {
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      background:
+        radial-gradient(circle at top right, rgba(255, 159, 243, 0.2) 0, transparent 55%),
+        radial-gradient(circle at bottom left, rgba(116, 185, 255, 0.18) 0, transparent 55%),
+        linear-gradient(145deg, #190b36, #060412 70%);
+      padding: 14px 16px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .info-panel-header {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .info-panel h2 {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .info-chip {
+      font-size: 0.72rem;
+      color: var(--muted);
+      padding: 4px 9px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      background: rgba(10, 8, 40, 0.9);
+    }
+
+    .info-main {
+      position: relative;
+      z-index: 1;
+      padding: 8px 0 4px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .info-title {
+      font-size: 0.98rem;
+      font-weight: 600;
+    }
+
+    .info-meta {
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .info-meta span strong {
+      color: var(--fg);
+      font-weight: 500;
+    }
+
+    .info-description {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.5;
+      margin-top: 4px;
+    }
+
+    .info-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .info-tag-pill {
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      font-size: 0.7rem;
+      color: var(--muted);
+      background: rgba(6, 4, 20, 0.9);
+    }
+
+    .info-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 4px;
+    }
+
+    .small-caption {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .list-view {
+      display: none;
+      margin-top: 8px;
+      gap: 10px;
+      position: relative;
+      z-index: 1;
+      max-height: 270px;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .list-card {
+      border-radius: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(7, 4, 22, 0.96);
+      padding: 8px 10px;
+      font-size: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      cursor: pointer;
+    }
+
+    .list-card-title {
+      font-weight: 600;
+    }
+
+    .list-card-meta {
+      color: var(--muted);
+      font-size: 0.75rem;
+    }
+
+    .list-card-summary {
+      margin: 2px 0 0;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    .list-card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 4px;
+    }
+
+    .tag {
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      font-size: 0.7rem;
+    }
+
+    .tag.projet { border-color: rgba(255, 75, 209, 0.8); }
+    .tag.meta   { border-color: rgba(46, 230, 197, 0.8); }
+    .tag.type   { border-style: dashed; }
+
+    .app.layout-list .tesseract-zone { display: none; }
+    .app.layout-list .list-view {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    @media (max-width: 860px) {
+      .main-layout {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .controls { justify-content: flex-start; }
+      .app { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app" id="app">
+    <header>
+      <div>
+        <div class="pill">
+          <div class="pill-dot"></div>
+          <span>BUT Information numérique · 3ᵉ année</span>
+        </div>
+        <h1>Hypercube des figures de l’information</h1>
+        <p>
+          Explorez les sommets de ce faux tesseract pour accéder aux sites réalisés
+          par les étudiants : chercheurs, auteurs et designers qui ont façonné les
+          sciences de l’information et l’architecture de l’information.
+        </p>
+      </div>
+      <div class="controls">
+        <button id="btnList" class="secondary" type="button">
+          Mode liste
+        </button>
+      </div>
+    </header>
+
+    <div class="main-layout">
+      <section class="tesseract-zone" aria-label="Navigation par hypercube">
+        <div class="tesseract-label">
+          <span>Survolez ou cliquez un sommet pour afficher un projet.</span>
+          <div class="legend">
+            <div class="legend-item">
+              <span class="legend-dot projet"></span> <span>Projet étudiant</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot meta"></span> <span>Fiche méta</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tesseract-wrapper">
+          <div class="tesseract" aria-hidden="true">
+            <div class="cube-outer"></div>
+            <div class="cube-inner"></div>
+            <div class="edge e1"></div>
+            <div class="edge e2"></div>
+            <div class="edge e3"></div>
+            <div class="edge e4"></div>
+
+            <!-- 15 projets étudiants -->
+            <button class="node projet n1"  data-id="p1"></button>
+            <button class="node projet n2"  data-id="p2"></button>
+            <button class="node projet n3"  data-id="p3"></button>
+            <button class="node projet n4"  data-id="p4"></button>
+            <button class="node projet n5"  data-id="p5"></button>
+            <button class="node projet n6"  data-id="p6"></button>
+            <button class="node projet n7"  data-id="p7"></button>
+            <button class="node projet n8"  data-id="p8"></button>
+            <button class="node projet n9"  data-id="p9"></button>
+            <button class="node projet n10" data-id="p10"></button>
+            <button class="node projet n11" data-id="p11"></button>
+            <button class="node projet n12" data-id="p12"></button>
+            <button class="node projet n13" data-id="p13"></button>
+            <button class="node projet n14" data-id="p14"></button>
+            <button class="node projet n15" data-id="p15"></button>
+
+            <!-- 2 fiches méta -->
+            <button class="node meta n16" data-id="m1"></button>
+            <button class="node meta n17" data-id="m2"></button>
+
+            <div class="center-hint">
+              Hypercube pédagogique
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="info-panel" aria-live="polite">
+        <div class="info-panel-header">
+          <h2 id="info-label">Détail du sommet</h2>
+          <div class="info-chip">Survol / clic sur un nœud</div>
+        </div>
+
+        <div class="info-main" id="info-main">
+          <div class="info-title" id="info-title">
+            Survolez un sommet pour découvrir un projet.
+          </div>
+          <div class="info-meta" id="info-meta">
+            <span><strong>Type :</strong> —</span>
+            <span><strong>Figure :</strong> —</span>
+            <span><strong>Étudiant·e :</strong> —</span>
+          </div>
+          <div class="info-description" id="info-description">
+            Ce panneau affichera le nom de la figure, le nom de l’étudiant·e, un résumé,
+            ainsi qu’un lien vers le site. Les fiches méta renvoient au BUT et à la
+            description du cours.
+          </div>
+          <div class="info-tags" id="info-tags"></div>
+
+          <div class="info-actions">
+            <a id="info-link" class="btn" href="#" target="_blank" rel="noopener noreferrer" style="display:none;">
+              Visiter le site
+            </a>
+            <button id="btnPreview" class="secondary" type="button" disabled>
+              Aperçu (placeholder)
+            </button>
+          </div>
+          <div class="small-caption">
+            Astuce : activez le <strong>mode liste</strong> pour parcourir les projets
+            dans une vue plus classique.
+          </div>
+        </div>
+
+        <div class="list-view" id="list-view" aria-label="Liste des projets"></div>
+      </aside>
+    </div>
+
+    <footer class="small-caption" style="margin-top: 4px;">
+      Maquette d’interface pour un portail de projets étudiants en architecture de
+      l’information. Le tesseract est une représentation simplifiée conçue pour un
+      usage pédagogique.
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // 1. CSV Google Sheets
+      var CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDqLNh7LX8_aAqQbDy0cfusAT82CQn1Cb50u_iMjy8NWg3SdaiNcMVMI1LMi-rGiz1UipK3F-ES_BJ/pub?gid=0&single=true&output=csv";
+
+      // 2. Données par défaut : mêmes champs que dans le tableur
+      // id, type, titre, resume, tags (array), url, etudiant, figure
+      var nodesData = {
+        p1:  { id: "p1",  type: "Projet étudiant", titre: "Projet 1",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 1",  figure: "Figure 1" },
+        p2:  { id: "p2",  type: "Projet étudiant", titre: "Projet 2",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 2",  figure: "Figure 2" },
+        p3:  { id: "p3",  type: "Projet étudiant", titre: "Projet 3",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 3",  figure: "Figure 3" },
+        p4:  { id: "p4",  type: "Projet étudiant", titre: "Projet 4",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 4",  figure: "Figure 4" },
+        p5:  { id: "p5",  type: "Projet étudiant", titre: "Projet 5",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 5",  figure: "Figure 5" },
+        p6:  { id: "p6",  type: "Projet étudiant", titre: "Projet 6",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 6",  figure: "Figure 6" },
+        p7:  { id: "p7",  type: "Projet étudiant", titre: "Projet 7",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 7",  figure: "Figure 7" },
+        p8:  { id: "p8",  type: "Projet étudiant", titre: "Projet 8",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 8",  figure: "Figure 8" },
+        p9:  { id: "p9",  type: "Projet étudiant", titre: "Projet 9",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 9",  figure: "Figure 9" },
+        p10: { id: "p10", type: "Projet étudiant", titre: "Projet 10", resume: "", tags: [], url: "", etudiant: "Étudiant·e 10", figure: "Figure 10" },
+        p11: { id: "p11", type: "Projet étudiant", titre: "Projet 11", resume: "", tags: [], url: "", etudiant: "Étudiant·e 11", figure: "Figure 11" },
+        p12: { id: "p12", type: "Projet étudiant", titre: "Projet 12", resume: "", tags: [], url: "", etudiant: "Étudiant·e 12", figure: "Figure 12" },
+        p13: { id: "p13", type: "Projet étudiant", titre: "Projet 13", resume: "", tags: [], url: "", etudiant: "Étudiant·e 13", figure: "Figure 13" },
+        p14: { id: "p14", type: "Projet étudiant", titre: "Projet 14", resume: "", tags: [], url: "", etudiant: "Étudiant·e 14", figure: "Figure 14" },
+        p15: { id: "p15", type: "Projet étudiant", titre: "Projet 15", resume: "", tags: [], url: "", etudiant: "Étudiant·e 15", figure: "Figure 15" },
+
+        m1:  { id: "m1", type: "Méta", titre: "Site du BUT Info-num",
+               resume: "Lien vers la page officielle du BUT.", tags: ["BUT", "formation"],
+               url: "", etudiant: "", figure: "BUT Information numérique" },
+        m2:  { id: "m2", type: "Méta", titre: "Description du cours et consignes",
+               resume: "Objectifs pédagogiques, déroulé de l’UE et consignes pour le projet.",
+               tags: ["cours", "consignes"], url: "",
+               etudiant: "", figure: "Cours d’architecture de l’information" }
+      };
+
+      var appEl = document.getElementById("app");
+      var infoTitleEl = document.getElementById("info-title");
+      var infoMetaEl = document.getElementById("info-meta");
+      var infoDescEl = document.getElementById("info-description");
+      var infoTagsEl = document.getElementById("info-tags");
+      var infoLinkEl = document.getElementById("info-link");
+      var btnPreviewEl = document.getElementById("btnPreview");
+      var listViewEl = document.getElementById("list-view");
+      var btnListEl = document.getElementById("btnList");
+      var tesseractZoneEl = document.querySelector(".tesseract-zone");
+      var tesseractEl = document.querySelector(".tesseract");
+
+      /* Parseur CSV simple ("," ou ";") */
+      function parseCSV(text) {
+        var rows = [];
+        var current = "";
+        var row = [];
+        var inQuotes = false;
+
+        for (var i = 0; i < text.length; i++) {
+          var c = text[i];
+
+          if (inQuotes) {
+            if (c === '"') {
+              if (text[i + 1] === '"') {
+                current += '"';
+                i++;
+              } else {
+                inQuotes = false;
+              }
+            } else {
+              current += c;
+            }
+          } else {
+            if (c === '"') {
+              inQuotes = true;
+            } else if (c === "," || c === ";") {
+              row.push(current);
+              current = "";
+            } else if (c === "\r") {
+              // ignore
+            } else if (c === "\n") {
+              row.push(current);
+              if (row.some(function (cell) { return cell.trim() !== ""; })) {
+                rows.push(row);
+              }
+              row = [];
+              current = "";
+            } else {
+              current += c;
+            }
+          }
+        }
+        if (current.length || row.length) {
+          row.push(current);
+          if (row.some(function (cell) { return cell.trim() !== ""; })) {
+            rows.push(row);
+          }
+        }
+
+        if (!rows.length) return [];
+
+        var header = rows[0].map(function (h) { return h.trim(); });
+        var dataRows = rows.slice(1);
+
+        return dataRows.map(function (r) {
+          var obj = {};
+          for (var j = 0; j < header.length; j++) {
+            obj[header[j]] = (r[j] || "").trim();
+          }
+          return obj;
+        });
+      }
+
+      // Harmonisation des nœuds (projet / méta + aria-label)
+      function syncNodesWithData() {
+        var nodeEls = document.querySelectorAll(".node");
+        nodeEls.forEach(function (node) {
+          var id = node.getAttribute("data-id");
+          var data = nodesData[id];
+          if (!data) return;
+
+          node.classList.remove("projet", "meta");
+          var typeLower = (data.type || "").toLowerCase();
+          if (typeLower.indexOf("méta") !== -1 || typeLower.indexOf("meta") !== -1) {
+            node.classList.add("meta");
+          } else {
+            node.classList.add("projet");
+          }
+
+          var labelParts = [];
+          if (data.titre) labelParts.push(data.titre);
+          if (data.etudiant) labelParts.push("– " + data.etudiant);
+          node.setAttribute("aria-label", labelParts.join(" "));
+        });
+      }
+
+      // Rendu panneau d’information
+      function renderInfo(id) {
+        var data = nodesData[id];
+        var nodes = document.querySelectorAll(".node");
+        nodes.forEach(function (n) { n.classList.remove("active"); });
+
+        var activeNode = document.querySelector('.node[data-id="' + id + '"]');
+        if (activeNode) { activeNode.classList.add("active"); }
+
+        if (!data) {
+          infoTitleEl.textContent = "Sommet non renseigné";
+          infoMetaEl.innerHTML =
+            '<span><strong>Type :</strong> —</span>' +
+            '<span><strong>Figure :</strong> —</span>' +
+            '<span><strong>Étudiant·e :</strong> —</span>';
+          infoDescEl.textContent =
+            "Ce sommet n’est pas encore associé à un projet ou une ressource.";
+          infoTagsEl.innerHTML = "";
+          infoLinkEl.style.display = "none";
+          btnPreviewEl.disabled = true;
+          return;
+        }
+
+        var isMeta =
+          (data.type || "").toLowerCase().indexOf("méta") !== -1 ||
+          (data.type || "").toLowerCase().indexOf("meta") !== -1;
+
+        infoTitleEl.textContent = data.titre || "(Sans titre)";
+
+        var metaLines = [];
+        metaLines.push(
+          "<span><strong>Type :</strong> " +
+          (data.type || (isMeta ? "Méta" : "Projet étudiant")) +
+          "</span>"
+        );
+        metaLines.push(
+          "<span><strong>Figure :</strong> " + (data.figure || "—") + "</span>"
+        );
+        metaLines.push(
+          "<span><strong>Étudiant·e :</strong> " + (data.etudiant || "—") + "</span>"
+        );
+
+        infoMetaEl.innerHTML = metaLines.join("");
+
+        if (data.resume) {
+          infoDescEl.textContent = data.resume;
+        } else {
+          infoDescEl.textContent = isMeta
+            ? "Fiche méta renvoyant à une ressource (site du BUT, description de cours, etc.)."
+            : "Sommet associé à un site étudiant présentant une figure clé des sciences de l’information.";
+        }
+
+        infoTagsEl.innerHTML = "";
+        if (Array.isArray(data.tags) && data.tags.length) {
+          data.tags.forEach(function (tag) {
+            var span = document.createElement("span");
+            span.className = "info-tag-pill";
+            span.textContent = tag;
+            infoTagsEl.appendChild(span);
+          });
+        }
+
+        if (data.url && data.url !== "#" && data.url.trim() !== "") {
+          infoLinkEl.style.display = "inline-flex";
+          infoLinkEl.href = data.url;
+        } else {
+          infoLinkEl.style.display = "none";
+        }
+
+        btnPreviewEl.disabled = true;
+      }
+
+      // Vue liste
+      function buildListView() {
+        listViewEl.innerHTML = "";
+        for (var id in nodesData) {
+          if (!nodesData.hasOwnProperty(id)) continue;
+          var data = nodesData[id];
+
+          var card = document.createElement("article");
+          card.className = "list-card";
+
+          var typeLower = (data.type || "").toLowerCase();
+          var isMeta = typeLower.indexOf("méta") !== -1 || typeLower.indexOf("meta") !== -1;
+
+          var tagsHtml =
+            '<span class="tag ' + (isMeta ? "meta" : "projet") + '">' +
+            (data.type || "") + "</span>";
+
+          var metaTextParts = [];
+          if (data.figure)   metaTextParts.push(data.figure);
+          if (data.etudiant) metaTextParts.push(data.etudiant);
+          var metaText = metaTextParts.join(" – ");
+
+          card.innerHTML =
+            '<div class="list-card-title">' + (data.titre || "(Sans titre)") + "</div>" +
+            '<div class="list-card-meta">' + metaText + "</div>" +
+            (data.resume
+              ? '<div class="list-card-summary">' + data.resume + "</div>"
+              : "") +
+            '<div class="list-card-tags">' + tagsHtml + "</div>";
+
+          (function (idCopy) {
+            card.addEventListener("click", function () {
+              renderInfo(idCopy);
+            });
+          })(id);
+
+          listViewEl.appendChild(card);
+        }
+      }
+
+      // interactions sur les nœuds
       var nodeEls = document.querySelectorAll(".node");
       nodeEls.forEach(function (node) {
         var id = node.getAttribute("data-id");
-        var data = nodesData[id];
-        if (!data) return;
 
-        node.classList.remove("projet", "meta");
-        var typeLower = (data.type || "").toLowerCase();
-        if (typeLower.indexOf("méta") !== -1 || typeLower.indexOf("meta") !== -1) {
-          node.classList.add("meta");
-        } else {
-          node.classList.add("projet");
-        }
+        node.addEventListener("mouseenter", function () {
+          renderInfo(id);
+        });
 
-        var labelParts = [];
-        if (data.titre) labelParts.push(data.titre);
-        if (data.etudiant) labelParts.push("– " + data.etudiant);
-        node.setAttribute("aria-label", labelParts.join(" "));
+        node.addEventListener("focus", function () {
+          renderInfo(id);
+        });
+
+        node.addEventListener("click", function () {
+          var data = nodesData[id];
+          if (data && data.url && data.url !== "#" && data.url.trim() !== "") {
+            window.open(data.url, "_blank");
+          }
+        });
       });
-    }
 
-    // Rendu panneau d’information
-    function renderInfo(id) {
-      var data = nodesData[id];
-      var nodes = document.querySelectorAll(".node");
-      nodes.forEach(function (n) { n.classList.remove("active"); });
+      // mode liste / tesseract
+      btnListEl.addEventListener("click", function () {
+        if (appEl.classList.contains("layout-list")) {
+          appEl.classList.remove("layout-list");
+          btnListEl.textContent = "Mode liste";
+        } else {
+          appEl.classList.add("layout-list");
+          btnListEl.textContent = "Mode tesseract";
+        }
+      });
 
-      var activeNode = document.querySelector('.node[data-id="' + id + '"]');
-      if (activeNode) { activeNode.classList.add("active"); }
+      // inclinaison légère au survol (pas de rotation automatique)
+      if (tesseractZoneEl && tesseractEl) {
+        tesseractZoneEl.addEventListener("mousemove", function (event) {
+          var rect = tesseractZoneEl.getBoundingClientRect();
+          var x = (event.clientX - rect.left) / rect.width - 0.5;
+          var y = (event.clientY - rect.top) / rect.height - 0.5;
 
-      if (!data) {
-        infoTitleEl.textContent = "Sommet non renseigné";
-        infoMetaEl.innerHTML =
-          '<span><strong>Type :</strong> —</span>' +
-          '<span><strong>Figure :</strong> —</span>' +
-          '<span><strong>Étudiant·e :</strong> —</span>';
-        infoDescEl.textContent =
-          "Ce sommet n’est pas encore associé à un projet ou une ressource.";
-        infoTagsEl.innerHTML = "";
-        infoLinkEl.style.display = "none";
-        btnPreviewEl.disabled = true;
-        return;
-      }
+          var rotateX = 18 - y * 18;
+          var rotateY = -22 + x * 26;
 
-      var isMeta =
-        (data.type || "").toLowerCase().indexOf("méta") !== -1 ||
-        (data.type || "").toLowerCase().indexOf("meta") !== -1;
+          tesseractEl.style.transform =
+            "rotateX(" + rotateX + "deg) rotateY(" + rotateY + "deg)";
+        });
 
-      infoTitleEl.textContent = data.titre || "(Sans titre)";
-
-      var metaLines = [];
-      metaLines.push(
-        "<span><strong>Type :</strong> " +
-        (data.type || (isMeta ? "Méta" : "Projet étudiant")) +
-        "</span>"
-      );
-      metaLines.push(
-        "<span><strong>Figure :</strong> " + (data.figure || "—") + "</span>"
-      );
-      metaLines.push(
-        "<span><strong>Étudiant·e :</strong> " + (data.etudiant || "—") + "</span>"
-      );
-
-      infoMetaEl.innerHTML = metaLines.join("");
-
-      if (data.resume) {
-        infoDescEl.textContent = data.resume;
-      } else {
-        infoDescEl.textContent = isMeta
-          ? "Fiche méta renvoyant à une ressource (site du BUT, description de cours, etc.)."
-          : "Sommet associé à un site étudiant présentant une figure clé des sciences de l’information.";
-      }
-
-      infoTagsEl.innerHTML = "";
-      if (Array.isArray(data.tags) && data.tags.length) {
-        data.tags.forEach(function (tag) {
-          var span = document.createElement("span");
-          span.className = "info-tag-pill";
-          span.textContent = tag;
-          infoTagsEl.appendChild(span);
+        tesseractZoneEl.addEventListener("mouseleave", function () {
+          tesseractEl.style.transform = "rotateX(18deg) rotateY(-22deg)";
         });
       }
 
-      if (data.url && data.url !== "#" && data.url.trim() !== "") {
-        infoLinkEl.style.display = "inline-flex";
-        infoLinkEl.href = data.url;
-      } else {
-        infoLinkEl.style.display = "none";
-      }
-
-      btnPreviewEl.disabled = true;
-    }
-
-    // Vue liste
-    function buildListView() {
-      listViewEl.innerHTML = "";
-      for (var id in nodesData) {
-        if (!nodesData.hasOwnProperty(id)) continue;
-        var data = nodesData[id];
-
-        var card = document.createElement("article");
-        card.className = "list-card";
-
-        var typeLower = (data.type || "").toLowerCase();
-        var isMeta = typeLower.indexOf("méta") !== -1 || typeLower.indexOf("meta") !== -1;
-
-        var tagsHtml =
-          '<span class="tag ' + (isMeta ? "meta" : "projet") + '">' +
-          (data.type || "") + "</span>";
-
-        var metaTextParts = [];
-        if (data.figure)   metaTextParts.push(data.figure);
-        if (data.etudiant) metaTextParts.push(data.etudiant);
-        var metaText = metaTextParts.join(" – ");
-
-        card.innerHTML =
-          '<div class="list-card-title">' + (data.titre || "(Sans titre)") + "</div>" +
-          '<div class="list-card-meta">' + metaText + "</div>" +
-          (data.resume
-            ? '<div class="list-card-summary">' + data.resume + "</div>"
-            : "") +
-          '<div class="list-card-tags">' + tagsHtml + "</div>";
-
-        (function (idCopy) {
-          card.addEventListener("click", function () {
-            renderInfo(idCopy);
-          });
-        })(id);
-
-        listViewEl.appendChild(card);
-      }
-    }
-
-    // interactions sur les nœuds
-    var nodeEls = document.querySelectorAll(".node");
-    nodeEls.forEach(function (node) {
-      var id = node.getAttribute("data-id");
-
-      node.addEventListener("mouseenter", function () {
-        renderInfo(id);
-      });
-
-      node.addEventListener("focus", function () {
-        renderInfo(id);
-      });
-
-      node.addEventListener("click", function () {
-        var data = nodesData[id];
-        if (data && data.url && data.url !== "#" && data.url.trim() !== "") {
-          window.open(data.url, "_blank");
+      // chargement depuis le CSV
+      function loadFromCSV() {
+        if (!CSV_URL) {
+          syncNodesWithData();
+          buildListView();
+          return;
         }
-      });
-    });
 
-    // mode liste / tesseract
-    btnListEl.addEventListener("click", function () {
-      if (appEl.classList.contains("layout-list")) {
-        appEl.classList.remove("layout-list");
-        btnListEl.textContent = "Mode liste";
-      } else {
-        appEl.classList.add("layout-list");
-        btnListEl.textContent = "Mode tesseract";
-      }
-    });
+        fetch(CSV_URL)
+          .then(function (res) { return res.text(); })
+          .then(function (text) {
+            var rows = parseCSV(text);
+            if (!rows.length) {
+              syncNodesWithData();
+              buildListView();
+              return;
+            }
 
-    // inclinaison légère au survol (pas de rotation automatique)
-    if (tesseractZoneEl && tesseractEl) {
-      tesseractZoneEl.addEventListener("mousemove", function (event) {
-        var rect = tesseractZoneEl.getBoundingClientRect();
-        var x = (event.clientX - rect.left) / rect.width - 0.5;
-        var y = (event.clientY - rect.top) / rect.height - 0.5;
+            var newData = {};
 
-        var rotateX = 18 - y * 18;
-        var rotateY = -22 + x * 26;
+            rows.forEach(function (row) {
+              // correspondance exacte avec le tableur :
+              // id,type,titre,resume,tags,url,etudiant,figure
+              var id = (row.id || row.ID || "").trim();
+              if (!id) return;
 
-        tesseractEl.style.transform =
-          "rotateX(" + rotateX + "deg) rotateY(" + rotateY + "deg)";
-      });
+              var typeRaw   = (row.type      || row.Type      || "").trim();
+              var titre     = (row.titre     || row.Titre     || row.title  || row.Title  || "").trim();
+              var resume    = (row.resume    || row.Resume    || "").trim();
+              var tagsStr   = (row.tags      || row.Tags      || "").trim();
+              var url       = (row.url       || row.URL       || "").trim();
+              var etudiant  = (row.etudiant  || row.Etudiant  || row["étudiant"] || "").trim();
+              var figure    = (row.figure    || row.Figure    || "").trim();
 
-      tesseractZoneEl.addEventListener("mouseleave", function () {
-        tesseractEl.style.transform = "rotateX(18deg) rotateY(-22deg)";
-      });
-    }
+              var tagsArr = tagsStr
+                .split(/[,|]/)
+                .map(function (t) { return t.trim(); })
+                .filter(function (t) { return t.length > 0; });
 
-    // chargement depuis le CSV
-    function loadFromCSV() {
-      if (!CSV_URL) {
-        syncNodesWithData();
-        buildListView();
-        return;
-      }
+              newData[id] = {
+                id: id,
+                type: typeRaw || "Projet étudiant",
+                titre: titre,
+                resume: resume,
+                tags: tagsArr,
+                url: url,
+                etudiant: etudiant,
+                figure: figure
+              };
+            });
 
-      fetch(CSV_URL)
-        .then(function (res) { return res.text(); })
-        .then(function (text) {
-          var rows = parseCSV(text);
-          if (!rows.length) {
+            if (Object.keys(newData).length) {
+              nodesData = newData;
+            }
+
             syncNodesWithData();
             buildListView();
-            return;
-          }
-
-          var newData = {};
-
-          rows.forEach(function (row) {
-            // correspondance exacte avec le tableur :
-            // id,type,titre,resume,tags,url,etudiant,figure
-            var id = (row.id || row.ID || "").trim();
-            if (!id) return;
-
-            var typeRaw   = (row.type      || row.Type      || "").trim();
-            var titre     = (row.titre     || row.Titre     || row.title  || row.Title  || "").trim();
-            var resume    = (row.resume    || row.Resume    || "").trim();
-            var tagsStr   = (row.tags      || row.Tags      || "").trim();
-            var url       = (row.url       || row.URL       || "").trim();
-            var etudiant  = (row.etudiant  || row.Etudiant  || row["étudiant"] || "").trim();
-            var figure    = (row.figure    || row.Figure    || "").trim();
-
-            var tagsArr = tagsStr
-              .split(/[,|]/)
-              .map(function (t) { return t.trim(); })
-              .filter(function (t) { return t.length > 0; });
-
-            newData[id] = {
-              id: id,
-              type: typeRaw || "Projet étudiant",
-              titre: titre,
-              resume: resume,
-              tags: tagsArr,
-              url: url,
-              etudiant: etudiant,
-              figure: figure
-            };
+          })
+          .catch(function () {
+            // en cas d’erreur, on reste sur les données par défaut
+            syncNodesWithData();
+            buildListView();
           });
+      }
 
-          if (Object.keys(newData).length) {
-            nodesData = newData;
-          }
-
-          syncNodesWithData();
-          buildListView();
-        })
-        .catch(function () {
-          // en cas d’erreur, on reste sur les données par défaut
-          syncNodesWithData();
-          buildListView();
-        });
-    }
-
-    // initialisation
-    syncNodesWithData();
-    buildListView();
-    loadFromCSV();
-  });
-</script>
+      // initialisation
+      syncNodesWithData();
+      buildListView();
+      loadFromCSV();
+    });
+  </script>
+</body>
+</html>
