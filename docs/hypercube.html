@@ -10,8 +10,6 @@
       --fg: #fdf7ff;
       --accent: #ff4bd1; /* rose fluo pour les projets */
       --accent-soft: rgba(255, 75, 209, 0.3);
-      --meta: #2ee6c5;   /* vert/turquoise pour les meta */
-      --meta-soft: rgba(46, 230, 197, 0.3);
       --border: #3a3058;
       --muted: #a9a0c4;
       --radius-lg: 18px;
@@ -87,7 +85,7 @@
       color: var(--muted);
       backdrop-filter: blur(14px);
       background:
-        linear-gradient(90deg, rgba(255, 75, 209, 0.15), rgba(46, 230, 197, 0.12));
+        linear-gradient(90deg, rgba(255, 75, 209, 0.15), rgba(255, 255, 255, 0.12));
       white-space: nowrap;
     }
 
@@ -197,16 +195,12 @@
       width: 8px;
       height: 8px;
       border-radius: 50%;
-    }
-
-    .legend-dot.projet {
       background: var(--accent);
       box-shadow: 0 0 12px var(--accent-soft);
     }
 
-    .legend-dot.meta {
-      background: var(--meta);
-      box-shadow: 0 0 12px var(--meta-soft);
+    .legend-item span:last-child {
+      white-space: nowrap;
     }
 
     .tesseract-wrapper {
@@ -244,7 +238,7 @@
       border-color: rgba(255, 255, 255, 0.18);
       box-shadow:
         0 0 0 1px rgba(10, 0, 30, 0.8),
-        0 0 30px rgba(46, 230, 197, 0.1);
+        0 0 30px rgba(255, 255, 255, 0.1);
     }
 
     .edge {
@@ -309,13 +303,6 @@
         0 0 28px var(--accent-soft);
     }
 
-    .node.meta {
-      background: var(--meta);
-      box-shadow:
-        0 0 0 1px rgba(0, 20, 20, 0.8),
-        0 0 28px var(--meta-soft);
-    }
-
     .node.inactive {
       opacity: 0.25;
       cursor: default;
@@ -339,7 +326,7 @@
         0 0 35px rgba(255, 255, 255, 0.7);
     }
 
-    /* positions : 15 projets + 2 meta */
+    /* positions : 17 sommets possibles */
     .node.n1 { top: 10%; left: 10%; }
     .node.n2 { top: 10%; left: 50%; }
     .node.n3 { top: 10%; left: 90%; }
@@ -357,7 +344,6 @@
     .node.n14 { top: 50%; left: 25%; }
     .node.n15 { top: 50%; left: 75%; }
 
-    /* 2 meta au centre et bas centre */
     .node.n16 { top: 50%; left: 50%; }
     .node.n17 { top: 75%; left: 50%; }
 
@@ -543,8 +529,6 @@
     }
 
     .tag.projet { border-color: rgba(255, 75, 209, 0.8); }
-    .tag.meta   { border-color: rgba(46, 230, 197, 0.8); }
-    .tag.type   { border-style: dashed; }
 
     .app.layout-list .tesseract-zone { display: none; }
     .app.layout-list .list-view {
@@ -599,10 +583,7 @@
           <span>Survolez ou cliquez un sommet pour afficher un projet.</span>
           <div class="legend">
             <div class="legend-item">
-              <span class="legend-dot projet"></span> <span>Projet étudiant</span>
-            </div>
-            <div class="legend-item">
-              <span class="legend-dot meta"></span> <span>Fiche meta</span>
+              <span class="legend-dot"></span> <span>Projet étudiant</span>
             </div>
           </div>
         </div>
@@ -616,26 +597,24 @@
             <div class="edge e3"></div>
             <div class="edge e4"></div>
 
-            <!-- 15 sommets pour projets -->
-            <button class="node slot-projet n1"></button>
-            <button class="node slot-projet n2"></button>
-            <button class="node slot-projet n3"></button>
-            <button class="node slot-projet n4"></button>
-            <button class="node slot-projet n5"></button>
-            <button class="node slot-projet n6"></button>
-            <button class="node slot-projet n7"></button>
-            <button class="node slot-projet n8"></button>
-            <button class="node slot-projet n9"></button>
-            <button class="node slot-projet n10"></button>
-            <button class="node slot-projet n11"></button>
-            <button class="node slot-projet n12"></button>
-            <button class="node slot-projet n13"></button>
-            <button class="node slot-projet n14"></button>
-            <button class="node slot-projet n15"></button>
-
-            <!-- 2 sommets pour meta -->
-            <button class="node slot-meta n16"></button>
-            <button class="node slot-meta n17"></button>
+            <!-- 17 sommets possibles -->
+            <button class="node node-slot n1"></button>
+            <button class="node node-slot n2"></button>
+            <button class="node node-slot n3"></button>
+            <button class="node node-slot n4"></button>
+            <button class="node node-slot n5"></button>
+            <button class="node node-slot n6"></button>
+            <button class="node node-slot n7"></button>
+            <button class="node node-slot n8"></button>
+            <button class="node node-slot n9"></button>
+            <button class="node node-slot n10"></button>
+            <button class="node node-slot n11"></button>
+            <button class="node node-slot n12"></button>
+            <button class="node node-slot n13"></button>
+            <button class="node node-slot n14"></button>
+            <button class="node node-slot n15"></button>
+            <button class="node node-slot n16"></button>
+            <button class="node node-slot n17"></button>
 
             <div class="center-hint">
               Hypercube pédagogique
@@ -661,8 +640,7 @@
           </div>
           <div class="info-description" id="info-description">
             Ce panneau affichera le nom de la figure, le nom de l’étudiant·e, un résumé,
-            ainsi qu’un lien vers le site. Les fiches meta renvoient au BUT et à la
-            description du cours.
+            ainsi qu’un lien vers le site.
           </div>
           <div class="info-tags" id="info-tags"></div>
 
@@ -701,6 +679,7 @@
       var CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDqLNh7LX8_aAqQbDy0cfusAT82CQn1Cb50u_iMjy8NWg3SdaiNcMVMI1LMi-rGiz1UipK3F-ES_BJ/pub?gid=0&single=true&output=csv";
 
       // Données par défaut au cas où le CSV ne charge pas
+      // id,type,titre,resume,tags,url,etudiant,figure
       var nodesData = {
         p1:  { id: "p1",  type: "Projet étudiant", titre: "Projet 1",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 1",  figure: "Figure 1" },
         p2:  { id: "p2",  type: "Projet étudiant", titre: "Projet 2",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 2",  figure: "Figure 2" },
@@ -717,14 +696,8 @@
         p13: { id: "p13", type: "Projet étudiant", titre: "Projet 13", resume: "", tags: [], url: "", etudiant: "Étudiant·e 13", figure: "Figure 13" },
         p14: { id: "p14", type: "Projet étudiant", titre: "Projet 14", resume: "", tags: [], url: "", etudiant: "Étudiant·e 14", figure: "Figure 14" },
         p15: { id: "p15", type: "Projet étudiant", titre: "Projet 15", resume: "", tags: [], url: "", etudiant: "Étudiant·e 15", figure: "Figure 15" },
-
-        m1:  { id: "m1", type: "meta", titre: "Site du BUT Info-num",
-               resume: "Lien vers la page officielle du BUT.", tags: ["BUT", "formation"],
-               url: "", etudiant: "", figure: "BUT Information numérique" },
-        m2:  { id: "m2", type: "meta", titre: "Description du cours et consignes",
-               resume: "Objectifs pédagogiques, déroulé de l’UE et consignes pour le projet.",
-               tags: ["cours", "consignes"], url: "",
-               etudiant: "", figure: "Cours d’architecture de l’information" }
+        p16: { id: "p16", type: "Projet étudiant", titre: "Projet 16", resume: "", tags: [], url: "", etudiant: "Étudiant·e 16", figure: "Figure 16" },
+        p17: { id: "p17", type: "Projet étudiant", titre: "Projet 17", resume: "", tags: [], url: "", etudiant: "Étudiant·e 17", figure: "Figure 17" }
       };
 
       var appEl = document.getElementById("app");
@@ -805,46 +778,17 @@
       // Affecte dynamiquement les IDs aux sommets du tesseract
       function mapIdsToNodes() {
         var ids = Object.keys(nodesData);
-        var metaIds = [];
-        var projetIds = [];
+        var nodeEls = document.querySelectorAll(".node.node-slot");
 
-        ids.forEach(function (id) {
-          var d = nodesData[id];
-          var t = (d.type || "").toLowerCase();
-          if (t.indexOf("meta") !== -1 || t.indexOf("meta") !== -1) {
-            metaIds.push(id);
-          } else {
-            projetIds.push(id);
-          }
-        });
-
-        var projetNodes = document.querySelectorAll(".node.slot-projet");
-        var metaNodes = document.querySelectorAll(".node.slot-meta");
-
-        // reset des nœuds
-        projetNodes.forEach(function (node) {
+        nodeEls.forEach(function (node) {
           node.removeAttribute("data-id");
-          node.classList.remove("projet", "meta", "inactive", "active");
-          node.removeAttribute("aria-label");
-          node.classList.add("inactive");
-        });
-        metaNodes.forEach(function (node) {
-          node.removeAttribute("data-id");
-          node.classList.remove("projet", "meta", "inactive", "active");
+          node.classList.remove("projet", "inactive", "active");
           node.removeAttribute("aria-label");
           node.classList.add("inactive");
         });
 
-        // attribution projets
-        projetIds.slice(0, projetNodes.length).forEach(function (id, index) {
-          var node = projetNodes[index];
-          node.dataset.id = id;
-          node.classList.remove("inactive");
-        });
-
-        // attribution meta
-        metaIds.slice(0, metaNodes.length).forEach(function (id, index) {
-          var node = metaNodes[index];
+        ids.slice(0, nodeEls.length).forEach(function (id, index) {
+          var node = nodeEls[index];
           node.dataset.id = id;
           node.classList.remove("inactive");
         });
@@ -852,24 +796,18 @@
 
       // Harmonisation des classes et aria-labels
       function syncNodesWithData() {
-        var nodeEls = document.querySelectorAll(".node");
+        var nodeEls = document.querySelectorAll(".node.node-slot");
         nodeEls.forEach(function (node) {
           var id = node.getAttribute("data-id");
           var data = nodesData[id];
 
-          node.classList.remove("projet", "meta");
+          node.classList.remove("projet");
 
           if (!id || !data) {
-            // nœud inactif déjà géré dans mapIdsToNodes
             return;
           }
 
-          var typeLower = (data.type || "").toLowerCase();
-          if (typeLower.indexOf("meta") !== -1 || typeLower.indexOf("meta") !== -1) {
-            node.classList.add("meta");
-          } else {
-            node.classList.add("projet");
-          }
+          node.classList.add("projet");
 
           var labelParts = [];
           if (data.titre) labelParts.push(data.titre);
@@ -894,23 +832,19 @@
             '<span><strong>Figure :</strong> —</span>' +
             '<span><strong>Étudiant·e :</strong> —</span>';
           infoDescEl.textContent =
-            "Ce sommet n’est pas encore associé à un projet ou une ressource.";
+            "Ce sommet n’est pas encore associé à un projet.";
           infoTagsEl.innerHTML = "";
           infoLinkEl.style.display = "none";
           btnPreviewEl.disabled = true;
           return;
         }
 
-        var isMeta =
-          (data.type || "").toLowerCase().indexOf("meta") !== -1 ||
-          (data.type || "").toLowerCase().indexOf("meta") !== -1;
-
         infoTitleEl.textContent = data.titre || "(Sans titre)";
 
         var metaLines = [];
         metaLines.push(
           "<span><strong>Type :</strong> " +
-          (data.type || (isMeta ? "meta" : "Projet étudiant")) +
+          (data.type || "Projet étudiant") +
           "</span>"
         );
         metaLines.push(
@@ -925,9 +859,8 @@
         if (data.resume) {
           infoDescEl.textContent = data.resume;
         } else {
-          infoDescEl.textContent = isMeta
-            ? "Fiche meta renvoyant à une ressource (site du BUT, description de cours, etc.)."
-            : "Sommet associé à un site étudiant présentant une figure clé des sciences de l’information.";
+          infoDescEl.textContent =
+            "Sommet associé à un site étudiant présentant une figure clé des sciences de l’information ou du design de l’information.";
         }
 
         infoTagsEl.innerHTML = "";
@@ -962,12 +895,9 @@
           var card = document.createElement("article");
           card.className = "list-card";
 
-          var typeLower = (data.type || "").toLowerCase();
-          var isMeta = typeLower.indexOf("meta") !== -1 || typeLower.indexOf("meta") !== -1;
-
           var tagsHtml =
-            '<span class="tag ' + (isMeta ? "meta" : "projet") + '">' +
-            (data.type || "") + "</span>";
+            '<span class="tag projet">' +
+            (data.type || "Projet étudiant") + "</span>";
 
           var metaTextParts = [];
           if (data.figure)   metaTextParts.push(data.figure);
@@ -1032,7 +962,7 @@
         }
       });
 
-      // inclinaison légère au survol (pas de rotation automatique)
+      // inclinaison légère au survol
       if (tesseractZoneEl && tesseractEl) {
         tesseractZoneEl.addEventListener("mousemove", function (event) {
           var rect = tesseractZoneEl.getBoundingClientRect();
