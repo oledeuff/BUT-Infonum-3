@@ -602,26 +602,26 @@
             <div class="edge e3"></div>
             <div class="edge e4"></div>
 
-            <!-- 15 projets étudiants -->
-            <button class="node projet n1"  data-id="p1"></button>
-            <button class="node projet n2"  data-id="p2"></button>
-            <button class="node projet n3"  data-id="p3"></button>
-            <button class="node projet n4"  data-id="p4"></button>
-            <button class="node projet n5"  data-id="p5"></button>
-            <button class="node projet n6"  data-id="p6"></button>
-            <button class="node projet n7"  data-id="p7"></button>
-            <button class="node projet n8"  data-id="p8"></button>
-            <button class="node projet n9"  data-id="p9"></button>
-            <button class="node projet n10" data-id="p10"></button>
-            <button class="node projet n11" data-id="p11"></button>
-            <button class="node projet n12" data-id="p12"></button>
-            <button class="node projet n13" data-id="p13"></button>
-            <button class="node projet n14" data-id="p14"></button>
-            <button class="node projet n15" data-id="p15"></button>
+            <!-- 15 sommets pour projets -->
+            <button class="node slot-projet n1"></button>
+            <button class="node slot-projet n2"></button>
+            <button class="node slot-projet n3"></button>
+            <button class="node slot-projet n4"></button>
+            <button class="node slot-projet n5"></button>
+            <button class="node slot-projet n6"></button>
+            <button class="node slot-projet n7"></button>
+            <button class="node slot-projet n8"></button>
+            <button class="node slot-projet n9"></button>
+            <button class="node slot-projet n10"></button>
+            <button class="node slot-projet n11"></button>
+            <button class="node slot-projet n12"></button>
+            <button class="node slot-projet n13"></button>
+            <button class="node slot-projet n14"></button>
+            <button class="node slot-projet n15"></button>
 
-            <!-- 2 fiches méta -->
-            <button class="node meta n16" data-id="m1"></button>
-            <button class="node meta n17" data-id="m2"></button>
+            <!-- 2 sommets pour méta -->
+            <button class="node slot-meta n16"></button>
+            <button class="node slot-meta n17"></button>
 
             <div class="center-hint">
               Hypercube pédagogique
@@ -684,11 +684,9 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      // 1. CSV Google Sheets
       var CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSDqLNh7LX8_aAqQbDy0cfusAT82CQn1Cb50u_iMjy8NWg3SdaiNcMVMI1LMi-rGiz1UipK3F-ES_BJ/pub?gid=0&single=true&output=csv";
 
-      // 2. Données par défaut : mêmes champs que dans le tableur
-      // id, type, titre, resume, tags (array), url, etudiant, figure
+      // Données par défaut au cas où le CSV ne charge pas
       var nodesData = {
         p1:  { id: "p1",  type: "Projet étudiant", titre: "Projet 1",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 1",  figure: "Figure 1" },
         p2:  { id: "p2",  type: "Projet étudiant", titre: "Projet 2",  resume: "", tags: [], url: "", etudiant: "Étudiant·e 2",  figure: "Figure 2" },
@@ -790,15 +788,47 @@
         });
       }
 
-      // Harmonisation des nœuds (projet / méta + aria-label)
+      // Affecte dynamiquement les IDs aux sommets du tesseract
+      function mapIdsToNodes() {
+        var ids = Object.keys(nodesData);
+        var metaIds = [];
+        var projetIds = [];
+
+        ids.forEach(function (id) {
+          var d = nodesData[id];
+          var t = (d.type || "").toLowerCase();
+          if (t.indexOf("méta") !== -1 || t.indexOf("meta") !== -1) {
+            metaIds.push(id);
+          } else {
+            projetIds.push(id);
+          }
+        });
+
+        var projetNodes = document.querySelectorAll(".node.slot-projet");
+        var metaNodes = document.querySelectorAll(".node.slot-meta");
+
+        projetIds.slice(0, projetNodes.length).forEach(function (id, index) {
+          projetNodes[index].dataset.id = id;
+        });
+
+        metaIds.slice(0, metaNodes.length).forEach(function (id, index) {
+          metaNodes[index].dataset.id = id;
+        });
+      }
+
+      // Harmonisation des classes et aria-labels
       function syncNodesWithData() {
         var nodeEls = document.querySelectorAll(".node");
         nodeEls.forEach(function (node) {
           var id = node.getAttribute("data-id");
           var data = nodesData[id];
-          if (!data) return;
-
           node.classList.remove("projet", "meta");
+
+          if (!data) {
+            node.removeAttribute("aria-label");
+            return;
+          }
+
           var typeLower = (data.type || "").toLowerCase();
           if (typeLower.indexOf("méta") !== -1 || typeLower.indexOf("meta") !== -1) {
             node.classList.add("meta");
@@ -888,9 +918,11 @@
       // Vue liste
       function buildListView() {
         listViewEl.innerHTML = "";
-        for (var id in nodesData) {
-          if (!nodesData.hasOwnProperty(id)) continue;
+        var ids = Object.keys(nodesData);
+
+        ids.forEach(function (id) {
           var data = nodesData[id];
+          if (!data) return;
 
           var card = document.createElement("article");
           card.className = "list-card";
@@ -915,36 +947,44 @@
               : "") +
             '<div class="list-card-tags">' + tagsHtml + "</div>";
 
-          (function (idCopy) {
-            card.addEventListener("click", function () {
-              renderInfo(idCopy);
-            });
-          })(id);
+          card.addEventListener("click", function () {
+            renderInfo(id);
+          });
 
           listViewEl.appendChild(card);
-        }
+        });
       }
 
-      // interactions sur les nœuds
-      var nodeEls = document.querySelectorAll(".node");
-      nodeEls.forEach(function (node) {
-        var id = node.getAttribute("data-id");
-
-        node.addEventListener("mouseenter", function () {
-          renderInfo(id);
+      // Délégation d’événements sur le tesseract (évite de rebinder à chaque fois)
+      if (tesseractEl) {
+        tesseractEl.addEventListener("mouseover", function (event) {
+          var node = event.target.closest(".node");
+          if (!node) return;
+          var id = node.dataset.id;
+          if (id) {
+            renderInfo(id);
+          }
         });
 
-        node.addEventListener("focus", function () {
-          renderInfo(id);
-        });
-
-        node.addEventListener("click", function () {
+        tesseractEl.addEventListener("click", function (event) {
+          var node = event.target.closest(".node");
+          if (!node) return;
+          var id = node.dataset.id;
           var data = nodesData[id];
           if (data && data.url && data.url !== "#" && data.url.trim() !== "") {
             window.open(data.url, "_blank");
           }
         });
-      });
+
+        tesseractEl.addEventListener("focusin", function (event) {
+          var node = event.target.closest(".node");
+          if (!node) return;
+          var id = node.dataset.id;
+          if (id) {
+            renderInfo(id);
+          }
+        });
+      }
 
       // mode liste / tesseract
       btnListEl.addEventListener("click", function () {
@@ -980,6 +1020,7 @@
       function loadFromCSV() {
         if (!CSV_URL) {
           statusEl.textContent = "Statut des données : données par défaut (aucun CSV configuré).";
+          mapIdsToNodes();
           syncNodesWithData();
           buildListView();
           return;
@@ -996,6 +1037,7 @@
             var rows = parseCSV(text);
             if (!rows.length) {
               statusEl.textContent = "Statut des données : CSV vide ou illisible, utilisation des données par défaut.";
+              mapIdsToNodes();
               syncNodesWithData();
               buildListView();
               return;
@@ -1041,6 +1083,7 @@
               statusEl.textContent = "Statut des données : aucun enregistrement valide dans le CSV, données par défaut.";
             }
 
+            mapIdsToNodes();
             syncNodesWithData();
             buildListView();
           })
@@ -1048,6 +1091,7 @@
             console.error("Erreur de chargement du CSV :", err);
             statusEl.textContent =
               "Statut des données : données par défaut (erreur de chargement du CSV – voir la console du navigateur).";
+            mapIdsToNodes();
             syncNodesWithData();
             buildListView();
           });
@@ -1055,6 +1099,7 @@
 
       // initialisation
       statusEl.textContent = "Statut des données : tentative de chargement du CSV…";
+      mapIdsToNodes();
       syncNodesWithData();
       buildListView();
       loadFromCSV();
