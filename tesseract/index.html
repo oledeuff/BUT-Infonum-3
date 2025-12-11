@@ -548,6 +548,13 @@
       .controls { justify-content: flex-start; }
       .app { padding: 16px; }
     }
+
+    .status {
+      margin-top: 4px;
+      font-size: 0.7rem;
+      color: var(--muted);
+      opacity: 0.8;
+    }
   </style>
 </head>
 <body>
@@ -663,10 +670,15 @@
       </aside>
     </div>
 
-    <footer class="small-caption" style="margin-top: 4px;">
-      Maquette d’interface pour un portail de projets étudiants en architecture de
-      l’information. Le tesseract est une représentation simplifiée conçue pour un
-      usage pédagogique.
+    <footer>
+      <div class="small-caption">
+        Maquette d’interface pour un portail de projets étudiants en architecture de
+        l’information. Le tesseract est une représentation simplifiée conçue pour un
+        usage pédagogique.
+      </div>
+      <div id="data-status" class="status">
+        Statut des données : en attente du CSV…
+      </div>
     </footer>
   </div>
 
@@ -714,6 +726,7 @@
       var btnListEl = document.getElementById("btnList");
       var tesseractZoneEl = document.querySelector(".tesseract-zone");
       var tesseractEl = document.querySelector(".tesseract");
+      var statusEl = document.getElementById("data-status");
 
       /* Parseur CSV simple ("," ou ";") */
       function parseCSV(text) {
@@ -966,16 +979,23 @@
       // chargement depuis le CSV
       function loadFromCSV() {
         if (!CSV_URL) {
+          statusEl.textContent = "Statut des données : données par défaut (aucun CSV configuré).";
           syncNodesWithData();
           buildListView();
           return;
         }
 
-        fetch(CSV_URL)
-          .then(function (res) { return res.text(); })
+        fetch(CSV_URL, { cache: "no-store" })
+          .then(function (res) {
+            if (!res.ok) {
+              throw new Error("HTTP " + res.status);
+            }
+            return res.text();
+          })
           .then(function (text) {
             var rows = parseCSV(text);
             if (!rows.length) {
+              statusEl.textContent = "Statut des données : CSV vide ou illisible, utilisation des données par défaut.";
               syncNodesWithData();
               buildListView();
               return;
@@ -1016,19 +1036,25 @@
 
             if (Object.keys(newData).length) {
               nodesData = newData;
+              statusEl.textContent = "Statut des données : données chargées depuis le CSV Google Sheets.";
+            } else {
+              statusEl.textContent = "Statut des données : aucun enregistrement valide dans le CSV, données par défaut.";
             }
 
             syncNodesWithData();
             buildListView();
           })
-          .catch(function () {
-            // en cas d’erreur, on reste sur les données par défaut
+          .catch(function (err) {
+            console.error("Erreur de chargement du CSV :", err);
+            statusEl.textContent =
+              "Statut des données : données par défaut (erreur de chargement du CSV – voir la console du navigateur).";
             syncNodesWithData();
             buildListView();
           });
       }
 
       // initialisation
+      statusEl.textContent = "Statut des données : tentative de chargement du CSV…";
       syncNodesWithData();
       buildListView();
       loadFromCSV();
