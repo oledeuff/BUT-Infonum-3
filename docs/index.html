@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Visualisation des titres aidés en 2024</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div>
+        <h1>Tableau des titres de presse aidés en 2024</h1>
+        <p class="subtitle">Fiches par titre, recherche, filtres, tri, et ventilation des montants par fonds.</p>
+      </div>
+      <div class="header-actions">
+        <button id="themeToggle" type="button" class="ghost">Version claire</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="controls" aria-label="Filtres et recherche">
+      <div class="control">
+        <label for="q">Recherche</label>
+        <input id="q" type="search" placeholder="Titre, groupe, identifiant…" autocomplete="off" />
+      </div>
+
+      <div class="control">
+        <label for="grp">Groupe</label>
+        <select id="grp"></select>
+      </div>
+
+      <div class="control">
+        <label for="sort">Tri</label>
+        <select id="sort">
+          <option value="total_desc">Montant total (décroissant)</option>
+          <option value="total_asc">Montant total (croissant)</option>
+          <option value="title_asc">Titre (A → Z)</option>
+          <option value="title_desc">Titre (Z → A)</option>
+          <option value="rank_asc">Rang (croissant)</option>
+          <option value="rank_desc">Rang (décroissant)</option>
+        </select>
+      </div>
+
+      <div class="control">
+        <label for="min">Total min (€)</label>
+        <input id="min" type="number" inputmode="numeric" placeholder="0" min="0" step="1000" />
+      </div>
+
+      <div class="control">
+        <label for="max">Total max (€)</label>
+        <input id="max" type="number" inputmode="numeric" placeholder="Illimité" min="0" step="1000" />
+      </div>
+
+      <div class="control buttons">
+        <button id="reset" type="button">Réinitialiser</button>
+      </div>
+
+      <div class="status" id="status" aria-live="polite"></div>
+    </section>
+
+    <section>
+      <div class="grid" id="grid" aria-label="Cartes des titres"></div>
+    </section>
+
+    <section class="note">
+      <h2>Champs affichés</h2>
+      <ul>
+        <li>Montant total et ventilation par fonds : pluralisme, distribution, exemplaire posté, exemplaire porté, FSDP, FSEIP.</li>
+        <li>Les champs « Diffusion annuelle* » et « Aide par exemplaire* » restent accessibles dans « Détails ».</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>Généré automatiquement à partir du premier onglet du tableur. Site statique (local).</small>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

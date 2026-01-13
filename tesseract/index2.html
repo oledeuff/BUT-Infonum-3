@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hypercube des figures de l’information</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    :root {
+      --bg: #050509;
+      --fg: #f5f5f7;
+      --accent: #ffb347;
+      --accent-soft: rgba(255, 179, 71, 0.18);
+      --meta: #68e0cf;
+      --meta-soft: rgba(104, 224, 207, 0.22);
+      --border: #262637;
+      --muted: #9b9bb2;
+      --radius-lg: 18px;
+      --radius-xl: 24px;
+      --shadow-soft: 0 20px 45px rgba(0, 0, 0, 0.6);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #1a1a35 0, #050509 55%, #000 100%);
+      color: var(--fg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+
+    .app {
+      width: 100%;
+      max-width: 1200px;
+      border-radius: var(--radius-xl);
+      background: radial-gradient(circle at top left, #19192a 0, #050509 55%);
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 20px 24px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      padding-bottom: 4px;
+    }
+
+    header h1 {
+      font-size: clamp(1.5rem, 0.5rem + 2vw, 2.1rem);
+      margin: 0 0 4px;
+      letter-spacing: 0.03em;
+    }
+
+    header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      max-width: 540px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      backdrop-filter: blur(10px);
+      background: radial-gradient(circle at top left, #222237 0, transparent 60%);
+      white-space: nowrap;
+    }
+
+    .pill-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 12px var(--accent-soft);
+    }
+
+    .controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    button,
+    .btn {
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      padding: 8px 14px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      background: rgba(8, 8, 18, 0.8);
+      color: var(--fg);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      backdrop-filter: blur(10px);
+      transition: background 0.2s ease, transform 0.1s ease, border-color 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    button:hover,
+    .btn:hover {
+      background: rgba(20, 20, 40, 0.98);
+      transform: translateY(-1px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+      border-color: rgba(255, 255, 255, 0.24);
+    }
+
+    button:active,
+    .btn:active {
+      transform: translateY(0);
+      box-shadow: none;
+    }
+
+    button.secondary {
+      background: transparent;
+      border-style: dashed;
+    }
+
+    .main-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2.6fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    /* ZONE TESSERACT */
+
+    .tesseract-zone {
+      position: relative;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      background: radial-gradient(circle at center, #151527 0, #070711 55%, #050509 100%);
+      overflow: hidden;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .tesseract-label {
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .legend {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      font-size: 0.75rem;
+    }
+
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 10px;
+      border-radius: 999px;
+      background: rgba(5, 5, 12, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .legend-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
+
+    .legend-dot.projet {
+      background: var(--accent);
+      box-shadow: 0 0 10px var(--accent-soft);
+    }
+
+    .legend-dot.meta {
+      background: var(--meta);
+      box-shadow: 0 0 10px var(--meta-soft);
+    }
+
+    .tesseract-wrapper {
+      position: relative;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 0 2px;
+      perspective: 900px;
+    }
+
+    .tesseract {
+      position: relative;
+      width: min(80%, 360px);
+      aspect-ratio: 1 / 1;
+      transform-style: preserve-3d;
+      /* orientation fixe, légère perspective */
+      transform: rotateX(18deg) rotateY(-22deg);
+      transition: transform 0.2s ease-out;
+    }
+
+    .cube-outer,
+    .cube-inner {
+      position: absolute;
+      inset: 8%;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.9);
+    }
+
+    .cube-inner {
+      inset: 22%;
+      border-color: rgba(255, 255, 255, 0.12);
+    }
+
+    .edge {
+      position: absolute;
+      width: 2px;
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.08),
+        rgba(255, 255, 255, 0.35)
+      );
+    }
+
+    .edge.e1 { left: 14%; top: 14%; height: 22%; }
+    .edge.e2 { right: 14%; top: 14%; height: 22%; }
+    .edge.e3 { left: 14%; bottom: 14%; height: 22%; }
+    .edge.e4 { right: 14%; bottom: 14%; height: 22%; }
+
+    /* NŒUDS
+       -> tous dans le même plan (pas de translateZ),
+          donc pas de nœuds "au second plan" difficiles à cliquer.
+    */
+
+    .node {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 2px solid rgba(0, 0, 0, 0.7);
+      cursor: pointer;
+      box-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease,
+        filter 0.15s ease,
+        background 0.15s ease;
+    }
+
+    .node::before {
+      /* zone cliquable un peu plus large que le disque */
+      content: "";
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+
+    .node::after {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    .node.projet {
+      background: var(--accent);
+      box-shadow: 0 0 20px var(--accent-soft);
+    }
+
+    .node.meta {
+      background: var(--meta);
+      box-shadow: 0 0 20px var(--meta-soft);
+    }
+
+    .node:focus-visible {
+      outline: 2px solid #ffffff;
+      outline-offset: 3px;
+    }
+
+    .node:hover {
+      transform: translate(-50%, -50%) scale(1.12);
+      filter: brightness(1.15);
+    }
+
+    .node.active {
+      transform: translate(-50%, -50%) scale(1.2);
+      box-shadow: 0 0 26px rgba(255, 255, 255, 0.3);
+    }
+
+    /* positions :
+       n1..n8 = couronne extérieure
+       n9..n15 = couronne intérieure (7 projets)
+       n16..n17 = 2 nœuds méta
+    */
+
+    .node.n1 { top: 10%; left: 10%; }
+    .node.n2 { top: 10%; left: 50%; }
+    .node.n3 { top: 10%; left: 90%; }
+    .node.n4 { top: 50%; left: 10%; }
+    .node.n5 { top: 50%; left: 90%; }
+    .node.n6 { top: 90%; left: 10%; }
+    .node.n7 { top: 90%; left: 50%; }
+    .node.n8 { top: 90%; left: 90%; }
+
+    .node.n9  { top: 25%; left: 25%; }
+    .node.n10 { top: 25%; left: 75%; }
+    .node.n11 { top: 75%; left: 25%; }
+    .node.n12 { top: 75%; left: 75%; }
+    .node.n13 { top: 25%; left: 50%; }
+    .node.n14 { top: 50%; left: 25%; }
+    .node.n15 { top: 50%; left: 75%; }
+
+    /* méta : une en bas, une au centre */
+    .node.n16 { top: 75%; left: 50%; }
+    .node.n17 { top: 50%; left: 50%; }
+
+    .center-hint {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 0.75rem;
+      color: rgba(200, 200, 230, 0.75);
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(7, 7, 20, 0.92);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      backdrop-filter: blur(8px);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      pointer-events: none;
+      text-align: center;
+    }
+
+    /* PANEL INFO + LISTE */
+
+    .info-panel {
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      background: radial-gradient(circle at top left, #1f1f31 0, #0a0a16 55%);
+      padding: 14px 16px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .info-panel::before {
+      content: "";
+      position: absolute;
+      inset: -40%;
+      background: radial-gradient(circle at top right, rgba(255, 179, 71, 0.12), transparent 55%);
+      opacity: 0.9;
+      pointer-events: none;
+    }
+
+    .info-panel-header {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .info-panel h2 {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .info-chip {
+      font-size: 0.72rem;
+      color: var(--muted);
+      padding: 4px 9px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(5, 5, 12, 0.9);
+    }
+
+    .info-main {
+      position: relative;
+      z-index: 1;
+      padding: 8px 0 4px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .info-title {
+      font-size: 0.98rem;
+      font-weight: 600;
+    }
+
+    .info-meta {
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .info-meta span strong {
+      color: var(--fg);
+      font-weight: 500;
+    }
+
+    .info-description {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.5;
+      margin-top: 4px;
+    }
+
+    .info-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .info-tag-pill {
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      font-size: 0.7rem;
+      color: var(--muted);
+      background: rgba(5, 5, 12, 0.9);
+    }
+
+    .info-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 4px;
+    }
+
+    .small-caption {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .list-view {
+      display: none;
+      margin-top: 8px;
+      gap: 10px;
+      position: relative;
+      z-index: 1;
+      max-height: 270px;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .list-card {
+      border-radius: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(5, 5, 16, 0.95);
+      padding: 8px 10px;
+      font-size: 0.8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      cursor: pointer;
+    }
+
+    .list-card-title {
+      font-weight: 600;
+    }
+
+    .list-card-meta {
+      color: var(--muted);
+      font-size: 0.75rem;
+    }
+
+    .list-card-summary {
+      margin: 2px 0 0;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    .list-card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 4px;
+    }
+
+    .tag {
+      padding: 2px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      font-size: 0.7rem;
+    }
+
+    .tag.projet { border-color: rgba(255, 179, 71, 0.7); }
+    .tag.meta   { border-color: rgba(104, 224, 207, 0.7); }
+    .tag.type   { border-style: dashed; }
+
+    .app.layout-list .tesseract-zone { display: none; }
+    .app.layout-list .list-view {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    @media (max-width: 860px) {
+      .main-layout {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    @media (max-width: 640px) {
+      .controls { justify-content: flex-start; }
+      .app { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app" id="app">
+    <header>
+      <div>
+        <div class="pill">
+          <div class="pill-dot"></div>
+          <span>BUT Information numérique · 3ᵉ année</span>
+        </div>
+        <h1>Hypercube des figures de l’information</h1>
+        <p>
+          Explorez les sommets de ce faux tesseract pour accéder aux sites réalisés
+          par les étudiants : chercheurs, auteurs et designers qui ont façonné les
+          sciences de l’information et l’architecture de l’information.
+        </p>
+      </div>
+      <div class="controls">
+        <button id="btnList" class="secondary" type="button">
+          Mode liste
+        </button>
+      </div>
+    </header>
+
+    <div class="main-layout">
+      <!-- ZONE TESSERACT -->
+      <section class="tesseract-zone" aria-label="Navigation par hypercube">
+        <div class="tesseract-label">
+          <span>Survolez ou cliquez un sommet pour afficher un projet.</span>
+          <div class="legend">
+            <div class="legend-item">
+              <span class="legend-dot projet"></span> <span>Projet étudiant</span>
+            </div>
+            <div class="legend-item">
+              <span class="legend-dot meta"></span> <span>Fiche méta</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tesseract-wrapper">
+          <div class="tesseract" aria-hidden="true">
+            <div class="cube-outer"></div>
+            <div class="cube-inner"></div>
+            <div class="edge e1"></div>
+            <div class="edge e2"></div>
+            <div class="edge e3"></div>
+            <div class="edge e4"></div>
+
+            <!-- 15 projets étudiants -->
+            <!-- couronne extérieure (8) -->
+            <button class="node projet n1" data-id="p1"></button>
+            <button class="node projet n2" data-id="p2"></button>
+            <button class="node projet n3" data-id="p3"></button>
+            <button class="node projet n4" data-id="p4"></button>
+            <button class="node projet n5" data-id="p5"></button>
+            <button class="node projet n6" data-id="p6"></button>
+            <button class="node projet n7" data-id="p7"></button>
+            <button class="node projet n8" data-id="p8"></button>
+
+            <!-- couronne intérieure (7) -->
+            <button class="node projet n9"  data-id="p9"></button>
+            <button class="node projet n10" data-id="p10"></button>
+            <button class="node projet n11" data-id="p11"></button>
+            <button class="node projet n12" data-id="p12"></button>
+            <button class="node projet n13" data-id="p13"></button>
+            <button class="node projet n14" data-id="p14"></button>
+            <button class="node projet n15" data-id="p15"></button>
+
+            <!-- 2 fiches méta -->
+            <button class="node meta n16" data-id="m1"></button>
+            <button class="node meta n17" data-id="m2"></button>
+
+            <div class="center-hint">
+              Hypercube pédagogique
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PANEL D'INFO + MODE LISTE -->
+      <aside class="info-panel" aria-live="polite">
+        <div class="info-panel-header">
+          <h2 id="info-label">Détail du sommet</h2>
+          <div class="info-chip">Survol / clic sur un nœud</div>
+        </div>
+
+        <div class="info-main" id="info-main">
+          <div class="info-title" id="info-title">
+            Survolez un sommet pour découvrir un projet.
+          </div>
+          <div class="info-meta" id="info-meta">
+            <span><strong>Type :</strong> —</span>
+            <span><strong>Figure :</strong> —</span>
+            <span><strong>Étudiant·e :</strong> —</span>
+            <span><strong>Année :</strong> BUT info-num 3ᵉ année</span>
+          </div>
+          <div class="info-description" id="info-description">
+            Ce panneau affichera le nom de la figure, le groupe d’étudiants, un résumé,
+            ainsi qu’un lien vers le site. Les fiches méta renvoient au BUT et à la
+            description du cours.
+          </div>
+          <div class="info-tags" id="info-tags"></div>
+
+          <div class="info-actions">
+            <a id="info-link" class="btn" href="#" target="_blank" rel="noopener noreferrer" style="display:none;">
+              Visiter le site
+            </a>
+            <button id="btnPreview" class="secondary" type="button" disabled>
+              Aperçu (placeholder)
+            </button>
+          </div>
+          <div class="small-caption">
+            Astuce : activez le <strong>mode liste</strong> pour parcourir les projets
+            dans une vue plus classique.
+          </div>
+        </div>
+
+        <div class="list-view" id="list-view" aria-label="Liste des projets"></div>
+      </aside>
+    </div>
+
+    <footer class="small-caption" style="margin-top: 4px;">
+      Maquette d’interface pour un portail de projets étudiants en architecture de
+      l’information. Le tesseract est une représentation simplifiée conçue pour un
+      usage pédagogique.
+    </footer>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // 1) URL du CSV (Google Sheets ou fichier local)
+      // - local : "projets.csv"
+      // - Google Sheets publié : "https://docs.google.com/spreadsheets/d/…/pub?output=csv"
+      var CSV_URL = "projets.csv";
+
+      // 2) Données par défaut (écrasées si un CSV valide est chargé)
+      //    15 projets p1..p15 + 2 méta m1 (site BUT) et m2 (cours).
+      var nodesData = {
+        p1:  { type: "Projet étudiant", figure: "Paul Otlet",
+          title: "Mundaneum et préfiguration du web",
+          summary: "Un panorama du Mundaneum et de ses liens avec le web contemporain.",
+          tags: ["classification", "archives"],
+          url: "https://example.com/projet-otlet",
+          student: "Étudiant·e 1",
+          group: "Groupe 1",
+          year: "2025",
+          category: "Chercheur en sciences de l'information" },
+        p2:  { type: "Projet étudiant", figure: "Vannevar Bush",
+          title: "Du Memex à l’hypertexte",
+          summary: "Exploration du Memex et de ses prolongements dans le web.",
+          tags: ["hypertexte", "histoire"],
+          url: "https://example.com/projet-bush",
+          student: "Étudiant·e 2",
+          group: "Groupe 1",
+          year: "2025",
+          category: "Précurseur de l’hypertexte" },
+        p3:  { type: "Projet étudiant", figure: "Jacques Bertin",
+          title: "Sémiologie graphique et visualisation",
+          summary: "Lecture de la Sémiologie graphique et applications en dataviz.",
+          tags: ["dataviz", "sémiologie"],
+          url: "https://example.com/projet-bertin",
+          student: "Étudiant·e 3",
+          group: "Groupe 1",
+          year: "2025",
+          category: "Théoricien de la visualisation" },
+        p4:  { type: "Projet étudiant", figure: "Jacob Nielsen",
+          title: "Heuristiques d’utilisabilité et IA",
+          summary: "Test des heuristiques de Nielsen sur des interfaces contemporaines.",
+          tags: ["UX", "évaluation"],
+          url: "https://example.com/projet-nielsen",
+          student: "Étudiant·e 4",
+          group: "Groupe 2",
+          year: "2025",
+          category: "Designer UX" },
+        p5:  { type: "Projet étudiant", figure: "Richard Saul Wurman",
+          title: "L’invention de l’architecture de l’information",
+          summary: "Retour sur la notion d’architecture de l’information chez Wurman.",
+          tags: ["architecture de l'information"],
+          url: "https://example.com/projet-wurman",
+          student: "Étudiant·e 5",
+          group: "Groupe 2",
+          year: "2025",
+          category: "Architecte de l’information" },
+        p6:  { type: "Projet étudiant", figure: "Donna Haraway",
+          title: "Cyborgs, savoirs situés et données",
+          summary: "Analyse critique des imaginaires technologiques à partir de Haraway.",
+          tags: ["critique", "genre"],
+          url: "https://example.com/projet-haraway",
+          student: "Étudiant·e 6",
+          group: "Groupe 2",
+          year: "2025",
+          category: "Approche critique" },
+        p7:  { type: "Projet étudiant", figure: "Brenda Dervin",
+          title: "Sense-making et pratiques informationnelles",
+          summary: "Étude des pratiques informationnelles avec la notion de sense-making.",
+          tags: ["usages", "pratiques"],
+          url: "https://example.com/projet-dervin",
+          student: "Étudiant·e 7",
+          group: "Groupe 3",
+          year: "2025",
+          category: "Théoricienne de l’usage" },
+        p8:  { type: "Projet étudiant", figure: "Lou Rosenfeld & Peter Morville",
+          title: "L’ours polaire et l’architecture de l’information",
+          summary: "Présentation de l’ouvrage et de ses apports en IA.",
+          tags: ["architecture de l'information", "UX"],
+          url: "https://example.com/projet-rosenfeld-morville",
+          student: "Étudiant·e 8",
+          group: "Groupe 3",
+          year: "2025",
+          category: "Architecture de l’information" },
+        p9:  { type: "Projet étudiant", figure: "Pirolli & Card",
+          title: "Information foraging et navigation",
+          summary: "Application des modèles d’information foraging à la navigation web.",
+          tags: ["navigation", "modèles"],
+          url: "https://example.com/projet-pirolli-card",
+          student: "Étudiant·e 9",
+          group: "Groupe 3",
+          year: "2025",
+          category: "Modèles de navigation" },
+        p10: { type: "Projet étudiant", figure: "Edward Tufte",
+          title: "Design de l’information et minimalisme",
+          summary: "Analyse des principes de Tufte dans la visualisation d’information.",
+          tags: ["dataviz", "minimalisme"],
+          url: "https://example.com/projet-tufte",
+          student: "Étudiant·e 10",
+          group: "Groupe 4",
+          year: "2025",
+          category: "Visualisation de données" },
+        p11: { type: "Projet étudiant", figure: "Susan Leigh Star",
+          title: "Infrastructures et coulisses",
+          summary: "Approche des infrastructures comme coulisses de l’information.",
+          tags: ["infrastructures", "STS"],
+          url: "https://example.com/projet-star",
+          student: "Étudiant·e 11",
+          group: "Groupe 4",
+          year: "2025",
+          category: "Sociologie de l’information" },
+        p12: { type: "Projet étudiant", figure: "Kristina Halvorson",
+          title: "Stratégie de contenu",
+          summary: "Travail sur la stratégie de contenu appliquée à un site donné.",
+          tags: ["contenu", "stratégie"],
+          url: "https://example.com/projet-halvorson",
+          student: "Étudiant·e 12",
+          group: "Groupe 4",
+          year: "2025",
+          category: "Content strategy" },
+        p13: { type: "Projet étudiant", figure: "Figure 13",
+          title: "Projet 13",
+          summary: "Résumé de la fiche 13.",
+          tags: ["exemple"],
+          url: "",
+          student: "Étudiant·e 13",
+          group: "Groupe 5",
+          year: "2025",
+          category: "" },
+        p14: { type: "Projet étudiant", figure: "Figure 14",
+          title: "Projet 14",
+          summary: "Résumé de la fiche 14.",
+          tags: ["exemple"],
+          url: "",
+          student: "Étudiant·e 14",
+          group: "Groupe 5",
+          year: "2025",
+          category: "" },
+        p15: { type: "Projet étudiant", figure: "Figure 15",
+          title: "Projet 15",
+          summary: "Résumé de la fiche 15.",
+          tags: ["exemple"],
+          url: "",
+          student: "Étudiant·e 15",
+          group: "Groupe 5",
+          year: "2025",
+          category: "" },
+
+        // Méta 1 = site du BUT | Méta 2 = description de cours
+        m1: { type: "Méta",
+          figure: "BUT Information numérique",
+          title: "Site du BUT Information numérique dans les organisations",
+          summary: "Lien vers la page officielle du BUT et la présentation de la formation.",
+          tags: ["BUT", "formation"],
+          url: "",   // à remplir ici ou via le CSV
+          student: "",
+          group: "Département info-num",
+          year: "2025",
+          category: "Site institutionnel" },
+        m2: { type: "Méta",
+          figure: "Cours d’architecture de l’information",
+          title: "Description du cours et consignes",
+          summary: "Objectifs pédagogiques, déroulé de l’UE et consignes pour le projet.",
+          tags: ["cours", "consignes"],
+          url: "",   // à remplir ici ou via le CSV
+          student: "",
+          group: "Équipe pédagogique",
+          year: "2025",
+          category: "Description de cours" }
+      };
+
+      var appEl = document.getElementById("app");
+      var infoTitleEl = document.getElementById("info-title");
+      var infoMetaEl = document.getElementById("info-meta");
+      var infoDescEl = document.getElementById("info-description");
+      var infoTagsEl = document.getElementById("info-tags");
+      var infoLinkEl = document.getElementById("info-link");
+      var btnPreviewEl = document.getElementById("btnPreview");
+      var listViewEl = document.getElementById("list-view");
+      var btnListEl = document.getElementById("btnList");
+      var tesseractZoneEl = document.querySelector(".tesseract-zone");
+      var tesseractEl = document.querySelector(".tesseract");
+
+      // Parseur CSV simple ("," ou ";")
+      function parseCSV(text) {
+        var rows = [];
+        var current = "";
+        var row = [];
+        var inQuotes = false;
+
+        for (var i = 0; i < text.length; i++) {
+          var c = text[i];
+
+          if (inQuotes) {
+            if (c === '"') {
+              if (text[i + 1] === '"') {
+                current += '"';
+                i++;
+              } else {
+                inQuotes = false;
+              }
+            } else {
+              current += c;
+            }
+          } else {
+            if (c === '"') {
+              inQuotes = true;
+            } else if (c === "," || c === ";") {
+              row.push(current);
+              current = "";
+            } else if (c === "\r") {
+              // ignore
+            } else if (c === "\n") {
+              row.push(current);
+              if (row.some(function (cell) { return cell.trim() !== ""; })) {
+                rows.push(row);
+              }
+              row = [];
+              current = "";
+            } else {
+              current += c;
+            }
+          }
+        }
+        if (current.length || row.length) {
+          row.push(current);
+          if (row.some(function (cell) { return cell.trim() !== ""; })) {
+            rows.push(row);
+          }
+        }
+
+        if (!rows.length) return [];
+
+        var header = rows[0].map(function (h) { return h.trim(); });
+        var dataRows = rows.slice(1);
+
+        return dataRows.map(function (r) {
+          var obj = {};
+          for (var j = 0; j < header.length; j++) {
+            obj[header[j]] = (r[j] || "").trim();
+          }
+          return obj;
+        });
+      }
+
+      // Harmonisation des nœuds (projet / méta + aria-label)
+      function syncNodesWithData() {
+        var nodeEls = document.querySelectorAll(".node");
+        nodeEls.forEach(function (node) {
+          var id = node.getAttribute("data-id");
+          var data = nodesData[id];
+          if (!data) return;
+
+          node.classList.remove("projet", "meta");
+          var typeLower = (data.type || "").toLowerCase();
+          if (typeLower.indexOf("méta") !== -1 || typeLower.indexOf("meta") !== -1) {
+            node.classList.add("meta");
+          } else {
+            node.classList.add("projet");
+          }
+
+          var labelParts = [];
+          if (data.title) labelParts.push(data.title);
+          if (data.student) labelParts.push("– " + data.student);
+          node.setAttribute("aria-label", labelParts.join(" "));
+        });
+      }
+
+      // Rendu panneau d’information
+      function renderInfo(id) {
+        var data = nodesData[id];
+        var nodes = document.querySelectorAll(".node");
+        nodes.forEach(function (n) { n.classList.remove("active"); });
+
+        var activeNode = document.querySelector('.node[data-id="' + id + '"]');
+        if (activeNode) { activeNode.classList.add("active"); }
+
+        if (!data) {
+          infoTitleEl.textContent = "Sommet non renseigné";
+          infoMetaEl.innerHTML =
+            '<span><strong>Type :</strong> —</span>' +
+            '<span><strong>Figure :</strong> —</span>' +
+            '<span><strong>Étudiant·e :</strong> —</span>' +
+            '<span><strong>Année :</strong> BUT info-num 3ᵉ année</span>';
+          infoDescEl.textContent =
+            "Ce sommet n’est pas encore associé à un projet ou une ressource.";
+          infoTagsEl.innerHTML = "";
+          infoLinkEl.style.display = "none";
+          btnPreviewEl.disabled = true;
+          return;
+        }
+
+        var isMeta =
+          (data.type || "").toLowerCase().indexOf("méta") !== -1 ||
+          (data.type || "").toLowerCase().indexOf("meta") !== -1;
+
+        infoTitleEl.textContent = data.title || "(Sans titre)";
+
+        var metaLines = [];
+        var typeLine = "<strong>Type :</strong> " +
+          (data.type || (isMeta ? "Méta" : "Projet étudiant"));
+        if (data.category) { typeLine += " · " + data.category; }
+        metaLines.push("<span>" + typeLine + "</span>");
+
+        metaLines.push("<span><strong>Figure :</strong> " + (data.figure || "—") + "</span>");
+        metaLines.push("<span><strong>Étudiant·e :</strong> " + (data.student || "—") + "</span>");
+        metaLines.push("<span><strong>Année :</strong> " + (data.year || "BUT info-num 3ᵉ année") + "</span>");
+
+        infoMetaEl.innerHTML = metaLines.join("");
+
+        if (data.summary) {
+          infoDescEl.textContent = data.summary;
+        } else {
+          infoDescEl.textContent = isMeta
+            ? "Fiche méta renvoyant à une ressource (site du BUT, description de cours, etc.)."
+            : "Sommet associé à un site étudiant présentant une figure clé des sciences de l’information.";
+        }
+
+        infoTagsEl.innerHTML = "";
+        if (Array.isArray(data.tags) && data.tags.length) {
+          data.tags.forEach(function (tag) {
+            var span = document.createElement("span");
+            span.className = "info-tag-pill";
+            span.textContent = tag;
+            infoTagsEl.appendChild(span);
+          });
+        }
+
+        if (data.url && data.url !== "#" && data.url.trim() !== "") {
+          infoLinkEl.style.display = "inline-flex";
+          infoLinkEl.href = data.url;
+        } else {
+          infoLinkEl.style.display = "none";
+        }
+
+        btnPreviewEl.disabled = true;
+      }
+
+      // Vue liste
+      function buildListView() {
+        listViewEl.innerHTML = "";
+        for (var id in nodesData) {
+          if (!nodesData.hasOwnProperty(id)) continue;
+          var data = nodesData[id];
+
+          var card = document.createElement("article");
+          card.className = "list-card";
+
+          var typeLower = (data.type || "").toLowerCase();
+          var isMeta = typeLower.indexOf("méta") !== -1 || typeLower.indexOf("meta") !== -1;
+
+          var tagsHtml =
+            '<span class="tag ' + (isMeta ? "meta" : "projet") + '">' +
+            (data.type || "") + "</span>";
+          if (data.category) {
+            tagsHtml += '<span class="tag type">' + data.category + "</span>";
+          }
+
+          var metaTextParts = [];
+          if (data.figure) metaTextParts.push(data.figure);
+          if (data.student) metaTextParts.push(data.student);
+          if (data.group) metaTextParts.push(data.group);
+          if (data.year) metaTextParts.push(data.year);
+          var metaText = metaTextParts.join(" – ");
+
+          card.innerHTML =
+            '<div class="list-card-title">' + (data.title || "(Sans titre)") + "</div>" +
+            '<div class="list-card-meta">' + metaText + "</div>" +
+            (data.summary
+              ? '<div class="list-card-summary">' + data.summary + "</div>"
+              : "") +
+            '<div class="list-card-tags">' + tagsHtml + "</div>";
+
+          (function (idCopy) {
+            card.addEventListener("click", function () {
+              renderInfo(idCopy);
+            });
+          })(id);
+
+          listViewEl.appendChild(card);
+        }
+      }
+
+      // Interactions nœuds
+      var nodeEls = document.querySelectorAll(".node");
+      nodeEls.forEach(function (node) {
+        var id = node.getAttribute("data-id");
+
+        node.addEventListener("mouseenter", function () {
+          renderInfo(id);
+        });
+
+        node.addEventListener("focus", function () {
+          renderInfo(id);
+        });
+
+        node.addEventListener("click", function () {
+          var data = nodesData[id];
+          if (data && data.url && data.url !== "#" && data.url.trim() !== "") {
+            window.open(data.url, "_blank");
+          }
+        });
+      });
+
+      // Mode liste / tesseract
+      btnListEl.addEventListener("click", function () {
+        if (appEl.classList.contains("layout-list")) {
+          appEl.classList.remove("layout-list");
+          btnListEl.textContent = "Mode liste";
+        } else {
+          appEl.classList.add("layout-list");
+          btnListEl.textContent = "Mode tesseract";
+        }
+      });
+
+      // Légère inclinaison au survol (mais pas d’animation continue)
+      if (tesseractZoneEl && tesseractEl) {
+        tesseractZoneEl.addEventListener("mousemove", function (event) {
+          var rect = tesseractZoneEl.getBoundingClientRect();
+          var x = (event.clientX - rect.left) / rect.width - 0.5;
+          var y = (event.clientY - rect.top) / rect.height - 0.5;
+
+          var rotateX = 18 - y * 20;
+          var rotateY = -22 + x * 30;
+
+          tesseractEl.style.transform =
+            "rotateX(" + rotateX + "deg) rotateY(" + rotateY + "deg)";
+        });
+
+        tesseractZoneEl.addEventListener("mouseleave", function () {
+          tesseractEl.style.transform = "rotateX(18deg) rotateY(-22deg)";
+        });
+      }
+
+      // Chargement CSV
+      function loadFromCSV() {
+        if (!CSV_URL) {
+          syncNodesWithData();
+          buildListView();
+          return;
+        }
+
+        fetch(CSV_URL)
+          .then(function (res) { return res.text(); })
+          .then(function (text) {
+            var rows = parseCSV(text);
+            if (!rows.length) {
+              syncNodesWithData();
+              buildListView();
+              return;
+            }
+
+            var newData = {};
+
+            rows.forEach(function (row) {
+              var id = (row.id || row.ID || "").trim();
+              if (!id) return;
+
+              var typeRaw = (row.type || row.Type || "").trim();
+              var title = row.titre || row.Titre || row.title || row.Title || "";
+              var summary = row.resume || row.résumé || row["résume"] || row.summary || "";
+              var tagsStr = row.tags || row.Tags || "";
+              var url = row.url || row.URL || "";
+              var student = row.etudiant || row["étudiant"] || row.Etudiant || "";
+              var figure = row.figure || row.Figure || "";
+              var group = row.groupe || row.Groupe || "";
+              var year = row.annee || row.année || row.Annee || row.Année || "";
+              var category = row.categorie || row.Categorie || row["catégorie"] || "";
+
+              var tagsArr = tagsStr
+                .split(/[,|]/)
+                .map(function (t) { return t.trim(); })
+                .filter(function (t) { return t.length > 0; });
+
+              newData[id] = {
+                type: typeRaw || "Projet étudiant",
+                figure: figure,
+                title: title,
+                summary: summary,
+                tags: tagsArr,
+                url: url,
+                student: student,
+                group: group,
+                year: year || "2025",
+                category: category
+              };
+            });
+
+            if (Object.keys(newData).length) {
+              nodesData = newData;
+            }
+
+            syncNodesWithData();
+            buildListView();
+          })
+          .catch(function () {
+            syncNodesWithData();
+            buildListView();
+          });
+      }
+
+      // Initialisation
+      syncNodesWithData();
+      buildListView();
+      loadFromCSV();
+    });
+  </script>
+</body>
+</html>
