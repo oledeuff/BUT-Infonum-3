@@ -36,19 +36,67 @@
 @media(max-width:780px){.part .syllabus-summary{font-size:.89rem}.part .syllabus-objectives{font-size:.78rem}}
 
 
-/* Test visuel : portrait graphique en filigrane, réservé à l'accueil 1A. */
-.hero{position:relative;isolation:isolate;overflow:hidden}
-.hero::before{
- content:"";position:absolute;pointer-events:none;z-index:0;
- top:0;bottom:0;right:0;width:min(55%,710px);
- background-image:url("assets/olivier-le-deuff-filigrane.webp");
- background-size:auto 98%;background-position:right center;background-repeat:no-repeat;
- opacity:.105;filter:grayscale(1) contrast(.83);
- -webkit-mask-image:linear-gradient(90deg,transparent 1%,rgba(0,0,0,.35) 25%,#000 52%);
- mask-image:linear-gradient(90deg,transparent 1%,rgba(0,0,0,.35) 25%,#000 52%);
-}
-.hero .shell{position:relative;z-index:1}
-.hero h1{max-width:810px}
-.hero .lead{max-width:675px}
-@media(max-width:850px){.hero::before{width:48%;opacity:.055;background-size:auto 75%}.hero h1{max-width:100%}}
-@media(max-width:620px){.hero::before{display:none}}
+
+
+/* Page d'accueil BUT : direction graphique inspirée de la maquette, sans logos.
+   Les autres pages conservent leurs styles et les deux enseignements restent classés en 1A. */
+body.home-page{background:#f4f5f8;color:#2c3057}
+.home-page .shell{max-width:1340px;padding:0 45px}
+.home-page .topbar{background:rgba(250,250,253,.94);box-shadow:0 1px 0 rgba(107,107,136,.13);border:0}
+.home-page .topbar .shell{min-height:82px;display:flex;align-items:center;gap:32px}
+.home-brand{display:flex;flex-direction:column;flex-shrink:0;gap:0;color:#302f68;line-height:1.25}
+.home-brand strong{font-size:clamp(1rem,1.45vw,1.38rem);letter-spacing:-.02em;font-weight:850}
+.home-brand small{font-size:.75rem;color:#797b91;font-weight:580}
+.home-page .topbar nav{display:flex;align-items:center;justify-content:center;gap:25px;flex:1;flex-wrap:wrap}
+.home-page .topbar nav a{color:#777b94;font-weight:680;font-size:.92rem;border-bottom:3px solid transparent;padding:26px 0 23px;white-space:nowrap}
+.home-page .topbar nav a.active,.home-page .topbar nav a:hover{color:#079dac;border-color:#1db6c3}
+.home-nav__repo{color:#37366f;display:grid;place-items:center;flex-shrink:0}
+.home-nav__repo svg{width:23px;height:23px}
+.home-page .home-hero{position:relative;isolation:isolate;overflow:hidden;padding:78px 0 139px;min-height:573px;background:linear-gradient(105deg,#f0eff7 0%,#f4f4f8 49%,#f8fafb 100%);border-bottom:0}
+.home-page .home-hero::before{display:none}
+.home-hero::after{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(ellipse at -1% 100%,rgba(29,182,195,.085),transparent 32%),linear-gradient(90deg,rgba(248,248,252,.06) 0%,rgba(248,248,252,.03) 60%,transparent 100%)}
+.home-hero__portrait{position:absolute;z-index:0;right:1.5%;top:3%;bottom:1%;width:57%;display:flex;justify-content:flex-end;align-items:center;pointer-events:none;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.55) 28%,#000 62%);mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.55) 28%,#000 62%)}
+.home-hero__portrait img{display:block;width:100%;max-height:100%;object-fit:contain;object-position:right center;opacity:.66;filter:grayscale(1) contrast(1.5) brightness(.82)}
+.home-hero .shell{position:relative;z-index:2}
+.home-hero__text{max-width:730px}
+.home-eyebrow{display:flex;align-items:center;gap:14px;font-weight:700;font-size:.8rem;color:#77768c;letter-spacing:.06em}
+.home-eyebrow__line{display:inline-block;width:43px;height:4px;background:#1db6c3;flex-shrink:0;border-radius:2px}
+.home-page .home-hero h1{color:#303064;max-width:730px;font-size:clamp(3.45rem,6.1vw,5.65rem);line-height:1.04;letter-spacing:-.055em;font-weight:850;margin:32px 0 0}
+.home-page .home-hero h1 span{display:block;margin-top:9px;color:#9294b0;font-weight:700;font-size:clamp(2.05rem,3.35vw,3.4rem);letter-spacing:-.035em}
+.home-hero__intro{font-size:1.08rem;color:#3a4d5f;margin:26px 0 2px}
+.home-hero__intro strong{font-weight:780}
+.home-hero__lead{font-size:1.09rem;line-height:1.7;max-width:620px;color:#536076;margin:4px 0 27px}
+.home-hero__links{display:flex;flex-wrap:wrap;gap:12px}
+.home-action{display:inline-flex;align-items:center;gap:12px;justify-content:space-between;padding:12px 17px;min-height:49px;font-size:.88rem;font-weight:790;border-radius:10px;border:1px solid #d8d8e6;transition:transform .18s,box-shadow .18s}
+.home-action:hover{transform:translateY(-2px);box-shadow:0 8px 21px rgba(31,61,77,.09)}
+.home-action.primary{color:white;background:#07b1c0;border-color:#07b1c0}
+.home-action.lilac{color:#37356f;background:#ecebf5;border-color:#d8d7e7}
+.home-action.outline{color:#078f9e;background:rgba(255,255,255,.89);border-color:#1db6c3}
+.home-page .home-courses{position:relative;z-index:4;margin-top:-91px;padding-bottom:42px}
+.home-course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.home-course-card{display:flex;flex-direction:column;align-items:flex-start;min-height:297px;padding:25px 26px 24px;border:1px solid #e3e6ef;border-radius:13px;color:#303064;background:rgba(255,255,255,.98);box-shadow:0 16px 40px rgba(57,57,86,.072);transition:transform .2s,box-shadow .2s}
+.home-course-card:hover{transform:translateY(-5px);box-shadow:0 22px 50px rgba(37,70,87,.12)}
+.home-card-icon{width:54px;height:54px;display:grid;place-items:center;color:#333477;background:#f3f3fa;border-radius:12px}
+.home-card-icon svg{width:31px;height:31px}
+.home-course-card__level{text-transform:uppercase;letter-spacing:.09em;color:#82859c;font-size:.7rem;font-weight:800;margin-top:13px}
+.home-page .home-course-card h2{font-size:1.31rem;line-height:1.27;letter-spacing:-.023em;color:#303064;font-weight:830;margin:6px 0 8px}
+.home-course-card p{color:#656d8b;font-size:.95rem;line-height:1.57;margin:0 0 22px}
+.home-course-card__go{margin-top:auto;display:flex;align-items:center;gap:10px;color:#00a5b4;font-size:.97rem;font-weight:780}
+.home-course-card__go span{font-size:1.35rem}
+.home-coming-soon{border-top:1px solid #e8e8f0;padding:28px 0 34px;background:#f6f7fa}
+.home-coming-soon .shell{display:flex;justify-content:space-between;gap:20px;align-items:center}
+.home-coming-soon .shell>div{display:flex;flex-direction:column;gap:3px}
+.home-coming-soon strong{color:#363a70;font-size:.95rem}
+.home-coming-soon span{color:#6e7990;font-size:.85rem}
+.home-coming-soon a{font-weight:720;color:#078b9a;font-size:.84rem;text-align:right}
+.home-footer{background:#ececf3;border-top:1px solid #dfe0ec;padding:25px 0;color:#676a89}
+.home-footer .shell{display:flex;align-items:center;justify-content:space-between;gap:22px}
+.home-footer strong{color:#39376f;font-size:1.08rem}
+.home-footer p{margin:2px 0;line-height:1.5;font-size:.85rem}
+.home-footer a{color:#069cab;font-size:.84rem;font-weight:660}
+.home-footer__note{text-align:right}
+@media(max-width:1170px){.home-page .shell{padding:0 35px}.home-page .topbar .shell{gap:20px}.home-page .topbar nav{gap:17px}.home-hero__portrait{width:56%;opacity:.68}.home-hero__text{max-width:630px}.home-page .home-hero h1{font-size:4.6rem}.home-hero__lead{max-width:530px}}
+@media(max-width:950px){.home-brand small{display:none}.home-page .topbar .shell{min-height:70px}.home-page .topbar nav{gap:13px}.home-page .topbar nav a{padding:18px 0 15px;font-size:.82rem}.home-hero__portrait{width:55%;right:-7%;opacity:.45}.home-page .home-hero h1{font-size:4rem}.home-hero__text{max-width:590px}.home-course-grid{gap:14px}.home-course-card{padding:21px 20px}.home-page .home-course-card h2{font-size:1.15rem}}
+@media(max-width:740px){.home-page .shell{padding:0 22px}.home-page .topbar .shell{flex-wrap:wrap;gap:0;padding-top:12px}.home-page .topbar nav{width:100%;order:3;justify-content:flex-start;gap:21px;overflow-x:auto;flex-wrap:nowrap}.home-nav__repo{margin-left:auto}.home-page .topbar nav a{padding:14px 0 11px}.home-page .home-hero{min-height:0;padding:63px 0 113px}.home-page .home-hero h1{font-size:clamp(2.95rem,10vw,4.5rem)}.home-hero__portrait{right:-16%;width:87%;top:7%;opacity:.23}.home-hero__text{max-width:100%}.home-hero__lead{max-width:91%;font-size:1rem}.home-hero__links{gap:8px}.home-action{font-size:.78rem;min-height:42px;padding:9px 12px}.home-course-grid{grid-template-columns:1fr;gap:13px}.home-course-card{min-height:0;padding:23px 25px}.home-page .home-courses{margin-top:-70px}.home-coming-soon .shell,.home-footer .shell{flex-direction:column;align-items:flex-start}.home-coming-soon a,.home-footer__note{text-align:left}}
+@media(max-width:425px){.home-page .home-hero{padding-top:45px}.home-page .home-hero h1{font-size:2.85rem}.home-hero__lead{max-width:100%}.home-eyebrow{font-size:.69rem}.home-hero__portrait{opacity:.14}.home-page .home-hero h1 span{font-size:2rem}}
+@media(prefers-reduced-motion:reduce){.home-action,.home-course-card{transition:none}}
