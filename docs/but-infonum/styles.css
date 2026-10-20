@@ -159,17 +159,46 @@ body.home-page{background:#f4f5f8;color:#2c3057}
   }
 }
 
-/* Bandeau illustré de la bibliographie générale, en continuité avec les deux cours. */
+
+/* Bandeau bibliothèque : illustration visible et texte lisible, tous écrans. */
 .course-head--biblio{
-  background-image:
-    linear-gradient(90deg,rgba(245,245,250,.99) 0%,rgba(247,248,251,.96) 37%,rgba(247,248,251,.7) 65%,rgba(247,248,251,.28) 100%),
-    url("assets/bibliographie-sketch.png");
-  background-repeat:no-repeat;
-  background-position:center,calc(100% + 155px) center;
-  background-size:cover,min(76vw,920px) auto;
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  background:linear-gradient(115deg,#f0eff5 0%,#f9f9fc 54%,#edf5f7 100%);
+  min-height:300px;
 }
-@media(max-width:800px){
-  .course-head--biblio{
-    background-image:linear-gradient(135deg,#f0eff5,#fafcfc 65%,#eef9fa);
+.course-head--biblio .shell{
+  position:relative;
+  z-index:2;
+}
+.course-head--biblio .lead{
+  max-width:610px;
+}
+.course-head--biblio .course-head__illustration{
+  position:absolute;
+  z-index:1;
+  display:block;
+  pointer-events:none;
+  right:0;
+  top:0;
+  width:70%;
+  height:100%;
+  object-fit:cover;
+  object-position:50% 53%;
+  opacity:.94;
+  filter:saturate(.8) contrast(1.06);
+  -webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.25) 12%,#000 44%);
+  mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.25) 12%,#000 44%);
+}
+@media(max-width:850px){
+  .course-head--biblio .course-head__illustration{width:88%;opacity:.43}
+}
+@media(max-width:600px){
+  .course-head--biblio{min-height:0}
+  .course-head--biblio .course-head__illustration{
+    width:100%;opacity:.21;object-position:58% center;
+    -webkit-mask-image:linear-gradient(90deg,transparent,#000 50%);
+    mask-image:linear-gradient(90deg,transparent,#000 50%);
   }
 }
