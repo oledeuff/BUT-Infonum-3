@@ -34,3 +34,21 @@
 .parts .part .num{margin-top:2px}
 .parts .part .go{align-self:center;white-space:nowrap}
 @media(max-width:780px){.part .syllabus-summary{font-size:.89rem}.part .syllabus-objectives{font-size:.78rem}}
+
+
+/* Test visuel : portrait graphique en filigrane, réservé à l'accueil 1A. */
+.hero{position:relative;isolation:isolate;overflow:hidden}
+.hero::before{
+ content:"";position:absolute;pointer-events:none;z-index:0;
+ top:0;bottom:0;right:0;width:min(55%,710px);
+ background-image:url("assets/olivier-le-deuff-filigrane.webp");
+ background-size:auto 98%;background-position:right center;background-repeat:no-repeat;
+ opacity:.105;filter:grayscale(1) contrast(.83);
+ -webkit-mask-image:linear-gradient(90deg,transparent 1%,rgba(0,0,0,.35) 25%,#000 52%);
+ mask-image:linear-gradient(90deg,transparent 1%,rgba(0,0,0,.35) 25%,#000 52%);
+}
+.hero .shell{position:relative;z-index:1}
+.hero h1{max-width:810px}
+.hero .lead{max-width:675px}
+@media(max-width:850px){.hero::before{width:48%;opacity:.055;background-size:auto 75%}.hero h1{max-width:100%}}
+@media(max-width:620px){.hero::before{display:none}}
