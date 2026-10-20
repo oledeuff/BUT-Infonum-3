@@ -24,3 +24,13 @@
 @media(max-width:900px){.chapter-cover__inner{grid-template-columns:1fr;padding-top:9vh}.chapter-cover__illustration{position:absolute;right:-5%;top:12%;width:46%;height:58%;opacity:.24;pointer-events:none}.slide.chapter-cover h2{max-width:780px}.chapter-cover__main{z-index:2}.chapter-cover__footer{flex-wrap:wrap}}
 @media(max-width:600px){.chapter-cover__inner{padding:11vh 6vw 3vh}.chapter-cover__course{margin-bottom:30px}.slide.chapter-cover h2{font-size:clamp(2.25rem,10vw,3.6rem)}.chapter-cover__subtitle{font-size:1rem}.chapter-cover__tags{gap:7px}.chapter-cover__tags span{padding:6px 10px;font-size:.74rem}.chapter-cover__footer{padding:12px 6vw 62px;gap:3px;flex-direction:column;align-items:flex-start}.chapter-cover__illustration{right:-17%;width:80%;opacity:.14}}
 @media(max-height:680px){.chapter-cover__inner{padding-top:4vh;padding-bottom:2vh}.chapter-cover__course{margin-bottom:12px}.chapter-cover__subtitle{margin-bottom:12px}.chapter-cover__footer{padding-top:8px;padding-bottom:56px}.slide.chapter-cover h2{font-size:clamp(2.1rem,4.7vw,4.1rem);margin-bottom:12px}}
+
+
+/* Premières notices pédagogiques des parties de cours */
+.part .syllabus-summary{margin:4px 0 9px;color:#40515c;font-size:.96rem;line-height:1.52;max-width:825px}
+.part .syllabus-objectives{margin:0;color:#596977;font-size:.83rem;line-height:1.5;max-width:880px}
+.part .syllabus-objectives strong{color:#08727c;font-weight:750}
+.parts .part{align-items:start}
+.parts .part .num{margin-top:2px}
+.parts .part .go{align-self:center;white-space:nowrap}
+@media(max-width:780px){.part .syllabus-summary{font-size:.89rem}.part .syllabus-objectives{font-size:.78rem}}
