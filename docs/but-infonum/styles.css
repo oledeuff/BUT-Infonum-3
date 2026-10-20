@@ -158,3 +158,18 @@ body.home-page{background:#f4f5f8;color:#2c3057}
     background-image:linear-gradient(135deg,#f0eff5,#fafcfc 65%,#eef9fa);
   }
 }
+
+/* Bandeau illustré de la bibliographie générale, en continuité avec les deux cours. */
+.course-head--biblio{
+  background-image:
+    linear-gradient(90deg,rgba(245,245,250,.99) 0%,rgba(247,248,251,.96) 37%,rgba(247,248,251,.7) 65%,rgba(247,248,251,.28) 100%),
+    url("assets/bibliographie-sketch.png");
+  background-repeat:no-repeat;
+  background-position:center,calc(100% + 155px) center;
+  background-size:cover,min(76vw,920px) auto;
+}
+@media(max-width:800px){
+  .course-head--biblio{
+    background-image:linear-gradient(135deg,#f0eff5,#fafcfc 65%,#eef9fa);
+  }
+}
