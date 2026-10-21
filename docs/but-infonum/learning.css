@@ -1,0 +1,43 @@
+/* Compléments documentaires : frise, glossaire et modèles */
+.learning-head{padding:52px 0 40px;background:linear-gradient(125deg,#f1eef8,#f9fbfd 66%,#eaf8f9);border-bottom:1px solid var(--line)}
+.learning-head h1{font-size:clamp(2.2rem,4.8vw,4.1rem);line-height:1.04;max-width:960px}
+.learning-head .lead{max-width:920px;font-size:1.1rem}
+.editor-note{padding:17px 20px;border-left:3px solid #ada6c4;border-radius:0 12px 12px 0;background:#f1eff7;color:#4f5365;line-height:1.6;margin:0 0 30px}
+.filter-bar{display:flex;flex-wrap:wrap;align-items:center;gap:12px 17px;margin:0 0 24px}
+.filter-bar>label{font-weight:750}
+.filter-bar input,.filter-bar select{padding:12px 14px;border:1px solid #cdd6de;border-radius:10px;background:white;color:var(--ink);font:inherit;min-width:min(300px,100%)}
+.filter-bar #term-count,.filter-bar #time-count{margin:0 0 0 auto;color:#586976}
+.filter-buttons{display:flex;flex-wrap:wrap;gap:6px}
+.filter-buttons button{background:#fff;border:1px solid #d7dce6;border-radius:999px;padding:9px 12px;cursor:pointer;font:inherit;color:#465361}
+.filter-buttons button.is-selected{background:#2b4654;color:white;border-color:#2b4654}
+.term-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.term-card,.model-card{background:#fff;border:1px solid #dce3e8;border-radius:18px;padding:22px 24px;box-shadow:0 8px 25px rgba(31,41,51,.045);min-width:0}
+.term-card[hidden],.time-item[hidden]{display:none!important}
+.term-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+.term-card h2,.model-card h2,.time-item h2{font-size:clamp(1.08rem,2vw,1.33rem);letter-spacing:-.015em;line-height:1.2;margin:0}
+.term-category,.time-kind{font-size:.71rem;text-transform:uppercase;letter-spacing:.065em;font-weight:800;color:#716b8a}
+.term-card>p,.time-item p{color:#425160;margin:12px 0;line-height:1.6}
+.term-tags{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.term-tags span{padding:4px 10px;border-radius:999px;color:#26616b;background:#e8f5f5;font-size:.76rem;font-weight:650}
+.term-links{display:flex;flex-wrap:wrap;gap:9px 16px;font-size:.82rem;margin-top:17px}
+.term-links a{color:#0a6976;text-decoration:underline;text-underline-offset:3px}
+.timeline{padding:0;margin:30px 0 0;list-style:none;position:relative}
+.timeline:before{content:"";position:absolute;left:142px;top:0;bottom:0;width:2px;background:#c4dfe3}
+.time-item{display:grid;grid-template-columns:145px 1fr;gap:26px;padding:0 0 26px;position:relative}
+.time-date{font-size:1.2rem;font-weight:850;letter-spacing:-.03em;color:#49465e;text-align:right;padding:23px 0}
+.time-main{position:relative;background:white;border:1px solid #e0e6e9;border-radius:17px;padding:20px 24px}
+.time-main:before{content:"";position:absolute;left:-36px;top:32px;width:16px;height:16px;background:#23a4af;border:4px solid #eff8f8;border-radius:50%}
+.time-kind{display:block;margin-bottom:8px}
+.models-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.model-date{display:inline-block;color:#69728c;font-weight:750;font-size:.75rem;margin-bottom:7px}
+.model-subtitle{color:#526674;margin:6px 0 15px}
+.model-card dl{margin:0;display:grid;grid-template-columns:105px 1fr;gap:7px 12px}
+.model-card dt{font-weight:800;color:#3b4b57;font-size:.88rem}
+.model-card dd{margin:0;color:#53616c;font-size:.92rem}
+.learn-next{background:#eff7f8;border-radius:13px;padding:16px;margin:35px 0 0;color:#46606b}
+.resource-strip{padding:28px 0;background:#f0f2f7;border-top:1px solid var(--line)}
+.resource-strip h2{font-size:1.4rem;margin:0 0 12px}
+.resource-strip .resource-strip__links{display:flex;flex-wrap:wrap;gap:10px}
+.resource-strip a{border:1px solid #cfdce3;border-radius:12px;padding:12px 15px;background:white;color:#244f60;font-weight:750;font-size:.91rem}
+@media(max-width:850px){.term-grid,.models-grid{grid-template-columns:1fr}.filter-bar #term-count,.filter-bar #time-count{margin-left:0}}
+@media(max-width:600px){.learning-head{padding:34px 0 28px}.term-card,.model-card{padding:18px}.timeline:before{left:14px}.time-item{grid-template-columns:1fr;gap:4px;padding:0 0 21px 32px}.time-date{text-align:left;padding:0}.time-main:before{left:-27px}.model-card dl{grid-template-columns:1fr;gap:4px}.model-card dd{margin:0 0 10px}}
