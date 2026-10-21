@@ -1,0 +1,61 @@
+name: Générer les PDF des cours 1A
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/but-infonum/histoire-medias/*-*.html'
+      - 'docs/but-infonum/theories-information/*-*.html'
+      - 'docs/but-infonum/deck.js'
+      - 'docs/but-infonum/readability.js'
+      - 'docs/but-infonum/styles.css'
+      - 'scripts/export-cours-pdf.mjs'
+      - '.github/workflows/export-cours-pdf.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: export-cours-pdf-main
+  cancel-in-progress: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Installer Playwright et Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Générer les PDF des 12 séances
+        run: node scripts/export-cours-pdf.mjs
+      - name: Vérifier les documents produits
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          docs=list(Path('docs/but-infonum/pdf').rglob('*.pdf'))
+          assert len(docs)==12, f'{len(docs)} PDF produits au lieu de 12'
+          assert all(p.stat().st_size>2000 for p in docs)
+          for f in sorted(docs):
+              b=f.read_bytes()
+              assert b[:5]==b'%PDF-', f'{f} invalide'
+              print(f, f.stat().st_size, 'octets')
+          PY
+      - name: Publier les PDF dans le dépôt
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/but-infonum/pdf/
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualiser automatiquement les PDF des séances 1A"
+            git push origin HEAD:main
+          else
+            echo "Les PDF sont déjà à jour."
+          fi
