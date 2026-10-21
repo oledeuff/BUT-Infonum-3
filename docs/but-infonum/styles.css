@@ -189,3 +189,14 @@ body.home-page{background:#f4f5f8;color:#2c3057}
 }
 
 .resource-strip{padding:30px 0;background:#f0f2f7;border-top:1px solid var(--line)}.resource-strip h2{font-size:1.45rem;margin:0 0 14px}.resource-strip__links{display:flex;gap:10px;flex-wrap:wrap}.resource-strip a{border:1px solid #cfdce3;border-radius:12px;padding:12px 15px;background:white;color:#244f60;font-weight:750;font-size:.91rem}
+
+/* Deux façons de consulter chaque séance : HTML interactif ou PDF hors connexion. */
+.offline-hint{background:#eff7f7;border-left:3px solid #56b3b7;border-radius:0 10px 10px 0;padding:12px 17px;margin:0 0 22px;color:#45606b;font-size:.96rem}
+.part-actions{display:flex;flex-direction:column;align-items:flex-end;gap:8px;min-width:150px}
+.part-actions .go{text-align:right;font-size:.87rem}
+.part-actions .go-download{display:inline-block;border:1px solid #d6d5e4;background:#f1eff7;color:#4b4769;border-radius:9px;padding:7px 12px;text-decoration:none;font-size:.86rem;font-weight:800}
+.part-actions .go-download:hover{background:#e9e5f3;border-color:#b4abce}
+@media(max-width:650px){
+  .parts .part>.part-actions{grid-column:2;justify-self:start;align-items:flex-start;min-width:0}
+  .part-actions .go{text-align:left}
+}
